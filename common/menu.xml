@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <atlases_list>
+        <menu path="common/atlas_menu.xml" />
+        <masks path="common/masks/atlas_masks.xml" />
+        <common path="common/atlas_common.xml" />
+        <backgrounds path="common/backgrounds/atlas_backgrounds.xml" />
+        <yandex path="yandex/atlas_yandex.xml" />
+    </atlases_list>
+
+    <font_aliases>
+        <alias locale="th" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansThai-CondensedMedium.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+
+        <alias locale="th" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansThai-CondensedBlack.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+    </font_aliases>
+
+    <menu>
+        <background id="background" />
+        <node id="decoration_back" visible="0" />
+
+        <alignment h_align="1" v_align="0">
+            <alignment v_align="1">
+                <active_skin id="active_skin" worm_segments="40" worm_scale="0.9" worm_speed="250.0" />
+            </alignment>
+
+            <alignment h_align="0">
+                <image sprite_id="progress_bar_back:menu" hotspot="0 0" position="95 25">
+                    <slider id="sliderProgress" sprite_id="progress_bar_slider:menu" hotspot="0 0" position="42 2" size="250 34" />
+                    <image sprite_id="progress_bar_border:menu" hotspot="0 0" position="-8 -9"/>
+                </image>
+
+                <image sprite_id="profile_info:menu" hotspot="0 0" position="20 19">
+                    <mask sprite_id="mask_edge:masks" position="130 50" mask_position="0 0" mask_size="240 30">
+                        <text id="txtName" size="600 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="0" />
+                    </mask>
+                    <text id="txtUserLevel" position="70 87" size="40 25" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ff563301" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="1" />
+                    <button id="btnInfo" rect="0 0 120 120" hotspot="60 60" position="60 60" pressed_scale="0.97" color="0">
+                        <mask sprite_id="mask_avatar:masks" position="2">
+                            <image id="pictureOffline" sprite_id="profile_picture_offline:menu" position="58" scale="0.6" />
+                            <image id="pictureOnline" visible="0" rect="0 0 120 120" />
+                        </mask>
+                    </button>
+                </image>
+
+                <stack id="btnEventsStack" position="80 150">
+                    <button id="btnLogin" visible="0" sprite_id="btn_login:menu" pressed_scale="0.97" />
+                    <button id="btnChat" visible="0" rect="0 0 106 106" color="0" pressed_scale="0.97">
+                        <image sprite_id="icon_chat:menu" position="53 42" />
+                        <nine_patch id="coinsPlaceholder" sprite_id="nine_patch_timer_back:menu" position="53 90" patch="12 12 5 5" size="90 32" hotspot="45 16">
+                            <bounds anchor="0.5" position="45 15">
+                                <image sprite_id="icon_coin:common" scale="0.25" />
+                                <text id="txtFacebookShareCoins" position="12 -14" size="80 20" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" v_align="1" h_align="0" stretchmode="2" trim_container="true" />
+                            </bounds>
+                        </nine_patch>
+                    </button>
+
+                    <offer_button id="btnYandexEventAnimated" offerType="yandex_event" visible="0" pressed_scale="0.97" rect="0 0 140 120" color="0" hotspot="70 60" scale="0.9">
+                        <spine spine_desc="yandex/animations/Yandex.Station.json" spine_atlas="yandex/animations/Yandex.Station.atlas" spine_animation="idle" spine_loop="true" position="70 56"/>
+                        <text id="timer" position="20 89" size="100 18" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" shadow_offset="1 1" shadow_color="90000000" h_align="1" stretchmode="2" />
+                    </offer_button>
+                </stack>
+            </alignment>
+
+            <alignment h_align="2">
+                <image sprite_id="coins_placeholder:common" hotspot="0" position="-309 20">
+                    <text id="txtCoins" position="75 10" size="140 40" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="1" />
+                    <button id="btnShop" sprite_id="btn_plus:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="254 36" >
+                        <image id="btnShopNotification" visible="0" sprite_id="icon_notification:common" scale="0.75" position="60 12" />
+                    </button>
+                </image>
+
+                <stack id="btnOffersStack" position="-80 110" padding="10 0">
+                    <offer_button id="btnOfferWormPatrick" offerType="premium_worm_patrick" pressed_scale="0.97" rect="0 0 230 300" color="0" hotspot="115 150" scale="0.6">
+                        <spine spine_desc="common/animations/menu/Leprecaun.json" spine_atlas="common/animations/menu/Leprecaun.atlas" spine_animation="idle" spine_loop="true" position="115 150"/>
+                        <image sprite_id="offer_patrick_multiplylobby:menu" position="58 266" scale="0.53" />
+                        <image sprite_id="offer_patrick_magnetlobby:menu" position="191 266" scale="0.53" />
+                        <text id="timer" position="42 192" size="100 20" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" scale="1.5"/>
+                    </offer_button>
+
+                    <offer_button id="btnOfferWormIce" offerType="premium_worm_ice" pressed_scale="0.97" rect="0 0 160 190" color="0" hotspot="80 95">
+                        <spine spine_desc="common/animations/menu/offers.json" spine_atlas="common/animations/menu/offers.atlas" spine_animation="Freeze" spine_loop="true" position="78 92"/>
+                        <image sprite_id="offer_multiply:menu" position="44 157" scale="0.3" />
+                        <image sprite_id="offer_magnet:menu" position="121 154" scale="0.3" />
+                        <text id="timer" position="29 108" size="100 20" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" />
+                    </offer_button>
+
+                    <offer_button id="btnOfferWorm" offerType="premium_worm" pressed_scale="0.97" rect="0 0 160 190" color="0" hotspot="80 95">
+                        <spine spine_desc="common/animations/menu/offers.json" spine_atlas="common/animations/menu/offers.atlas" spine_animation="Orange" spine_loop="true" position="78 92"/>
+                        <image sprite_id="offer_multiply:menu" position="38 151" scale="0.33" />
+                        <image sprite_id="offer_speedup:menu" position="128 155" scale="0.31" />
+                        <text id="timer" position="29 103" size="100 20" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" />
+                    </offer_button>
+
+                    <button id="btnNoAds" visible="0" rect="0 0 112 112" hotspot="56" color="0" pressed_scale="0.97">
+                        <spine spine_desc="common/animations/menu/no_ads.json" spine_atlas="common/animations/menu/no_ads.atlas" spine_animation="idle" spine_loop="true" position="56" scale="0.75" />
+                    </button>
+
+                    <event_button id="btnPiggyBank" visible="0" pressed_scale="0.97" position="80 82" rect="0 0 160 185" color="0" hotspot="80 82" scale="0.8">
+                        <spine id="btnPiggyBankAnim" spine_desc="common/animations/menu/pig.json" spine_atlas="common/animations/menu/pig.atlas" position="78 190" scale="0.4" />
+                        <nine_patch id="timerBack" sprite_id="nine_patch_timer_back:menu" position="17 158" patch="12 12 5 5" size="126 32" hotspot="0 0">
+                            <bounds anchor="0.5 0.5" position="64 13">
+                                <text id="timer" position="53 -4" size="103 34" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="30" color="ffffffff" stretchmode="2" trim_container="true" />
+                            </bounds>
+                        </nine_patch>
+                    </event_button>
+
+                    <event_button id="btnGourmand" visible="0" pressed_scale="0.97" rect="0 0 160 185" color="0" hotspot="80 82" scale="0.8">
+                        <spine spine_desc="common/animations/menu/gourmand_worm.json" spine_atlas="common/animations/menu/gourmand_worm.atlas" spine_animation="idle" spine_loop="true" position="78 190" scale="0.76" />
+                        <nine_patch id="timerBack" sprite_id="nine_patch_timer_back:menu" position="17 158" patch="12 12 5 5" size="126 32" hotspot="0 0">
+                            <bounds anchor="0.5 0.5" position="64 13">
+
+  <text id="timer" position="53 -4" size="103 34" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="30" color="ffffffff" stretchmode="2" trim_container="true" />
+                            </bounds>
+                        </nine_patch>
+                    </event_button>
+                </stack>
+            </alignment>
+
+            <alignment v_align="2">
+                <stack id="stackChest" position="0 -400" anchor="0.5 0.5" orientation="horizontal">
+                    <vanishing_button id="btnGift" pressed_scale="0.97" rect="0 0 200 200" color="0" hotspot="100 100" scale="0.0">
+                        <spine id="animGift" spine_desc="common/animations/menu/gift_new.json" spine_atlas="common/animations/menu/gift_new.atlas" position="105 115" />
+                        <spine id="animGiftChristmas" visible="0" spine_desc="common/animations/menu/gift_NY.json" spine_atlas="common/animations/menu/gift_NY.atlas" position="105 115" />
+                        <image id="icon_skin" sprite_id="halloween_bat:menu" scale="0.5" position="101 140" />
+                        <nine_patch id="text_back" sprite_id="nine_patch_timer_back:menu" position="17 188" patch="12 12 5 5" size="166 32" hotspot="0 0">
+                            <bounds anchor="0.5 0.5" position="83 13">
+                                <text id="menu_claim_gift_title" position="53 -4" size="103 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="25" color="ffffffff" stretchmode="2" trim_container="true" />
+                            </bounds>
+                        </nine_patch>
+                    </vanishing_button>
+                    <chest_button id="btnChest" rect="0 0 200 200" hotspot="100" pressed_scale="0.97" color="00000000" scale="0.0">
+                        <spine id="animChest" spine_desc="common/animations/menu/chest_main.json" spine_atlas="common/animations/menu/chest_main.atlas" position="100 108" />
+                        <nine_patch id="timer_back" sprite_id="nine_patch_timer_back:menu" position="17 188" patch="12 12 5 5" size="166 32" hotspot="0 0">
+                            <bounds anchor="0.5 0.5" position="83 13">
+                                <image id="imgVideo" sprite_id="icon_video_timer:menu" position="34 16" />
+                                <text id="txtTimer" position="53 -4" size="103 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="25" color="ffffffff" stretchmode="2" trim_container="true" />
+                            </bounds>
+                        </nine_patch>
+                    </chest_button>
+
+                    <start_bigger_button id="btnStartBigger" pressed_scale="0.97" rect="0 0 200 200" color="0" hotspot="100 100" scale="0.0">
+                        <spine spine_desc="common/animations/menu/libra.json" spine_atlas="common/animations/menu/libra.atlas" spine_animation="idle" spine_loop="true" position="99 104"/>
+                        <nine_patch id="timer_back" sprite_id="nine_patch_timer_back:menu" position="17 188" patch="12 12 5 5" size="166 32" hotspot="0 0">
+                            <bounds anchor="0.5 0.5" position="83 13">
+                                <image sprite_id="icon_video_timer:menu" position="34 16" />
+                                <text id="button_video_title" position="53 -4" size="103 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="25" color="ffffffff" stretchmode="2" trim_container="true" />
+                            </bounds>
+                        </nine_patch>
+                    </start_bigger_button>
+                </stack>
+
+                <alignment h_align="0">
+                    <button id="btnLeaderboards" sprite_id="btn_leaderboards:menu" pressed_scale="0.97" position="71 -68" />
+                </alignment>
+
+                <alignment h_align="2">
+                    <button id="btnShare" sprite_id="btn_share:menu" visible="0" pressed_scale="0.97" position="-193 -68" />
+                    <button id="btnAllSkins" sprite_id="btn_share:menu" visible="0" pressed_scale="0.97" position="-71 -312" />
+                    <button id="btnOptions" sprite_id="btn_settings:menu" pressed_scale="0.97" position="-71 -68">
+                        <image id="imgOptionsButtonRedDot" visible="0" sprite_id="icon_notification:common" position="88 16" />
+                    </button>
+                </alignment>
+
+                <play_button id="btnPlay" sprite_id="btn_play:menu" sprite_id_pressed="btn_play_pressed:menu" position="0 -190" scale="0.95" >
+                    <text id="btn_play_title" position="23 15" size="350 77" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="90" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" stretchmode="2" />
+                </play_button>
+
+                <play_button id="btnUpdate" visible="0" sprite_id="update_button:menu" sprite_id_pressed="update_button_pressed:menu" position="280 -190" />
+
+                <node position="0 -220">
+                    <button id="btnSkins" sprite_id="btn_wardrobe:menu" pressed_scale="0.97" position="0 144">
+                        <text id="menu_btn_skins_title" position="21 14" size="240 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1"/>
+                    </button>
+
+                    <text id="menu_worm_selector_title" position="-250 183" size="500 26" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1"/>
+                </node>
+            </alignment>
+
+            <node id="gameLogo" visible="0" position="0 106" />
+            <node id="gameLogoWeb" visible="0" position="0 166" />
+
+            <stack id="grpStoreButtons" visible="0" padding="13" position="-10 42" anchor="0.5" orientation="horizontal">
+                <button id="btnPlayMarket" sprite_id="btn_playmarket:common" touch_area="-11 -11 342 109" pressed_scale="0.97" scale="0.46" />
+                <button id="btnAppStore" sprite_id="btn_appstore:common" touch_area="-11 -11 303 109" pressed_scale="0.97" scale="0.46" />
+            </stack>
+        </alignment>
+
+        <node id="decoration_front" visible="0" />
+        <overlay id="overlay" sprite_id="overlay:common" />
+    </menu>
+
+    <neighbours_list>
+        <b id="btnInfo" left="" right="btnShop" top="" bottom="btnLogin" />
+
+        <b id="btnLogin" left="" right="btnPlay" top="btnInfo" bottom="btnChat" />
+        <b id="btnChat" left="" right="btnPlay" top="btnLogin" bottom="btnEvent" />
+
+        <b id="btnEvent" left="" right="btnPlay" top="btnChat" bottom="btnLeaderboards" />
+
+        <b id="btnShare" left="" right="btnPlay" top="btnEvent" bottom="btnLeaderboards" />
+        <b id="btnLeaderboards" left="" right="btnPlay" top="btnEvent" bottom="" />
+
+        <b id="btnGift" left="btnLeaderboards" right="btnChest" top="btnInfo" bottom="btnPlay" />
+        <b id="btnChest" left="btnGift" right="btnStartBigger" top="btnInfo" bottom="btnPlay" />
+        <b id="btnStartBigger" left="btnChest" right="btnOptions" top="btnShop" bottom="btnPlay" />
+
+        <b id="btnPlay" left="btnLeaderboards" right="btnUpdate" top="btnGift" bottom="btnSkins" />
+        <b id="btnUpdate" left="btnPlay" right="btnOptions" top="btnStartBigger" bottom="btnSkins" />
+
+        <b id="btnSkins" left="btnLeaderboards" right="btnOptions" top="btnPlay" bottom="" />
+
+        <b id="btnShop" left="btnInfo" right="" top="" bottom="btnOfferWormIce" />
+
+        <b id="btnOfferWormIce" left="btnInfo" right="" top="btnShop" bottom="btnOfferWorm" />
+
+        <b id="btnOfferWorm" left="btnInfo" right="" top="btnOfferWormIce" bottom="btnOfferWormPatrick" />
+        <b id="btnOfferWormPatrick" left="btnInfo" right="" top="btnOfferWorm" bottom="btnNoAds" />
+        <b id="btnNoAds" left="btnInfo" right="" top="btnOfferWormPatrick" bottom="btnPiggyBank" />
+        <b id="btnPiggyBank" left="btnPlay" right="" top="btnNoAds" bottom="btnGourmand" />
+        <b id="btnGourmand" left="btnPlay" right="" top="btnPiggyBank" bottom="btnOptions" />
+
+        <b id="btnOptions" left="btnPlay" right="" top="btnGourmand" bottom="" />
+    </neighbours_list>
+
+    <yandex_terms_popup>
+        <autoload size="820 530" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_yandex:yandex" hotspot="0" patch="39 39 6 6" size="820 478">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="811 67" position="4" hotspot="0">
+                    <text id="terms_popup_title" position="21 7" size="770 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="70" stretchmode="2" h_align="1" />
+                </nine_patch>
+
+                <image sprite_id="alisa_icon:yandex" position="410 172" />
+
+                <text_multiline id="terms_popup_message_yandex" position="35 260" size="750 112" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="28" color="ffffffff" stretchmode="2" h_align="1" v_align="1" />
+
+                <button id="btnTerms" rect="0 0 820 30" hotspot="410 15" position="410 392" pressed_scale="0.97" color="00000000">
+                    <stack layout="horizontal" anchor="0.5" position="410 15" padding="10 0">
+                        <text id="yandex_terms" size="300 22" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="70" color="ffFFC700" h_align="2" v_align="1" stretchmode="2" trim_container="true" />
+                        <text size="455 22" text="https://yandex.ru/legal/competition_generalterms" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="70" color="ffFFC700" h_align="0" v_align="1" stretchmode="2" trim_container="true" />
+                    </stack>
+                </button>
+            </nine_patch>
+
+            <button id="btnAccept" sprite_id="btn_common_green:common" pressed_scale="0.97" position="410 478">
+                <text id="common_popup_btn_ok" position="15 7" size="227 64" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="70" color="ffffffff" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" />
+            </button>
+        </autoload>
+    </yandex_terms_popup>
+
+    <terms_popup>
+        <autoload size="900 425" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_header:common" hotspot="0" patch="278 0 45 54" size="900 56">
+                <text id="terms_popup_title" position="120 -3" size="600 45" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1" />
+
+                <text_multiline id="terms_popup_message" position="50 80" size="800 260" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="40" color="ffcccccc" stretchmode="2" h_align="1" v_align="1" />
+
+                <button id="btnAccept" sprite_id="btn_empty:common" pressed_scale="0.97" position="450 378">
+                    <text id="terms_popup_btn_accept" position="17 5" size="160 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" />
+                </button>
+
+                <button id="btnTerms" rect="0 0 250 35" hotspot="125 17" position="755 392" color="00000000">
+                    <text position="0 5" size="250 25" text="https://privacy.azurgames.com" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ff9090ff" h_align="2" v_align="1" stretchmode="2" />
+                </button>
+            </nine_patch>
+        </autoload>
+    </terms_popup>
+
+    <authorization_popup>
+        <autoload size="730 530" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <node position="365 0">
+                <node position="0 160">
+                    <image sprite_id="shine:common" scale="1.6" />
+                    <image sprite_id="icon_coins:common" />
+                    <text id="txtCoins" position="-200 70" size="400 60" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="90" color="ffffffff" stretchmode="2" h_align="1" v_align="1" />
+                </node>
+
+                <text_multiline id="authorization_popup_message" position="-360 320" size="720 140" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="40" color="ffffffff" stretchmode="2" h_align="1" v_align="1" />
+
+                <login_button id="loginButton" position="0 535">
+                    <button id="btnFacebook" visible="0" pressed_scale="0.97" position="71 0" rect="0 0 588 80" color="0" hotspot="294 40">
+                        <nine_patch sprite_id="nine_patch_checkbox_back:menu" patch="15 15 15 15" size="588 79" hotspot="0">
+                            <text id="facebook_btn_login_title" position="100 15" size="390 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" />
+                        </nine_patch>
+                        <image sprite_id="icon_fb:menu" position="-88 39" />
+                    </button>
+
+                    <button id="btnYandex" pressed_scale="0.97" rect="0 0 588 80" color="0" hotspot="294 40">
+                        <nine_patch sprite_id="nine_patch_checkbox_back:menu" patch="15 15 15 15" size="588 79" hotspot="0">
+                            <text id="yandex_btn_login_title" position="100 15" size="390 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" />
+                        </nine_patch>
+                    </button>
+                </login_button>
+            </node>
+
+            <alignment h_align="1" v_align="0">
+                <nine_patch sprite_id="nine_patch_header:common" position="-420 25" hotspot="0" patch="278 0 45 54" size="900 56">
+                    <text id="authorization_popup_title" position="120 -3" size="600 45" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1" />
+                </nine_patch>
+            </alignment>
+
+            <alignment v_align="0" h_align="2">
+                <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+            </alignment>
+        </autoload>
+    </authorization_popup>
+
+    <profile_popup>
+        <autoload size="745 600" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <nine_patch id="profile" sprite_id="profile_nine_patch_avatar_back:menu" patch="28 28 28 28" size="404 136" hotspot="202 68" position="373 68">
+                    <image sprite_id="progress_bar_back:menu" hotspot="0" position="97 87">
+                        <slider id="sliderProgress" sprite_id="progress_bar_slider:menu" hotspot="0" position="28 2" size="264 34" />
+                        <image sprite_id="progress_bar_border:menu" hotspot="0" position="-8 -9"/>
+                    </image>
+
+                    <image sprite_id="profile_info:menu" hotspot="0 0" position="8 8">
+                        <mask sprite_id="mask_edge:masks" position="130 10" mask_position="0 0" mask_size="240 30">
+                            <text id="txtName" size="600 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="0" />
+                        </mask>
+                        <text id="txtUserLevel" position="70 87" size="40 25" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ff563301" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="1" />
+                        <button id="btnInfo" rect="0 0 120 120" hotspot="60 60" position="60 60" pressed_scale="0.97" color="0">
+                            <mask sprite_id="mask_avatar:masks" position="2">
+                                <image id="pictureOffline" sprite_id="profile_picture_offline:menu" position="58" scale="0.6" />
+                                <image id="pictureOnline" visible="0" rect="0 0 120 120" />
+                            </mask>
+                        </button>
+                    </image>
+                </nine_patch>
+
+                <button id="btnShare" sprite_id="btn_share:menu" visible="0" pressed_scale="0.97" position="793 187" scale="0.725" />
+                <layout position="0 140" size="745 460" item_size="745 92" mode="vertical">
+                    <nine_patch sprite_id="profile_nine_patch_entry:menu" patch="100 8 15 73" size="745 90">
+                        <image sprite_id="profile_icon_score:menu" position="47 45" />
+                        <text id="profile_popup_highScore" position="110 28" size="317 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" />
+                        <nine_patch sprite_id="profile_nine_patch_number_back:menu" position="468 42" patch="16 16 16 16" size="292 53">
+                            <text id="txtBestScore" size="272 30" position="10 10" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="fffadd4b" stretchmode="2" h_align="1" />
+                        </nine_patch>
+                    </nine_patch>
+
+                    <nine_patch sprite_id="profile_nine_patch_entry:menu" patch="100 8 15 73" size="745 90">
+                        <image sprite_id="profile_icon_clock:menu" position="47 45" />
+                        <text id="profile_popup_bestSurvivalTime" position="110 28" size="317 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" />
+                        <nine_patch sprite_id="profile_nine_patch_number_back:menu" position="468 42" patch="16 16 16 16" size="292 53">
+                            <text id="txtBestTime" size="272 30" position="10 10" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="fffadd4b" stretchmode="2" h_align="1" />
+                        </nine_patch>
+                    </nine_patch>
+
+                    <nine_patch sprite_id="profile_nine_patch_entry:menu" patch="100 8 15 73" size="745 90">
+                        <image sprite_id="profile_icon_kills:menu" position="47 45" />
+                        <text id="profile_popup_kills" position="110 28" size="317 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" />
+                        <nine_patch sprite_id="profile_nine_patch_number_back:menu" position="468 42" patch="16 16 16 16" size="292 53">
+                            <text id="txtTotalKills" size="272 30" position="10 10" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="fffadd4b" stretchmode="2" h_align="1" />
+                        </nine_patch>
+                    </nine_patch>
+
+                    <nine_patch sprite_id="profile_nine_patch_entry:menu" patch="100 8 15 73" size="745 90">
+                        <image sprite_id="profile_icon_games:menu" position="47 45" />
+                        <text id="profile_popup_gamesPlayed" position="110 28" size="317 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" />
+                        <nine_patch sprite_id="profile_nine_patch_number_back:menu" position="468 42" patch="16 16 16 16" size="292 53">
+                            <text id="txtGamesPlayed" size="272 30" position="10 10" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="fffadd4b" stretchmode="2" h_align="1" />
+                        </nine_patch>
+                    </nine_patch>
+
+                    <nine_patch sprite_id="profile_nine_patch_entry:menu" patch="100 8 15 73" size="745 90">
+                        <image sprite_id="profile_icon_play:menu" position="47 45" />
+                        <text id="profile_popup_totalTimeSpent" position="110 28" size="317 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" />
+                        <nine_patch sprite_id="profile_nine_patch_number_back:menu" position="468 42" patch="16 16 16 16" size="292 53">
+                            <text id="txtTotalTime" size="272 30" position="10 10" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="fffadd4b" stretchmode="2" h_align="1" />
+                        </nine_patch>
+                    </nine_patch>
+                </layout>
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+
+                <alignment v_align="2" h_align="2">
+                    <node position="-71 -67">
+                        <button id="btnLogout" visible="0" sprite_id="profile_btn_logout:menu" pressed_scale="0.97" />
+                    </node>
+                </alignment>
+            </node>
+        </autoload>
+    </profile_popup>
+
+    <options_popup>
+        <autoload size="900 455" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0" patch="28 28 28 28" size="900 400">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="892 67" position="4 6" hotspot="0 0" />
+
+                <node id="options">
+                    <text id="options_popup_title" position="50 8" size="800 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    <layout id="layout" position="50 110" size="800 225" item_size="400 75" h_align="left">
+                        <button id="btnMusic" sprite_id="btn_checkbox:common" sprite_id_checked="btn_checkbox_checked:common" pressed_scale="0.97" checkbox="1" scale="0.75">
+                            <text id="options_popup_music" position="100 18" size="290 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" scale="1.33"/>
+                        </button>
+
+                        <button id="btnSound" sprite_id="btn_checkbox:common" sprite_id_checked="btn_checkbox_checked:common" pressed_scale="0.97" checkbox="1" scale="0.75">
+                            <text id="options_popup_sound" position="100 18" size="290 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" scale="1.33"/>
+                        </button>
+
+                        <button id="btnHud" sprite_id="btn_checkbox:common" sprite_id_checked="btn_checkbox_checked:common" pressed_scale="0.97" checkbox="1" scale="0.75">
+                            <text id="options_popup_hud" position="100 18" size="290 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" scale="1.33"/>
+                        </button>
+
+                        <button id="btnOverlay" sprite_id="btn_checkbox:common" sprite_id_checked="btn_checkbox_checked:common" pressed_scale="0.97" checkbox="1" scale="0.75">
+                            <text id="options_popup_enable_overlay" position="100 18" size="290 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" scale="1.33"/>
+                        </button>
+
+                        <button id="btnFullscreen" visible="0" sprite_id="btn_checkbox:common" sprite_id_checked="btn_checkbox_checked:common" pressed_scale="0.97" checkbox="1" scale="0.75">
+                            <text id="options_popup_fullscreen" position="100 18" size="290 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" scale="1.33"/>
+                        </button>
+                    </layout>
+
+                    <button id="btnPrivacy" visible="0" rect="0 0 430 40" hotspot="430 20" position="880 365" color="0">
+                        <text id="privacyUrl" position="0 8" size="430 20" text="https://privacy.azurgames.com" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ff9090ff" stretchmode="2" h_align="2" v_align="1" />
+                    </button>
+                    <button id="btnVersion" rect="0 0 460 40" hotspot="230 20" position="250 365" color="0">
+                        <text id="version" position="0 8" size="660 20" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="0" v_align="2" />
+                    </button>
+                </node>
+
+                <node id="backgrounds">
+                    <text id="backgrounds_popup_title" position="50 8" size="800 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    <layout position="50 105" size="800 240" item_size="200 120">
+                        <button id="btnBack_0" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1" scale="0.65">
+                            <mask sprite_id="mask_hex_big:masks" position="28 33">
+                                <image sprite_id="dark_grey:backgrounds" scale="2.0" position="66 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnBack_1" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1" scale="0.65">
+                            <mask sprite_id="mask_hex_big:masks" position="28 33">
+                                <image sprite_id="concrete:backgrounds" scale="2.0" position="66 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnBack_2" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1" scale="0.65">
+                            <mask sprite_id="mask_hex_big:masks" position="28 33">
+                                <image sprite_id="perforated:backgrounds" scale="2.0" position="66 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnBack_3" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1" scale="0.65">
+                            <mask sprite_id="mask_hex_big:masks" position="28 33">
+                                <image sprite_id="connect:backgrounds" scale="2.0" position="66 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnBack_4" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1" scale="0.65">
+                            <mask sprite_id="mask_hex_big:masks" position="28 33">
+                                <image sprite_id="bright_squares:backgrounds" scale="2.0" position="66 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnBack_5" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1" scale="0.65">
+                            <mask sprite_id="mask_hex_big:masks" position="28 33">
+                                <image sprite_id="light_checkered:backgrounds" scale="2.0" position="66 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnBack_6" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1" scale="0.65">
+                            <mask sprite_id="mask_hex_big:masks" position="28 33">
+                                <image sprite_id="spiration_light:backgrounds" scale="2.0" position="66 77" />
+                            </mask>
+                        </button>
+                    </layout>
+                </node>
+
+                <node id="foods">
+                    <text id="foods_popup_title" position="50 8" size="800 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    <layout position="50 110" size="800 230" item_size="260 230">
+                        <button id="btnFood" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1">
+                            <mask sprite_id="mask_hex_big:masks" position="33 39">
+                                <image sprite_id="icon_food:menu" position="67 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnJelly" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1">
+                            <mask sprite_id="mask_hex_big:masks" position="33 39">
+                                <image sprite_id="icon_jelly:menu" position="67 77" />
+                            </mask>
+                        </button>
+
+                        <button id="btnFlat" sprite_id="btn_hex_big:menu" sprite_id_checked="btn_hex_big_checked:menu" pressed_scale="0.97" checkbox="1">
+                            <mask sprite_id="mask_hex_big:masks" position="33 39">
+                                <image sprite_id="icon_flat:menu" position="67 77" />
+                            </mask>
+                        </button>
+                    </layout>
+                </node>
+
+                <node id="controlModes">
+                    <text id="controlModes_popup_title" position="50 8" size="800 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+
+                    <text id="controlModes_message" position="62 82" size="776 41" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" color="ffFEFFFF" stretchmode="2" h_align="1"/>
+
+                    <colorcorrection id="btnLeftRightControlMode" visible="0">
+                        <button id="btnLeftControlMode" touch_area="-158 -10 46 41" sprite_id="settings_left_hand_disable:menu" sprite_id_checked="settings_left_hand_active:menu" position="408 108" pressed_scale="0.97" checkbox="1">
+                            <bounds anchor="1 0.5" position="-10 12">
+                                <text id="options_popup_left_control" size="300 41" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" color="ffFEFFFF" stretchmode="2" h_align="2" trim_container="true"/>
+                            </bounds>
+                        </button>
+
+                        <button id="btnRightControlMode" touch_area="-5 -10 218 41" sprite_id="settings_right_hand_disable:menu" sprite_id_checked="settings_right_hand_active:menu" position="492 108" pressed_scale="0.97" checkbox="1">
+                            <bounds anchor="0 0.5" position="48 12">
+                                <text id="options_popup_right_control" size="300 41" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" color="ffFEFFFF" stretchmode="2" h_align="0" trim_container="true"/>
+                            </bounds>
+                        </button>
+                    </colorcorrection>
+
+                    <layout position="0 65" size="800 227" item_size="200 257">
+                        <button id="btnJoystickVisibleMode" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-40 -40 160 207">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <image sprite_id="settings_img_worm:menu" position="52 71" />
+                            <image sprite_id="settings_arrow_icon:menu" position="123 17" />
+                            <image sprite_id="settings_control_icon:menu" position="0 172" />
+                            <image sprite_id="settings_speed_icon:menu" position="123 172" />
+                        </button>
+
+                        <button id="btnJoystickMode" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-40 -40 160 207">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <image sprite_id="settings_img_worm:menu" position="52 71" />
+                            <image sprite_id="settings_arrow_icon:menu" position="123 17" />
+                            <image sprite_id="settings_tap_icon:menu" position="98 168" />
+                            <image sprite_id="settings_hand_icon:menu" position="122 180" />
+                        </button>
+
+                        <button id="btnJoystickLockedMode" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-40 -40 160 257">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <image sprite_id="settings_img_worm:menu" position="52 71" />
+                            <image sprite_id="settings_arrow_icon:menu" position="123 17" />
+                            <image sprite_id="settings_tap_locked_icon:menu" position="98 168" />
+                            <image sprite_id="settings_hand_icon:menu" position="122 140" />
+                        </button>
+
+                        <button id="btnPointMode" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-40 -40 160 207">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <image sprite_id="settings_img_worm:menu" position="52 71" />
+                            <image sprite_id="settings_dotted_line:menu" position="121 97" />
+                            <image sprite_id="settings_ellipse_icon:menu" position="103 160" />
+                            <image sprite_id="settings_hand_icon:menu" position="124 177" />
+                        </button>
+
+                        <button id="btnVectorMode" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-40 -40 160 207">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="200 257" hotspot="40 40"/>
+                            <image sprite_id="settings_img_worm:menu" position="52 71" />
+                        </button>
+                    </layout>
+                </node>
+
+                <node id="mapModes">
+                    <text id="options_map_popup_title" position="50 8" size="800 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    <colorcorrection id="btnMapPosition" visible="1">
+                        <button id="btnMapPositionLeft" touch_area="-158 -10 46 41" sprite_id="settings_left_hand_disable:menu" sprite_id_checked="settings_left_hand_active:menu" position="408 108" pressed_scale="0.97" checkbox="1">
+                            <bounds anchor="1 0.5" position="-10 12">
+                                <text id="options_popup_map_left" size="300 41" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" color="ffFEFFFF" stretchmode="2" h_align="2" trim_container="true" />
+                            </bounds>
+                        </button>
+
+                        <button id="btnMapPositionRight" touch_area="-5 -10 218 41" sprite_id="settings_right_hand_disable:menu" sprite_id_checked="settings_right_hand_active:menu" position="492 108" pressed_scale="0.97" checkbox="1">
+                            <bounds anchor="0 0.5" position="48 12">
+                                <text id="options_popup_map_right" size="300 41" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" color="ffFEFFFF" stretchmode="2" h_align="0" trim_container="true" />
+                            </bounds>
+                        </button>
+                    </colorcorrection>
+
+                    <layout position="0 142" size="900 235" item_size="220 235">
+                        <button id="btnMapSmall" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-113 -131 112 126">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="220 257" hotspot="111 128" />
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="220 257" hotspot="111 128" />
+                            <nine_patch id="map" sprite_id="settings_nine_patch_map:menu" position="-83 -101" patch="6 6 1 1" size="40 40" />
+                        </button>
+
+                        <button id="btnMapMedium" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-113 -131 112 126">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="220 257" hotspot="111 128" />
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="220 257" hotspot="111 128" />
+                            <nine_patch id="map" sprite_id="settings_nine_patch_map:menu" position="-83 -100" patch="6 6 1 1" size="65 65" />
+                        </button>
+
+                        <button id="btnMapLarge" pressed_scale="0.97" checkbox="1" scale="0.9" touch_area="-113 -131 112 126">
+                            <nine_patch id="inactive" sprite_id="settings_frame_inactive:menu" patch="20 20 0 0" size="220 257" hotspot="111 128" />
+                            <nine_patch id="active" sprite_id="settings_frame_active:menu" patch="20 20 0 0" size="220 257" hotspot="111 128" />
+                            <nine_patch id="map" sprite_id="settings_nine_patch_map:menu" position="-83 -100" patch="6 6 1 1" size="85 85" />
+                        </button>
+                    </layout>
+
+                    <leaderboard id="leaderboard" position="49 -107">
+                        <node id="leaderboardNode" visible="0">
+                            <nine_patch sprite_id="settings_nine_patch_leaderboard_line:menu" size="45 4" position="2 2"  patch="3 2 3 2" />
+                            <nine_patch sprite_id="settings_nine_patch_leaderboard_line:menu" size="45 4" position="2 10" patch="3 2 3 2" />
+                            <nine_patch sprite_id="settings_nine_patch_leaderboard_line:menu" size="45 4" position="2 18" patch="3 2 3 2" />
+                            <nine_patch sprite_id="settings_nine_patch_leaderboard_line:menu" size="45 4" position="2 26" patch="3 2 3 2" />
+                            <nine_patch sprite_id="settings_nine_patch_leaderboard_line:menu" size="45 4" position="2 34" patch="3 2 3 2" />
+                        </node>
+                    </leaderboard>
+                </node>
+
+                <layout size="800 55" item_size="142 60" position="50 400" h_align="left" v_align="top" h_innerAlign="center">
+                    <button id="btnTabOptions" hotspot="72 0" checkbox="1" pressed_scale="0.97" rect="0 0 144 60" color="0">
+                        <nine_patch id="active" sprite_id="nine_patch_tab_checked:menu" patch="28 14 28 14" size="140 60" hotspot="0 0" position="0 -8">
+                            <image sprite_id="settings_icon_tab_settings_active:menu" position="70 32" scale="0.5" />
+                        </nine_patch>
+                        <nine_patch id="inactive" sprite_id="nine_patch_tab:menu" patch="28 14 28 14" size="140 53" hotspot="0 1">
+                            <image sprite_id="settings_icon_tab_settings:menu" position="70 26" scale="0.5" />
+                        </nine_patch>
+                    </button>
+                    <button id="btnTabBackgrounds" hotspot="72 0" checkbox="1" pressed_scale="0.97" rect="0 0 144 60" color="0">
+                        <nine_patch id="active" sprite_id="nine_patch_tab_checked:menu" patch="28 14 28 14" size="140 60" hotspot="0 0" position="0 -8">
+                            <image sprite_id="settings_icon_tab_background_active:menu" position="70 32" scale="0.5" />
+                        </nine_patch>
+                        <nine_patch id="inactive" sprite_id="nine_patch_tab:menu" patch="28 14 28 14" size="140 53" hotspot="0 1">
+                            <image sprite_id="settings_icon_tab_background:menu" position="70 26" scale="0.5" />
+                        </nine_patch>
+                    </button>
+                    <button id="btnTabFoods" hotspot="72 0" checkbox="1" pressed_scale="0.97" rect="0 0 144 60" color="0">
+                        <nine_patch id="active" sprite_id="nine_patch_tab_checked:menu" patch="28 14 28 14" size="140 60" hotspot="0 0" position="0 -8">
+                            <image sprite_id="settings_icon_tab_food_active:menu" position="70 32" scale="0.5" />
+                        </nine_patch>
+                        <nine_patch id="inactive" sprite_id="nine_patch_tab:menu" patch="28 14 28 14" size="140 53" hotspot="0 1">
+                            <image sprite_id="settings_icon_tab_food:menu" position="70 26" scale="0.5" />
+                        </nine_patch>
+                    </button>
+                    <button id="btnTabControl" hotspot="72 0" checkbox="1" pressed_scale="0.97" rect="0 0 144 60" color="0">
+                        <nine_patch id="active" sprite_id="nine_patch_tab_checked:menu" patch="28 14 28 14" size="140 60" hotspot="0 0" position="0 -8">
+                            <image sprite_id="settings_icon_tab_control_active:menu" position="70 32" />
+                        </nine_patch>
+                        <nine_patch id="inactive" sprite_id="nine_patch_tab:menu" patch="28 14 28 14" size="140 53" hotspot="0 1">
+                            <image sprite_id="settings_icon_tab_control:menu" position="70 26" />
+                        </nine_patch>
+                    </button>
+                    <button id="btnTabMapMode" hotspot="72 0" checkbox="1" pressed_scale="0.97" rect="0 0 144 60" color="0">
+                        <nine_patch id="active" sprite_id="nine_patch_tab_checked:menu" patch="28 14 28 14" size="140 60" hotspot="0 0" position="0 -8">
+                            <image sprite_id="settings_icon_tab_map_active:menu" position="70 32" scale="0.5"/>
+                        </nine_patch>
+                        <nine_patch id="inactive" sprite_id="nine_patch_tab:menu" patch="28 14 28 14" size="140 53" hotspot="0 1">
+                            <image sprite_id="settings_icon_tab_map:menu" position="70 26" scale="0.5">
+                                <image id="imgMapModeRedDot" visible="0" sprite_id="icon_notification:common" scale="0.75" position="65 10" />
+                            </image>
+                        </nine_patch>
+                    </button>
+                </layout>
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+            </nine_patch>
+        </autoload>
+    </options_popup>
+
+    <leaderboards_popup>
+        <autoload size="740 570" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0" patch="28 28 28 28" size="740 515">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="732 67" position="4 6" hotspot="0 0">
+                    <text id="leaderboards_popup_title" position="50 2" size="640 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                </nine_patch>
+
+                <mask position="10 80" mask_size="720 390">
+                    <listbox id="list" position="10 0" size="700 390" orientation="vertical" />
+                </mask>
+
+                <button id="btnShowMore" rect="0 0 600 60" hotspot="300 30" position="370 485" pressed_scale="0.97" color="0">
+                    <text id="leaderboards_popup_show_more" position="0 15" size="600 25" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="fffba537" h_align="1" stretchmode="2" />
+                    <text id="leaderboards_popup_loading" position="0 15" size="600 25" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="fffba537" h_align="1" stretchmode="2" />
+                </button>
+
+                <layout size="600 88" item_size="142 60" position="50 515" h_align="left" v_align="top" h_innerAlign="center">
+                    <button id="btnTabTimeToday" hotspot="72 0" checkbox="1" pressed_scale="0.97" rect="0 0 144 60" color="0">
+                        <nine_patch id="active" sprite_id="nine_patch_tab_checked:menu" patch="28 14 28 14" size="140 60" hotspot="0 0" position="0 -8">
+                            <image sprite_id="leaderboard_icon_today_active:menu" position="70 32" scale="0.5" />
+                        </nine_patch>
+                        <nine_patch id="inactive" sprite_id="nine_patch_tab:menu" patch="28 14 28 14" size="140 52" hotspot="0 0">
+                            <image sprite_id="leaderboard_icon_today:menu" position="70 26" scale="0.5" />
+                        </nine_patch>
+                    </button>
+                    <button id="btnTabTimeWeek" hotspot="72 0" checkbox="1" pressed_scale="0.97" rect="0 0 144 60" color="0">
+                        <nine_patch id="active" sprite_id="nine_patch_tab_checked:menu" patch="28 14 28 14" size="140 60" hotspot="0 0" position="0 -8">
+                            <image sprite_id="leaderboard_icon_week_active:menu" position="70 32" scale="0.5" />
+                        </nine_patch>
+                        <nine_patch id="inactive" sprite_id="nine_patch_tab:menu" patch="28 14 28 14" size="140 52" hotspot="0 0">
+                            <image sprite_id="leaderboard_icon_week:menu" position="70 26" scale="0.5" />
+                        </nine_patch>
+                    </button>
+                </layout>
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+
+                <alignment h_align="2" v_align="2">
+                    <button id="btnShare" sprite_id="btn_share:menu" visible="0" pressed_scale="0.97" position="-71 -68" />
+                </alignment>
+            </nine_patch>
+        </autoload>
+
+        <entry item_size="700 80">
+            <image id="back" visible="0" rect="0 0 720 80" position="-10 0" color="25000000" />
+            <preview_skin id="preview_skin" worm_segments="30" worm_scale="0.7" worm_speed="200.0" worm_amplitude="5" position="520 40" />
+            <mask sprite_id="mask_edge:masks" position="5 8" mask_position="-20 -10" mask_size="490 76">
+                <text id="rankName" size="9999 26" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="0" stretchmode="2" trim_container="true" />
+                <text id="score" position="40 30" size="360 30" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" h_align="0" stretchmode="2" />
+            </mask>
+            <image id="strikeout" position="350 40" hotspot="350 7" rect="0 0 700 14" rotation="-4" color="f0ff2020" />
+        </entry>
+
+        <self_entry>
+            <nine_patch sprite_id="nine_patch_blue:common" patch="15 15 2 2" size="720 82" position="-10 -1" hotspot="0" />
+            <preview_skin id="preview_skin" worm_segments="30" worm_scale="0.7" worm_speed="200.0" worm_amplitude="5" position="520 40" />
+            <mask sprite_id="mask_edge:masks" position="5 8" mask_position="-20 -10" mask_size="490 76">
+                <text id="rankName" size="9999 26" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffff00" h_align="0" stretchmode="2" trim_container="true" />
+                <text id="score" position="40 30" size="360 30" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffff00" h_align="0" stretchmode="2" />
+            </mask>
+            <image id="strikeout" position="350 40" hotspot="350 7" rect="0 0 700 14" rotation="-4" color="f0ff2020" />
+        </self_entry>
+    </leaderboards_popup>
+
+    <treasure_popup>
+        <autoload size="800 475" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <node position="400 130">
+                    <node id="closed" visible="0">
+                        <text_multiline id="txtLocked" visible="0" position="-370 136" size="740 70" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" line_spacing="15" color="ffffffff" stretchmode="2" />
+                        <button id="btnUnlock" visible="0" sprite_id="btn_common_green:common" pressed_scale="0.97" position="0 297">
+                            <image id="imgVideo" sprite_id="icon_video:common" position="128 50" />
+                        </button>
+                    </node>
+
+                    <node id="opened" visible="0">
+                        <button id="btnClaimBig" rect="0 0 400 300" hotspot="200 150" pressed_scale="0.97" color="0" />
+                        <text id="treasure_popup_get_reward_now" position="-370 180" size="740 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" />
+
+                        <button id="btnClaim" sprite_id="btn_common_green:common" pressed_scale="0.97" position="0 280">
+                            <text id="treasure_popup_btn_claim_title" position="8 16" size="240 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" />
+                        </button>
+                    </node>
+
+                    <node id="reward" visible="0">
+                        <button id="btnDoubleBig" rect="0 0 400 300" hotspot="200 150" pressed_scale="0.97" color="0" position="0 50" />
+
+                        <text id="treasure_popup_your_reward" position="-370 -130" size="740 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" />
+                        <text id="treasure_popup_double_reward" visible="0" position="-370 180" size="740 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" />
+
+                        <button id="btnDouble" visible="0" sprite_id="btn_common_green:common" pressed_scale="0.97" position="0 280">
+                            <image id="imgVideo" sprite_id="icon_video:common" position="128 50" />
+                        </button>
+
+                        <alignment v_align="2" h_align="1">
+                            <button id="btnNoThanks" visible="0" rect="0 0 300 50" hotspot="150 0" position="0 -50" pressed_scale="0.97" color="0">
+                                <text id="sessiontimeout_popup_no_thanks" position="20 0" size="260 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" h_align="1" v_align="1" stretchmode="2" color="ff15aadc" />
+                            </button>
+                        </alignment>
+                    </node>
+
+                    <spine id="animChest" spine_desc="common/animations/menu/chest_popup.json" spine_atlas="common/animations/menu/chest_popup.atlas" />
+                </node>
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+            </node>
+        </autoload>
+    </treasure_popup>
+
+    <levelup_popup>
+        <autoload size="680 520" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <node position="340 120" scale="1.5">
+                    <image id="imgShine" sprite_id="shine:common" />
+                    <image sprite_id="icon_empty_worm:menu">
+                        <text id="txtLevel" position="17 50" size="84 60" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                    </image>
+                </node>
+
+                <text id="levelup_popup_message" position="10 282" size="660 28" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="fffffffff" stretchmode="2" h_align="1" />
+                <text id="levelup_popup_message_second" position="10 314" size="660 28" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="fffffffff" stretchmode="2" h_align="1" />
+
+                <button id="btnShare" visible="0" rect="0 0 440 40" hotspot="220 20" checkbox="1" position="340 402" pressed_scale="0.97" color="0">
+                    <nine_patch sprite_id="nine_patch_checkbox_back:menu" position="220 20" patch="15 15 15 15" anchor="0.5" autosize="true" padding="10 5">
+                        <bounds>
+                            <image rect="0 0 10 36" color="0">
+                                <image id="unchecked" sprite_id="btn_checkbox:menu" position="0 18" scale="0.6" />
+                                <image id="checked" sprite_id="btn_checkbox_checked:menu" position="0 18" scale="0.6" />
+                            </image>
+                            <text id="levelup_popup_share_msg" position="20 -4" size="400 32" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" trim_container="true" />
+                        </bounds>
+                    </nine_patch>
+                </button>
+
+                <button id="btnOk" sprite_id="btn_common_green:common" pressed_scale="0.97" position="340 490" scale="0.75">
+                    <image sprite_id="icon_ok:common" position="128 53" />
+                </button>
+            </node>
+        </autoload>
+    </levelup_popup>
+
+    <rateus_popup>
+        <autoload size="460 460" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <image id="imgShine" sprite_id="shine:common" scale="1.5" position="230 180" />
+                <text_multiline id="rateus_popup_message" position="0 130" size="460 100" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" h_align="1" v_align="1" />
+
+                <button id="btnRateUs" sprite_id="btn_common_green:common" pressed_scale="0.97" position="230 400">
+                    <image sprite_id="icon_rate_us:common" position="128 45" />
+                </button>
+
+                <alignment h_align="1" v_align="0">
+                    <nine_patch sprite_id="nine_patch_header:common" position="-420 25" hotspot="0" patch="278 0 45 54" size="900 56">
+                        <text id="rateus_popup_title" position="260 0" size="300 45" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1" />
+                    </nine_patch>
+                </alignment>
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+            </node>
+        </autoload>
+    </rateus_popup>
+
+    <offer_popup>
+        <autoload size="512 525" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0 0" patch="28 28 28 28" size="512 415" position="0 15">
+                    <nine_patch sprite_id="timer_back:common" position="256 0" hotspot="130 40" patch="70 0 10 81" size="260 81">
+                        <text id="txtTimer" position="70 27" size="160 36" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    </nine_patch>
+
+                    <text id="offer_popup_skin_title" position="20 50" size="472 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="fffeec00" stretchmode="2" />
+
+                    <preview_skin id="preview_skin" position="256 150" worm_segments="30" worm_scale="0.75" worm_speed="500.0" worm_amplitude="30" />
+
+                    <text id="offer_popup_powerups_title" position="20 220" size="472 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="fffeec00" stretchmode="2" />
+
+                    <layout size="512 140" item_size="140 140" position="0 275">
+                        <image id="multiply" visible="0" sprite_id="offer_powerup_holder:menu" scale="0.85">
+                            <image sprite_id="offer_multiply:menu" position="72 70" scale="0.7" />
+                        </image>
+                        <image id="speedup" visible="0" sprite_id="offer_powerup_holder:menu" scale="0.85">
+                            <image sprite_id="offer_speedup:menu" position="78 70" scale="0.7" />
+                        </image>
+                        <image id="magnet" visible="0" sprite_id="offer_powerup_holder:menu" scale="0.85">
+                            <image sprite_id="offer_magnet:menu" position="72 65" scale="0.7" />
+                        </image>
+                    </layout>
+
+                    <button id="btnBuy" sprite_id="btn_common_green:common" pressed_scale="0.97" position="256 485">
+                        <text id="txtPrice" position="15 18" size="227 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" stretchmode="2" />
+                    </button>
+                </nine_patch>
+
+                <alignment h_align="1" v_align="0">
+                    <nine_patch sprite_id="nine_patch_header:common" position="-420 25" hotspot="0" patch="278 0 45 54" size="900 56">
+                        <text id="offer_popup_title" position="260 0" size="300 45" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1" />
+                    </nine_patch>
+                </alignment>
+
+                <alignment h_align="2" v_align="0">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+            </node>
+        </autoload>
+    </offer_popup>
+
+    <offer_premium_worm_patrick_popup>
+        <autoload size="580 580" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="offer_patrick_back:menu" hotspot="0 0" patch="30 30 10 10" size="578 442" position="0 25">
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="4 34" hotspot="0" patch="3 3 2 2" size="570 34"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="4 102" hotspot="0" patch="3 3 2 2" size="570 34"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="4 170" hotspot="0" patch="3 3 2 2" size="570 34"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="4 238" hotspot="0" patch="3 3 2 2" size="570 34"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="4 306" hotspot="0" patch="3 3 2 2" size="570 34"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="4 374" hotspot="0" patch="3 3 2 2" size="570 34"/>
+
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="34 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="102 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="170 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="238 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="306 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="374 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="442 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="510 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+                <nine_patch sprite_id="offer_patrick_rid:menu" position="578 4" hotspot="0" patch="3 3 2 2" size="34 434"/>
+
+                <image sprite_id="offer_patrick_clover_left:menu" position="160 -10" />
+                <image sprite_id="offer_patrick_clover_right:menu" position="430 -7" />
+                <nine_patch sprite_id="timer_back:common" position="289 0" hotspot="130 47" patch="70 0 10 81" size="260 81">
+                    <text id="txtTimer" position="70 27" size="160 36" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                </nine_patch>
+
+                <nine_patch sprite_id="offer_patrick_title:menu" position="-11 32" hotspot="0" patch="12 8 4 4" size="600 78">
+                    <text id="happy_patricks_day" position="145 12" size="300 45" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1" v_align="1" />
+                </nine_patch>
+
+                <text id="offer_popup_skin_title" position="133 120" size="472 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffba00" stretchmode="2" />
+
+                <preview_skin id="preview_skin" position="369 210" worm_segments="20" worm_scale="0.75" worm_speed="500.0" worm_amplitude="20" scale="0.9"/>
+
+                <text id="offer_popup_powerups_title" position="133 270" size="472 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffba00" stretchmode="2" />
+
+                <layout size="512 140" item_size="140 140" position="115 300">
+                    <image id="multiply" sprite_id="offer_patrick_multiply:menu" position="72 70" />
+                    <image id="magnet" sprite_id="offer_patrick_magnet:menu" position="72 70" />
+                </layout>
+
+                <image sprite_id="offer_patrick_leprekon:menu" position="87 265" scale="1.05" />
+
+                <button id="btnBuy" sprite_id="btn_common_green:common" pressed_scale="0.97" position="289 520">
+                    <text id="txtPrice" position="15 18" size="227 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" stretchmode="2" />
+                </button>
+            </nine_patch>
+
+            <alignment h_align="2" v_align="0">
+                <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+            </alignment>
+        </autoload>
+    </offer_premium_worm_patrick_popup>
+
+    <gamemode_popup>
+        <autoload size="1094 354" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <layout size="1094 354" orientation="horizontal" item_size="364 354">
+                <button id="btnInfinityMode" rect="0 0 338 354" hotspot="169 177" color="0" pressed_scale="0.97">
+                    <nine_patch sprite_id="nine_patch_back:common" hotspot="0" patch="28 28 28 28" size="338 354">
+                        <text id="game_mode_btn_infinity_title" size="300 70" position="19 20" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" h_align="1" v_align="1" stretchmode="2" />
+                        <image sprite_id="game_mode_icon_infinite:menu" position="169 220" />
+                    </nine_patch>
+                </button>
+                <event_button id="btnEventMode" visible="0" rect="0 0 338 354" hotspot="169 177" color="0" pressed_scale="0.97" />
+
+                <button id="btnTimeMode" rect="0 0 338 354" hotspot="169 177" color="0" pressed_scale="0.97">
+                    <nine_patch sprite_id="nine_patch_back:common" hotspot="0" patch="28 28 28 28" size="338 354">
+                        <text id="game_mode_btn_time_title" size="300 70" position="19 20" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" h_align="1" v_align="1" stretchmode="2" />
+                        <image sprite_id="game_mode_icon_clock:menu" position="169 220" />
+                        <image sprite_id="game_mode_icon_x2" position="338 0" scale="0.75" />
+                    </nine_patch>
+                </button>
+            </layout>
+
+            <node id="userRank" visible="0" position="302 370">
+                <nine_patch sprite_id="nine_patch_player_yandex:yandex" position="-10 -3" hotspot="0" patch="12 12 3 3" size="490 36" />
+                <mask sprite_id="mask_edge:masks" mask_position="-10 -5" mask_size="300 22">
+                    <text id="txtUserName" size="9999 24" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="70" color="ffffffff" h_align="0" stretchmode="2" trim_container="true" />
+                </mask>
+                <text id="txtUserScore" position="350 0" size="120 24" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="70" color="ffffffff" h_align="2" stretchmode="2" />
+            </node>
+
+            <alignment v_align="0" h_align="2">
+                <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+            </alignment>
+        </autoload>
+    </gamemode_popup>
+
+    <gift_popup>
+        <autoload size="800 470" shade_color="ff161e30" overscale="1.1" speed="10" direction="0 0">
+            <image id="imgPowerupShine" visible="0" sprite_id="shine:common" position="400 164" scale="1.5" color="804bf9ff" />
+            <node id="grpReward" position="400 164" />
+
+            <bounds id="grpCoinReward" visible="0" anchor="0.5" position="400 273">
+                <image sprite_id="icon_coin:common" position="-38 40" scale="0.82" />
+                <text id="txtCoinReward" size="400 60" stretchmode="2" trim_container="true" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffffff" />
+            </bounds>
+
+            <text text="x1" id="txtPowerupReward" visible="0" size="400 60" position="200 237" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffffff" />
+            <text id="txtRewardMessage" size="800 40" position="0 0" stretchmode="2" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" />
+
+            <button id="btnOk" sprite_id="btn_common_green:common" position="400 417" pressed_scale="0.97">
+                <image sprite_id="icon_ok:common" position="132 50" />
+            </button>
+
+            <alignment v_align="top" h_align="center">
+                <nine_patch sprite_id="nine_patch_header:common" patch="278 0 45 54" size="800 56" position="0 55" hotspot="400 28" color="ff1933a6">
+                    <text id="txtGiftPopupTitle" size="800 45" position="0 -1" h_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" />
+                </nine_patch>
+            </alignment>
+
+            <alignment v_align="top" h_align="right">
+                <button id="btnClose" sprite_id="btn_close:common" position="-55 56" touch_area="-30 -30 80 79" pressed_scale="0.97" />
+            </alignment>
+        </autoload>
+
+        <money position="0 -52">
+            <spine id="animChest" spine_desc="common/animations/menu/chest_popup.json" spine_atlas="common/animations/menu/chest_popup.atlas" spine_animation="coins_small_pile_idle" spine_loop="true" />
+        </money>
+
+        <bonuses>
+            <image id="icon_magnet" sprite_id="items_magnet:common" scale="1.3" />
+            <image id="icon_zoom" sprite_id="items_zoom:common" scale="1.3" />
+            <image id="icon_speedup" sprite_id="items_speed:common" scale="1.3" />
+        </bonuses>
+    </gift_popup>
+
+    <piggybank_popup>
+        <autoload size="800 730" shade_color="ff0d6f69" overscale="1.1" speed="10" direction="0 0">
+            <image sprite_id="piggybank_back_light:menu" position="400 325" scale="4.0" color="98ffffff" />
+            <image id="piggyBankShine" sprite_id="piggybank_back_light_rays:menu" position="400 320" color="98ffffff" />
+            <spine id="piggyAnim" spine_desc="common/animations/menu/pig.json" spine_atlas="common/animations/menu/pig.atlas" position="400 410" scale="0.5" />
+
+            <progress id="progress" sprite_id="piggybank_progress_back:menu" sprite_id_filler="piggybank_progress_filler:menu" position="397 465">
+                <image id="progress_border" sprite_id="piggybank_progress_border:menu" position="227 21">
+                    <text id="txtCoinsProgress" size="168 35" position="209 12" h_align="center" scale="0.95" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" stretchmode="2" shadow_offset="3 3" shadow_color="30000000" />
+
+                    <nine_patch sprite_id="piggybank_timer_back:menu" patch="19 19 4 4" size="208 55" position="206 87">
+                        <bounds anchor="0.5" position="104 23">
+                            <image sprite_id="game_mode_icon_clock:menu" position="-19 18" scale="0.2" />
+                            <text id="txtTimer" size="170 28" v_align="center" stretchmode="2" trim_container="true" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffff79" shadow_offset="2 3" shadow_color="30000000" />
+                        </bounds>
+                    </nine_patch>
+                </image>
+
+                <node id="adReadyIconPlacement" />
+
+                <image sprite_id="icon_coin:common" position="-31 22" />
+                <image sprite_id="piggybank_pig:menu" position="493 20" />
+
+                <color_button id="btnWatchAd" touch_area="-20 -20 160 62" position="0 -32" hotspot="70 21" pressed_scale="0.97" color_alpha="0.5">
+                    <nine_patch id="adReadyCoins" sprite_id="piggybank_nine_patch_ad_ready:menu" patch="9 9 4 4" autosize="true" position="70 21" padding="64 4 8 4" anchor="0.5">
+                        <bounds anchor="0.5" position="0 -32">
+                            <image sprite_id="icon_coin:common" position="-15 18" scale="0.36" />
+                            <text id="txtCoinsForAdd" size="100 25" stretchmode="2" trim_container="true" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffffff" shadow_offset="0 3" shadow_color="50000000" />
+                        </bounds>
+
+                        <nine_patch sprite_id="piggybank_btn_progress_ad:menu" patch="18 18 2 2" size="56 44" hotspot="0">
+                            <image sprite_id="gourmand_icon_video:menu" position="28 21" scale="0.42" />
+                        </nine_patch>
+                    </nine_patch>
+                </color_button>
+            </progress>
+
+            <text_multiline id="piggybank_popup_description" size="630 100" position="85 60" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="30" line_spacing="3" color="ffffffff" shadow_offset="3 3" shadow_color="30000000" />
+
+            <layout id="layoutButtons" size="800 100" item_size="300 100" position="0 580" orientation="horizontal" h_align="center">
+                <color_button id="btnOpenForAd" sprite_id="btn_blue:common" pressed_scale="0.97" color_alpha="0.5">
+                    <image sprite_id="gourmand_icon_video:menu" position="129 51" scale="0.8" />
+                </color_button>
+
+                <color_button id="btnOpenForMoney" visible="0" sprite_id="btn_common_green:common" pressed_scale="0.97" color_alpha="0.5">
+                    <text id="txtOpenFor" visible="0" size="220 30" position="19 13" h_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffffff" shadow_offset="2 3" shadow_color="50000000" />
+                    <text id="txtPrice" visible="0" size="220 30" position="19 47" h_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffffff" shadow_offset="2 3" shadow_color="50000000" />
+                    <text id="txtOpen" visible="0" size="220 30" position="19 30" h_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffffff" shadow_offset="2 3" shadow_color="50000000" />
+                </color_button>
+            </layout>
+
+            <alignment v_align="top">
+                <nine_patch sprite_id="nine_patch_header:common" patch="278 0 45 54" size="800 56" position="293 55" color="30000000">
+                    <stack layout="horizontal" padding="20" anchor="0.5" position="377 23">
+                        <text id="piggybank_popup_title" size="300 40" h_align="center" v_align="center" stretchmode="2" trim_container="true" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffff79" shadow_offset="3 3" shadow_color="30000000" />
+                        <image color="0">
+                            <button id="btnPiggyBankInfo" sprite_id="piggybank_btn_info:menu" position="20 7" scale="0.75" pressed_scale="0.97" />
+                        </image>
+                    </stack>
+                </nine_patch>
+            </alignment>
+
+            <alignment h_align="right" v_align="top">
+                <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+            </alignment>
+        </autoload>
+
+        <ad_entry>
+            <image sprite_id="piggybank_progress_decor:menu" position="0 -3" />
+            <image sprite_id="piggybank_progress_decor:menu" position="0 42" rotation="180" />
+        </ad_entry>
+    </piggybank_popup>
+
+    <piggybank_info_popup>
+        <autoload size="990 610" shade_color="50000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="piggybank_popup_base:menu" patch="32 32 4 4" size="990 610" hotspot="0">
+                <nine_patch sprite_id="piggybank_border:menu" patch="0 90 4 4" size="8 440" position="335 85" hotspot="0" />
+                <nine_patch sprite_id="piggybank_border:menu" patch="0 90 4 4" size="8 440" position="655 85" hotspot="0" />
+
+                <image id="shine" sprite_id="piggybank_back_light_rays:menu" position="817 255" scale="0.85" />
+                <image sprite_id="piggybank_back_light:menu" position="497 305" scale="3.0" color="95ffffff" />
+
+                <spine spine_desc="common/animations/menu/pig.json" spine_atlas="common/animations/menu/pig.atlas" spine_animation="anim2" spine_loop="true" position="823 365" scale="0.5" />
+
+                <image sprite_id="piggybank_arrow:menu" position="663 275" />
+                <image sprite_id="piggybank_arrow:menu" position="343 175" />
+                <image sprite_id="piggybank_arrow:menu" position="343 405" />
+
+                <text_multiline id="piggybank_info_popup_select_game_mode" position="45 245" size="250 60" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="30" color="ffffffff" shadow_offset="3 3" shadow_color="30000000" />
+                <text_multiline id="piggybank_info_popup_save_coins" size="250 60" position="375 245" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="30" color="ffffffff" shadow_offset="3 3" shadow_color="30000000" />
+                <text_multiline id="piggybank_info_popup_open" size="200 120" position="724 355" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="35" color="ffffffff" shadow_offset="3 3" shadow_color="30000000" />
+
+                <image sprite_id="piggybank_x3:menu" position="575 155" />
+                <image sprite_id="piggybank_x5:menu" position="565 365" />
+
+                <image sprite_id="items_bag:common" position="465 175" scale="1.1" />
+                <image sprite_id="items_cart:common" position="485 415" scale="0.7" />
+
+                <image sprite_id="game_mode_icon_infinite:menu" position="165 175" scale="1.1" />
+                <image sprite_id="game_mode_icon_clock:menu" position="165 405" />
+
+                <nine_patch sprite_id="piggybank_header_base:menu" patch="32 32 4 4" size="980 68" position="5 5" hotspot="0">
+                    <text id="piggybank_popup_description" size="920 30" position="30 13" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" shadow_offset="1 1" shadow_color="50000000" />
+                </nine_patch>
+
+                <nine_patch sprite_id="piggybank_header_base:menu" patch="32 32 4 4" size="980 68" position="5 539" hotspot="0">
+                    <text id="piggybank_info_popup_collect_coins" size="920 30" position="30 14" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffe965" shadow_offset="3 3" shadow_color="30000000" />
+                </nine_patch>
+            </nine_patch>
+
+            <alignment h_align="right" v_align="top">
+                <button id="btnClose" sprite_id="btn_close:common" position="-55 56" touch_area="-30 -30 80 79" pressed_scale="0.97" />
+            </alignment>
+        </autoload>
+    </piggybank_info_popup>
+
+    <gourmand_popup>
+        <autoload size="900 730" shade_color="ffd63c78" overscale="1.1" speed="10" direction="0 0">
+            <alignment v_align="top" h_align="center">
+                <image sprite_id="gourmand_shine:menu" scale="18" color="69ffffff" />
+            </alignment>
+
+            <nine_patch sprite_id="gourmand_shine:menu" patch="29 29 2 2" size="120 60" position="450 355" hotspot="60 30" scale="9" color="beffffff" />
+            <image sprite_id="gourmand_scale_shadow:menu" position="450 365" size="100 10" />
+
+            <nine_patch id="imgBonusEffectBack" sprite_id="gourmand_nine_patch_timer_back:menu" patch="21 2 4 2" size="208 50" position="450 373" hotspot="104 22">
+                <bounds anchor="0.5" position="104 25">
+                    <image sprite_id="game_mode_icon_clock:menu" position="-23 17" scale="0.2" />
+                    <text id="txtBonusEffectTimer" size="100 27" v_align="center" h_align="left" stretchmode="2" trim_container="true" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffff79" shadow_offset="2 2" shadow_color="33000000" />
+                </bounds>
+            </nine_patch>
+
+            <spine id="animScales" spine_desc="common/animations/menu/gourmand.json" spine_atlas="common/animations/menu/gourmand.atlas" spine_loop="true" position="458 420" scale="0.95" />
+            <text_multiline id="gourmand_popup_description" size="700 100" position="100 394" v_align="center" h_align="center" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="30" line_spacing="3" color="ffffffff" shadow_offset="2 2" shadow_color="30000000" />
+
+            <stack id="levelStack" padding="40" position="450 495" layout="horizontal" anchor="0.5 0">
+                <node size="100 100">
+                    <image sprite_id="gourmand_progress_shadow:menu" position="120 50" scale="0.2" />
+                    <image sprite_id="gourmand_progress_shadow:menu" position="50 50" />
+                    <image id="imgShine" sprite_id="gourmand_shine:menu" position="50 50" scale="2.5" color="70ffffff" />
+                    <text id="txtPercent" text="+50%" size="100 30" position="0 30" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="29" color="ffffff79" shadow_offset="2 2" shadow_color="33000000" />
+                    <image id="imgActive" sprite_id="gourmand_icon_ok:menu" position="57 43" />
+                </node>
+
+                <node size="100 100">
+                    <image sprite_id="gourmand_progress_shadow:menu" position="120 50" scale="0.25" />
+                    <image sprite_id="gourmand_progress_shadow:menu" position="50 50" />
+                    <image id="imgShine" sprite_id="gourmand_shine:menu" position="50 50" scale="2.5" color="70ffffff" />
+                    <text id="txtPercent" text="+100%" size="100 30" position="0 30" h_align="center" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="29" color="ffffff79" shadow_offset="2 2" shadow_color="33000000" />
+                    <image id="imgActive" sprite_id="gourmand_icon_ok:menu" position="57 43" />
+                </node>
+
+                <node size="100 100">
+                    <image sprite_id="gourmand_progress_shadow:menu" position="120 50" scale="0.3" />
+                    <image sprite_id="gourmand_progress_shadow:menu" position="50 50" />
+                    <image id="imgShine" sprite_id="gourmand_shine:menu" position="50 50" scale="2.5" color="70ffffff" />
+                    <text id="txtPercent" text="+150%" size="100 30" position="0 30" h_align="center" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="29" color="ffffff79" shadow_offset="2 2" shadow_color="33000000" />
+                    <image id="imgActive" sprite_id="gourmand_icon_ok:menu" position="57 43" />
+                </node>
+
+                <node size="100 100">
+                    <image sprite_id="gourmand_progress_shadow:menu" position="50 50" />
+                    <image id="imgShine" sprite_id="gourmand_shine:menu" position="50 50" scale="2.5" color="70ffffff" />
+                    <text id="txtPercent" text="+200%" size="100 30" position="0 30" h_align="center" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="29" color="ffffff79" shadow_offset="2 2" shadow_color="33000000" />
+                    <image id="imgActive" sprite_id="gourmand_icon_ok:menu" position="57 43" />
+                </node>
+            </stack>
+
+            <layout id="layoutButtons" size="900 100" item_size="300 100" position="0 610" h_align="center" orientation="horizontal">
+                <color_button id="btnBuyWithAd" sprite_id="btn_blue:common" pressed_scale="0.97" color_alpha="0.5">
+                    <image position="129 51" sprite_id="gourmand_icon_video:menu" scale="0.8" />
+                </color_button>
+
+                <color_button id="btnBuyWithMoney" sprite_id="btn_common_green:common" pressed_scale="0.97" color_alpha="0.5" hotspot="128 53">
+                    <bounds anchor="0.5" position="128 50">
+                        <image sprite_id="icon_coin:common" position="25 34" scale="0.65" />
+                        <text id="txtCoinPrice" size="350 48" position="53 0" h_align="left" stretchmode="2" trim_container="true" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffffff" shadow_offset="1 2" shadow_color="90000000" />
+                    </bounds>
+                </color_button>
+            </layout>
+
+            <alignment v_align="top" h_align="center">
+                <nine_patch sprite_id="nine_patch_header:common" patch="278 0 45 54" size="900 56" position="0 53" hotspot="450 28" color="28000000">
+                    <text id="gourmand_popup_title" size="900 45" h_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="100" color="ffffff79" shadow_offset="3 3" shadow_color="30000000" />
+                    <text id="txtEventTimer" size="900 30" position="0 59" h_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="26" color="ffffffff" shadow_offset="2 2" shadow_color="50000000" />
+                </nine_patch>
+            </alignment>
+
+            <alignment v_align="top" h_align="right">
+                <button id="btnClose" sprite_id="btn_close:common" position="-55 56" touch_area="-30 -30 80 79" pressed_scale="0.97" />
+            </alignment>
+        </autoload>
+    </gourmand_popup>
+
+    <get_full_version_popup>
+        <autoload size="685 680" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_result_back:common" patch="28 28 28 28" size="685 475" position="0 55" hotspot="0 0">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="675 67" position="5 5" hotspot="0 0">
+                    <text id="common_popup_info_title" size="520 46" position="77 2" stretchmode="2" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" />
+                </nine_patch>
+
+                <image id="imgWarning" sprite_id="icon_warning:common" position="78 137" scale="0.66" />
+                <text_multiline id="common_popup_web_store_message" size="495 90" position="140 86" h_align="left" v_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="28" line_spacing="5" color="ffffff79" shadow_offset="2 2" shadow_color="90000000" />
+
+                <image id="imgQrcode" sprite_id="qrcode:common" position="160 315" />
+                <button id="btnAppStore" sprite_id="btn_appstore:common" position="472 258" touch_area="-6 -6 298 104" pressed_scale="0.97" scale="1.135" />
+                <button id="btnPlayMarket" sprite_id="btn_playmarket:common" position="472 378" touch_area="-6 -6 337 104" pressed_scale="0.97" />
+            </nine_patch>
+
+            <button id="btnOK" sprite_id="btn_common_green" position="343 626" pressed_scale="0.97">
+                <image sprite_id="icon_ok:common" position="128 52" />
+            </button>
+
+        </autoload>
+    </get_full_version_popup>
+</root>

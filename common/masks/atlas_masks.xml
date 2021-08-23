@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlas>
+    <mask_edge texture="common/masks/edge.png" rect="0 0 48 16" />
+    <mask_map texture="common/masks/map.png" rect="0 0 64 64" />
+    <mask_rect texture="common/masks/rect.png" rect="0 0 64 64" />
+    <mask_picture texture="common/masks/picture.png" rect="0 0 80 80" />
+    <mask_avatar texture="common/masks/avatar.png" rect="0 0 116 116" />
+    <mask_border texture="common/masks/border.png" rect="0 0 82 82" />
+    <mask_hex_big texture="common/masks/hex_big.png" rect="0 0 144 164" />
+    <mask_edges_vert texture="common/masks/edges_vert.png" rect="0 0 128 128" />
+</atlas>

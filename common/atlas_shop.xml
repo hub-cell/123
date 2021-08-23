@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlas width="706" height="702">
+    <booster_place texture="common/atlas_shop.png" rect="266 613 87 87" hotspot="44 44" />
+    <btn_green texture="common/atlas_shop.png" rect="415 498 233 96" hotspot="117 48" />
+    <btn_scroll texture="common/atlas_shop.png" rect="186 496 70 74" hotspot="35 37" />
+    <icon_best texture="common/atlas_shop.png" rect="569 222 111 125" hotspot="56 63" />
+    <icon_better texture="common/atlas_shop.png" rect="415 596 83 86" hotspot="42 43" />
+    <icon_coin texture="common/atlas_shop.png" rect="216 364 46 43" hotspot="23 22" />
+    <icon_fb texture="common/atlas_shop.png" rect="408 309 53 54" hotspot="27 27" />
+    <icon_sale texture="common/atlas_shop.png" rect="266 486 111 125" hotspot="56 63" />
+    <icon_scroll texture="common/atlas_shop.png" rect="216 455 28 35" hotspot="14 18" />
+    <img_shine texture="common/atlas_shop.png" rect="1 1 263 263" hotspot="132 132" />
+    <instagram_icon texture="common/atlas_shop.png" rect="186 634 57 57" hotspot="29 29" />
+    <items_chest texture="common/atlas_shop.png" rect="1 266 213 228" hotspot="107 114" />
+    <items_heap_big texture="common/atlas_shop.png" rect="415 367 195 129" hotspot="98 65" />
+    <items_heap_medium texture="common/atlas_shop.png" rect="266 367 147 117" hotspot="74 59" />
+    <items_heap_small texture="common/atlas_shop.png" rect="408 222 159 85" hotspot="80 43" />
+    <items_icon_chest texture="common/atlas_shop.png" rect="603 1 102 103" hotspot="51 52" />
+    <items_multiply texture="common/atlas_shop.png" rect="603 106 100 100" hotspot="50 50" />
+    <items_no_ads texture="common/atlas_shop.png" rect="266 222 140 143" hotspot="70 72" />
+    <items_premium_worm texture="common/atlas_shop.png" rect="1 496 183 180" hotspot="92 90" />
+    <items_premium_worm_ice texture="common/atlas_shop.png" rect="266 1 180 219" hotspot="90 110" />
+    <items_speedup texture="common/atlas_shop.png" rect="612 367 90 95" hotspot="45 48" />
+    <items_wallet texture="common/atlas_shop.png" rect="448 1 153 131" hotspot="77 66" />
+    <magnet texture="common/atlas_shop.png" rect="505 309 40 41" hotspot="20 21" />
+    <nine_patch_frame_back texture="common/atlas_shop.png" rect="216 316 46 46" hotspot="23 23" />
+    <nine_patch_gold_frame texture="common/atlas_shop.png" rect="216 266 48 48" hotspot="24 24" />
+    <nine_patch_shop_back texture="common/atlas_shop.png" rect="355 613 40 40" hotspot="20 20" />
+    <nine_patch_store_back texture="common/atlas_shop.png" rect="355 655 40 40" hotspot="20 20" />
+    <nine_patch_title_back texture="common/atlas_shop.png" rect="186 572 60 60" hotspot="30 30" />
+    <speed texture="common/atlas_shop.png" rect="463 309 40 42" hotspot="20 21" />
+    <timer_back texture="common/atlas_shop.png" rect="448 134 125 81" hotspot="63 41" />
+    <zoom texture="common/atlas_shop.png" rect="216 409 42 44" hotspot="21 22" />
+</atlas>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <atlases_list>
+        <wardrobe path="common/atlas_wardrobe.xml" />
+        <masks path="common/masks/atlas_masks.xml" />
+        <common path="common/atlas_common.xml" />
+    </atlases_list>
+
+    <font_aliases>
+        <alias locale="th" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansThai-CondensedMedium.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+    </font_aliases>
+
+    <perksItem size="460 72">
+        <progress id="progress" position="235 36" sprite_id="skins_perk_bar_base:game" sprite_id_filler="skins_perk_bar:game" offset="5 5" speed="2">
+            <image sprite_id="skins_perk_background:wardrobe" position="-15 30" scale="0.8">
+                <image id="iconMagnet" visible="0" sprite_id="skins_icon_perk_magnet:wardrobe" position="44 44" />
+                <image id="iconMultiply" visible="0" sprite_id="skins_icon_perk_multiply:wardrobe" position="44 44" />
+                <image id="iconRadar" visible="0" sprite_id="skins_icon_perk_radar:wardrobe" position="44 44" />
+                <image id="iconSpeedup" visible="0" sprite_id="skins_icon_perk_speedup:wardrobe" position="44 44" />
+                <image id="iconTurn" visible="0" sprite_id="skins_icon_perk_turn:wardrobe" position="44 44" />
+                <image id="iconZoom" visible="0" sprite_id="skins_icon_perk_zoom:wardrobe" position="44 44" />
+            </image>
+            <text id="txtLevel" position="30 11" size="100 30" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="fffeffee" stretchmode="2" h_align="left" shadow_color="d0000000" shadow_offset="1" />
+            <text id="txtPrice" position="200 11" size="100 30" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="fffeffee" stretchmode="2" h_align="right" shadow_color="d0000000" shadow_offset="1">
+            </text>
+            <image id="icon_coin" sprite_id="icon_coin:wardrobe" position="317 30" scale="0.9" />
+            <image id="icon_video" sprite_id="icon_video:wardrobe" position="290 30" visible="0" />
+            <button id="btnHint" rect="0 0 390 81" color="000000" position="-55 -11" />
+            <button id="btnPlus" sprite_id="skins_btn_plus:wardrobe" sprite_id_pressed="skins_btn_plus_pressed:wardrobe" position="370 30" />
+        </progress>
+    </perksItem>
+
+    <builderItem>
+        <button id="btn" rect="0 0 82 82" hotspot="41 41" pressed_scale="0.97" position="0" color="00000000">
+            <image id="icon" position="41" />
+            <image sprite_id="builder_btn_color:wardrobe" position="41" />
+        </button>
+    </builderItem>
+
+    <facesItem>
+        <button id="btn" sprite_id="faces_btn_rounded:wardrobe" pressed_scale="0.97" position="-1">
+            <image id="icon" position="42 42" />
+        </button>
+    </facesItem>
+
+    <wardrobe>
+        <background id="background" />
+        <node id="decoration_back" visible="0" />
+
+        <alignment h_align="0" v_align="1">
+            <node position="270 0" rotation="90">
+                <mask sprite_id="mask_edges_vert:masks" mask_position="-230 -200" mask_size="460 400">
+                    <preview_skin id="preview_skin_prev" worm_segments="20" worm_scale="0.4" worm_speed="200.0" worm_amplitude="40" position="0 150" />
+                    <preview_skin id="preview_skin_next" worm_segments="20" worm_scale="0.4" worm_speed="200.0" worm_amplitude="40" position="0 -150" />
+                </mask>
+                <preview_skin id="preview_skin" worm_segments="20" worm_scale="1.0" worm_speed="500.0" worm_amplitude="80" />
+            </node>
+
+            <alignment v_align="0" h_align="1">
+                <image sprite_id="header:wardrobe" position="0 55">
+                    <text id="wardrobe_popup_title" position="26 -2" size="800 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" />
+                </image>
+
+                <alignment h_align="2">
+                    <image sprite_id="coins_placeholder:common" hotspot="0" position="-407 20">
+                        <text id="txtCoins" position="75 10" size="140 40" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="1" />
+                        <button id="btnShop" sprite_id="btn_plus:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="254 36" />
+                    </image>
+
+                    <button id="btnClose" sprite_id="btn_close:common" pressed_scale="0.97 0.97" position="-55 56" />
+                </alignment>
+            </alignment>
+
+            <node id="grpSkins">
+                <alignment h_align="0">
+                    <alignment v_align="0" position="250 100">
+                        <text id="wardrobe_popup_skin_level" position="-230 0" size="460 28" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="0" stretchmode="2" />
+                        <text id="wardrobe_popup_skin_level_disabled" position="-230 0" size="460 28" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffff0000" h_align="0" stretchmode="2" />
+                        <text id="wardrobe_popup_skin_id" position="-230 30" size="460 26" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" h_align="0" stretchmode="2" />
+                    </alignment>
+
+                    <alignment v_align="1">
+                        <node position="270 0">
+                            <!-- <text_multiline id="wardrobe_popup_txt_selector" position="30 85" size="680 180" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" color="ffcccccc" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" /> -->
+                            <button id="btnWormPrev" sprite_id="btn_arrow_prev:wardrobe" pressed_scale="0.97" position="-200 0" />
+                            <button id="btnWormNext" sprite_id="btn_arrow_next:wardrobe" pressed_scale="0.97" position="200 0" />
+                        </node>
+                    </alignment>
+                </alignment>
+
+                <alignment h_align="2" v_align="0" position="490 130">
+                    <!-- <image rect="0 0 460 432" /> -->
+                    <layout id="layoutPerks" size="460 432" item_size="460 72" layout="vertical" v_align="top" />
+                </alignment>
+
+                <hint id="hint" visible="false">
+                    <button id="btnHint" rect="0 0 340 100" color="0" position="180 -40" hotspot="150 50">
+                        <nine_patch id="hint_nine_patch" size="340 108" position="21 30" sprite_id="nine_patch_hint:common" patch="24 16 10 10">
+                            <text_multiline id="txtHint" size="320 82" position="10 2" h_align="1" v_align="1" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="25" color="fffeffee" shadow_color="d0000000" shadow_offset="1" />
+                        </nine_patch>
+                    </button>
+                </hint>
+            </node>
+
+            <node id="grpBuilder">
+                <alignment h_align="0">
+                    <text_multiline id="wardrobe_popup_txt_builder" position="30 281" size="680 90" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" color="ffcccccc" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" />
+                    <!-- <node position="370 315"> -->
+                        <!-- <text id="wardrobe_popup_txt_level" position="-170 45" size="340 24" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" /> -->
+                    <!-- </node> -->
+                </alignment>
+
+                <alignment h_align="0" v_align="2">
+                    <button id="btnDelete" sprite_id="btn_delete:wardrobe" pressed_scale="0.97" position="520 -90" />
+                </alignment>
+
+                <alignment h_align="2" v_align="0" position="768 130">
+                    <!-- <image rect="0 0 650 460" /> -->
+                    <layout id="layoutColors" size="738 250" item_size="82 82" layout="horizontal" v_align="top" />
+                </alignment>
+            </node>
+
+            <node id="grpFaces" visible="0">
+                <alignment h_align="0" v_align="2">
+                    <button id="btnClear" sprite_id="btn_delete:wardrobe" pressed_scale="0.97" position="520 -90" />
+                </alignment>
+
+                <alignment h_align="2" v_align="0" position="768 130">
+                    <!-- <image rect="0 0 650 460" /> -->
+                    <layout id="layoutFaces" size="738 250" item_size="82 82" layout="horizontal" v_align="top" />
+                </alignment>
+
+                <alignment h_align="2" v_align="0" position="768 390">
+                    <!-- <image rect="0 0 650 460" /> -->
+                    <layout id="layoutMouths" size="738 250" item_size="82 82" layout="horizontal" v_align="top" />
+                </alignment>
+            </node>
+
+            <alignment h_align="0" v_align="2">
+                <button id="btnUse" sprite_id="btn_common_green:wardrobe" sprite_id_pressed="btn_common_green_pressed:wardrobe" position="270 -90">
+                    <bounds anchor="0.5" position="146 53">
+                        <image id="imgCoin" sprite_id="icon_coin:common" scale="0.6" position="22 0" />
+                        <text id="wardrobe_popup_btn_buy" position="45 -34" size="190 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" stretchmode="2" trim_container="true" />
+                    </bounds>
+
+                    <bounds anchor="0.5" position="146 50">
+                        <text id="wardrobe_popup_btn_use" size="243 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" stretchmode="2" trim_container="true" />
+                    </bounds>
+                </button>
+            </alignment>
+
+            <alignment v_align="2" h_align="2">
+                <layout id="tabsLayout" size="330 120" item_size="110 120" layout="horizontal" h_align="right" position="-360 -150">
+                    <button id="btnSkins" sprite_id="btn_tab:wardrobe" sprite_id_checked="btn_tab_selected:wardrobe" checkbox="1" pressed_scale="0.97">
+                        <image sprite_id="icon_skins:wardrobe" position="53 54" />
+                        <text id="wardrobe_popup_tab_selector" position="-22 100" size="150 22" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    </button>
+                    <button id="btnBuilder" sprite_id="btn_tab:wardrobe" sprite_id_checked="btn_tab_selected:wardrobe" checkbox="1" pressed_scale="0.97">
+                        <image sprite_id="icon_builder:wardrobe" position="53 54" />
+                        <text id="wardrobe_popup_tab_builder" position="-22 100" size="150 22" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    </button>
+                    <button id="btnFaces" sprite_id="btn_tab:wardrobe" sprite_id_checked="btn_tab_selected:wardrobe" checkbox="1" pressed_scale="0.97">
+                        <image sprite_id="icon_faces:wardrobe" position="53 54" />
+                        <text id="wardrobe_popup_tab_faces" position="-22 100" size="150 22" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                    </button>
+                </layout>
+            </alignment>
+        </alignment>
+
+        <buttons size="680 160" offset="68 68" />
+        <skin_segment_empty sprite_id="skin_segment_empty:wardrobe" />
+
+        <node id="decoration_front" visible="0" />
+        <overlay id="overlay" visible="0" sprite_id="overlay:common" />
+    </wardrobe>
+</root>

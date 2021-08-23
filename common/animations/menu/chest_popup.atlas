@@ -1,0 +1,167 @@
+
+chest_popup.png
+size: 416,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Chest_002
+  rotate: true
+  xy: 130, 164
+  size: 260, 259
+  orig: 288, 287
+  offset: 14, 14
+  index: -1
+Chest_003
+  rotate: true
+  xy: 198, 796
+  size: 226, 198
+  orig: 256, 225
+  offset: 12, 12
+  index: -1
+Chest_005
+  rotate: false
+  xy: 198, 439
+  size: 171, 103
+  orig: 183, 109
+  offset: 6, 3
+  index: -1
+Chest_005_back
+  rotate: true
+  xy: 385, 654
+  size: 141, 30
+  orig: 141, 30
+  offset: 0, 0
+  index: -1
+Chest_005_shine
+  rotate: false
+  xy: 198, 543
+  size: 180, 113
+  orig: 180, 113
+  offset: 0, 0
+  index: -1
+Chest_006
+  rotate: false
+  xy: 130, 130
+  size: 167, 33
+  orig: 173, 39
+  offset: 3, 3
+  index: -1
+Chest_006_shine
+  rotate: false
+  xy: 198, 657
+  size: 182, 44
+  orig: 182, 44
+  offset: 0, 0
+  index: -1
+Chest_008
+  rotate: false
+  xy: 1, 1
+  size: 179, 122
+  orig: 185, 127
+  offset: 3, 2
+  index: -1
+Chest_008_shine
+  rotate: false
+  xy: 198, 702
+  size: 186, 93
+  orig: 189, 99
+  offset: 1, 4
+  index: -1
+Chest_009
+  rotate: false
+  xy: 351, 2
+  size: 33, 22
+  orig: 42, 30
+  offset: 5, 4
+  index: -1
+Chest_010
+  rotate: false
+  xy: 351, 25
+  size: 42, 37
+  orig: 50, 45
+  offset: 4, 4
+  index: -1
+Chest_011
+  rotate: false
+  xy: 370, 510
+  size: 19, 32
+  orig: 19, 32
+  offset: 0, 0
+  index: -1
+Coins_003
+  rotate: true
+  xy: 397, 894
+  size: 128, 14
+  orig: 137, 22
+  offset: 5, 4
+  index: -1
+Coins_004
+  rotate: false
+  xy: 181, 35
+  size: 108, 46
+  orig: 116, 55
+  offset: 4, 4
+  index: -1
+Coins_005
+  rotate: false
+  xy: 370, 455
+  size: 25, 26
+  orig: 33, 34
+  offset: 4, 4
+  index: -1
+Coins_006
+  rotate: false
+  xy: 370, 482
+  size: 26, 27
+  orig: 35, 35
+  offset: 5, 4
+  index: -1
+Star
+  rotate: true
+  xy: 290, 3
+  size: 59, 60
+  orig: 80, 79
+  offset: 10, 10
+  index: -1
+coins_044
+  rotate: true
+  xy: 379, 552
+  size: 101, 17
+  orig: 107, 23
+  offset: 3, 3
+  index: -1
+coins_045
+  rotate: false
+  xy: 181, 82
+  size: 109, 47
+  orig: 109, 47
+  offset: 0, 0
+  index: -1
+coins_047
+  rotate: true
+  xy: 181, 10
+  size: 24, 104
+  orig: 30, 110
+  offset: 3, 3
+  index: -1
+coins_048
+  rotate: false
+  xy: 298, 63
+  size: 99, 100
+  orig: 107, 108
+  offset: 4, 4
+  index: -1
+coins_049
+  rotate: true
+  xy: 1, 425
+  size: 597, 196
+  orig: 598, 197
+  offset: 0, 0
+  index: -1
+coins_051
+  rotate: true
+  xy: 1, 124
+  size: 300, 128
+  orig: 308, 136
+  offset: 4, 4
+  index: -1

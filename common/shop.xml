@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <atlases_list>
+        <masks path="common/masks/atlas_masks.xml" />
+        <common path="common/atlas_common.xml" />
+        <shop path="common/atlas_shop.xml" />
+    </atlases_list>
+
+    <font_aliases>
+        <alias locale="th" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansThai-CondensedMedium.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="th" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansThai-CondensedBlack.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedBlack.ttf" replace="common/fonts/NotoSansCJKsc-Black.otf">
+            <fallback path="common/fonts/NotoSans-CondensedBlack.ttf" />
+        </alias>
+    </font_aliases>
+
+    <inapp_popup>
+        <autoload size="1190 582" shade="1" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <stack position="385 0" anchor="0">
+                    <node id="grpStoreButtons" visible="0" size="805 200"/>
+
+                    <node id="grpShop" size="805 582">
+                        <nine_patch id="imgShopBack" sprite_id="nine_patch_shop_back:shop" patch="17 17 6 6" size="805 582" hotspot="0">
+                            <mask id="mask" sprite_id="mask_picture:masks" mask_size="805 582">
+                                <inapp_list id="list" size="805 582" position="42 20" />
+                            </mask>
+                        </nine_patch>
+                    </node>
+                </stack>
+
+                <text_multiline id="inapp_popup_message" position="100 120" size="800 450" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" />
+
+                <alignment v_align="0" h_align="1">
+                    <alignment h_align="2">
+                        <image sprite_id="coins_placeholder:common" hotspot="0" position="-352 20">
+                            <text id="txtCoins" position="75 10" size="140 40" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="1" />
+                        </image>
+                        <button id="btnClose" sprite_id="btn_close:common" pressed_scale="0.97 0.97" position="-55 56" />
+                    </alignment>
+                </alignment>
+
+                <node>
+                    <node id="bonuses_holders">
+                        <nine_patch sprite_id="nine_patch_shop_back:shop" hotspot="0" position="0 0" patch="17 17 6 6" size="375 112">
+                            <image id="magnet" sprite_id="booster_place:shop" position="79 57">
+                                <image sprite_id="magnet:shop" position="46 44" />
+                                <text id="txtCount" position="57 53" size="31 31" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="24" color="ff001D67" stretchmode="2" h_align="1" />
+                            </image>
+                            <image id="speedup" sprite_id="booster_place:shop" position="182 57">
+                                <image sprite_id="speed:shop" position="43 46" />
+                                <text id="txtCount" position="57 53" size="31 31" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="24" color="ff001D67" stretchmode="2" h_align="1" />
+                            </image>
+                            <image id="zoom" sprite_id="booster_place:shop" position="286 57">
+                                <image sprite_id="zoom:shop" position="45 44" />
+                                <text id="txtCount" position="57 53" size="31 31" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="24" color="ff001D67" stretchmode="2" h_align="1" />
+                            </image>
+                        </nine_patch>
+                    </node>
+
+                    <nine_patch sprite_id="nine_patch_shop_back:shop" hotspot="0" position="0 122" patch="17 17 6 6" size="375 460">
+                        <nine_patch id="premium_worm" sprite_id="nine_patch_gold_frame:shop" patch="21 21 6 6" size="240 320" position="188 233" hotspot="120 160" visible="0">
+                            <nine_patch sprite_id="timer_back:shop" position="120 -8" hotspot="101 40" patch="70 0 10 81" size="202 81">
+                                <text id="txtTimer" text="23h 56m" position="63 27" size="134 36" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                            </nine_patch>
+
+                            <image sprite_id="img_shine:shop" position="120 151" />
+                            <preview_skin id="preview_skin" position="120 155" worm_segments="28" worm_scale="0.55" worm_speed="500.0" worm_amplitude="25" rotation="125" />
+
+                            <button id="btnBuy" sprite_id="btn_green:shop" position="120 320" scale="0.7" pressed_scale="0.97">
+                                <text id="txtPrice" position="18 17" size="197 44" font="common/fonts/NotoSans-CondensedBlack.ttf" h_align="1" v_align="1" font_size="50" color="ffffffff" stretchmode="2" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" />
+                            </button>
+                        </nine_patch>
+
+                        <free_chest_button id="free_chest_in_popup" visible="0">
+                            <nine_patch sprite_id="nine_patch_frame_back:shop" patch="18 18 10 10" size="201 246" hotspot="100 123" position="188 214">
+                                <nine_patch sprite_id="nine_patch_shop_back:shop" patch="17 17 6 6" hotspot="0 0" size="195 55" position="3 3" >
+                                    <text id="inapp_popup_free_chest_title" position="10 3" size="175 41" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" h_align="1" v_align="1" />
+                                </nine_patch>
+
+                                <image sprite_id="img_shine:shop" position="101 130" scale="0.66" />
+                                <image id="icon_chest" sprite_id="items_icon_chest:shop" position="101 130"/>
+
+                                <nine_patch id="timerBack" sprite_id="nine_patch_shop_back:shop" hotspot="0 0" patch="17 17 6 6" size="195 46" position="3 197" visible="0">
+                                    <text id="txtTimer" position="10 7" size="175 32" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="24" color="ffffffff" stretchmode="2" h_align="1" v_align="1" />
+                                </nine_patch>
+
+                                <button id="btnFreeChest" sprite_id="btn_green:shop" position="101 243" scale="0.7" pressed_scale="0.97">
+                                    <image sprite_id="icon_video:common" position="116 44" scale="0.85" />
+<!--                                    <image sprite_id="icon_notification:common" position="230 3" />-->
+                                </button>
+
+                                <image id="notification" visible="0" sprite_id="icon_notification:common" position="200 2" scale="0.75" />
+
+                            </nine_patch>
+                        </free_chest_button>
+                    </nine_patch>
+                </node>
+
+                <alignment v_align="0" h_align="0">
+                    <button id="btnRestore" visible="0" rect="0 0 300 60" hotspot="150 30" position="172 59" pressed_scale="0.97" color="0">
+                        <bounds anchor="0 0.5" position="20 27">
+                            <text id="inapp_popup_restore" size="300 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" h_align="0" v_align="1" stretchmode="2" color="b0ffffff" trim_container="true"/>
+                        </bounds>
+                    </button>
+                </alignment>
+            </node>
+        </autoload>
+
+        <store_buttons>
+            <nine_patch sprite_id="nine_patch_store_back:shop" patch="17 17 6 6" size="805 190" hotspot="0">
+                <image id="imgWarning" sprite_id="icon_warning:common" position="225 25" hotspot="0" scale="0.575" />
+                <text_multiline id="txtGetFullVersion" size="400 55" position="300 15" hotspot="0" h_align="left" v_align="center" stretchmode="2" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="28" line_spacing="5" color="ffffff79" shadow_offset="2 2" shadow_color="90000000" />
+                <image id="imgQrcode" sprite_id="qrcode:common" hotspot="0" scale="0.856" />
+                <button id="btnAppStore" sprite_id="btn_appstore:common" position="333 128" touch_area="-6 -6 298 104" pressed_scale="0.97" scale="0.75" />
+                <button id="btnPlayMarket" sprite_id="btn_playmarket:common" position="590 128" touch_area="-6 -6 337 104" pressed_scale="0.97" scale="0.75" />
+            </nine_patch>
+        </store_buttons>
+
+        <entry>
+            <node>
+                <stack id="stack" position="363 0">
+                    <node id="no_ads" size="723 430" visible="0">
+                        <nine_patch sprite_id="nine_patch_title_back:shop" patch="27 27 6 6" size="570 68" position="77 0" hotspot="0">
+                            <text id="txtTitle" size="400 46" position="85 4" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffd704" />
+                        </nine_patch>
+
+                        <nine_patch sprite_id="nine_patch_frame_back:shop" patch="18 18 10 10" size="436 254" hotspot="0" position="145 94">
+                            <node id="icons">
+                                <image sprite_id="img_shine:shop" position="218 120" />
+                                <image id="icon_no_ads" sprite_id="items_no_ads:shop" position="218 118"/>
+                            </node>
+
+                            <button id="btnBuy" sprite_id="btn_green:shop" position="218 254" scale="0.7" pressed_scale="0.97">
+                                <text id="txtPrice" position="18 17" size="197 44" font="common/fonts/NotoSans-CondensedBlack.ttf" h_align="1" v_align="1" font_size="50" color="ffffffff" stretchmode="2" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" />
+                            </button>
+                        </nine_patch>
+                    </node>
+
+                    <node id="social" size="723 115" visible="0">
+                        <nine_patch sprite_id="nine_patch_title_back:shop" patch="27 27 6 6" size="570 68" position="77 0" hotspot="0">
+                            <text id="txtTitle" size="400 46" position="85 4" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffd704" />
+                        </nine_patch>
+                        <layout id="layoutInApp" orientation="vertical" item_size="436 274" size="783 0" position="-30 94" />
+                    </node>
+
+                    <node id="chest" size="723 411" visible="0">
+                        <nine_patch sprite_id="nine_patch_title_back:shop" patch="27 27 6 6" size="570 68" position="77 0" hotspot="0">
+                            <text id="txtTitle" size="400 46" position="85 4" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffd704" />
+                        </nine_patch>
+
+                        <free_chest_button id="free_chest">
+                            <nine_patch sprite_id="nine_patch_frame_back:shop" patch="18 18 10 10" size="201 246" hotspot="100 123" position="365 217">
+                                <nine_patch sprite_id="nine_patch_shop_back:shop" patch="17 17 6 6" hotspot="0 0" size="195 55" position="3 3" >
+                                    <text id="inapp_popup_free_chest_title" position="4 8" size="187 24" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="24" color="ffffffff" h_align="1" v_align="1" stretchmode="2" />
+                                </nine_patch>
+
+                                <image sprite_id="img_shine:shop" position="101 130" scale="0.66" />
+                                <image id="icon_chest" sprite_id="items_icon_chest:shop" position="101 130"/>
+
+                                <nine_patch id="timerBack" sprite_id="nine_patch_shop_back:shop" hotspot="0 0" patch="17 17 6 6" size="195 46" position="3 197" visible="0">
+                                    <text id="txtTimer" position="10 7" size="175 32" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" h_align="1" v_align="1" />
+                                </nine_patch>
+
+                                <button id="btnBuy" sprite_id="btn_green:shop" position="101 243" scale="0.7" pressed_scale="0.97" visible="0">
+                                    <image sprite_id="icon_video:common" position="116 44" scale="0.85" />
+                                </button>
+                            </nine_patch>
+                        </free_chest_button>
+                    </node>
+
+                    <node id="gold" size="723 690" visible="0">
+                        <nine_patch sprite_id="nine_patch_title_back:shop" patch="27 27 6 6" size="570 68" position="77 0" hotspot="0">
+                            <text id="txtTitle" size="400 46" position="85 4" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffd704" />
+                        </nine_patch>
+                        <layout id="layoutInApp" item_size="241 290" size="723 581" position="0 94" />
+                    </node>
+
+                    <node id="bonuses" size="723 748" visible="0">
+                        <nine_patch sprite_id="nine_patch_title_back:shop" patch="27 27 6 6" size="570 68" position="77 0" hotspot="0">
+                            <text id="txtTitle" size="400 46" position="85 4" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffd704" />
+                        </nine_patch>
+
+                        <layout id="layoutInApp" item_size="241 290" size="723 290" position="0 94" />
+
+                        <nine_patch id="bundle" visible="0" sprite_id="nine_patch_frame_back:shop" patch="18 18 10 10" size="436 254" position="140 412" hotspot="0">
+                            <node id="icons" position="10 114">
+                                <image sprite_id="img_shine:shop" position="47 0" scale="0.5">
+                                    <image id="icon_magnet"  sprite_id="items_magnet:common" position="130" scale="0.98"/>
+                                </image>
+                                <image sprite_id="img_shine:shop" position="154 0" scale="0.5">
+                                    <image id="icon_zoom" sprite_id="items_zoom:common" position="130" scale="0.98" />
+                                </image>
+                                <image sprite_id="img_shine:shop" position="261 0" scale="0.5">
+                                    <image id="icon_speedup" sprite_id="items_speed:common" position="130" scale="0.98" />
+                                </image>
+                                <image sprite_id="img_shine:shop" position="368 0" scale="0.5">
+                                    <image id="icon_heap_big" sprite_id="items_heap_big:shop" position="125 130" scale="0.92" />
+                                </image>
+                            </node>
+
+                            <nine_patch sprite_id="nine_patch_shop_back:shop" patch="17 17 6 6" size="430 56" hotspot="0" position="3 3" >
+                                <text id="txtTitle" position="33 6" size="364 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffd704" stretchmode="2" h_align="1" />
+                            </nine_patch>
+
+                            <nine_patch sprite_id="nine_patch_shop_back" patch="18 18 4 4" size="86 40" hotspot="0" position="11 163">
+                                <text id="magnet" position="6 -2" size="74 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffd704" stretchmode="2" h_align="1" />
+                            </nine_patch>
+                            <nine_patch sprite_id="nine_patch_shop_back" patch="18 18 4 4" size="86 40" hotspot="0" position="119 163">
+                                <text id="zoom" position="6 -2" size="74 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffd704" stretchmode="2" h_align="1" />
+                            </nine_patch>
+                            <nine_patch sprite_id="nine_patch_shop_back" patch="18 18 4 4" size="86 40" hotspot="0" position="227 163">
+                                <text id="speedup" position="6 -2" size="74 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffd704" stretchmode="2" h_align="1" />
+                            </nine_patch>
+                            <nine_patch sprite_id="nine_patch_shop_back" patch="18 18 4 4" size="86 40" hotspot="0" position="333 163">
+                                <text id="txtCoins" position="6 -2" size="74 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffd704" stretchmode="2" h_align="1" />
+                            </nine_patch>
+
+                            <button id="btnBuy" sprite_id="btn_green:shop" position="218 254" scale="0.7" pressed_scale="0.97">
+                                <text id="txtPrice" position="18 17" size="197 44" font="common/fonts/NotoSans-CondensedBlack.ttf" h_align="1" v_align="1" font_size="50" color="ffffffff" stretchmode="2" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" />
+                            </button>
+                        </nine_patch>
+                    </node>
+                </stack>
+            </node>
+
+            <item>
+                <nine_patch sprite_id="nine_patch_frame_back:shop" patch="18 18 10 10" size="201 246" hotspot="100 145">
+
+                    <image sprite_id="img_shine:shop" visible="0" position="100 110" scale="0.56" />
+                    <node id="icons" position="100 108" scale="0.6" visible="0">
+                        <image id="icon_heap_medium" sprite_id="items_heap_medium:shop" />
+                        <image id="icon_heap_big" sprite_id="items_heap_big:shop" position="-4 0"/>
+                        <image id="icon_wallet" sprite_id="items_wallet:shop" scale="1.2" />
+                        <image id="icon_bag" sprite_id="items_bag:common" position="-15 0" />
+                        <image id="icon_chest" sprite_id="items_chest:shop" scale="0.75" position="-12 4" />
+                        <image id="icon_cart" scale="0.65" sprite_id="items_cart:common"  position="0 5" />
+                    </node>
+
+                    <image id="bonusesShine" sprite_id="img_shine:shop" position="100 135" scale="0.9" visible="0" />
+                    <node id="icons_bonuses" position="100 128" visible="0">
+                        <image id="icon_magnet" sprite_id="items_magnet:common" />
+                        <image id="icon_speedup" position="0 7" sprite_id="items_speed:common" />
+                        <image id="icon_zoom" position="0 5" sprite_id="items_zoom:common" />
+                    </node>
+
+                    <nine_patch sprite_id="nine_patch_shop_back:shop" patch="17 17 6 6" size="195 56" hotspot="0" position="3 3" >
+                        <text id="txtTitle" position="8 7" size="179 26" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" />
+                    </nine_patch>
+
+                    <node id="nodeDiscount" visible="0">
+                        <bounds anchor="0.5" position="99 186">
+                            <image sprite_id="icon_coin:shop" scale="0.6" position="-22 22" />
+                            <text id="txtCoins" size="120 34" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" color="ffFFFF0F" h_align="0" stretchmode="2" trim_container="true" />
+                        </bounds>
+
+                        <node position="99 160">
+                            <bounds anchor="0.5">
+                                <image sprite_id="icon_coin:shop" scale="0.3" position="-10 17" />
+                                <text id="txtCoinsStroke" size="80 22" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="0" stretchmode="2" trim_container="true" />
+                            </bounds>
+                            <image rect="0 0 80 3" hotspot="40 1.5" position="0 3" rotation="-5" color="eeff0000" />
+                        </node>
+                    </node>
+
+                    <button id="btnBuy" sprite_id="btn_green:shop" position="101 243" scale="0.7" pressed_scale="0.97">
+                        <bounds id="boundsCoins" anchor="0.5 0.5" position="116 44" visible="false">
+                            <image sprite_id="icon_coin:common" position="-37 49" scale="0.8" />
+                            <text id="txtCoinsPrice" position="0 12" size="140 40" font="common/fonts/NotoSans-CondensedBlack.ttf" scale="1.43" font_size="50" color="ffffffff" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" h_align="0" stretchmode="2" trim_container="true"/>
+                        </bounds>
+                        <text id="txtPrice" position="18 17" size="197 44" visible="0" font="common/fonts/NotoSans-CondensedBlack.ttf" h_align="1" v_align="1" font_size="50" color="ffffffff" stretchmode="2" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" />
+                    </button>
+
+                    <rotator id="bestBuy" visible="0" position="160 0" deviation="0.2" scale="0.6" type="back">
+                        <image sprite_id="icon_best:shop" hotspot="12 12" />
+                    </rotator>
+                </nine_patch>
+            </item>
+
+            <social size="436 274">
+                <button id="btnBuy" position="218 150" hotspot="218 150" touch_area="0 0 436 254" color="0" pressed_scale="0.97">
+                    <nine_patch sprite_id="nine_patch_frame_back:shop" patch="18 18 10 10" size="436 254" hotspot="0">
+                        <nine_patch sprite_id="nine_patch_shop_back:shop" patch="17 17 6 6" size="430 64" position="3 3" hotspot="0">
+                            <bounds anchor="0.5" position="215 32">
+                                <node id="icons">
+                                    <image id="icon_instagram" sprite_id="instagram_icon:shop" position="-28 14" />
+                                    <image id="icon_fb" sprite_id="icon_fb:shop" position="-28 14" />
+                                </node>
+                                <text id="txtTitle" position="10 -11" size="310 41" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" shadow_offset="2 2" shadow_color="ff0d1727" h_align="0" stretchmode="2" trim_container="true" />
+                            </bounds>
+                        </nine_patch>
+                        <image sprite_id="img_shine:shop" position="218 136" scale="0.66" />
+                        <image id="icon_heap_medium" sprite_id="items_heap_medium:shop" scale="0.68" position="218 135" />
+                        <nine_patch sprite_id="nine_patch_shop_back:shop" patch="17 17 6 6" size="175 44" position="130 202" hotspot="0">
+                            <text id="txtPrice" position="45 3" size="84 32" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" h_align="1" stretchmode="2" shadow_offset="2 2" shadow_color="ff0d1727" />
+                        </nine_patch>
+                    </nine_patch>
+                </button>
+            </social>
+        </entry>
+    </inapp_popup>
+
+    <inapp_popup_for_tv>
+        <autoload size="1000 600" shade="1" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <layout id="layout" size="936 588" item_size="234 294" position="32 0" />
+
+            <alignment v_align="1" h_align="1">
+                <text_multiline id="inapp_popup_message" visible="0" position="-250 -125" size="500 450" hotspot="250 125" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" />
+            </alignment>
+
+            <!-- <alignment v_align="0" h_align="1"> -->
+            <!-- <image sprite_id="header:shop" position="0 54"> -->
+            <!-- <text id="inapp_popup_title" position="26 -2" size="800 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" /> -->
+            <!-- </image> -->
+            <!-- </alignment> -->
+
+            <alignment v_align="0" h_align="2">
+                <button id="btnClose" sprite_id="btn_close:common" pressed_scale="0.97 0.97" position="-55 56" />
+            </alignment>
+
+            <alignment v_align="2" h_align="1">
+                <button id="btnRestore" visible="0" rect="0 0 300 60" hotspot="150 30" position="0 -40" pressed_scale="0.97" color="0">
+                    <text id="inapp_popup_restore" position="20 20" size="260 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" h_align="1" v_align="1" stretchmode="2" color="b0ffffff" />
+                </button>
+            </alignment>
+        </autoload>
+
+        <entry>
+            <nine_patch sprite_id="nine_patch_frame_back:shop" hotspot="100 119" patch="17 17 6 6" size="200 238" position="16 0">
+                <nine_patch sprite_id="nine_patch_shop_back:shop" hotspot="0" patch="17 17 6 6" size="194 44" position="3 3" />
+                <text id="txtTitle" position="4 8" size="187 24" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="24" color="ffffff00" h_align="1" v_align="1" stretchmode="2" />
+
+                <node position="100 118">
+                    <image sprite_id="img_shine:shop" scale="0.7" />
+                    <node id="icons">
+                        <image id="icon_no_ads" sprite_id="items_no_ads:shop" scale="0.8" />
+                        <node id="icon_premium_worm">
+                            <image sprite_id="items_premium_worm:shop" scale="0.6" />
+                            <image sprite_id="items_multiply:shop" hotspot="44 57" position="-40 50" scale="0.7" />
+                            <image sprite_id="items_speedup:shop" hotspot="46 49" position="40 47" scale="0.7" />
+                        </node>
+                        <node id="icon_premium_worm_ice">
+                            <image sprite_id="items_premium_worm_ice:shop" />
+                            <image sprite_id="items_multiply:shop" hotspot="44 57" position="-40 50" scale="0.7" />
+                            <image sprite_id="items_magnet:common" hotspot="37 55" position="40 47" scale="0.7" />
+                        </node>
+                        <image id="icon_coin" sprite_id="icon_coin:common" scale="0.8" position="0 -3" />
+                        <image id="icon_heap_small" sprite_id="items_heap_small:shop" scale="0.8" position="-1 -5" />
+                        <image id="icon_heap_medium" sprite_id="items_heap_medium:shop" scale="0.8" position="1 -6" />
+                        <image id="icon_heap_big" sprite_id="items_heap_big:shop" scale="0.8" position="-8 0" />
+                        <image id="icon_wallet" sprite_id="items_wallet:shop" scale="0.8" position="-3 -5" />
+                        <image id="icon_bag" sprite_id="items_bag:common" position="-5 -9" scale="0.8" />
+                        <image id="icon_chest" sprite_id="items_chest:shop" position="-5 -10" scale="0.6" />
+                        <image id="icon_cart" sprite_id="items_cart:common" scale="0.5" position="0 -4" />
+                    </node>
+                </node>
+
+                <text_multiline id="txtDescription" position="15 45" size="170 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="20" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" stretchmode="2" v_align="0" />
+
+                <node id="nodeDiscount">
+                    <nine_patch sprite_id="nine_patch_shop_back:shop" anchor="0.5" position="100 175" patch="17 17 6 6" autosize="true" padding="10 0 10 5">
+                        <bounds>
+                            <image sprite_id="icon_coin:shop" scale="0.6" position="-22 25" />
+                            <text id="txtCoins" size="120 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" color="ffFFFF0F" h_align="0" stretchmode="2" trim_container="true" />
+                        </bounds>
+                    </nine_patch>
+
+                    <node position="100 145">
+                        <bounds anchor="0.5">
+                            <image sprite_id="icon_coin:shop" scale="0.3" position="-10 17" />
+                            <text id="txtCoinsStroke" size="80 26" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="0" stretchmode="2" trim_container="true" />
+                        </bounds>
+                        <image rect="0 0 80 3" hotspot="40 1.5" position="0 3" rotation="-5" color="eeff0000" />
+                    </node>
+                </node>
+
+                <node id="nodeNoDiscount">
+                    <nine_patch sprite_id="nine_patch_shop_back:shop" anchor="0.5" position="100 175" patch="17 17 6 6" autosize="true" padding="10 0 10 5">
+                        <bounds>
+                            <image sprite_id="icon_coin:shop" scale="0.6" position="-22 25" />
+                            <text id="txtCoins" size="120 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" color="ffFFFF0F" h_align="0" trim_container="true" stretchmode="2" />
+                        </bounds>
+                    </nine_patch>
+                </node>
+
+                <button id="btnBuy" sprite_id="btn_green:shop" scale="0.7" pressed_scale="0.97" position="100 237">
+                    <image id="iconRateUs" sprite_id="icon_rate_us:common" scale="0.9" position="117 45" />
+                    <image id="iconVideo" sprite_id="icon_video:common" scale="0.9" position="117 45" />
+                    <text id="txtPrice" position="18 17" size="197 44" font="common/fonts/NotoSans-CondensedBlack.ttf" h_align="1" v_align="1" font_size="50" color="ffffffff" stretchmode="2" font_effect_bundle="common/fonts/effects.fe" font_effect_name="outline" />
+                </button>
+
+                <rotator id="bestBuy" visible="0" position="160 0" deviation="0.2" scale="0.6" type="back">
+                    <image sprite_id="icon_best:shop" hotspot="12 12" />
+                </rotator>
+            </nine_patch>
+        </entry>
+    </inapp_popup_for_tv>
+
+    <inapp_processing_popup>
+        <autoload size="900 225" shade_color="de000000" overscale="1.1" speed="10">
+            <nine_patch sprite_id="nine_patch_header:common" hotspot="0" patch="278 0 45 54" size="900 56">
+                <text id="inapp_processing_popup_title" position="120 -3" size="600 45" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" h_align="1" />
+
+                <text_multiline id="txtStatus" position="120 75" size="660 120" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="40" color="ffcccccc" shadow_offset="0 2" shadow_color="90000000"  />
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" visible="0" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+            </nine_patch>
+        </autoload>
+    </inapp_processing_popup>
+</root>

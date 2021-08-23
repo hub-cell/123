@@ -1,0 +1,90 @@
+
+pig.png
+size: 410,205
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pig_002
+  rotate: true
+  xy: 175, 10
+  size: 193, 106
+  orig: 197, 110
+  offset: 2, 2
+  index: -1
+Pig_003
+  rotate: true
+  xy: 283, 2
+  size: 66, 53
+  orig: 66, 53
+  offset: 0, 0
+  index: -1
+Pig_004
+  rotate: false
+  xy: 106, 12
+  size: 16, 17
+  orig: 20, 21
+  offset: 2, 2
+  index: -1
+Pig_005
+  rotate: false
+  xy: 80, 3
+  size: 24, 26
+  orig: 28, 30
+  offset: 2, 2
+  index: -1
+Pig_006
+  rotate: false
+  xy: 375, 159
+  size: 33, 44
+  orig: 37, 48
+  offset: 2, 2
+  index: -1
+Pig_007
+  rotate: false
+  xy: 2, 6
+  size: 76, 23
+  orig: 76, 24
+  offset: 0, 0
+  index: -1
+Pig_008
+  rotate: false
+  xy: 283, 70
+  size: 72, 69
+  orig: 73, 70
+  offset: 0, 1
+  index: -1
+Pig_009
+  rotate: true
+  xy: 2, 31
+  size: 172, 171
+  orig: 174, 173
+  offset: 0, 1
+  index: -1
+Pig_010
+  rotate: false
+  xy: 357, 13
+  size: 38, 58
+  orig: 40, 60
+  offset: 1, 1
+  index: -1
+Pig_011
+  rotate: true
+  xy: 375, 120
+  size: 37, 29
+  orig: 37, 38
+  offset: 0, 5
+  index: -1
+Pig_012
+  rotate: false
+  xy: 283, 141
+  size: 90, 62
+  orig: 106, 69
+  offset: 0, 1
+  index: -1
+Pig_013
+  rotate: true
+  xy: 357, 73
+  size: 45, 51
+  orig: 65, 52
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <logo>
+        <alignment h_align="1" v_align="1">
+            <spine id="logo" spine_desc="splash/logo.json" spine_atlas="splash/logo.atlas" spine_animation="Logo" spine_loop="false" spine_scale="0.25" />
+            <alignment v_align="2">
+                <image id="loading" texture="splash/loading.png" rect="0 0 140 16" hotspot="70 40" />
+            </alignment>
+        </alignment>
+    </logo>
+</root>
+

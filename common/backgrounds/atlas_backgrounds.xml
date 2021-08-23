@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlas>
+    <dark_grey texture="common/backgrounds/dark-grey-terrazzo.png" rect="0 0 512 512" hotspot="256 256" />
+    <concrete texture="common/backgrounds/concrete-texture.png" rect="0 0 512 512" hotspot="256 256" />
+    <perforated texture="common/backgrounds/perforated_metal.png" rect="0 0 256 256" hotspot="128 128" />
+    <connect texture="common/backgrounds/connect.png" rect="0 0 128 128" hotspot="64 64" />
+    <bright_squares texture="common/backgrounds/bright_squares.png" rect="0 0 128 128" hotspot="64 64" />
+    <light_checkered texture="common/backgrounds/light_checkered.png" rect="0 0 128 128" hotspot="64 64" />
+    <spiration_light texture="common/backgrounds/spiration-light.png" rect="0 0 128 128" hotspot="64 64" />
+    <halloween_ground texture="common/backgrounds/halloween_ground.png" rect="0 0 128 128" hotspot="64 64" />
+    <сhristmas_ice texture="common/backgrounds/christmas_ice.png" rect="0 0 128 128" hotspot="64 64" />
+    <valentine_ground texture="common/backgrounds/valentine_ground.png" rect="0 0 128 128" hotspot="64 64" />
+</atlas>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlas width="1068" height="1066">
+    <btn_appstore texture="common/atlas_common.png" rect="609 733 289 96" hotspot="145 48" />
+    <btn_big_green texture="common/atlas_common.png" rect="473 595 434 136" hotspot="217 68" />
+    <btn_blue texture="common/atlas_common.png" rect="732 487 257 105" hotspot="129 53" />
+    <btn_checkbox texture="common/atlas_common.png" rect="986 733 79 89" hotspot="40 45" />
+    <btn_checkbox_checked texture="common/atlas_common.png" rect="609 831 79 89" hotspot="40 45" />
+    <btn_close texture="common/atlas_common.png" rect="609 922 70 74" hotspot="35 37" />
+    <btn_common_green texture="common/atlas_common.png" rect="473 487 257 106" hotspot="129 53" />
+    <btn_empty texture="common/atlas_common.png" rect="792 294 195 64" hotspot="98 32" />
+    <btn_playmarket texture="common/atlas_common.png" rect="734 379 328 96" hotspot="164 48" />
+    <btn_plus texture="common/atlas_common.png" rect="690 889 70 74" hotspot="35 37" />
+    <btn_red texture="common/atlas_common.png" rect="473 379 259 106" hotspot="130 53" />
+    <clock_progress texture="common/atlas_common.png" rect="958 59 100 100" hotspot="50 50" />
+    <coins_placeholder texture="common/atlas_common.png" rect="792 216 248 76" hotspot="124 38" />
+    <icon_coin texture="common/atlas_common.png" rect="989 294 69 76" hotspot="35 38" />
+    <icon_coins texture="common/atlas_common.png" rect="643 59 162 151" hotspot="81 76" />
+    <icon_no texture="common/atlas_common.png" rect="413 947 54 54" hotspot="27 27" />
+    <icon_notification texture="common/atlas_common.png" rect="328 473 30 32" hotspot="15 16" />
+    <icon_ok texture="common/atlas_common.png" rect="991 487 75 59" hotspot="38 30" />
+    <icon_rank texture="common/atlas_common.png" rect="239 879 172 176" hotspot="86 88" />
+    <icon_rate_us texture="common/atlas_common.png" rect="690 965 65 65" hotspot="33 33" />
+    <icon_restart texture="common/atlas_common.png" rect="781 831 63 59" hotspot="32 30" />
+    <icon_share texture="common/atlas_common.png" rect="413 879 58 66" hotspot="29 33" />
+    <icon_video texture="common/atlas_common.png" rect="690 831 89 56" hotspot="45 28" />
+    <icon_warning texture="common/atlas_common.png" rect="473 879 88 84" hotspot="44 42" />
+    <icon_worm texture="common/atlas_common.png" rect="473 216 174 161" hotspot="87 81" />
+    <icon_worm_with_stars texture="common/atlas_common.png" rect="473 59 168 155" hotspot="84 78" />
+    <items_bag texture="common/atlas_common.png" rect="239 754 198 123" hotspot="99 62" />
+    <items_cart texture="common/atlas_common.png" rect="1 509 236 243" hotspot="118 122" />
+    <items_magnet texture="common/atlas_common.png" rect="807 59 149 147" hotspot="75 74" />
+    <items_speed texture="common/atlas_common.png" rect="649 216 141 147" hotspot="71 74" />
+    <items_zoom texture="common/atlas_common.png" rect="473 733 134 144" hotspot="67 72" />
+    <nine_patch_back texture="common/atlas_common.png" rect="473 965 84 84" hotspot="42 42" />
+    <nine_patch_back_top texture="common/atlas_common.png" rect="609 998 67 67" hotspot="34 34" />
+    <nine_patch_blue texture="common/atlas_common.png" rect="294 473 32 32" hotspot="16 16" />
+    <nine_patch_header texture="common/atlas_common.png" rect="473 1 586 56" hotspot="293 28" />
+    <nine_patch_hint texture="common/atlas_common.png" rect="413 1003 43 58" hotspot="22 29" />
+    <nine_patch_result_back texture="common/atlas_common.png" rect="900 733 84 84" hotspot="42 42" />
+    <overlay texture="common/atlas_common.png" rect="1 1 470 470" hotspot="235 235" />
+    <progress_slider texture="common/atlas_common.png" rect="1 473 291 34" hotspot="146 17" />
+    <qrcode texture="common/atlas_common.png" rect="239 509 222 222" hotspot="111 111" />
+    <result_place_back texture="common/atlas_common.png" rect="1 992 203 53" hotspot="102 27" />
+    <shine texture="common/atlas_common.png" rect="1 754 236 236" hotspot="118 118" />
+    <timer_back texture="common/atlas_common.png" rect="909 595 125 81" hotspot="63 41" />
+</atlas>

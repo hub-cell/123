@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atlas width="856" height="584">
+    <btn_arrow_next texture="common/atlas_wardrobe.png" rect="421 292 74 80" hotspot="37 40" />
+    <btn_arrow_prev texture="common/atlas_wardrobe.png" rect="421 374 74 80" hotspot="37 40" />
+    <btn_close texture="common/atlas_wardrobe.png" rect="421 210 79 80" hotspot="40 40" />
+    <btn_common_green texture="common/atlas_wardrobe.png" rect="126 236 293 110" hotspot="147 55" />
+    <btn_common_green_pressed texture="common/atlas_wardrobe.png" rect="126 124 293 110" hotspot="147 55" />
+    <btn_delete texture="common/atlas_wardrobe.png" rect="1 124 123 125" hotspot="62 63" />
+    <btn_tab texture="common/atlas_wardrobe.png" rect="1 251 106 108" hotspot="53 54" />
+    <btn_tab_selected texture="common/atlas_wardrobe.png" rect="1 361 106 108" hotspot="53 54" />
+    <builder_btn_color texture="common/atlas_wardrobe.png" rect="593 124 82 82" hotspot="41 41" />
+    <faces_btn_rounded texture="common/atlas_wardrobe.png" rect="126 348 85 85" hotspot="43 43" />
+    <faces_btn_rounded_selected texture="common/atlas_wardrobe.png" rect="126 435 85 85" hotspot="43 43" />
+    <header texture="common/atlas_wardrobe.png" rect="1 62 853 60" hotspot="427 30" />
+    <icon_builder texture="common/atlas_wardrobe.png" rect="421 456 74 77" hotspot="37 39" />
+    <icon_coin texture="common/atlas_wardrobe.png" rect="776 1 36 37" hotspot="18 19" />
+    <icon_faces texture="common/atlas_wardrobe.png" rect="502 210 70 73" hotspot="35 37" />
+    <icon_skins texture="common/atlas_wardrobe.png" rect="126 522 77 61" hotspot="39 31" />
+    <icon_video texture="common/atlas_wardrobe.png" rect="712 1 62 42" hotspot="31 21" />
+    <skin_segment_empty texture="common/atlas_wardrobe.png" rect="574 210 64 64" hotspot="32 32" />
+    <skins_btn_plus texture="common/atlas_wardrobe.png" rect="677 124 81 81" hotspot="41 41" />
+    <skins_btn_plus_pressed texture="common/atlas_wardrobe.png" rect="760 124 81 81" hotspot="41 41" />
+    <skins_icon_perk_magnet texture="common/atlas_wardrobe.png" rect="213 348 84 84" hotspot="42 42" />
+    <skins_icon_perk_multiply texture="common/atlas_wardrobe.png" rect="299 348 84 84" hotspot="42 42" />
+    <skins_icon_perk_radar texture="common/atlas_wardrobe.png" rect="213 434 84 84" hotspot="42 42" />
+    <skins_icon_perk_speedup texture="common/atlas_wardrobe.png" rect="299 434 84 84" hotspot="42 42" />
+    <skins_icon_perk_turn texture="common/atlas_wardrobe.png" rect="421 124 84 84" hotspot="42 42" />
+    <skins_icon_perk_zoom texture="common/atlas_wardrobe.png" rect="507 124 84 84" hotspot="42 42" />
+    <skins_perk_background texture="common/atlas_wardrobe.png" rect="1 471 88 88" hotspot="44 44" />
+    <skins_perk_bar texture="common/atlas_wardrobe.png" rect="362 1 348 49" hotspot="174 25" />
+    <skins_perk_bar_base texture="common/atlas_wardrobe.png" rect="1 1 359 59" hotspot="180 30" />
+</atlas>

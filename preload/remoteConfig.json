@@ -1,0 +1,412 @@
+{
+    "common_params": {
+        "type": "json",
+        "value": {
+            "rewardForLogin": 250,
+            "foodToMakeBigger": 200,
+            "respawnStrategy": "coinsvideo-250 coins-500 video-1000",
+            "mapSizes": [111, 155, 200]
+        }
+    },
+    "update_params": {
+        "type": "json",
+        "value": {
+            "androidVersion": "1.9.0",
+            "iosVersion": "1.9.0"
+        }
+    },
+    "urls": {
+        "type": "json",
+        "value": {
+            "facebookGroup": "https://www.facebook.com/wormszone",
+            "instagram": "https://www.instagram.com/azurgameslive/",
+            "privacy": "https://privacy.azurgames.com/",
+            "shareOKIG": "https://ok.ru/game/wormszone",
+            "shareVKIG": "https://vk.com/worms.zone",
+            "shareY8": "https://www.y8.com/games/worms_zone",
+            "shareCommon": "https://wormszone.onelink.me/Tp5Q/9137191a",
+            "yandexEvent": "https://yandex.ru/legal/competition_generalterms",
+            "updateGame": "https://let.fyi/wormszone?newver={}",
+            "appStore": "https://apps.apple.com/app/worms-zone/id1357967682?ls=1",
+            "googlePlay": "https://play.google.com/store/apps/details?id=com.wildspike.wormszone"
+        }
+    },
+    "offer": {
+        "type": "json",
+        "value": {
+            "type": "premium_worm_patrick",
+            "startTimestamp": 1615928400,
+            "duration": 518400
+        }
+    },
+    "ads_properties": {
+        "type": "json",
+        "value": {
+            "prerollTimeout": 180,
+            "prerollSkip": 1,
+            "prerollStep": 8,
+            "rewardedFallback": false,
+            "isBannerEnabled": false
+        }
+    },
+    "arena_property": {
+        "type": "json",
+        "value": {
+            "maxWorms": 140,
+            "arenaSize": {
+                "width": 25000.0,
+                "height": 25000.0
+            },
+            "startupWeight": {
+                "lowerMin": 0.01,
+                "lowerMax": 0.9,
+                "lower": 6870.0,
+                "higherMin": 0.4,
+                "higherMax": 1.1,
+                "higher": 999000.0
+            },
+            "viewZoom": {
+                "minZoom": 0.6,
+                "maxZoom": 1.7
+            }
+        }
+    },
+    "piggy_bank": {
+        "type": "json",
+        "value": {
+            "duration": 86400,
+            "startTimeOffset": 86400,
+            "maxCoins": 1500,
+            "normalGameRatio": 3,
+            "timeLimitedGameRatio": 5,
+            "coinsForOpenByAd": 100,
+            "adMarkerPositions": [100, 300, 600, 1000, 1500],
+            "showPopupTimeout": 1800
+        }
+    },
+    "gourmand": {
+        "type": "json",
+        "value": {
+            "enabled": true,
+            "duration": 21599,
+            "startTimeOffset": 7200,
+            "boostersForActivating": 5,
+            "bonusDuration": 7199,
+            "levelCoinPrice": 300
+        }
+    },
+    "game_quests": {
+        "type": "json",
+        "value": {
+            "tasks_easy": [{
+                    "timer": 300,
+                    "foods": 950
+                },
+                {
+                    "timer": 300,
+                    "coins": 5
+                },
+                {
+                    "timer": 180,
+                    "rank": 50
+                },
+                {
+                    "timer": 300,
+                    "kills": 5
+                },
+                {
+                    "timer": 300,
+                    "weight": 40000
+                },
+                {
+                    "foods": 2200
+                },
+                {
+                    "weight": 80000
+                },
+                {
+                    "timer": 300,
+                    "boosters": 15
+                },
+                {
+                    "survive": 240
+                },
+                {
+                    "timer": 500,
+                    "distance": 650
+                }
+            ],
+            "tasks_medium": [{
+                    "timer": 410,
+                    "foods": 2000
+                },
+                {
+                    "timer": 410,
+                    "coins": 15
+                },
+                {
+                    "timer": 410,
+                    "kills": 15
+                },
+                {
+                    "timer": 500,
+                    "weight": 85000
+                },
+                {
+                    "foods": 7000
+                },
+                {
+                    "kills": 30
+                },
+                {
+                    "weight": 700000
+                },
+                {
+                    "timer": 500,
+                    "boosters": 50
+                },
+                {
+                    "survive": 300
+                },
+                {
+                    "timer": 800,
+                    "distance": 1300
+                }
+            ],
+            "tasks_hard": [{
+                    "timer": 1800,
+                    "foods": 18000
+                },
+                {
+                    "timer": 1800,
+                    "coins": 125
+                },
+                {
+                    "timer": 1800,
+                    "kills": 70
+                },
+                {
+                    "timer": 1800,
+                    "weight": 1500000
+                },
+                {
+                    "foods": 15000
+                },
+                {
+                    "weight": 2000000
+                },
+                {
+                    "boosters": 200
+                },
+                {
+                    "survive": 360
+                },
+                {
+                    "distance": 3500
+                }
+            ]
+        }
+    },
+    "gameplay": {
+        "type": "json",
+        "value": {
+            "session_duration": 420,
+            "session_popup_timeout": 15
+        }
+    },
+    "in_apps": {
+        "type": "json",
+        "value": {
+            "instagram_timeout": 604800,
+            "shop_types": [
+                "consumable"
+            ],
+            "best_buy_ids": [
+                "coins_pack_3",
+                "premium_worm",
+                "premium_worm_ice"
+            ]
+        }
+    },
+    "gift": {
+        "type": "json",
+        "value": {
+            "isActive": true,
+            "timeout_hours": 8
+        }
+    },
+    "wardrobe": {
+        "type": "json",
+        "value": {
+            "powerups": {
+                "magnet": "coin-500 coin-1500 video-3000 coin-6000 coin-19000 video-32000 coin-46000 coin-59000 video-73000 coin-86000",
+                "multiply": "coin-500 coin-1500 video-3000 coin-5900 coin-19000 video-32000 coin-46000 coin-59000 video-73000 coin-86000",
+                "radar": "coin-500 coin-1500 video-3000 coin-6000 coin-19000 video-32000 coin-46000 coin-59000 video-73000 coin-86000",
+                "speedup": "coin-500 coin-1500 video-3000 coin-6000 coin-19000 video-32000 coin-46000 coin-59000 video-73000 coin-86000",
+                "turn": "coin-500 coin-1500 video-3000 coin-6000 coin-19000 video-32000 coin-46000 coin-59000 video-73000 coin-86000",
+                "zoom": "coin-500 coin-1500 video-3000 coin-6000 coin-19000 video-32000 coin-46000 coin-59000 video-73000 coin-86000"
+            }
+        }
+    },
+    "events_schedule": {
+        "type": "json",
+        "value": {
+            "_comment": "date format: yyyy-mm-ddThh:mm",
+            "halloween": {
+                "startDate": "2020-10-25T00:00",
+                "duration": 14
+            },
+            "christmas": {
+                "startDate": "2020-12-11T00:00",
+                "duration": 29
+            },
+            "valentine": {
+                "startDate": "2021-02-12T12:00",
+                "duration": 11
+            }
+        }
+    },
+    "halloween_event": {
+        "type": "json",
+        "value": {
+            "bat_head": 0,
+            "zombie_head": 15000,
+            "ghost_head": 20000,
+            "mummy_head": 22000,
+            "pumpkin_helloween_head": 17000,
+            "scarecrow_head": 0,
+            "skull_head": 10500,
+            "vampire_head": 5500
+        }
+    },
+    "christmas_event": {
+        "type": "json",
+        "value": {
+            "event_tasks": [{
+                    "weight_one_session": 300000,
+                    "award": ["coins", 500],
+                    "save_progress": 0
+                },
+                {
+                    "foods": 2500,
+                    "award": ["bonus", "magnet"],
+                    "save_progress": 1
+                },
+                {
+                    "rank": 10,
+                    "award": ["skin", "santa_head", 700],
+                    "save_progress": 0
+                },
+                {
+                    "weight_many_sessions": 2500000,
+                    "award": ["coins", 750],
+                    "save_progress": 1
+                },
+                {
+                    "kills_coins": [75, 50],
+                    "award": ["coins", 1000],
+                    "save_progress": 1
+                },
+                {
+                    "coins": 200,
+                    "award": ["bonus", "magnet"],
+                    "save_progress": 1
+                },
+                {
+                    "distance": 15000,
+                    "award": ["coins", 1250],
+                    "save_progress": 1
+                },
+                {
+                    "boosters": 250,
+                    "award": ["coins", 1500],
+                    "save_progress": 1
+                },
+                {
+                    "foods_distance": [25000, 25000],
+                    "award": ["bonus", "magnet"],
+                    "save_progress": 1
+                },
+                {
+                    "kills_foods": [125, 25000],
+                    "award": ["skin", "trainworm_head", 1700],
+                    "save_progress": 1
+                }
+            ],
+            "event_onechance_skins": ["omela_head", "elf_head"]
+        }
+    },
+    "valentine_event": {
+        "type": "json",
+        "value": {
+            "event_tasks": [{
+                    "foods": 3000,
+                    "award": ["coins", 200],
+                    "save_progress": 1
+                },
+                {
+                    "boosters": 200,
+                    "award": ["coins", 450],
+                    "save_progress": 1
+                },
+                {
+                    "weight_many_sessions": 1500000,
+                    "award": ["skin", "angel_head", 750],
+                    "save_progress": 1
+                },
+                {
+                    "kills_coins": [150, 250],
+                    "award": ["coins", 1100],
+                    "save_progress": 1
+                },
+                {
+                    "rank": 1,
+                    "award": ["skin", "sheep_head", 1500],
+                    "save_progress": 0
+                },
+                {
+                    "weight_one_session": 3000000,
+                    "award": ["coins", 2500],
+                    "save_progress": 0
+                },
+                {
+                    "kills_one_session": 1000,
+                    "award": ["coins", 5000],
+                    "save_progress": 0
+                }
+            ],
+            "event_onechance_skins": ["glasses_head", "ladybug_head"],
+            "number_of_bonus_tasks": 2
+        }
+    },
+    "bundle_powerups": {
+        "type": "json",
+        "value": {
+            "magnet": 3,
+            "speedup": 3,
+            "zoom": 3
+        }
+    },
+    "platform_cloud_profile": {
+        "type": "json",
+        "value": {
+            "enabled": true,
+            "readDelay": 60,
+            "writeDelay": 1800
+        }
+    },
+    "free_chest": {
+        "type": "json",
+        "value": {
+            "timeout_hours": 6
+        }
+    },
+    "powerup_duration_shrinking": {
+        "type": "json",
+        "value": {
+            "start_timestamp": 1622198448,
+            "end_timestamp": 1630143939,
+            "target_duration": 10
+        }
+    }
+}

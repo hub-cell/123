@@ -1,0 +1,41 @@
+
+no_ads.png
+size: 264,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ads_002
+  rotate: true
+  xy: 145, 6
+  size: 139, 64
+  orig: 147, 72
+  offset: 4, 4
+  index: -1
+ads_003
+  rotate: false
+  xy: 146, 175
+  size: 114, 114
+  orig: 122, 122
+  offset: 4, 4
+  index: -1
+ads_004
+  rotate: true
+  xy: 210, 72
+  size: 102, 50
+  orig: 111, 58
+  offset: 4, 4
+  index: -1
+ads_005
+  rotate: false
+  xy: 1, 146
+  size: 144, 143
+  orig: 148, 148
+  offset: 2, 3
+  index: -1
+ads_005_2
+  rotate: true
+  xy: 1, 1
+  size: 144, 143
+  orig: 148, 148
+  offset: 2, 3
+  index: -1

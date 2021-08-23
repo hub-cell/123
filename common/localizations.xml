@@ -1,0 +1,3952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <authorization_popup_message
+        en="Authorization makes it possible to send your results to Top Players Table and participate in daily and weekly ratings."
+        de="Wenn du dich anmeldest, kannst du deine Ergebnisse an die Bestenliste senden und an den wöchentlichen Ratings teilnehmen."
+        es="La autorización le permite enviar sus resultados a la mesa de los mejores jugadores, participar en clasificaciones diarias y semanales y participar en sorteos."
+        fr="L'autorisation vous permet d'envoyer vos résultats à la table des meilleurs joueurs, de participer à des classements quotidiens et hebdomadaires et de participer à des tirages."
+        id="Otorisasi memungkinkan pengiriman hasilmu ke Tabel Pemain Teratas dan berpartisipasi dalam peringkat harian dan mingguan."
+        ja="承認することであなたの結果をトッププレーヤーボードに載せ、デイリー＆ウイークリー集計に参加できるようにします。"
+        ko="승인을 통해 결과를 탑 플레이어 테이블로 보내고 일별 및 주별 순위에 참여할 수 있습니다."
+        pt="A autorização permite enviar seus resultados para o Placar Melhores Jogadores e participar de classificações diárias e semanais."
+        ru="Авторизация позволяет отправлять ваши результаты в таблицу лучших игроков, участвовать в ежедневных и еженедельных рейтингах, принимать участие в розыгрышах."
+        th="การอนุญาตจะทำให้สามารถส่งผลการเล่นของคุณไปยังตารางผู้เล่นสูงสุด และมีส่วนร่วมในการให้คะแนนรายวันและรายสัปดาห์"
+        vi="Việc cấp phép sẽ cho phép gửi kết quả của bạn đến Bảng Xếp Hạng Người Chơi Dẫn Đầu và tham gia các bảng xếp hạng ngày và tuần."
+        zh-hans="授权可以让你把结果发送到“顶级玩家表”并参与每日和每周排名。"
+        zh-hant="授權讓你能夠將你的成績上傳至玩家排行榜並參與每日與每週評價。" />
+
+    <authorization_popup_title
+        en="AUTHORIZATION"
+        de="Anmelden"
+        es="Autorización"
+        fr="Autorisation"
+        id="Masuk"
+        ja="ログイン"
+        ko="로그인"
+        pt="Fazer login"
+        ru="АВТОРИЗАЦИЯ"
+        th="เข้าสู่ระบบ"
+        vi="Đăng nhập"
+        zh-hans="登录"
+        zh-hant="登出" />
+
+    <backgrounds_popup_title
+        en="BACKGROUND"
+        de="HINTERGRUND"
+        es="FONDO"
+        fr="ARRIÈRE-PLAN"
+        id="Latar Belakang"
+        ja="バックグラウンド"
+        ko="배경"
+        pt="Tela de fundo"
+        ru="ФОН"
+        th="ฉากหลัง"
+        vi="Nền"
+        zh-hans="背景"
+        zh-hant="背景" />
+
+    <btn_play_title
+        en="To battle!"
+        de="Zu spielen!"
+        es="Jugar!"
+        fr="Jouer !"
+        id="Bertempur!"
+        ja="プレイする"
+        ko="전투!"
+        pt="Vamos à batalha!"
+        ru="В бой!"
+        th="ไปที่การต่อสู้!"
+        vi="Chiến đấu!"
+        zh-hans="在战斗中"
+        zh-hant="進入戰鬥" />
+
+    <button_invite_title
+        en="Invite"
+        de="Teilen"
+        es="Invitar"
+        fr="Inviter"
+        id="Bagikan"
+        ja="共有"
+        ko="공유"
+        pt="Compartilhar"
+        ru="Поделиться"
+        th="แบ่งปัน"
+        vi="Chia sẻ"
+        zh-hans="分享"
+        zh-hant="分享" />
+
+    <button_menu_txt
+        en="Menu"
+        de="Menü"
+        es="Menú"
+        fr="Menu"
+        id="Menu"
+        ja="メニュー"
+        ko="메뉴"
+        pt="Menu"
+        ru="Меню"
+        th="เมนู"
+        vi="Menu"
+        zh-hans="菜单"
+        zh-hant="選單" />
+
+    <button_restart_title
+        en="Restart"
+        de="Neustart"
+        es="Reiniciar"
+        fr="Go !"
+        id="Mulai ulang"
+        ja="リスタート"
+        ko="재시작"
+        pt="Reiniciar"
+        ru="Еще раз"
+        th="เริ่มต้นใหม่"
+        vi="Khởi động lại"
+        zh-hans="重启"
+        zh-hant="重啟" />
+
+    <button_share_txt
+        en="Share"
+        de="Teilen"
+        es="Compartir"
+        fr="Partager"
+        id="Bagikan"
+        ja="共有"
+        ko="공유"
+        pt="Compartilhar"
+        ru="Поделиться"
+        th="แบ่งปัน"
+        vi="Chia sẻ"
+        zh-hans="分享"
+        zh-hant="分享" />
+
+    <button_video_title
+        en="Video"
+        de="Video"
+        es="Vídeo"
+        fr="Video"
+        id="Video"
+        ja="ビデオ"
+        ko="비디오"
+        pt="Vídeo"
+        ru="Видео"
+        th="วีดีโอ"
+        vi="Video"
+        zh-hans="视频"
+        zh-hant="影片" />
+
+    <buy_for_coins
+        en="buy for {} coins"
+        de="für {} Münzen kaufen"
+        es="comprar por {} monedas"
+        fr="Acheter pour {} pièces"
+        id="beli senilai {} koin"
+        ja="{}コインを買う"
+        ko="{} 코인 구매"
+        pt="comprar por {} moedas"
+        ru="купить за {} монет"
+        th="ซื้อด้วย {} เหรียญ"
+        vi="mua với giá {} xu"
+        zh-hans="花 {} 金币购买"
+        zh-hant="使用 {} 硬幣" />
+
+    <christmas_btn_play
+        en="Play"
+        es="Jugar"
+        de="Spielen"
+        fr="Jouer"
+        id="Mainkan"
+        ja="プレイ"
+        ko="플레이"
+        pt="Jogar"
+        ru="Играть"
+        th="เล่น"
+        vi="Bắt đầu chơi"
+        zh-hans="开始"
+        zh-hant="開始" />
+
+    <christmas_new_skin
+        en="New Skin Unlocked!"
+        es="Nuevo diseño desbloqueado!"
+        de="Neuer Skin freigeschaltet!"
+        fr="Nouveau skin débloqué!"
+        id="Kulit Baru Dibuka!"
+        ja="新しいスキンのロックが解除されました!"
+        ko="새로운 스킨 잠금 해제함!"
+        pt="Novo tema desbloqueado!"
+        ru="Новый скин открыт!"
+        th="ปลดล็อกสกินใหม่แล้ว!"
+        vi="Giao diện mới được mở khoá!"
+        zh-hans="新皮肤已解锁!"
+        zh-hant="解鎖新外觀!" />
+
+    <christmas_one_chance
+        en="Your Only Chance to Unlock!"
+        es="Tu única oportunidad de desbloquear!"
+        de="Deine einzige Chance zum Freischalten!"
+        fr="Votre unique chance de débloquer!"
+        id="Satu-satunya Peluang untuk Membuka!"
+        ja="ロックを解除する唯一のチャンス!"
+        ko="잠금 해제할 수 있는 유일한 기회!"
+        pt="Sua única chance de desbloquear!"
+        ru="Единственный шанс открыть!"
+        th="โอกาสเดียวของคุณในการปลดล็อก!"
+        vi="Cơ hội duy nhất để mở khoá!"
+        zh-hans="你唯一的解锁机会!"
+        zh-hant="唯一的解鎖機會!" />
+
+    <christmas_popup_mission_completed
+        en="Mission Completed!"
+        es="Misión completada!"
+        de="Mission abgeschlossen!"
+        fr="Mission accomplie!"
+        id="Misi Selesai!"
+        ja="使命完了!"
+        ko="미션 완료!"
+        pt="Missão concluída!"
+        ru="Миссия выполнена!"
+        th="ภารกิจเสร็จสมบูรณ์!"
+        vi="Nhiệm vụ hoàn thành!"
+        zh-hans="任务完成!"
+        zh-hant="任務完成!" />
+
+    <christmas_popup_title
+        en="Worms Christmas Zone"
+        es="Worms Christmas Zone"
+        de="Worms Christmas Zone"
+        fr="Worms Christmas Zone"
+        id="Worms Christmas Zone"
+        ja="ワームクリスマスゾーン"
+        ko="벌레 크리스마스 존"
+        pt="Worms Christmas Zone"
+        ru="Червячное Рождество"
+        th="Worms Christmas Zone"
+        vi="Khu vực Sâu Giáng sinh"
+        zh-hans="虫虫圣诞专区"
+        zh-hant="蟲蟲聖誕特區" />
+
+    <christmas_task_bonus
+        en="Collect {:n} bonuses in total"
+        es="Recoge {:n} bonificaciones en total"
+        de="Sammle insgesamt {:n} Boni"
+        fr="Réunissez {:n} bonus au total"
+        id="Kumpulkan total {:n} bonus"
+        ja="合計{:n}個のボーナスを集める"
+        ko="총 {:n} 보너스 수집"
+        pt="Pegue um total de {:n} de bônus"
+        ru="В сумме собрать {:n} бонусов"
+        th="เก็บ {:n} โบนัสรวมทั้งหมด"
+        vi="Thu {:n} phần thưởng tổng cộng"
+        zh-hans="总共收集 {:n} 个奖励"
+        zh-hant="收集總共 {:n} 個獎勵" />
+
+    <christmas_task_combo_foods_distance
+        en="Grab {:n} yummies and crawl {:n} meters in total"
+        es="Consigue {:n} yummies y gatea {:n} metros en total"
+        de="Schnapp dir insgesamt {:n} Leckereien und krieche insgesamt {:n} Meter weit"
+        fr="Attrapez {:n} bonnes choses et rampez sur {:n} mètres au total"
+        id="Ambil {:n} camilan lezat dan merayap total {:n} meter"
+        ja="{:n}個のおやつをゲットして合計で{:n}メートルを這う"
+        ko="{:n}개 야미를 잡고 총 {:n}미터 기어가기"
+        pt="Pegue {:n} delícias e rasteje {:n} metros no total"
+        ru="В сумме собрать {:n} еды и проползти {:n} метров"
+        th="คว้าของอร่อย {:n} ชิ้น แล้วคืบคลานไปให้ได้ {:n} เมตรรวมทั้งหมด"
+        vi="Lấy {:n} món ngon và bò {:n} mét tổng cộng"
+        zh-hans="总共获得 {:n} 个美味并爬行 {:n} 米"
+        zh-hant="抓到總共 {:n} 道美食並爬行 {:n} 公尺" />
+
+    <christmas_task_combo_kill_coins
+        en="Kill {:n} worms and collect {:n} coins"
+        es="Mata {:n} gusanos y recoge {:n} monedas"
+        de="Töte {:n} Würmer und sammle {:n} Münzen"
+        fr="Tuez {:n} vers et récupérez {:n} pièces"
+        id="Tewaskan {:n} cacing dan kumpulkan {:n} koin"
+        ja="{:n}個のワームを殺して、コインを{:n}個集める"
+        ko="{:n}마리 벌레를 죽이고 {:n}개 코인 수집"
+        pt="Mate {:n} vermes e pegue {:n} moedas"
+        ru="Убить {:n} червей и собрать {:n} монет"
+        th="ฆ่าหนอน {:n} ตัว แล้วเก็บ {:n} เหรียญ"
+        vi="Giết {:n} sâu và thu {:n} xu"
+        zh-hans="击败 {:n} 只虫子并收集 {:n} 枚硬币"
+        zh-hant="殺死 {:n} 個蟲蟲並收集 {:n} 個硬幣" />
+
+    <christmas_task_combo_kills_foods
+        en="Kill {:n} worms and grab {:n} yummies in total"
+        es="Mata {:n} gusanos y consigue {:n} yummies en total"
+        de="Töte insgesamt {:n} Würmer und schnapp dir insgesamt {:n} Leckereien"
+        fr="Tuez {:n} vers et attrapez {:n} bonnes choses au total"
+        id="Tewaskan {:n} cacing dan ambil total {:n} camilan lezat"
+        ja="{:n}ワームを殺し、合計{:n}のおやつをゲット"
+        ko="{:n}마리 벌레를 죽이고 총 {:n}개 야미 잡기"
+        pt="Mate {:n} vermes e pegue {:n} delícias no total"
+        ru="В сумме убить {:n} червей и собрать {:n} еды"
+        th="ฆ่าหนอน {:n} ตัว และคว้าของอร่อย {:n} ชิ้นรวมทั้งหมด"
+        vi="Giết {:n} sâu và lấy {:n} món ngon tổng cộng"
+        zh-hans="总共击败 {:n} 只虫子并获得 {:n} 个美味"
+        zh-hant="殺死 {:n} 個蟲蟲，並抓到總共 {:n} 道美食" />
+
+    <christmas_task_start
+        en="Open Christmas Zone and gain a weight of {:n}"
+        es="Abre Christmas Zone y gana un peso de {:n}"
+        de="Öffne die Weihnachtszone und erreiche ein Gewicht von {:n}"
+        fr="Ouvrez la zone de Noël et gagnez un poids de {:n}"
+        id="Buka Zona Natal dan capai bobot badan seberat {:n}"
+        ja="クリスマスゾーンを開けて、{:n}の体重をにする"
+        ko="크리스마스 존을 열고 {:n} 웨이트 얻기"
+        pt="Abra a Zona de Natal e ganhe um peso de {:n}"
+        ru="Запустить Червячное Рождество и набрать {:n} веса"
+        th="เปิด โซนคริสต์มาส แล้วเพิ่มน้ำหนัก {:n}"
+        vi="Mở Khu vực Giáng sinh và tăng trọng lượng của {:n} lên gấp"
+        zh-hans="开启圣诞专区并获得 体重 {:n}"
+        zh-hant="開啟聖誕專區，獲得 {:n} 重量" />
+
+    <common_popup_adskipped_message
+        en="Ad stream interrupted."
+        de="Werbe-Streaming unterbrochen."
+        es="La visualización de la publicidad ha sido interrumpida."
+        fr="La publicité a été interrompue."
+        id="Pemutaran iklan terputus."
+        ja="広告のストリームが中断されました。"
+        ko="광고 스트림 중단됨."
+        pt="Stream de anúncio interrompido."
+        ru="Просмотр рекламы прерван."
+        th="สัญญาณโฆษณาหยุดชะงัก"
+        vi="Quá trình phát quảng cáo bị gián đoạn."
+        zh-hans="广告播放被中断。"
+        zh-hant="廣告播放受阻斷。" />
+
+    <common_popup_btn_cancel
+        en="Cancel"
+        de="Abbrechen"
+        es="Cancelar"
+        fr="Annuler"
+        id="Batal"
+        ja="キャンセル"
+        ko="취소"
+        pt="Cancelar"
+        ru="Отменить"
+        th="ยกเลิก"
+        vi="Hủy"
+        zh-hans="取消"
+        zh-hant="取消" />
+
+    <common_popup_btn_ok
+        en="OK"
+        de="Ok"
+        es="OK"
+        fr="OK"
+        id="OK"
+        ja="OK"
+        ko="네"
+        pt="OK"
+        ru="OK"
+        th="ตกลง"
+        vi="OK"
+        zh-hans="确定"
+        zh-hant="確定" />
+
+    <common_popup_complete_task
+        en="You must complete the task in the game to get the free chest."
+        de="Du musst die Aufgabe im Spiel erfüllen, dann erhältst du eine kostenlose Truhe."
+        es="Debes completar la tarea en el juego para obtener un cofre gratis."
+        fr="Vous devez terminer la tâche dans le jeu pour obtenir un coffre gratuit."
+        id="Kamu harus menyelesaikan tugas dalam game untuk mendapatkan peti gratis."
+        ja="無料のチェストをゲットするにはゲームでタスクをコンプリートしなくてはいけません。"
+        ko="무료 상자를 얻으려면 이 임무를 완료해야 합니다."
+        pt="Você deve terminar a tarefa no jogo para obter o baú grátis."
+        ru="Вы должны выполнить задание в игре, чтобы получить бесплатный сундук."
+        th="คุณต้องทำภารกิจในเกมให้เสร็จสิ้นเพื่อรับหีบสมบัติฟรี"
+        vi="Bạn phải hoàn thành nhiệm vụ trong trò chơi thì mới được nhận rương miễn phí."
+        zh-hans="你必须完成游戏中的任务才能获取免费宝箱。"
+        zh-hant="你必須在遊戲中完成任務來獲得免費寶箱。" />
+
+    <common_popup_info_title
+        en="Info"
+        de="Info"
+        es="Información"
+        fr="Info"
+        id="Info"
+        ja="情報"
+        ko="정보"
+        pt="Informações"
+        ru="ИНФОРМАЦИЯ"
+        th="ข้อมูล"
+        vi="Thông tin"
+        zh-hans="信息"
+        zh-hant="資訊" />
+
+    <common_popup_invite_and_open_chest_message
+        en="Invite a friend to unlock the chest."
+        de="Lade einen Freund ein, um die Truhe freizuschalten."
+        es="Invita a un amigo y el cofre se desbloqueará."
+        fr="Invitez un ou une amie et le coffre sera débloqué."
+        id="Undang teman untuk membuka kunci peti."
+        ja="友だちを招待してチェストをアンロックしよう。"
+        ko="상자를 해제하려면 친구를 초대하세요."
+        pt="Convide um amigo para desbloquear o baú."
+        ru="Пригласи друга и сундук откроется."
+        th="เชิญเพื่อนของคุณเพื่อมาปลดล็อกหีบสมบัติ"
+        vi="Hãy mời bạn bè để mở khóa rương."
+        zh-hans="邀请好友解锁宝箱。"
+        zh-hant="邀請朋友來解鎖寶箱。" />
+
+    <common_popup_invite_and_respawn_message
+        en="Invite a friend and keep playing."
+        de="Lade einen Freund ein und spiele weiter."
+        es="Invita a un amigo y sigue jugando."
+        fr="Invitez un ou une amie pour continuer à jouer."
+        id="Undang teman untuk dapat terus bermain."
+        ja="友だちを招待してゲームをプレイし続けよう。"
+        ko="친구를 초대하고 계속 플레이하세요."
+        pt="Convide um amigo e continue jogando."
+        ru="Пригласи друга и играй дальше."
+        th="เชิญเพื่อนของคุณและเล่นอย่างต่อเนื่อง"
+        vi="Mời bạn bè và tiếp tục chơi."
+        zh-hans="邀请好友继续玩。"
+        zh-hant="邀請朋友並繼續遊玩。" />
+
+    <common_popup_invite_error_message
+        en="Invitation declined or friend already invited."
+        de="Die Einladung wurde abgelehnt oder der Freund wurde bereits eingeladen."
+        es="La invitación fue rechazada o un amigo ya fue invitado."
+        fr="Invitation déclinée ou votre ami était déjà invité."
+        id="Undangan ditolak atau teman telah diundang."
+        ja="招待状が拒否されたか、友だちは既に招待済みです。"
+        ko="초대가 거절되었거나 친구가 이미 초대되었습니다."
+        pt="Convite recusado ou amigo já foi convidado."
+        ru="Приглашение отменено или ваш друг уже приглашен."
+        th="คำเชิญถูกปฏิเสธหรือเพื่อนถูกเชิญแล้ว"
+        vi="Lời mời bị từ chối hoặc người bạn đã được mời."
+        zh-hans="邀请被拒绝或好友已被邀请。"
+        zh-hant="邀請遭拒絕或已經邀請過朋友了。" />
+
+    <common_popup_leave_message
+        en="Are you sure you want to interrupt the game and lose your progress?"
+        de="Möchtest du das Spiel wirklich abbrechen? Du verlierst deinen Fortschritt."
+        es="¿Te gustaría interrumpir el juego con una pérdida de progreso?"
+        fr="Voulez-vous interrompre le jeu avec une perte de progression?"
+        id="Yakin ingin menghentikan game dan kehilangan progres?"
+        ja="ゲームを中断して、進捗状況がなくなっても本当にいいですか？"
+        ko="게임을 중단하고 진행 내역을 잃게 되는데 계속 하시겠습니까?"
+        pt="Tem certeza de que quer interromper o jogo e perder seu progresso?"
+        ru="Желаете прервать игру с потерей прогресса?"
+        th="คุณแน่ใจหรือไม่ว่าต้องการหยุดเกมและสูญเสียความคืบหน้าในเกมของคุณไป?"
+        vi="Bạn có chắc chắn muốn dừng trò chơi và mất tiến trình không?"
+        zh-hans="确定要中断游戏和失去进度吗？"
+        zh-hant="你確定要中斷遊戲並失去進度？" />
+
+    <common_popup_noad_message
+        en="No ad available, try again later."
+        de="Keine Werbung verfügbar. Komm später wieder."
+        es="No hay anuncios de video disponibles, inténtalo más tarde."
+        fr="Pas de pub vidéo disponible, essayez plus tard."
+        id="Tidak ada iklan yang tersedia, coba lagi nanti."
+        ja="利用できる広告がありません。しばらくしてから再度お試しください。"
+        ko="사용할 수 있는 광고가 없습니다. 나중에 다시 시도해주세요."
+        pt="Nenhum anúncio disponível, tente mais tarde."
+        ru="Видеореклама недоступна, попробуйте позже."
+        th="ไม่มีโฆษณา กรุณาลองอีกครั้งในภายหลัง "
+        vi="Không có quảng cáo, hãy thử lại sau."
+        zh-hans="没有广告可用，请稍后再试。"
+        zh-hant="目前沒有廣告，請稍後再試。" />
+
+    <common_popup_web_store_message
+        en="Install the mobile application for full functionality"
+        de="Installiere die mobile Anwendung für volle Funktionalität"
+        es="Instala la aplicación móvil para poder utilizar todas sus funcionalidades"
+        fr="Installez l'application mobile pour bénéficier de toutes les fonctionnalités"
+        id="Instal aplikasi seluler untuk fungsionalitas penuh"
+        ja="全機能を使うにはモバイルアプリをインストールしてください"
+        ko="전체 기능을 사용하려면 모바일 애플리케이션을 설치하세요"
+        pt="Instale o aplicativo móvel para ter todas as funcionalidades"
+        ru="Установите мобильное приложение для получения полного функционала"
+        th="ติดตั้งแอปพลิเคชันมือถือเพื่อให้ได้การทำงานที่ครบถ้วน"
+        vi="Cài đặt ứng dụng di động để có đầy đủ chức năng"
+        zh-hans="安装手机应用以获得全部功能"
+        zh-hant="安裝行動應用程式以獲取全部功能" />
+
+    <common_popup_noinapps_message
+        en="You don't have enough coins. Lots of coins are scattered around the arena, collect them!"
+        de="Du hast nicht genug Münzen. In der Arena sind viele Münzen verstreut, sammle sie ein!"
+        es="No tienes suficientes monedas. Muchas monedas están esparcidas por la arena, ¡coleccionalas!"
+        fr="Vous n'avez pas assez de pièces. Beaucoup de pièces sont dispersées autour de l'arène, collectionnez-les!"
+        id="Kamu tidak punya cukup koin. Ada banyak koin di sekitar arena, kumpulkan koinnya!"
+        ja="コインが足りません。アリーナにたくさんのコインがばらまかれています。集めましょう！"
+        ko="코인이 충분하지 않습니다. 아레나에 많은 코인이 뿌려져 있습니다, 가서 모으세요!"
+        pt="Você não tem moedas suficientes. Muitas moedas estão espalhadas pela arena, colete-as!"
+        ru="У вас недостаточно монет. Множество монет разбросано по арене, собирайте их!"
+        th="คุณมีเหรียญไม่เพียงพอ มีเหรียญจำนวนมากที่กระจัดกระจายไปทั่วสังเวียน ต้องไปเก็บพวกมัน!"
+        vi="Bạn không có đủ xu. Có rất nhiều xu rải rác trên khắp đấu trường, hãy thu thập!"
+        zh-hans="你的金币不足。竞技场到处洒满了金币，去收集吧！"
+        zh-hant="你的硬幣不足，競技場周圍有許多硬幣，快去收集它們！" />
+
+    <common_popup_noshare_message
+        en="Not supported on this platform."
+        de="Diese Plattform ist nicht kompatibel."
+        es="Compartir no está disponible."
+        fr="Le partage n'est pas disponible."
+        id="Tidak didukung pada platform ini."
+        ja="このプラットフォームではサポートされていません。"
+        ko="이 플랫폼에는 지원되지 않습니다."
+        pt="Não compatível nesta plataforma."
+        ru="Не поддерживается на этой платформе."
+        th="ไม่ได้รับการรองรับบนแพลตฟอร์มนี้"
+        vi="Không được hỗ trợ trên nền tảng này."
+        zh-hans="该平台上不受支持。"
+        zh-hant="此平台並不支持它。" />
+
+    <common_popup_not_enough_level_fmt
+        en="Your level is {0}, but this skin requires level {1}."
+        de="Du hast Level {0}, für diesen Skin benötigst du Level {1}."
+        es="Tu nivel es {0}, pero esta skin requiere nivel {1}."
+        fr="Cette peau nécessite le niveau {1} mais vous n'êtes qu'au niveau {0}."
+        id="Levelmu adalah {0}, tetapi tema ini memerlukan level {1}."
+        ja="現在のレベルは{0}ですが、このスキンにはレベル{1}が必要です。"
+        ko="귀하는 {0}레벨이나 이 스킨은 {1}레벨이 필요합니다."
+        pt="Seu nível é {0}, mas esta pele requer nível {1}."
+        ru="Ваш уровень {0}, но для этого скина требуется {1} уровень."
+        th="ระดับของคุณคือ {0} แต่ผิวนี้ต้องอยู่ที่ระดับ {1}"
+        vi="Cấp của bạn là {0} nhưng ngoại trang này yêu cầu cấp {1}."
+        zh-hans="你的级别是 {0}，但是该皮肤要求级别为 {1}。"
+        zh-hant="你的等級為 {0}，但此造型需要等級 {1}。" />
+
+    <controlModes_message
+        en="Choose your option:"
+        de="Wähle deine Option:"
+        es="Elige tu opción:"
+        fr="Choisissez votre option:"
+        id="Tentukan pilihan Anda:"
+        ja="Choose your option:"
+        ko="Choose your option:"
+        pt="Escolha sua opção:"
+        ru="Выберите свой вариант:"
+        th="Choose your option:"
+        vi="Choose your option:"
+        zh-hans="Choose your option:"
+        zh-hant="Choose your option:" />
+
+    <controlModes_popup_title
+        en="CONTROLS"
+        de="STEUERUNG"
+        es="CONTROLES"
+        fr="CONTRÔLE"
+        id="Kontrol"
+        ja="コントロール"
+        ko="컨트롤"
+        pt="Controles"
+        ru="УПРАВЛЕНИЕ"
+        th="การควบคุม"
+        vi="Điều khiển"
+        zh-hans="控制"
+        zh-hant="控制" />
+
+    <options_map_popup_title
+        en="RADAR"
+        de="RADAR"
+        es="RADAR"
+        fr="RADAR"
+        id="RADAR"
+        ja="レーダー"
+        ko="레이더"
+        pt="RADAR"
+        ru="РАДАР"
+        th="เรดาร์"
+        vi="RADAR"
+        zh-hans="雷达"
+        zh-hant="雷達" />
+
+    <exit_popup_title
+        en="EXIT"
+        de="AUSFAHRT"
+        es="SALIDA"
+        fr="SORTIE"
+        id="KELUAR"
+        ja="出口"
+        ko="출구"
+        pt="SAÍDA"
+        ru="ВЫХОД"
+        th="ทางออก"
+        vi="LỐI RA"
+        zh-hans="出口"
+        zh-hant="出口" />
+
+    <facebook_btn_login_title
+        en="Continue with Facebook"
+        de="Weiter mit Facebook"
+        es="Continua con Facebook"
+        fr="Continuer avec Facebook"
+        id="Lanjutkan menggunakan Facebook"
+        ja="Facebookアカウントで続ける"
+        ko="페이스북으로 계속하기"
+        pt="Continue com o Facebook"
+        ru="Войти в Facebook"
+        th="ดำเนินการต่อด้วย Facebook"
+        vi="Tiếp tục với Facebook"
+        zh-hans="继续使用 Facebook"
+        zh-hant="使用 Facebook 繼續" />
+
+    <foods_popup_title
+        en="FOOD"
+        de="ESSEN"
+        es="COMIDA"
+        fr="NOURRITURE"
+        id="Makanan"
+        ja="食物"
+        ko="음식"
+        pt="Alimento"
+        ru="ЕДА"
+        th="อาหาร"
+        vi="Thức ăn"
+        zh-hans="食物"
+        zh-hant="食物" />
+
+    <game_mode_btn_christmas_title
+        en="CHRISTMAS"
+        es="CHRISTMAS"
+        de="CHRISTMAS"
+        fr="CHRISTMAS"
+        id="CHRISTMAS"
+        ja="CHRISTMAS"
+        ko="CHRISTMAS"
+        pt="CHRISTMAS"
+        ru="Рождество"
+        th="CHRISTMAS"
+        vi="CHRISTMAS"
+        zh-hans="CHRISTMAS"
+        zh-hant="CHRISTMAS" />
+
+    <game_mode_btn_infinity_title
+        en="INFINITY"
+        de="UNENDLICHKEIT"
+        es="INFINITO"
+        fr="INFINI"
+        id="INFINITY"
+        ja="インフィニティ"
+        ko="무한대"
+        pt="INFINIDADE"
+        ru="Безлимит"
+        th="ความไม่มีที่สิ้นสุด"
+        vi="VÔ CỰC"
+        zh-hans="无限"
+        zh-hant="無限" />
+
+    <game_mode_btn_time_title
+        en="TIME"
+        de="ZEIT"
+        es="HORA"
+        fr="TEMPS"
+        id="WAKTU"
+        ja="時間"
+        ko="시각"
+        pt="TEMPO"
+        ru="На время"
+        th="เวลา"
+        vi="THỜI GIAN"
+        zh-hans="时间"
+        zh-hant="時間" />
+
+    <game_mode_btn_valentine_title
+        en="ST VALENTINE’S"
+        es="San Valentín"
+        de="VALENTINSTAG"
+        fr="SAINT-VALENTIN"
+        id="St. Valentine"
+        ja="聖バレンタイン"
+        ko="세인트 발렌타인"
+        pt="São Valentim"
+        ru="День Валентина"
+        th="ของนักบุญวาเลนไทน์"
+        vi="Ngày Thánh Valentine"
+        zh-hans="圣瓦伦丁节"
+        zh-hant="聖瓦倫丁節" />
+
+    <game_mode_btn_yandex_title
+        en="YANDEX"
+        de="YANDEX"
+        es="YANDEX"
+        fr="YANDEX"
+        id="YANDEX"
+        ja="YANDEX"
+        ko="YANDEX"
+        pt="YANDEX"
+        ru="Яндекс"
+        th="YANDEX"
+        vi="YANDEX"
+        zh-hans="YANDEX"
+        zh-hant="YANDEX" />
+
+    <game_players_online
+        en="Top players (in the arena: {})"
+        de="Top-Spieler (in der Arena: {})"
+        es="Jugadores principales (en arena: {})"
+        fr="Meilleurs joueurs (arène: {})"
+        id="Pemain teratas (di arena: {})"
+        ja="トッププレーヤー (アリーナ: {})"
+        ko="탑 플레이어 (아레나에서: {})"
+        pt="Melhores jogadores (na arena: {})"
+        ru="Лучшие игроки (на арене: {})"
+        th="ผู้เล่นอันดับต้น (ในสังเวียน: {})"
+        vi="Người chơi dẫn đầu (trong đấu trường: {})"
+        zh-hans="顶级玩家 (在竞技场中: {})"
+        zh-hant="（競技場：{}）中的頂尖玩家" />
+
+    <game_spinner_title
+        en="Synchronizing..."
+        de="Synchronisierung..."
+        es="Sincronizando ..."
+        fr="Synchroniser ..."
+        id="Sinkronisasi..."
+        ja="同期しています..."
+        ko="동기화..."
+        pt="Sincronizando..."
+        ru="Синхронизация..."
+        th="กำลังซิงโครไนซ์..."
+        vi="Đang đồng bộ hóa..."
+        zh-hans="正在同步..."
+        zh-hant="同步化中……" />
+
+    <game_you_are_in_top
+        en="You're in the top ten!"
+        de="Du bist jetzt unter den Top 10!"
+        es="Estás en el top ten!"
+        fr="Vous êtes dans le top dix!"
+        id="Kamu masuk sepuluh besar!"
+        ja="トップテンにランクイン！"
+        ko="10위 안에 들었습니다!"
+        pt="Você está entre os dez primeiros!"
+        ru="Ты в десятке лучших!"
+        th="คุณอยู่ในสิบอันดับแรก!+1"
+        vi="Bạn đã lọt vào top 10!"
+        zh-hans="你在前十名！"
+        zh-hant="你進入了前十名！" />
+
+    <game_you_killed_worm
+        en="+1 You killed a worm!"
+        de="+1 Du hast einen Wurm getötet!"
+        es="+1 ¡Mataste a un gusano!"
+        fr="+1 Vous avez tué un ver!"
+        id="+1 Kamu membunuh cacing!"
+        ja="+1 ワームをキルした！"
+        ko="+1 웜 킬!"
+        pt="+1 Você matou uma minhoca!"
+        ru="+1 Ты убил червя!"
+        th="+1 คุณได้ฆ่าตัวหนอน!"
+        vi="+1 Bạn đã tiêu diệt một con sâu!"
+        zh-hans="+1 你杀死一条虫子！"
+        zh-hant="+1 你擊殺了一隻蟲蟲！" />
+
+    <game_piggybank_activated
+        en="Piggy Bank activated"
+        de="Sparschwein aktiviert"
+        es="Alcancía activada"
+        fr="Tirelire activée"
+        id="Celengan diaktifkan"
+        ja="貯金箱起動中"
+        ko="돼지 저금통 활성화됨"
+        pt="Cofrinho ativado"
+        ru="Копилка активирована"
+        th="กระปุกออมสินเปิดใช้งานแล้ว"
+        vi="Heo đất đã kích hoạt"
+        zh-hans="存钱罐已激活"
+        zh-hant="儲錢罐已啟用" />
+
+    <gameover_popup_rank
+        en="Rank"
+        es="PUESTO"
+        de="PLATZ"
+        fr="PLACE"
+        id="POSISI"
+        ja="位"
+        ko="장소"
+        pt="LUGAR"
+        ru="МЕСТО"
+        th="ตำแหน่ง"
+        vi="ĐỊA ĐIỂM"
+        zh-hans="排名"
+        zh-hant="排名" />
+
+    <gameover_popup_score
+        en="Worm weight"
+        es="PESO DE GUSANO"
+        de="WURMGEWICHT"
+        fr="POIDS DE VER"
+        id="BOBOT CACING"
+        ja="ワームの重さ"
+        ko="웜 무게"
+        pt="PESO DA MINHOCA"
+        ru="ВЕС ЧЕРВЯЧКА"
+        th="น้ำหนักของตัวหนอน"
+        vi="TRỌNG LƯỢNG SÂU"
+        zh-hans="虫子重量"
+        zh-hant="蟲蟲重量" />
+
+    <gameover_popup_title
+        en="RESULT"
+        es="¡Juego terminado!"
+        de="Spiel vorbei!"
+        fr="Fin !"
+        id="Game berakhir!"
+        ja="ゲームオーバー！"
+        ko="게임 종료!"
+        pt="Fim de jogo!"
+        ru="ИГРА ОКОНЧЕНА"
+        th="จบเกม!"
+        vi="Trò chơi kết thúc!"
+        zh-hans="游戏结束！"
+        zh-hant="遊戲結束！" />
+
+    <halloween_popup_message_title
+        en="New on Arena:"
+        es="Nuevo en la arena:"
+        de="Neu in der Arena:"
+        fr="Nouvelle zone:"
+        id="Baru di arena:"
+        ja="アリーナ初:"
+        ko="아레나의 새로운 아이템:"
+        pt="Novidades na arena:"
+        ru="Новая арена:"
+        th="สิ่งใหม่ในสมรภูมิ:"
+        vi="Người mới trên đấu trường:"
+        zh-hans="竞技场新内容:"
+        zh-hant="遊戲的新蟲蟲:" />
+
+    <halloween_popup_skin_title
+        en="Choose your skin:"
+        es="Elige tu piel:"
+        de="Wähle deine Haut:"
+        fr="Choisissez votre peau:"
+        id="Pilih kulitmu:"
+        ja="スキンを選択:"
+        ko="스킨 선택:"
+        pt="Escolha sua skin:"
+        ru="Выбери свой скин:"
+        th="เลือกสกินของคุณ:"
+        vi="Chọn làn da của bạn:"
+        zh-hans="选择皮肤:"
+        zh-hant="選擇外觀:" />
+
+    <halloween_popup_title
+        en="HAPPY WORMOWEEN!"
+        es="HAPPY WORMOWEEN!"
+        de="HAPPY WORMOWEEN!"
+        fr="HAPPY WORMOWEEN!"
+        id="HAPPY WORMOWEEN!"
+        ja="HAPPY WORMOWEEN!"
+        ko="HAPPY WORMOWEEN!"
+        pt="HAPPY WORMOWEEN!"
+        ru="HAPPY WORMOWEEN!"
+        th="HAPPY WORMOWEEN!"
+        vi="HAPPY WORMOWEEN!"
+        zh-hans="HAPPY WORMOWEEN!"
+        zh-hant="HAPPY WORMOWEEN!" />
+
+    <inapp_group_title_chest
+        en="CHEST"
+        de="CHEST"
+        es="CHEST"
+        fr="CHEST"
+        id="CHEST"
+        ja="CHEST"
+        ko="CHEST"
+        pt="CHEST"
+        ru="CHEST"
+        th="CHEST"
+        vi="CHEST"
+        zh-hans="CHEST"
+        zh-hant="CHEST" />
+
+    <inapp_group_title_gold
+        en="GOLDEN COINS"
+        de="GOLDEN COINS"
+        es="GOLDEN COINS"
+        fr="GOLDEN COINS"
+        id="GOLDEN COINS"
+        ja="GOLDEN COINS"
+        ko="GOLDEN COINS"
+        pt="GOLDEN COINS"
+        ru="GOLDEN COINS"
+        th="GOLDEN COINS"
+        vi="GOLDEN COINS"
+        zh-hans="GOLDEN COINS"
+        zh-hant="GOLDEN COINS" />
+
+    <inapp_group_title_no_ads
+        en="NO ADS"
+        de="NO ADS"
+        es="NO ADS"
+        fr="NO ADS"
+        id="NO ADS"
+        ja="NO ADS"
+        ko="NO ADS"
+        pt="NO ADS"
+        ru="NO ADS"
+        th="NO ADS"
+        vi="NO ADS"
+        zh-hans="NO ADS"
+        zh-hant="NO ADS" />
+
+    <inapp_group_title_power_ups
+        en="POWER UPS"
+        de="POWER UPS"
+        es="POWER UPS"
+        fr="POWER UPS"
+        id="POWER UPS"
+        ja="POWER UPS"
+        ko="POWER UPS"
+        pt="POWER UPS"
+        ru="POWER UPS"
+        th="POWER UPS"
+        vi="POWER UPS"
+        zh-hans="POWER UPS"
+        zh-hant="POWER UPS" />
+
+    <inapp_group_title_social
+        en="SOCIAL MEDIA"
+        de="SOCIAL MEDIA"
+        es="SOCIAL MEDIA"
+        fr="SOCIAL MEDIA"
+        id="SOCIAL MEDIA"
+        ja="SOCIAL MEDIA"
+        ko="SOCIAL MEDIA"
+        pt="SOCIAL MEDIA"
+        ru="SOCIAL MEDIA"
+        th="SOCIAL MEDIA"
+        vi="SOCIAL MEDIA"
+        zh-hans="SOCIAL MEDIA"
+        zh-hant="SOCIAL MEDIA" />
+
+    <inapp_group_title_special_offer
+        en="SPECIAL OFFER"
+        de="SPECIAL OFFER"
+        es="SPECIAL OFFER"
+        fr="SPECIAL OFFER"
+        id="SPECIAL OFFER"
+        ja="SPECIAL OFFER"
+        ko="SPECIAL OFFER"
+        pt="SPECIAL OFFER"
+        ru="SPECIAL OFFER"
+        th="SPECIAL OFFER"
+        vi="SPECIAL OFFER"
+        zh-hans="SPECIAL OFFER"
+        zh-hant="SPECIAL OFFER" />
+
+    <inapp_popup_bundle_title
+        en="Bundle"
+        de="Bundle"
+        es="Bundle"
+        fr="Bundle"
+        id="Bundle"
+        ja="Bundle"
+        ko="Bundle"
+        pt="Bundle"
+        ru="Bundle"
+        th="Bundle"
+        vi="Bundle"
+        zh-hans="Bundle"
+        zh-hant="Bundle" />
+
+    <inapp_popup_free_chest_title
+        en="Free Chest"
+        de="Free Chest"
+        es="Free Chest"
+        fr="Free Chest"
+        id="Free Chest"
+        ja="Free Chest"
+        ko="Free Chest"
+        pt="Free Chest"
+        ru="Бесплатный сундук"
+        th="Free Chest"
+        vi="Free Chest"
+        zh-hans="Free Chest"
+        zh-hant="Free Chest" />
+
+    <inapp_popup_instagram_button
+        en="Subscribe"
+        de="Abonnieren"
+        es="Suscribir"
+        fr="Souscrire"
+        id="Langganan"
+        ja="申し込む"
+        ko="구독"
+        pt="Se inscrever"
+        ru="Подписаться"
+        th="ติดตาม"
+        vi="Đăng ký"
+        zh-hans="订阅"
+        zh-hant="訂閱" />
+
+    <inapp_popup_instagram_description
+        en="Follow us and get {} coins"
+        de="Folgen Sie uns und holen Sie sich {} Münzen"
+        es="Síguenos y obtén {} monedas"
+        fr="Suivez-nous et obtenez {} pièces"
+        id="Ikuti kami dan dapatkan {} koin"
+        ja="フォローして{}コインをゲット"
+        ko="우리를 팔로우하고 {} 코인을 받으세요"
+        pt="Siga-nos e ganhe {} moedas"
+        ru="Подпишись на нас и получи {} монет"
+        th="ติดตามเราและรับ {} เหรียญ"
+        vi="Theo dõi chúng tôi và nhận {} xu"
+        zh-hans="关注我们并获得{}个硬币"
+        zh-hant="關注我們並獲得{}個硬幣" />
+
+    <inapp_popup_instagram_title
+        en="Instagram"
+        de="Instagram"
+        es="Instagram"
+        fr="Instagram"
+        id="Instagram"
+        ja="インスタグラム"
+        ko="인스 타 그램"
+        pt="Instagram"
+        ru="Instagram"
+        th="Instagram"
+        vi="Instagram"
+        zh-hans="Instagram的"
+        zh-hant="Instagram的" />
+
+    <inapp_popup_invite_button
+        en="Invite"
+        de="Erhalten"
+        es="Invitación"
+        fr="Inviter"
+        id="Dapatkan"
+        ja="ゲット"
+        ko="받기"
+        pt="Obter"
+        ru="Получить"
+        th="รับ"
+        vi="Lấy"
+        zh-hans="获取"
+        zh-hant="獲得" />
+
+    <inapp_popup_invite_description
+        en="Invite friend and get {} coins"
+        de="Lade einen Freund ein und erhalte {} Münzen"
+        es="Invitar amigo y obtener {} monedas"
+        fr="Inviter un ami et obtenir des {} pièces"
+        id="Undang teman dan dapatkan {} koin"
+        ja="友だちを招待して{}コインをゲットしよう"
+        ko="친구를 초대하고 {} 코인을 받으세요"
+        pt="Convide um amigo e ganhe {} moedas"
+        ru="Пригласи друга и получи {} монет"
+        th="เชิญเพื่อนและรับ {} เหรียญ"
+        vi="Mời bạn bè và nhận {} xu"
+        zh-hans="邀请好友，获得 {} 个金币"
+        zh-hant="邀請朋友並獲得 {} 硬幣" />
+
+    <inapp_popup_invite_title
+        en="Invitation"
+        de="Einladung"
+        es="Invitar a un amigo"
+        fr="Inviter un ami"
+        id="Undangan"
+        ja="招待状"
+        ko="초대"
+        pt="Convite"
+        ru="Приглашение"
+        th="คำเชิญ"
+        vi="Mời"
+        zh-hans="邀请"
+        zh-hant="邀請" />
+
+    <inapp_popup_magnet_title
+        en="Magnet power-up"
+        de="Magnet-Power-up"
+        es="Potenciador magnético"
+        fr="Power-up Aimant"
+        id="Power-up magnet"
+        ja="マグネットパワーアップ"
+        ko="마그넷 파워업"
+        pt="Power-up de Ímã"
+        ru="Усилитель магнита"
+        th="พาวเวอร์อัพแม่เหล็ก"
+        vi="Tăng sức mạnh nam châm"
+        zh-hans="磁铁能力提升"
+        zh-hant="磁力道具" />
+
+    <inapp_popup_message
+        en="Service unavailable, try again later."
+        de="Der Service ist nicht verfügbar. Versuche es später noch einmal."
+        es="Servicios no disponibles, inténtalo de nuevo más tarde."
+        fr="Services non disponibles, réessayez plus tard."
+        id="Layanan tidak tersedia, coba lagi nanti."
+        ja="サービスは利用できません。しばらくしてからもう一度お試しください。"
+        ko="서비스할 수 없습니다, 나중에 다시 시도해주세요."
+        pt="Serviço indisponível, tente mais tarde."
+        ru="Сервис недоступен, попробуйте позже."
+        th="ไม่สามารถใช้บริการได้ กรุณาลองอีกครั้งในภายหลัง"
+        vi="Không có dịch vụ, hãy thử lại sau."
+        zh-hans="服务不可用，请稍后再试。"
+        zh-hant="暫無服務，請稍後再試。" />
+
+    <inapp_popup_restore
+        en="Restore purchases"
+        de="Einkäufe wiederherstellen"
+        es="Restaurar las compras"
+        fr="Restaurer les achats"
+        id="Mengembalikan pembelian"
+        ja="購入を復元"
+        ko="구매를 복원"
+        pt="Restaurar compras"
+        ru="Восстановить покупки"
+        th="เรียกคืนการซื้อสินค้า"
+        vi="Khôi phục mua hàng"
+        zh-hans="恢复购买"
+        zh-hant="恢復購買" />
+
+    <inapp_popup_speed_title
+        en="Speed power-up"
+        de="Tempo-Power-up"
+        es="Potenciador de velocidad"
+        fr="Power-up Vitesse"
+        id="Power-up kecepatan"
+        ja="速度パワーアップ"
+        ko="스피드 파워업"
+        pt="Power-up de Velocidade"
+        ru="Усилитель скорости"
+        th="พาวเวอร์อัพความเร็ว"
+        vi="Tăng tốc độ"
+        zh-hans="速度能力提升"
+        zh-hant="加速道具" />
+
+    <inapp_popup_title
+        en="Shop"
+        de="Geschäft"
+        es="Tienda"
+        fr="Magasin"
+        id="Toko"
+        ja="ショップ"
+        ko="상점"
+        pt="Loja"
+        ru="Магазин"
+        th="ร้านค้า"
+        vi="Cửa Hàng"
+        zh-hans="商店"
+        zh-hant="商店" />
+
+    <inapp_popup_video_button
+        en="Watch"
+        de="Erhalten"
+        es="Reloj"
+        fr="Regarder"
+        id="Dapatkan"
+        ja="ゲット"
+        ko="받기"
+        pt="Obter"
+        ru="Получить"
+        th="รับ"
+        vi="Lấy"
+        zh-hans="获取"
+        zh-hant="獲得" />
+
+    <inapp_popup_video_description
+        en="Watch video and get {} coins"
+        de="Video ansehen und {} Münzen erhalten"
+        es="Mira el video y obtén {} monedas"
+        fr="Regarder la vidéo et obtenir des {} pièces"
+        id="Tonton video dan dapatkan {} koin"
+        ja="ビデオを視聴して{}コインをゲットしよう"
+        ko="비디오를 보고 {} 코인을 받으세요"
+        pt="Assista a um vídeo e ganhe {} moedas"
+        ru="Просмотри ролик и получи {} монет"
+        th="ดูวีดีโอและรับ {} เหรียญ"
+        vi="Xem video và nhận {} xu"
+        zh-hans="观看视频，获取 {} 个金币"
+        zh-hant="觀看影片並獲得 {} 硬幣" />
+
+    <inapp_popup_video_title
+        en="Watch video"
+        de="Video ansehen"
+        es="Ver video"
+        fr="Regarder la vidéo"
+        id="Tonton video"
+        ja="ビデオを視聴"
+        ko="비디오 보기"
+        pt="Assista ao vídeo"
+        ru="Просмотр видео"
+        th="ดูวีดีโอ"
+        vi="Xem video"
+        zh-hans="观看视频"
+        zh-hant="觀看影片" />
+
+    <inapp_popup_zoom_title
+        en="Zoom power-up"
+        de="Zoom-Power-up"
+        es="Potenciador de zoom"
+        fr="Power-up Zoom"
+        id="Power-up zum"
+        ja="ズームパワーアップ"
+        ko="줌 파워업"
+        pt="Power-up de Zoom"
+        ru="Усилитель обзора"
+        th="พาวเวอร์อัพซูม"
+        vi="Tăng độ thu phóng"
+        zh-hans="缩放能力提升"
+        zh-hant="放大道具" />
+
+    <inapp_processing_popup_canceled
+        en="Purchase request cancelled by user."
+        de="Kaufanfrage vom Benutzer abgebrochen."
+        es="La solicitud de compra fue cancelada por el usuario."
+        fr="Achat annulé."
+        id="Permintaan pembelian dibatalkan pengguna."
+        ja="購入リクエストがユーザーによりキャンセルされました。"
+        ko="사용자가 구매 요청을 취소하였습니다."
+        pt="Pedido de compra cancelado pelo usuário."
+        ru="Покупка прервана пользователем."
+        th="คำขอซื้อถูกยกเลิกโดยผู้ใช้"
+        vi="Người dùng đã hủy yêu cầu mua."
+        zh-hans="购买请求被用户取消。"
+        zh-hant="用戶取消了購買請求。" />
+
+    <inapp_processing_popup_completed
+        en="Purchase of {:n} coins complete."
+        de="Einkauf von {:n} Münzen abgeschlossen."
+        es="La compra de {:n} monedas fue exitosa."
+        fr="Achat de {:n} pièces réussi."
+        id="Pembelian {:n} koin selesai."
+        ja="{:n}個のコインの購入が完了しました。"
+        ko="{:n} 코인 구매 완료"
+        pt="Compra de {:n} moedas concluída."
+        ru="Покупка {:n} монет завершена успешно."
+        th="การซื้อ {:n} เหรียญเสร็จสิ้น"
+        vi="Mua {:n} xu hoàn thành."
+        zh-hans="购买 {:n} 个金币完成。"
+        zh-hant="成功購買 {:n} 硬幣。" />
+
+    <inapp_processing_popup_completed_bonuses
+        en="Bonus successfully purchased."
+        de="Bonus wurde erfolgreich erworben."
+        es="El bono fue adquirido con éxito."
+        fr="Bonus récupéré avec succès."
+        id="Bonus berhasil diperoleh."
+        ja="ボーナス獲得に成功."
+        ko="보너스 획득."
+        pt="O bônus está adquirido com sucesso."
+        ru="Бонус успешно приобретен."
+        th="ได้รับโบนัสเรียบร้อยแล้ว"
+        vi="Thưởng đã nhận được thành công."
+        zh-hans="成功獲得獎勵."
+        zh-hant="您成功地获得了奖金。" />
+
+    <inapp_processing_popup_completed_bonuses_bundle
+        en="Bonus bundle successfully purchased."
+        de="Bonuspaket erfolgreich gekauft."
+        es="El paquete de bonificaciones se compró con éxito."
+        fr="Achat réussi du lot de bonus."
+        id="Paket bonus berhasil dibeli."
+        ja="ボーナスバンドルが正常に購入されました。"
+        ko="보너스 번들을 성공적으로 구매했습니다."
+        pt="Pacote de bónus adquirido com sucesso."
+        ru="Набор силы успешно приобретен."
+        th="ซื้อชุดบันเดิลโบนัสสำเร็จแล้ว"
+        vi="Đã mua thành công gói phần thưởng."
+        zh-hans="奖励包已成功购买。"
+        zh-hant="您已成功購買獎勵組合。" />
+
+    <inapp_processing_popup_completed_coins
+        en="Your reward is {:n} coins."
+        de="Ihre Belohnung sind {:n} Münzen."
+        es="Su recompensa es de {:n} monedas."
+        fr="Votre récompense est de {:n} pièces."
+        id="Hadiah Anda adalah {:n} koin."
+        ja="報酬は{:n}コインです。"
+        ko="귀하의 보상은 {:n} 코인입니다."
+        pt="Sua recompensa é {:n} moedas."
+        ru="Ваша награда {:n} монет."
+        th="รางวัลของคุณคือ {:n} เหรียญ"
+        vi="Phần thưởng của bạn là {:n} xu."
+        zh-hans="您的奖励是{:n}个硬币。"
+        zh-hant="您的獎勵是{:n}個硬幣。" />
+
+    <inapp_processing_popup_completed_no_ads
+        en="Interstitial Ads successfully removed."
+        de="Interstitial-Anzeigen wurden erfolgreich entfernt."
+        es="Anuncios intersticiales eliminados con éxito."
+        fr="Les annonces interstitielles ont bien été supprimées."
+        id="Iklan Pengantara berhasil dihapus."
+        ja="インタースティシャル広告は正常に削除されました。"
+        ko="전면 광고가 성공적으로 삭제되었습니다."
+        pt="Anúncios intersticiais removidos com sucesso."
+        ru="Реклама успешно отключена."
+        th="ลบโฆษณาคั่นระหว่างหน้าสำเร็จแล้ว"
+        vi="Quảng cáo xen kẽ đã xóa thành công."
+        zh-hans="插页式广告已成功删除。"
+        zh-hant="插頁式廣告已成功刪除。" />
+
+    <inapp_processing_popup_completed_premium_worm
+        en="Premium Worm successfully purchased."
+        de="Premium Worm erfolgreich gekauft."
+        es="Premium Worm comprado con éxito."
+        fr="Premium Worm acheté avec succès."
+        id="Premium Worm berhasil dibeli."
+        ja="プレミアムワームを購入しました。"
+        ko="프리미엄 웜을 성공적으로 구매했습니다."
+        pt="Worm Premium comprado com sucesso."
+        ru="Премиальный червячок успешно приобретен."
+        th="ซื้อหนอนพรีเมี่ยมสำเร็จ"
+        vi="Đã mua thành công Worm cao cấp."
+        zh-hans="成功购买了高级蠕虫。"
+        zh-hant="成功購買了高級蠕蟲。" />
+
+    <inapp_processing_popup_failed
+        en="Purchase request failed."
+        de="Kaufanfrage fehlgeschlagen."
+        es="La solicitud de compra falló."
+        fr="Problème, l'achat n'a pas abouti."
+        id="Permintaan pembelian gagal."
+        ja="購入リクエストは失敗しました。"
+        ko="구매 요청 실패"
+        pt="Falha no pedido de compra."
+        ru="Запрос на покупку отклонен."
+        th="คำขอซื้อไม่สำเร็จ"
+        vi="Yêu cầu mua thất bại."
+        zh-hans="购买请求失败。"
+        zh-hant="購買請求失敗。" />
+
+    <inapp_processing_popup_msg
+        en="Purchase request sent, please wait..."
+        de="Kaufanfrage gesendet, bitte warten..."
+        es="Se envió la solicitud de compra, espere ..."
+        fr="Demande d'achat envoyée, patientez svp..."
+        id="Permintaan pembeli terkirim, tunggu..."
+        ja="購入リクエストが送信されました。しばらくお待ちください..."
+        ko="구매 요청 전송됨, 기다려주세요..."
+        pt="Pedido de compra enviado, aguarde..."
+        ru="Запрос на покупку отправлен, пожалуйста подождите..."
+        th="คำขอซื้อถูกส่งออกไปแล้ว กรุณารอสักครู่..."
+        vi="Đã gửi yêu cầu mua, vui lòng chờ..."
+        zh-hans="已发送购买请求，请稍候..."
+        zh-hant="購買請求已發送，請稍候……" />
+
+    <inapp_processing_popup_server_timeout
+        en="Our server is temporarily unavailable. We are already working on a solution to the problem. The next time you start, the game will again try to give you a purchase."
+        de="Unser Server ist vorübergehend nicht verfügbar. Wir arbeiten bereits an einer Lösung des Problems. Wenn Sie das nächste Mal starten, versucht das Spiel erneut, Ihnen einen Kauf zu ermöglichen."
+        es="Nuestro servidor no está disponible temporalmente. Ya estamos trabajando en una solución al problema. La próxima vez que empieces, el juego volverá a intentar darte una compra."
+        fr="Notre serveur est temporairement indisponible. Nous travaillons déjà sur une solution au problème. La prochaine fois que vous démarrez, le jeu essaiera à nouveau de vous donner un achat."
+        id="Server kami tidak tersedia untuk sementara. Kami sedang mengerjakan solusi untuk masalah ini. Saat Anda memulai lagi, game akan mencoba lagi untuk memberi Anda pembelian."
+        ja="サーバーが一時的に利用できなくなっています。 私たちはすでに問題の解決に取り組んでいます。 次回起動すると、ゲームは再び購入を試みます。"
+        ko="서버를 일시적으로 사용할 수 없습니다. 우리는 이미 문제에 대한 해결책을 찾고 있습니다. 다음에 시작할 때 게임에서 다시 구매를 시도합니다."
+        pt="Nosso servidor está temporariamente indisponível. Já estamos trabalhando em uma solução para o problema. Na próxima vez que você iniciar, o jogo tentará novamente fazer uma compra."
+        ru="Наш сервер временно недоступен. Мы уже работаем над решением проблемы. При следующем запуске игра снова попытается выдать вам покупку."
+        th="เซิร์ฟเวอร์ของเราไม่สามารถใช้งานได้ชั่วคราว เรากำลังดำเนินการแก้ไขปัญหาอยู่แล้ว ในครั้งต่อไปที่คุณเริ่มเกมจะพยายามให้คุณซื้ออีกครั้ง"
+        vi="Máy chủ của chúng tôi tạm thời không khả dụng. Chúng tôi đang làm việc trên một giải pháp cho vấn đề. Lần sau khi bạn bắt đầu, trò chơi sẽ lại cố gắng cung cấp cho bạn một giao dịch mua."
+        zh-hans="我们的服务器暂时不可用。 我们已经在研究解决该问题的方法。 下次您启动游戏时，游戏将再次尝试给您购买。"
+        zh-hant="我們的服務器暫時不可用。 我們已經在研究解決該問題的方法。 下次您啟動遊戲時，遊戲將再次嘗試給您購買。" />
+
+    <inapp_processing_popup_title
+        en="Purchasing"
+        de="Kaufen"
+        es="Comprando"
+        fr="Achat en cour"
+        id="Beli"
+        ja="購入"
+        ko="구매"
+        pt="Comprar"
+        ru="Покупка"
+        th="การซื้อ"
+        vi="Mua"
+        zh-hans="购买"
+        zh-hant="購買" />
+
+    <lastchance_popup_no_thanks
+        en="NO, THANKS"
+        es="NO, GRACIAS"
+        de="NEIN, DANKE"
+        fr="NON, MERCI"
+        id="TIDAK, TERIMA KASIH"
+        ja="結構です"
+        ko="고맙지 만 사양 할게"
+        pt="NÃO, OBRIGADO"
+        ru="НЕТ, СПАСИБО"
+        th="ไม่ล่ะ ขอบคุณ"
+        vi="KHÔNG, CẢM ƠN"
+        zh-hans="不用了，谢谢"
+        zh-hant="不用了，謝謝" />
+
+    <lastchance_popup_title
+        en="LAST CHANCE"
+        es="¡Última oportunidad!"
+        de="Letzte Chance!"
+        fr="Dernière chance !"
+        id="Kesempatan terakhir!"
+        ja="最後のチャンス！"
+        ko="마지막 기회!"
+        pt="Última chance!"
+        ru="ПОСЛЕДНИЙ ШАНС"
+        th="โอกาสสุดท้าย!"
+        vi="Cơ hội cuối cùng!"
+        zh-hans="最后机会！"
+        zh-hant="最後機會！" />
+
+    <leaderboards_popup_btn_today
+        en="Today"
+        de="Heute"
+        es="Hoy"
+        fr="Aujourd'hui"
+        id="Hari ini"
+        ja="今日"
+        ko="오늘"
+        pt="Hoje"
+        ru="Сегодня"
+        th="วันนี้"
+        vi="Hôm nay"
+        zh-hans="今天"
+        zh-hant="今天" />
+
+    <leaderboards_popup_btn_week
+        en="Week"
+        de="Woche"
+        es="Semana"
+        fr="La semaine"
+        id="Minggu"
+        ja="今週"
+        ko="주"
+        pt="Semana"
+        ru="Неделя"
+        th="สัปดาห์"
+        vi="Tuần"
+        zh-hans="周"
+        zh-hant="週" />
+
+    <leaderboards_popup_loading
+        en="Loading, please wait..."
+        de="Wird geladen..."
+        es="Cargando, espera por favor..."
+        fr="Chargement, patientez..."
+        id="Memuat..."
+        ja="読み込み中..."
+        ko="로딩 중..."
+        pt="Carregando..."
+        ru="Загрузка..."
+        th="กำลังโหลดอยู่..."
+        vi="Đang tải..."
+        zh-hans="加载中..."
+        zh-hant="載入中……" />
+
+    <leaderboards_popup_show_more
+        en="Show more"
+        de="Mehr anzeigen"
+        es="Mostrar más"
+        fr="Montre plus"
+        id="Tampilkan lainnya"
+        ja="もっと表示"
+        ko="더 보기"
+        pt="Mostrar mais"
+        ru="Показать еще"
+        th="แสดงเพิ่ม"
+        vi="Hiển thị thêm"
+        zh-hans="显示更多"
+        zh-hant="顯示更多" />
+
+    <leaderboards_popup_title
+        en="TOP PLAYERS"
+        de="Top Spieler"
+        es="Los mejores jugadores"
+        fr="Meilleurs joueurs"
+        id="Pemain Teratas"
+        ja="トッププレーヤー"
+        ko="탑 플레이어"
+        pt="Melhores jogadores"
+        ru="ЛУЧШИЕ ИГРОКИ"
+        th="ผู้เล่นอันดับต้น ๆ"
+        vi="Người chơi dẫn đầu"
+        zh-hans="顶级玩家"
+        zh-hant="頂尖玩家" />
+
+    <levelup_popup_btn_title
+        en="OK"
+        de="Ok"
+        es="OK"
+        fr="OK"
+        id="OK"
+        ja="OK"
+        ko="네"
+        pt="OK"
+        ru="ОК"
+        th="ตกลง"
+        vi="OK"
+        zh-hans="确定"
+        zh-hant="確定" />
+
+    <levelup_popup_message
+        en="Congrats! You leveled up!"
+        de="Herzlichen Glückwunsch!"
+        es="¡Felicitaciones! Has alcanzado un nuevo nivel."
+        fr="Félicitations! Vous avez atteint un nouveau niveau."
+        id="Selamat! Kamu naik level."
+        ja="おめでとう！レベルアップです。"
+        ko="축하합니다! 레벨업 되었습니다."
+        pt="Parabéns! Você progrediu de nível."
+        ru="Поздравляем! Вы достигли нового уровня."
+        th="ยินดีด้วย! คุณได้รับการเลื่อนระดับ"
+        vi="Xin chúc mừng! Bạn đã tăng cấp."
+        zh-hans="恭喜升级！"
+        zh-hant="恭喜你！" />
+
+    <levelup_popup_message_second
+        en="And a new level means new possibilities"
+        de="Neues Level erreicht, das bedeutet auch neue Möglichkeiten ;)"
+        es="Un nuevo nivel significa nuevas oportunidades ;)"
+        fr="De nouvelles opportunités s'offrent à vous ;)"
+        id="Level baru berarti kemungkinan baru ;)"
+        ja="新しいレベルは新しい可能性をもたらすよ ;)"
+        ko="그리고 새 레벨은 새로운 가능성을 의미합니다 ;)"
+        pt="E um novo nível significa novas possibilidades ;)"
+        ru="Новый уровень, новые возможности ;)"
+        th="และระดับใหม่หมายถึงความเป็นไปได้ใหม่ ๆ;)"
+        vi="Và cấp mới sẽ mở ra cho bạn nhiều cơ hội mới ;)"
+        zh-hans="新级别意味着新的可能：）"
+        zh-hant="你升級了，新的等級代表新契機！" />
+
+    <levelup_popup_share_msg
+        en="Share your level with friends"
+        de="Teile dein Level mit Freunden"
+        es="Comparte tu nivel con amigos"
+        fr="Partagez votre niveau avec des amis"
+        id="Bagikan levelmu kepada teman-teman"
+        ja="友だちに自分のレベルを伝えよう"
+        ko="새 레벨을 친구들과 나누세요"
+        pt="Compartilhe seu nível com os amigos"
+        ru="Рассказать о новом уровне друзьям"
+        th="แบ่งปันระดับของคุณกับเพื่อน"
+        vi="Hãy chia sẻ cấp mới của bạn với bạn bè"
+        zh-hans="和好友分享级别"
+        zh-hant="和朋友分享你的等級" />
+
+    <local_notification_message_chest_ready
+        en="The chest is ready – open it!"
+        de="Die Truhe ist bereit – öffne sie!"
+        es="El cofre está listo, ¡ábrelo!"
+        fr="Le coffre est disponible, ouvrez-le vite !"
+        id="Peti sudah siap – Ayo buka!"
+        ja="新しい宝箱を開けよう！"
+        ko="상자가 준비되었습니다, 열어보세요!"
+        pt="A arca está pronta. Abre-a!"
+        ru="Сундук готов – открой его!"
+        th="หีบพร้อมแล้ว เปิดได้เลย!"
+        vi="Rương đã sẵn sàng – hãy mở ngay!"
+        zh-hans="宝箱已就绪——来打开看看吧！"
+        zh-hant="寶箱已準備好——快打開吧！" />
+
+    <local_notification_message_new_task
+        en="New task is ready!"
+        de="Eine neue Aufgabe ist bereit!"
+        es="¡Nueva tarea lista!"
+        fr="Nouvelle tâche prête !"
+        id="Tugas baru sudah siap!"
+        ja="新しいタスクが登場！"
+        ko="신규 임무가 준비되었습니다!"
+        pt="Nova tarefa disponível!"
+        ru="Готово новое задание!"
+        th="งานใหม่พร้อมแล้ว!"
+        vi="Nhiệm vụ mới đã sẵn sàng!"
+        zh-hans="新任务已就绪！"
+        zh-hant="新任務已準備好！" />
+
+    <local_notification_message_gift_ready
+        en="Come back! The gift is waiting for you!"
+        de="Komm zurück! Das Geschenk wartet auf dich!"
+        es="¡Vuelve! ¡El regalo te está esperando!"
+        fr="Venez voir ! Un cadeau vous attend !"
+        id="Ayo, kembali! Berbagai hadiah menunggumu!"
+        ja="戻って来て！プレゼントが君を待ってるよ！"
+        ko="돌아오세요! 여러분을 위한 선물이 준비되어 있습니다!"
+        pt="Volte! O presente espera por si!"
+        ru="Возвращайтесь! Вас ждёт подарок!"
+        th="กลับมาเถอะ! ของขวัญกำลังรอคุณอยู่!"
+        vi="Trở lại đi! Món quà đang chờ bạn đó!"
+        zh-hans="快回来！有礼物在等你！"
+        zh-hant="快回來！ 有禮物在等著你！" />
+
+    <menu_btn_skins_title
+        en="Worm Wardrobe"
+        de="Wurm-Garderobe"
+        es="El armario de gusanos"
+        fr="La garde-robe de Worm"
+        id="Lemari Cacing"
+        ja="ワームワードローブ"
+        ko="웜 의상"
+        pt="Guarda-roupa de minhocas"
+        ru="Червячный гардероб"
+        th="ตู้เสื้อผ้าของตัวหนอน"
+        vi="Tủ Đồ Sâu"
+        zh-hans="虫子衣橱"
+        zh-hant="蟲蟲衣櫥" />
+
+    <menu_btn_start_bigger_free
+        en="FREE"
+        de="KOSTENLOS"
+        es="GRATIS"
+        fr="GRATUIT"
+        id="GRATIS"
+        ja="無料"
+        ko="무료"
+        pt="GRÁTIS"
+        ru="БЕСПЛАТНО"
+        th="ฟรี"
+        vi="MIỄN PHÍ"
+        zh-hans="免费"
+        zh-hant="免費" />
+
+    <menu_btn_start_bigger_size
+        en="SIZE"
+        de="GRÖßE"
+        es="TAMAÑO"
+        fr="TAILLE"
+        id="UKURAN"
+        ja="サイズ"
+        ko="크기"
+        pt="TAMANHO"
+        ru="РАЗМЕР"
+        th="ขนาด"
+        vi="KÍCH THƯỚC"
+        zh-hans="大小"
+        zh-hant="大小" />
+
+    <menu_gift_hint
+        en="Next gift in {}"
+        de="Nächstes Geschenk in {}"
+        es="Siguiente regalo en {}"
+        fr="Prochain cadeau dans {}"
+        id="Hadiah berikutnya dalam {}"
+        ja="次のギフトまで {}"
+        ko="다음 선물은 {}"
+        pt="Próximo presente em {}"
+        ru="Подарок через {}"
+        th="ของขวัญถัดไปของคุณใน {}"
+        vi="Quà tặng tiếp theo sẽ có sau {}"
+        zh-hans="距离下个礼物还有 {}"
+        zh-hant="離下個禮物剩 {}" />
+
+    <menu_claim_gift_title
+        en="Open"
+        de="Öffnen"
+        es="Abierta"
+        fr="Ouvrir"
+        id="Buka"
+        ja="開く"
+        ko="열기"
+        pt="Abrir"
+        ru="Открыть"
+        th="เปิด"
+        vi="Mở"
+        zh-hans="打开"
+        zh-hant="開啟" />
+
+    <menu_ready_caption
+        en="Ready"
+        de="Bereit"
+        es="Listo"
+        fr="Prêt"
+        id="Siap"
+        ja="準備完了"
+        ko="준비된"
+        pt="Pronta"
+        ru="Готово"
+        th="พร้อม"
+        vi="Sẵn sàng"
+        zh-hans="准备"
+        zh-hant="準備" />
+
+    <menu_worm_selector_title
+        en="Choose the skin for your worm"
+        de="Wähle einen Skin für deinen Wurm"
+        es="Elige la piel para tu gusano"
+        fr="Choisissez une peau pour votre ver"
+        id="Pilih tema untuk cacingmu"
+        ja="ワームのスキンを選ぶ"
+        ko="여러분 웜의 스킨을 선택하세요"
+        pt="Escolha a pele para a sua minhoca"
+        ru="Настрой внешний вид червячка"
+        th="เลือกผิวสำหรับตัวหนอนของคุณ"
+        vi="Chọn ngoại trang cho chú sâu của bạn"
+        zh-hans="为你的虫子选择皮肤"
+        zh-hant="選擇你的蟲蟲造型" />
+
+    <mode_disabled_popup_mode_challenge
+        en="This mode will be available after 10 sessions in timed mode."
+        de="Dieser Modus ist nach 10 Sitzungen im Zeitmodus verfügbar."
+        es="Este modo estará disponible después de 10 sesiones en el modo con tiempo limitado."
+        fr="Ce mode sera disponible après 10 parties dans le mode Temps Limité."
+        id="Mode ini akan tersedia setelah 10 sesi dalam mode penghitungan waktu."
+        ja="このモードは、タイムモードで10セッション行ってから利用できます。"
+        ko="이 모드는 타임 모드에서 10 세션 후에 사용할 수 있습니다."
+        pt="Este modo estará disponível após 10 sessões em modo cronometrado."
+        ru="Этот режим будет доступен после того, как вы сыграете 10 игр в режиме с ограничением по времени."
+        th="โหมดนี้จะสามารถใช้งานได้หลังจาก 10 เซสชันในโหมดตั้งเวลา"
+        vi="Chế độ này sẽ được mở khóa sau 10 phiên chơi ở chế độ tính giờ."
+        zh-hans="该模式将在10次定时模式会话后可用。"
+        zh-hant="此模式將會在遊玩 10 場限時模式後開放。" />
+
+    <mode_disabled_popup_mode_infinity
+        en="This mode will be available after 30 sessions in timed mode."
+        de="Dieser Modus ist nach 30 Sitzungen im Zeitmodus verfügbar."
+        es="Este modo estará disponible después de 30 sesiones en el modo con tiempo limitado."
+        fr="Ce mode sera disponible après 30 parties dans le mode Temps Limité."
+        id="Mode ini akan tersedia setelah 30 sesi dalam mode penghitungan waktu."
+        ja="このモードは、タイムモードで30セッション行ってから利用できます。"
+        ko="이 모드는 타임 모드에서 30 세션 후에 사용할 수 있습니다."
+        pt="Este modo estará disponível após 30 sessões em modo cronometrado."
+        ru="Этот режим будет доступен после того, как вы сыграете 30 игр в режиме с ограничением по времени."
+        th="โหมดนี้จะสามารถใช้งานได้หลังจาก 30 เซสชันในโหมดตั้งเวลา"
+        vi="Chế độ này sẽ được mở khóa sau 30 phiên chơi ở chế độ tính giờ."
+        zh-hans="该模式将在30次定时模式会话后可用。"
+        zh-hant="此模式將會在遊玩 30 場限時模式後開放。" />
+
+    <mode_disabled_popup_mode_timed
+        en="Timed mode will be available in a few days."
+        de="Zeitmodus ist in den nächsten Tagen verfügbar."
+        es="El modo límite de tiempo estará disponible en unos días."
+        fr="Mode Temps Limité sera disponible dans quelques jours."
+        id="Mode penghitungan waktu akan tersedia dalam beberapa hari lagi."
+        ja="タイムモードはあと数日で利用できるようになります。"
+        ko="타임 모드는 며칠 후에 사용할 수 있습니다."
+        pt="O modo cronometrado estará disponível dentro de poucos dias."
+        ru="Режим с ограничением по времени будет доступен через несколько дней."
+        th="โหมดตั้งเวลาจะใช้งานได้ในอีกไม่กี่วัน"
+        vi="Chế độ tính giờ sẽ được mở khóa sau vài ngày nữa."
+        zh-hans="定时模式在几天后可用。"
+        zh-hant="限時模式將在幾天後開放。" />
+
+    <mode_disabled_popup_title
+        en="Mode unavailable"
+        de="Modus nicht verfügbar"
+        es="El modo no está disponible"
+        fr="Mode indisponible"
+        id="Mode tidak tersedia"
+        ja="このモードは利用できません"
+        ko="모드를 사용할 수 없음"
+        pt="Modo indisponível"
+        ru="Режим недоступен"
+        th="โหมดใช้งานไม่ได้"
+        vi="Chế độ bị khóa"
+        zh-hans="模式不可用"
+        zh-hant="此模式未開放" />
+
+    <offer_popup_powerups_title
+        en="With PowerUps"
+        de="Mit PowerUps"
+        es="Con PowerUps"
+        fr="Avec PowerUps"
+        id="Dengan Power-Ups"
+        ja="パワーアップあり"
+        ko="PowerUp으로"
+        pt="Com PowerUps"
+        ru="Бонусы на старте игры"
+        th="ด้วย PowerUps"
+        vi="Với PowerUps"
+        zh-hans="随着上电"
+        zh-hant="隨著上電" />
+
+    <offer_popup_skin_title
+        en="Skin"
+        de="Haut"
+        es="Piel"
+        fr="Peau"
+        id="Tema"
+        ja="肌"
+        ko="피부"
+        pt="Pele"
+        ru="Премиальный скин"
+        th="ผิว"
+        vi="Da"
+        zh-hans="皮肤"
+        zh-hant="皮膚" />
+
+    <offer_popup_title
+        en="PERSONAL OFFER"
+        de="Spezialangebot"
+        es="Oferta especial"
+        fr="Offre spéciale"
+        id="Penawaran khusus"
+        ja="特別オファー"
+        ko="특별 할인"
+        pt="Oferta especial"
+        ru="СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ"
+        th="ข้อเสนอพิเศษ"
+        vi="Ưu đãi đặc biệt"
+        zh-hans="特价"
+        zh-hant="特惠" />
+
+    <options_popup_choose_background
+        en="Choose background"
+        de="Hintergrund auswählen"
+        es="Escoge el fondo"
+        fr="Choisissez le fond"
+        id="Pilih latar belakang"
+        ja="背景を選択"
+        ko="배경을 선택하세요"
+        pt="Escolher plano de fundo"
+        ru="Выберите фон арены"
+        th="เลือกพื้นหลัง"
+        vi="Chọn hình nền"
+        zh-hans="选择背景"
+        zh-hant="選擇背景" />
+
+    <options_popup_enable_overlay
+        en="Enable overlay"
+        de="Überblenden einschalten"
+        es="Habilitar superposición"
+        fr="Activer la superposition"
+        id="Aktifkan Overlay"
+        ja="オーバーレイをオンにする"
+        ko="오버레이 사용"
+        pt="Ativar sobreposição"
+        ru="Включить оверлей"
+        th="เปิดใช้งานการวางซ้อน"
+        vi="Bật Giao Diện Chồng"
+        zh-hans="启用覆盖"
+        zh-hant="啟動覆蓋圖" />
+
+    <options_popup_fullscreen
+        en="Start in fullscreen"
+        de="Vollbildschirm"
+        es="Comience en pantalla completa"
+        fr="Commencez en plein écran"
+        id="Layar Penuh"
+        ja="フルスクリーン"
+        ko="전체 화면"
+        pt="Tela inteira"
+        ru="На полный экран"
+        th="เต็มจอ"
+        vi="Toàn Màn Hình"
+        zh-hans="全屏"
+        zh-hant="全螢幕" />
+
+    <options_popup_hud
+        en="Enable Interface"
+        de="Schnittstelle aktivieren"
+        es="Interfaz"
+        fr="Interface"
+        id="Aktifkan Antarmuka"
+        ja="インターフェースをオン"
+        ko="인터페이스 사용"
+        pt="Ativar interface"
+        ru="Включить интерфейс"
+        th="เปิดอินเตอร์เฟส"
+        vi="Bật Giao Diện"
+        zh-hans="启用界面"
+        zh-hant="啟動介面" />
+
+    <options_popup_left_control
+        en="Left-handed"
+        de="Linkshändig"
+        es="Zurdos"
+        fr="Gaucher"
+        id="Kidal"
+        ja="左利き"
+        ko="왼손잡이"
+        pt="Canhoto"
+        ru="Левша"
+        th="ถนัดมือซ้าย"
+        vi="Thuật tay trái"
+        zh-hans="左手"
+        zh-hant="左手" />
+
+    <options_popup_music
+        en="Enable Music"
+        de="Musik einschalten"
+        es="Música"
+        fr="Music"
+        id="Aktifkan Musik"
+        ja="音楽をオン"
+        ko="음악 사용"
+        pt="Ativar música"
+        ru="Включить музыку"
+        th="เปิดเพลง"
+        vi="Bật Nhạc"
+        zh-hans="启用音乐"
+        zh-hant="啟動音樂" />
+
+    <options_popup_right_control
+        en="Right-handed"
+        de="Rechtshändig"
+        es="Diestros"
+        fr="Droitier"
+        id="Kinan"
+        ja="右利き"
+        ko="오른손잡이"
+        pt="Destro"
+        ru="Правша"
+        th="ถนัดมือขวา"
+        vi="Thuận tay phải"
+        zh-hans="右手"
+        zh-hant="右手" />
+
+    <options_popup_map_left
+        en="Top-left"
+        de="Oben links"
+        es="Arriba a la izquierda"
+        fr="En haut à gauche"
+        id="Kiri atas"
+        ja="左上"
+        ko="왼쪽 상단"
+        pt="Canto superior esquerdo"
+        ru="Радар слева"
+        th="บนซ้าย"
+        vi="Trên cùng bên trái"
+        zh-hans="左上"
+        zh-hant="左上" />
+
+    <options_popup_map_right
+        en="Top-right"
+        de="Oben rechts"
+        es="Arriba a la derecha"
+        fr="En haut à droite"
+        id="Kanan atas"
+        ja="右上"
+        ko="오른쪽 상단"
+        pt="Canto superior direito"
+        ru="Радар справа"
+        th="บนขวา"
+        vi="Trên cùng bên phải"
+        zh-hans="右上"
+        zh-hant="右上" />
+
+    <options_popup_sound
+        en="Enable Sounds"
+        de="Ton einschalten"
+        es="Sonido"
+        fr="Audio"
+        id="Aktifkan Suara"
+        ja="サウンドをン"
+        ko="소리 사용"
+        pt="Ativar sons"
+        ru="Включить звуки"
+        th="เปิดเสียง"
+        vi="Bật Âm Thanh"
+        zh-hans="启用声音"
+        zh-hant="啟動聲音" />
+
+    <options_popup_tab_backgrounds
+        en="Backgrounds"
+        de="Hintergründe"
+        es="Fondos"
+        fr="Arrières plans"
+        id="Latar Belakang"
+        ja="背景"
+        ko="백그라운드"
+        pt="Fundos"
+        ru="Фоны"
+        th="พื้นหลัง"
+        vi="Nền"
+        zh-hans="背景"
+        zh-hant="背景" />
+
+    <options_popup_tab_foods
+        en="Food"
+        de="Futter"
+        es="Alimentos"
+        fr="Nourriture"
+        id="Makanan"
+        ja="食べ物"
+        ko="음식"
+        pt="Comida"
+        ru="Еда"
+        th="อาหาร"
+        vi="Thức Ăn"
+        zh-hans="食物"
+        zh-hant="食物" />
+
+    <options_popup_tab_options
+        en="Options"
+        de="Optionen"
+        es="Opciones"
+        fr="Options"
+        id="Opsi"
+        ja="オプション"
+        ko="옵션"
+        pt="Opções"
+        ru="Опции"
+        th="ตัวเลือก"
+        vi="Tùy Chọn"
+        zh-hans="选项"
+        zh-hant="選項" />
+
+    <options_popup_title
+        en="OPTIONS"
+        de="EINSTELLUNGEN"
+        es="OPCIONES"
+        fr="OPTIONS"
+        id="Pengaturan"
+        ja="設定"
+        ko="설정"
+        pt="Configurações"
+        ru="НАСТРОЙКИ"
+        th="การตั้งค่า"
+        vi="Thiết Lập"
+        zh-hans="设置"
+        zh-hant="設定" />
+
+    <pause_popup_message
+        en="Continue game?"
+        de="Weiterspielen?"
+        es="¿Continua el juego?"
+        fr="Continuer ?"
+        id="Lanjutkan game?"
+        ja="ゲームを続けますか？"
+        ko="게임을 계속하시겠습니까?"
+        pt="Continuar o jogo?"
+        ru="Продолжить игру?"
+        th="เล่นเกมต่อหรือไม่?"
+        vi="Tiếp tục ván chơi?"
+        zh-hans="继续游戏？"
+        zh-hant="繼續遊戲？" />
+
+    <pause_popup_title
+        en="Pause"
+        de="Pause"
+        es="Pausa"
+        fr="Pause"
+        id="Jeda"
+        ja="一時停止"
+        ko="중지"
+        pt="Pausar"
+        ru="Пауза"
+        th="หยุดชั่วคราว"
+        vi="Tạm dừng"
+        zh-hans="暂停"
+        zh-hant="暫停" />
+
+    <popup_place.i1
+        en="1st"
+        de="1."
+        es="1ero"
+        fr="1er"
+        id="Ke-1"
+        ja="第1位"
+        ko="1등"
+        pt="1º"
+        ru="1-е"
+        th="ที่ 1"
+        vi="Hạng 1"
+        zh-hans="1"
+        zh-hant="第一名" />
+
+    <popup_place.i10
+        en="10th"
+        de="10."
+        es="10mo"
+        fr="10ème"
+        id="Ke-10"
+        ja="第10位"
+        ko="10등"
+        pt="10º"
+        ru="10-е"
+        th="ที่ 10"
+        vi="Hạng 10"
+        zh-hans="10"
+        zh-hant="第十名" />
+
+    <popup_place.i2
+        en="2nd"
+        de="2."
+        es="2do"
+        fr="2ème"
+        id="Ke-2"
+        ja="第2位"
+        ko="2등"
+        pt="2º"
+        ru="2-е"
+        th="ที่ 2"
+        vi="Hạng 2"
+        zh-hans="2"
+        zh-hant="第二名" />
+
+    <popup_place.i3
+        en="3rd"
+        de="3."
+        es="3ero"
+        fr="3ème"
+        id="Ke-3"
+        ja="第3位"
+        ko="3등"
+        pt="3º"
+        ru="3-е"
+        th="ที่ 3"
+        vi="Hạng 3"
+        zh-hans="3"
+        zh-hant="第三名" />
+
+    <popup_place.i4
+        en="4th"
+        de="4."
+        es="4to"
+        fr="4ème"
+        id="Ke-4"
+        ja="第4位"
+        ko="4등"
+        pt="4º"
+        ru="4-е"
+        th="ที่ 4"
+        vi="Hạng 4"
+        zh-hans="4"
+        zh-hant="第四名" />
+
+    <popup_place.i5
+        en="5th"
+        de="5."
+        es="5to"
+        fr="5ème"
+        id="Ke-5"
+        ja="第5位"
+        ko="5등"
+        pt="5º"
+        ru="5-е"
+        th="ที่ 5"
+        vi="Hạng 5"
+        zh-hans="5"
+        zh-hant="第五名" />
+
+    <popup_place.i6
+        en="6th"
+        de="6."
+        es="6to"
+        fr="6ème"
+        id="Ke-6"
+        ja="第6位"
+        ko="6등"
+        pt="6º"
+        ru="6-е"
+        th="ที่ 6"
+        vi="Hạng 6"
+        zh-hans="6"
+        zh-hant="第六名" />
+
+    <popup_place.i7
+        en="7th"
+        de="7."
+        es="7mo"
+        fr="7ème"
+        id="Ke-7"
+        ja="第7位"
+        ko="7등"
+        pt="7º"
+        ru="7-е"
+        th="ที่ 7"
+        vi="Hạng 7"
+        zh-hans="7"
+        zh-hant="第七名" />
+
+    <popup_place.i8
+        en="8th"
+        de="8."
+        es="8vo"
+        fr="8ème"
+        id="Ke-8"
+        ja="第8位"
+        ko="8등"
+        pt="8º"
+        ru="8-е"
+        th="ที่ 8"
+        vi="Hạng 8"
+        zh-hans="8"
+        zh-hant="第八名" />
+
+    <popup_place.i9
+        en="9th"
+        de="9."
+        es="9no"
+        fr="9ème"
+        id="Ke-9"
+        ja="第9位"
+        ko="9등"
+        pt="9º"
+        ru="9-е"
+        th="ที่ 9"
+        vi="Hạng 9"
+        zh-hans="9"
+        zh-hant="第九名" />
+
+    <popup_placeInBoard
+        en="Place in the leaderboard"
+        de="Platz in der Bestenliste"
+        es="Posición en la tabla de clasificación"
+        fr="Votre rang:"
+        id="Posisi pada papan skor"
+        ja="リーダーボードのランク"
+        ko="순위표에 배치"
+        pt="Colocação no placar"
+        ru="Место в таблице лидеров"
+        th="ลำดับในตารางผู้นำคะแนน"
+        vi="Xếp hạng trong bảng xếp hạng"
+        zh-hans="放入排行榜"
+        zh-hant="排行榜名次" />
+
+    <popup_your_weight
+        en="Worm weight reached"
+        de="Wurmgewicht erreicht."
+        es="El peso de tu gusano fue"
+        fr="Poids du ver:"
+        id="Bobot Cacing mencapai"
+        ja="ワームの重さが到達しました"
+        ko="웜 무게에 도달하였습니다"
+        pt="Peso da minhoca alcançado"
+        ru="Твой червячок достиг массы"
+        th="น้ำหนักของตัวหนอนถึงระดับแล้ว"
+        vi="Đã đạt trọng lượng sâu"
+        zh-hans="已达到虫子重量"
+        zh-hant="蟲蟲重量達" />
+
+    <profile_changed_message
+        en="Your profile has been updated, now you can close this window."
+        de="Your profile has been updated, now you can close this window."
+        es="Su perfil ha sido actualizado, ahora puede cerrar esta ventana."
+        fr="Votre profil a été mis à jour, vous pouvez maintenant fermer cette fenêtre."
+        id="Profil Anda telah diperbarui, sekarang Anda dapat menutup jendela ini."
+        ja="プロファイルが更新されました。このウィンドウを閉じることができます。"
+        ko="프로필이 업데이트되었으므로 이제이 창을 닫을 수 있습니다."
+        pt="Your profile has been updated, now you can close this window."
+        ru="Ваш профайл был обновлен, теперь вы можете закрыть это окно."
+        th="Your profile has been updated, now you can close this window."
+        vi="Hồ sơ của bạn đã được cập nhật, bây giờ bạn có thể đóng cửa sổ này."
+        zh-hans="您的个人资料已更新，现在您可以关闭此窗口。"
+        zh-hant="您的個人資料已更新，現在您可以關閉此窗口。" />
+
+    <profile_changed_title
+        en="Hooray!"
+        de="Hooray!"
+        es="¡Hurra!"
+        fr="Hourra!"
+        id="Hore!"
+        ja="やった！"
+        ko="만세!"
+        pt="Hooray!"
+        ru="Ура!"
+        th="Hooray!"
+        vi="Hoan hô!"
+        zh-hans="万岁！"
+        zh-hant="萬歲！" />
+
+    <profile_popup_bestSurvivalTime
+        en="Best Survival Time"
+        de="Beste Überlebenszeit"
+        es="Mejor tiempo de supervivencia"
+        fr="Meilleur Temps"
+        id="Waktu Bertahan Hidup Terbaik"
+        ja="最高サバイバル時間"
+        ko="최고 생존 시간"
+        pt="Melhor Tempo de Sobrevivência"
+        ru="Лучшее время жизни"
+        th="เวลาเอาตัวรอดที่ดีที่สุด"
+        vi="Thời Gian Sống Sót Tốt Nhất"
+        zh-hans="最佳生存时间"
+        zh-hant="最長生存時間" />
+
+    <profile_popup_btn_logout_title
+        en="Logout Facebook"
+        de="Von Facebook abmelden"
+        es="Salir de Facebook"
+        fr="Déconection Facebook"
+        id="Keluar dari Facebook"
+        ja="Facebookからログアウト"
+        ko="페이스북 로그아웃"
+        pt="Fazer logout do Facebook"
+        ru="Выйти из Facebook"
+        th="ออกจากระบบ Facebook"
+        vi="Đăng xuất khỏi Facebook"
+        zh-hans="登出 Facebook"
+        zh-hant="登出 Facebook" />
+
+    <profile_popup_gamesPlayed
+        en="Games Played"
+        de="Gespielte Spiele"
+        es="Partidas jugadas"
+        fr="Nombre de partie"
+        id="Game yang Dimainkan"
+        ja="ゲームはプレイされました"
+        ko="플레이한 게임 수"
+        pt="Jogos disputados"
+        ru="Игр сыграно"
+        th="จำนวนเกมที่เล่นไป"
+        vi="Ván Chơi Đã Chơi"
+        zh-hans="已玩游戏"
+        zh-hant="已遊玩遊戲" />
+
+    <profile_popup_headShots
+        en="Headshots"
+        de="Volltreffer"
+        es="Disparos a la cabeza"
+        fr="Tirs à la tête"
+        id="Headshot"
+        ja="ヘッドショット"
+        ko="헤드샷"
+        pt="Retratos"
+        ru="Убийств в голову"
+        th="ยิงศีรษะ"
+        vi="Bắn Trúng Đầu"
+        zh-hans="爆头"
+        zh-hant="爆頭" />
+
+    <profile_popup_highScore
+        en="Best Score"
+        de="Beste Punktzahl"
+        es="Puntuación más alta"
+        fr="Meilleurs Score"
+        id="Skor Terbaik"
+        ja="ベストスコア"
+        ko="최고 점수"
+        pt="Melhor Pontuação"
+        ru="Лучший результат"
+        th="คะแนนที่ดีที่สุด"
+        vi="Điểm Số Cao Nhất"
+        zh-hans="最高分"
+        zh-hant="最高分" />
+
+    <profile_popup_kills
+        en="Kills"
+        de="Besiegte Würmer"
+        es="Muertes"
+        fr="Victimes"
+        id="Membunuh"
+        ja="キル"
+        ko="킬"
+        pt="Matou"
+        ru="Убийства"
+        th="การฆ่า"
+        vi="Mạng Tiêu Diệt"
+        zh-hans="杀戮"
+        zh-hant="擊殺" />
+
+    <profile_popup_title
+        en="PROFILE"
+        de="Profil"
+        es="Perfil"
+        fr="Profile"
+        id="Profil"
+        ja="プロフィール"
+        ko="프로필"
+        pt="Perfil"
+        ru="ПРОФИЛЬ"
+        th="โปรไฟล์"
+        vi="Hồ sơ"
+        zh-hans="简档"
+        zh-hant="個人檔案" />
+
+    <profile_popup_totalTimeSpent
+        en="Total Play Time"
+        de="Gesamte Spielzeit"
+        es="Tiempo total de juego"
+        fr="Temps total de jeu"
+        id="Total Waktu Bermain"
+        ja="合計プレイ時間"
+        ko="총 플레이 시간"
+        pt="Total de tempo de jogo"
+        ru="Общее время игры"
+        th="เวลาที่เล่นทั้งหมด"
+        vi="Tổng Thời Gian Chơi"
+        zh-hans="玩耍总时间"
+        zh-hant="總遊戲時間" />
+
+    <rateus_popup_btn_title
+        en="Rate Us"
+        de="BEWERTE UNS"
+        es="Nos califica"
+        fr="Évaluez nous"
+        id="BERI PERINGKAT"
+        ja="評価する"
+        ko="평가하기"
+        pt="Avalie-nos"
+        ru="Оцените"
+        th="ให้คะแนนเรา"
+        vi="Xếp hạng chúng tôi"
+        zh-hans="给我们打分"
+        zh-hant="提供評價" />
+
+    <rateus_popup_message
+        en="Your review will help us make our game even better!"
+        de="Dein Bewertung hilft uns, das Spiel noch besser zu machen!"
+        es="Por favor califique y díganos qué tan divertido se está divirtiendo."
+        fr="S'il vous plaît noter et nous dire combien de plaisir vous rencontrez."
+        id="Ulasanmu akan membantu kami membuat game ini menjadi lebih baik!"
+        ja="お客様のレビューはゲームの改善に役立ちます！"
+        ko="여러분의 리뷰는 저희 게임을 개선하는데 도움을 줍니다!"
+        pt="Se comentário vai nos ajudar a tornar o jogo ainda melhor!"
+        ru="Ваш отзыв поможет сделать игру еще лучше!"
+        th="ความคิดเห็นของคุณจะช่วยให้เราพัฒนาเกมของเราให้ดียิ่งขึ้น!"
+        vi="Đánh giá của bạn sẽ giúp chúng tôi làm cho trò chơi trở nên hay hơn nữa!"
+        zh-hans="你的评价会让我们的游戏变得更好！"
+        zh-hant="你的評價會幫助我們改善本遊戲！" />
+
+    <rateus_popup_title
+        en="RATE US"
+        de="BEWERTE UNS"
+        es="NOS CALIFICA"
+        fr="ÉVALUEZ NOUS"
+        id="BERI PERINGKAT"
+        ja="評価する"
+        ko="평가하기"
+        pt="AVALIE-NOS"
+        ru="ОЦЕНИТЬ"
+        th="ให้คะแนนเรา"
+        vi="XẾP HẠNG CHÚNG TÔI"
+        zh-hans="给我们打分"
+        zh-hant="提供評價" />
+
+    <sessiontimeout_popup_no_thanks
+        en="NO, THANKS"
+        de="NEIN, DANKE"
+        es="NO, GRACIAS"
+        fr="NON, MERCI"
+        id="TIDAK, TERIMA KASIH"
+        ja="結構です"
+        ko="고맙지 만 사양 할게"
+        pt="NÃO, OBRIGADO"
+        ru="НЕТ, СПАСИБО"
+        th="ไม่ล่ะ ขอบคุณ"
+        vi="KHÔNG, CẢM ƠN"
+        zh-hans="不用了，谢谢"
+        zh-hant="不用了，謝謝" />
+
+    <sessiontimeout_popup_rank
+        en="Rank"
+        de="RANG"
+        es="RANGO"
+        fr="RANG"
+        id="PANGKAT"
+        ja="ランク"
+        ko="계급"
+        pt="CLASSIFICAÇÃO"
+        ru="РАНГ"
+        th="อันดับ"
+        vi="CẤP"
+        zh-hans="秩"
+        zh-hant="秩" />
+
+    <sessiontimeout_popup_tip
+        en="Don't lose your progress"
+        es="No pierdas tu progreso"
+        de="Verliere nicht deinen Fortschritt"
+        fr="Ne perds pas ta progression"
+        id="Jangan sampai kehilangan kemajuan Anda"
+        ja="あなたの進歩を失わないでください"
+        ko="진행 상황을 잃지 마십시오"
+        pt="Não perca seu progresso"
+        ru="Не потеряй свой прогресс!"
+        th="อย่าสูญเสียความก้าวหน้าของคุณ"
+        vi="Đừng đánh mất sự tiến bộ của bạn"
+        zh-hans="不要失去进度"
+        zh-hant="不要失去進度" />
+
+    <sessiontimeout_popup_title
+        en="TIME’S UP"
+        de="Zeit ist um"
+        es="¡Tiempo!"
+        fr="Temps écoulé"
+        id="Waktu Habis"
+        ja="時間切れ"
+        ko="시간이 다 되었다"
+        pt="Terminou o tempo"
+        ru="ВРЕМЯ ВЫШЛО"
+        th="หมดเวลา"
+        vi="Hết giờ"
+        zh-hans="时间到"
+        zh-hant="時間到" />
+
+    <sessiontimeout_popup_weight
+        en="Weight"
+        de="GEWICHT"
+        es="PESO"
+        fr="POIDS"
+        id="BOBOT"
+        ja="重量"
+        ko="무게"
+        pt="PESO"
+        ru="ВЕС"
+        th="น้ำหนัก"
+        vi="CÂN NẶNG"
+        zh-hans="重量"
+        zh-hant="重量" />
+
+    <share_level
+        en="I reached level {:n} in Worms Zone game!"
+        de="Ich habe Level {:n} in Worms Zone geschafft!"
+        es="¡Tengo {:n} niveles en el juego Worms Zone!"
+        fr="J'ai {:n} niveaux dans le jeu Worms Zone!"
+        id="Aku sampai di level {:n} di Worms Zone!"
+        ja="ワームゾーンでレベル{:n}に到達した！"
+        ko="웜존 레벨 {:n}이 되었어!"
+        pt="Cheguei ao nível {:n} no Worms Zone!"
+        ru="У меня {:n} уровень в игре Worms Zone!"
+        th="ฉันมาถึงระดับ {:n} ใน Worms Zone!"
+        vi="Tôi đã đạt đến cấp {:n} trong Worms Zone!"
+        zh-hans="我在《百战天虫》中达到了 {:n} 级！"
+        zh-hant="我在《蟲蟲戰區》中達到了等級 {:n}" />
+
+    <share_message
+        en="Grow your Worm and try to beat me!&#10;#WormsZone #Slither #Snake #Game"
+        de="Züchte einen Wurm und versuche, mich zu besiegen! #WormsZone #Gleiten #Schlange #-Spiel"
+        es="¡Cultiva tu gusano e intenta vencerme! #WormsZone #Slither #Snake #Juego"
+        fr="Faites grandir votre ver et essayer de me battre ! #WormsZone #Slither #Snake #Game"
+        id="Pelihara Cacingmu dan coba kalahkan aku! #WormsZone #Slither #Snake #Game"
+        ja="自分だけのワームを育てて私に挑戦してみて！#ワームゾーン #にょろにょろ #ヘビ #ゲーム"
+        ko="웜을 키워서 나를 이겨봐! #WormsZone #Slither #Snake #Game"
+        pt="Cresça sua minhoca e tente me superar! #WormsZone #Game #Cobra #Slither"
+        ru="Вырасти своего червячка и победи меня!&#10;#WormsZone #Slither #Snake #Game"
+        th="เลี้ยงตัวหนอนของคุณและพยายามเอาชนะฉันให้ได้ #WormsZone #Slither #Snake #Game"
+        vi="Nuôi Sâu và thử đánh bại tôi xem! #WormsZone #Slither #Snake #Game"
+        zh-hans="养虫子，尝试打败我！#百战天虫#爬行#蛇#游戏"
+        zh-hant="培養你的蟲蟲並來擊敗我！#WormsZone #Slither #Snake #Game" />
+
+    <share_profile
+        en="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        de="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        es="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        fr="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        id="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        ja="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        ko="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        pt="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        ru="Ух, ты только посмотри на мои успехи в Червячной зоне.&#10;Лучший результат: {0}&#10;Лучшее время жизни: {1}&#10;Убийства: {2}&#10;Уверен, что сможешь лучше?&#10;#WormsZone #Slither #Snake #Game"
+        th="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        vi="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        zh-hans="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game"
+        zh-hant="Oh wow, check out my scores in Worms Zone.&#10;Best score: {0}&#10;Best survival time: {1}&#10;Kills: {2}&#10;You sure you can beat me?&#10;#WormsZone #Slither #Snake #Game" />
+
+    <share_rank
+        en="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        de="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        es="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        fr="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        id="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        ja="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        ko="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        pt="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        ru="Невероятно! Я заработал {0} очков и теперь я на {1} месте в Червячной Зоне! Попробуй обгони меня!&#10;#WormsZone #Slither #Snake #Game"
+        th="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        vi="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        zh-hans="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game"
+        zh-hant="So cool - I’ve earned {0} points and place {1} now in Worms Zone. Try to catch me if you can!&#10;#WormsZone #Slither #Snake #Game" />
+
+    <share_score
+        en="Nice! I grew a Big Worm and scored {:n} points. Try to beat my high score! #WormsZone #Slither #Snake #Game"
+        de="Toll! Ich habe einen riesigen Wurm gezüchtet und {:n} Punkte erzielt. Versuche, mich zu schlagen! #WormsZone #Gleiten #Schlange #Spiel"
+        es="Trata de superar mi puntuación más alta de {:n}! #WormsZone #Slither #Snake #Juego"
+        fr="Tenter de battre le meilleur score {:n} ! #WormsZone #Slither #Snake #Game"
+        id="Bagus! Aku memelihara Cacing Besar dan mendapat {:n} poin. Coba ungguli nilaiku! #WormsZone #Slither #Snake #Game"
+        ja="イエーイ！ワームを大きく育てて{:n}ポイントをゲットした。もっと高いスコアを出してみて！#ワームゾーン #にょろにょろ #ヘビ #ゲーム"
+        ko="와! 난 큰 웜을 키워서 {:n} 포인트를 얻었어. 내 고득점에 도전해봐! #WormsZone #Slither #Snake #Game"
+        pt="Legal! Eu cresci uma Minhoca Grande e marquei {:n} pontos. Tente bater meu recorde! #WormsZone #Jogo #Cobra #Minhoca"
+        ru="Ура, мне удалось вырастить большого червя и набрать {:n} очков. А ты сможешь побить мой рекорд? #WormsZone #Slither #Snake #Game"
+        th="ดีมาก! ฉันเลี้ยงหนอนตัวใหญ่และได้คะแนน {:n} คะแนน พยายามเอาชนะคะแนนสูงสุดของฉันให้ได้สิ! #WormsZone #Slither #Snake #Game"
+        vi="Đúng rồi! Tôi đã nuôi được một con Sâu To và ghi {:n} điểm. Hãy thử đánh bại mức điểm cao của tôi xem! #WormsZone #Slither #Snake #Game"
+        zh-hans="不错！我养了条大虫子，得到 {:n} 分。试试打败我的高分！#百战天虫 #爬行 #蛇 #游戏"
+        zh-hant="做得好！我養了一隻大蟲蟲並獲得了 {:n} 點分數。來嘗試打破我的高分吧！#WormsZone #Slither #Snake #Game" />
+
+    <share_title
+        en="Worms Zone"
+        de="Worms Zone"
+        es="WormsZone"
+        fr="Worms Zone"
+        id="Worms Zone"
+        ja="ワームゾーン"
+        ko="웜존"
+        pt="Worms Zone"
+        ru="Червячная зона"
+        th="Worms Zone"
+        vi="Worms Zone"
+        zh-hans="百战天虫"
+        zh-hant="《蟲蟲戰區》" />
+
+    <task_collect_coins
+        en="Collect {:n} coins"
+        de="Sammle {:n} Münzen"
+        es="Recoge {:n} monedas"
+        fr="Collecter {:n} pièces"
+        id="Kumpulkan {:n} koin"
+        ja="コインを{:n}個集める"
+        ko="{:n} 코인 수집"
+        pt="Colete {:n} moedas"
+        ru="Собери {:n} монет"
+        th="สะสม {:n} เหรียญ"
+        vi="Thu thập {:n} xu"
+        zh-hans="收集 {:n} 个金币"
+        zh-hant="收集 {:n} 個硬幣" />
+
+    <task_distance
+        en="Crawl {:n} meters"
+        de="Krieche {:n} Meter"
+        es="Trepa {:n} metros"
+        fr="Rampez sur {:n} mètres"
+        id="Merangkak {:n} meter"
+        ja="{:n}メートル移動する"
+        ko="{:n}미터 기어가기"
+        pt="Rasteja {:n} metros"
+        ru="Проползи {:n} метров"
+        th="คลาน {:n} เมตร"
+        vi="Bò {:n} mét"
+        zh-hans="爬行{:n}米"
+        zh-hant="爬行 {:n} 米" />
+
+    <task_done
+        en="Task completed!"
+        de="Aufgabe abgeschlossen!"
+        es="¡Tarea terminada!"
+        fr="Tâche terminée!"
+        id="Tugas selesai!"
+        ja="タスクをコンプリートしました！"
+        ko="임무 완료!"
+        pt="Tarefa concluída!"
+        ru="Задание выполнено!"
+        th="ภารกิจเสร็จสิ้นแล้ว!"
+        vi="Nhiệm vụ hoàn thành!"
+        zh-hans="任务完成！"
+        zh-hant="任務完成！" />
+
+    <task_eat_foods
+        en="Eat {:n} yummies"
+        de="Friss {:n} Leckereien"
+        es="Comer {:n} alimentos"
+        fr="Mangez {:n} aliments"
+        id="Makan {:n} makanan lezat"
+        ja="ごちそうを{:n}個食べる"
+        ko="{:n} 여미 먹기"
+        pt="Coma {:n} guloseimas"
+        ru="Съешь {:n} вкусняшек"
+        th="กิน {:n} ของอร่อย"
+        vi="Ăn {:n} đồ ăn"
+        zh-hans="吃 {:n} 好东西"
+        zh-hant="食用 {:n} 個食物" />
+
+    <task_failed
+        en="Task failed!"
+        de="Aufgabe fehlgeschlagen!"
+        es="¡Tarea fallida!"
+        fr="La tâche a échoué!"
+        id="Tugas gagal!"
+        ja="タスクを失敗しました！"
+        ko="임무 실패!"
+        pt="Você falhou na tarefa!"
+        ru="Задание провалено!"
+        th="ภารกิจล้มเหลว!"
+        vi="Nhiệm vụ thất bại!"
+        zh-hans="任务失败！"
+        zh-hant="任務失敗！" />
+
+    <task_get_boosters
+        en="Collect {:n} bonuses"
+        de="Sammle {:n} Boni"
+        es="Recoge {:n} bonificaciones"
+        fr="Obtenez {:n} bonus"
+        id="Kumpulkan {:n} bonus"
+        ja="ボーナスを{:n}個集める"
+        ko="{:n} 보너스 수집하기"
+        pt="Recolhe {:n} bónus"
+        ru="Собери {:n} бонусов"
+        th="สะสมโบนัส {:n} ชิ้น"
+        vi="Thu thập {:n} thưởng"
+        zh-hans="收集{:n}个奖励"
+        zh-hant="收集 {:n} 個獎勵" />
+
+    <task_kill_worms
+        en="Kill {:n} worms"
+        de="Töte {:n} Würmer"
+        es="Mata a {:n} gusanos"
+        fr="Tuer {:n} vers"
+        id="Bunuh {:n} cacing"
+        ja="ワームを{:n}匹キルする"
+        ko="{:n} 웜 킬"
+        pt="Mate {:n} minhocas"
+        ru="Убей {:n} червей"
+        th="ฆ่า {:n} ตัวหนอน"
+        vi="Tiêu diệt {:n} sâu"
+        zh-hans="杀死{:n} 条虫子"
+        zh-hant="擊殺 {:n} 隻蟲蟲" />
+
+    <task_no_room
+        en="Open chest first"
+        de="Öffne zuerst die Truhe"
+        es="Abre el cofre primero"
+        fr="Ouvrez le coffre en premier"
+        id="Buka peti terlebih dahulu"
+        ja="まずチェストを開ける"
+        ko="먼저 상자를 여세요"
+        pt="Abra o baú primeiro"
+        ru="Сначала открой сундук"
+        th="เปิดหีบสมบัติก่อน"
+        vi="Hãy mở rương trước"
+        zh-hans="先打开宝箱"
+        zh-hant="先開啟寶箱" />
+
+    <task_survive
+        en="Survive {:n} seconds"
+        de="Überlebe {:n} Sekunden"
+        es="Sobrevive {:n} segundos"
+        fr="Survivez {:n} secondes"
+        id="Bertahan hidup {:n} detik"
+        ja="{:n}秒間生き残る"
+        ko="{:n}초 생존하기"
+        pt="Sobrevive {:n} segundos"
+        ru="Выживи {:n} секунд"
+        th="รอดชีวิต {:n} วินาที"
+        vi="Sống sót {:n} giây"
+        zh-hans="生存{:n}秒"
+        zh-hant="存活 {:n} 秒" />
+
+    <task_top_players
+        en="Be in the top {:n} players"
+        de="Steige in die Top {:n} Spieler auf"
+        es="Sé el mejor de {:n} jugadores"
+        fr="Être top de {:n} joueurs"
+        id="Jadilah pemain {:n} besar"
+        ja="トップ{:n}プレイヤーになる"
+        ko="탑 {:n} 플레이어에 들기"
+        pt="Esteja entre os top {:n} jogadores"
+        ru="Попади в {:n} лучших"
+        th="เป็นผู้เล่นใน {:n} อันดับบนสุด"
+        vi="Lọt vào top {:n} người chơi"
+        zh-hans="进入前 {:n} 名玩家"
+        zh-hant="成為前 {:n} 名玩家" />
+
+    <task_weight
+        en="Reach a weight of {:n}"
+        de="Erreiche ein Gewicht von {:n}"
+        es="Alcanza un peso de {:n}"
+        fr="Atteindre un poids de {:n}"
+        id="Mencapai bobot {:n}"
+        ja="{:n}の重さに到達する"
+        ko="무게 {:n}에 도달했습니다"
+        pt="Atinja um peso de {:n}"
+        ru="Набери массу {:n}"
+        th="เพิ่มน้ำหนักเป็น {:n}"
+        vi="Đạt trọng lượng {:n}"
+        zh-hans="达到重量 {:n}"
+        zh-hant="達到重量 {:n}" />
+
+    <terms_popup_btn_accept
+        en="Accept"
+        de="Bedingungen und Bestimmungen"
+        es="Aceptar"
+        fr="Accepter"
+        id="Terima"
+        ja="同意する"
+        ko="수락"
+        pt="Aceitar"
+        ru="Согласен"
+        th="ยอมรับ"
+        vi="Đồng ý"
+        zh-hans="接受"
+        zh-hant="接受" />
+
+    <terms_popup_btn_terms
+        en="View Terms"
+        de="akzeptieren"
+        es="Mostrar Terminos"
+        fr="Afficher Conditions"
+        id="Ketentuan"
+        ja="規約"
+        ko="약관"
+        pt="Termos"
+        ru="Условия"
+        th="ข้อกำหนด"
+        vi="Điều khoản"
+        zh-hans="条款"
+        zh-hant="條款" />
+
+    <terms_popup_message
+        en="IMPORTANT! To play this game you must accept our Terms of Service. Please also read our Privacy Notice, as it explains how your data is processed, and your rights over that data as well."
+        de="WICHTIG! Akzeptiere unsere Nutzungsbedingungen und Datenschutzbestimmungen, bevor du spielst. Beachte, wie deine Daten von uns verarbeitet werden und welche Rechte du hast."
+        es="¡IMPORTANTE! Para jugar este juego debes aceptar nuestros Términos de Servicio. Lee también nuestra Política de Privacidad, ya que explica cómo se procesan tus datos y tus derechos sobre esos datos también."
+        fr="IMPORTANT ! Pour jouer à ce jeu, vous devez accepter les conditions générales d'utilisation. Lisez aussi notre notice sur la vie privée qui explique comment nous utilisons vos données ainsi que vos droits sur ces données."
+        id="PENTING! Untuk memainkan game ini, kamu harus menyetujui Ketentuan Layanan kami. Baca juga Pemberitahuan Privasi untuk mempelajari bagaimana cara datamu diproses dan hakmu atas data tersebut."
+        ja="重要です！このゲームをプレイするには当社の利用規約に同意していただく必要があります。また、プライバシーに関する通知もお読みになり、あなたのデータが処理される方法と、ご自身の権利についてもご確認ください。"
+        ko="중요 사항! 이 게임을 플레이하려면 서비스 약관을 수락해야 합니다. 귀하의 데이터 처리 방식과 이에 대한 귀하의 권리를 알아 보려면 개인 정보 보호 정책을 읽으십시오."
+        pt="IMPORTANTE! Para jogar este jogo, você deve aceitar nossos Termos de Serviço. Leia nosso Aviso de Privacidade para saber como seus dados são processados e quais são seus direitos sobre eles."
+        ru="ВАЖНО! Чтобы играть в эту игру, вы должны принять Условия использования. Также читайте наше Уведомление о конфиденциальности, так как оно объясняет, как обрабатываются ваши данные, а также ваши права на эти данные."
+        th="สิ่งสำคัญ! ในการเล่นเกมนี้ คุณต้องยอมรับข้อกำหนดในการให้บริการของเรา โปรดอ่านประกาศความเป็นส่วนตัวของเราเพื่อเรียนรู้เกี่ยวกับวิธีการประมวลผลข้อมูลของคุณและสิทธิต่าง ๆ ของคุณ"
+        vi="QUAN TRỌNG! Để chơi trò này bạn phải đồng ý với Điều khoản Dịch vụ của chúng tôi. Ngoài ra, vui lòng đọc Thông báo Bảo mật của chúng tôi để biết dữ liệu của bạn được xử lý như thế nào cũng như quyền của bạn đối với những dữ liệu đó."
+        zh-hans="重要事项！要玩此游戏必须接受我们的《服务条款》。也请阅读我们的《隐私通知》了解如何处理你的数据以及你对它们的权利。"
+        zh-hant="注意！要遊玩本遊戲，你必須接受我們的服務條款。慶閱讀我們的隱私權通知來瞭解我們將如何處理你的數據與你的隱私權。" />
+
+    <terms_popup_message_yandex
+        en="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        de="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        es="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        fr="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        id="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        ja="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        ko="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        pt="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        ru="Играй в событие с 28 декабря 2020 по 10 января 2021, получи за этот период больше всех очков и стань обладателем Яндекс.Станции Мини!"
+        th="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        vi="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        zh-hans="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!"
+        zh-hant="Join our special Event from 28th of December 2020 to 10th of January 2021, gain as much points as you can and win Yandex.Station Mini!" />
+
+    <terms_popup_title
+        en="Terms of Service and Privacy"
+        de="Nutzungsbedingungen und Datenschutzbestimmungen"
+        es="Terminos de Servicio y Política de Privacidad"
+        fr="Conditions générales d'utilisation"
+        id="Ketentuan Layanan dan Privasi"
+        ja="利用規約"
+        ko="서비스 및 개인정보 보호 약관"
+        pt="Termos de serviço e privacidade"
+        ru="Условия использования и конфиденциальность"
+        th="ข้อกำหนดในการให้บริการและความเป็นส่วนตัว"
+        vi="Điều khoản Dịch vụ và Bảo mật"
+        zh-hans="服务条款和隐私"
+        zh-hant="服務與隱私條款" />
+
+    <gift_popup_title
+        en="GIFT"
+        de="GESCHENK"
+        es="REGALO"
+        fr="CADEAU"
+        id="HADIAH"
+        ja="プレゼント"
+        ko="선물"
+        pt="PRESENTE"
+        ru="ПОДАРОК"
+        th="ของขวัญ"
+        vi="QUÀ TẶNG"
+        zh-hans="礼物"
+        zh-hant="禮物" />
+
+    <reward_popup_title
+        en="REWARD"
+        de="BELOHNUNG"
+        es="RECOMPENSA"
+        fr="RÉCOMPENSE"
+        id="HADIAH"
+        ja="報酬"
+        ko="리워드"
+        pt="RECOMPENSA"
+        ru="НАГРАДА"
+        th="รางวัล"
+        vi="PHẦN THƯỞNG"
+        zh-hans="奖励"
+        zh-hant="獎勵" />
+
+    <treasure_popup_btn_claim_title
+        en="Open"
+        de="Öffnen"
+        es="Abierta"
+        fr="Ouvrir"
+        id="Buka"
+        ja="開く"
+        ko="열기"
+        pt="Abrir"
+        ru="Открыть"
+        th="เปิด"
+        vi="Mở"
+        zh-hans="打开"
+        zh-hant="開啟" />
+
+    <treasure_popup_btn_double_title
+        en="Double"
+        de="Doppel"
+        es="Doble"
+        fr="Double"
+        id="Ganda"
+        ja="ダブル"
+        ko="더블"
+        pt="Dobro"
+        ru="Удвоить"
+        th="ดับเบิ้ล"
+        vi="Nhân đôi"
+        zh-hans="加倍"
+        zh-hant="雙倍" />
+
+    <treasure_popup_btn_unlock_title
+        en="Unlock"
+        de="Freischalten"
+        es="Desbloquear"
+        fr="Ouvrir"
+        id="Buka kunci"
+        ja="アンロック"
+        ko="해제"
+        pt="Desbloquear"
+        ru="Вскрыть"
+        th="ปลดล็อก"
+        vi="Mở khóa"
+        zh-hans="解锁"
+        zh-hant="解鎖" />
+
+    <treasure_popup_chest_locked
+        en="The chest will open in  {}, but you can open it now by watching the video!"
+        de="Die Truhe öffnet sich in {}, aber du kannst sie sofort öffnen, wenn du dir  das Video anschaust!"
+        es="El cofre se abrirá en {}, ¡pero puedes ver un video para abrirlo ahora!"
+        fr="Le coffre s'ouvrira dans {} mais vous pouvez l'ouvrir tout de suite en regardant la vidéo !"
+        id="Peti akan terbuka pada {}, tapi kamu bisa membukanya sekarang jika menonton video!"
+        ja="宝箱は {} で開きますが、ビデオを見れば今すぐ開けられま!"
+        ko="상자가 {} 후 열리지만 동영상을 보면 지금 열 수 있습니다!"
+        pt="O baú será aberto em {}, mas você pode abri-lo agora assistindo ao vídeo!"
+        ru="Сундук откроется через {}, но вы можете вскрыть его сейчас, посмотрев видеоролик!"
+        th="หีบจะเปิดใน {} แต่คุณสามารถเปิดตอนนี้ได้ โดยการรับชมวิดีโอ!"
+        vi="Rương sẽ mở sau {}, nhưng bạn có thể mở nó bây giờ bằng cách xem đoạn video này!"
+        zh-hans="宝箱将在 {} 后打开，但是您现在可以通过观看视频将其打开!"
+        zh-hant="寶箱將在 {} 後打開，但是您現在可以透過觀看視訊將其打開!" />
+
+    <treasure_popup_double_reward
+        en="Want to double your reward?"
+        de="Möchtest du deine Belohnung verdoppeln?"
+        es="¿Quieres duplicar tu recompensa?"
+        fr="Voulez-vous doubler votre récompense?"
+        id="Ingin menggandakan hadiahmu?"
+        ja="報酬をダブルにしたいですか？"
+        ko="보상을 두 배로 받기를 원하십니까?"
+        pt="Quer dobrar a recompensa?"
+        ru="Хотите удвоить награду?"
+        th="คุณต้องการเพิ่มรางวัลของคุณเป็นสองเท่าหรือไม่?"
+        vi="Bạn có muốn nhân đôi phần thưởng không?"
+        zh-hans="想要加倍奖励吗？"
+        zh-hant="你想要雙倍獎勵嗎？" />
+
+    <treasure_popup_get_reward_now
+        en="Open the chest and get your free reward."
+        de="Öffne deine Truhe und erhalte deinen kostenlosen Preis."
+        es="Abre el cofre y obtén una recompensa gratis."
+        fr="Ouvrez le coffre et obtenez une récompense gratuite."
+        id="Buka peti dan dapatkan hadiah gratismu."
+        ja="チェストを開けて無料の賞品をゲットしよう。"
+        ko="상자를 열어 무료 상품 획득하기"
+        pt="Abra o baú e receba o seu prêmio grátis."
+        ru="Откройте сундук и получите бесплатный приз."
+        th="เปิดหีบสมบัติแลัรับรางวัลฟรีของคุณ"
+        vi="Hãy mở rương và nhận giải thưởng miễn phí của bạn."
+        zh-hans="打开宝箱，获取免费奖品。"
+        zh-hant="開啟寶箱並領取你的免費獎品。" />
+
+    <treasure_popup_your_reward
+        en="You got a reward of {:n} coins!"
+        de="Du erhältst {:n} Münzen zur Belohnung!"
+        es="¡Tienes una recompensa de {:n} monedas!"
+        fr="Vous avez une récompense de {:n} pièces!"
+        id="Kamu mendapatkan hadiah sebanyak {:n} koin!"
+        ja="報酬として{:n}コインをゲットしました！"
+        ko="보상으로 {:n} 코인을 획득했습니다!"
+        pt="Você ganhou uma recompensa de {:n} moedas!"
+        ru="Вы получили награду {:n} монет!"
+        th="คุณได้รับรางวัล {:n} เหรียญ!"
+        vi="Bạn nhận được phần thưởng {:n} xu!"
+        zh-hans="你获得奖励 {:n} 金币！"
+        zh-hant="你獲得 {:n} 硬幣獎勵！" />
+
+    <valentine_popup_title
+        en="Worms Valentine’s Zone"
+        es="San Valentín de Worms Zone"
+        de="Wurms Valentinsbereich"
+        fr="Zone Saint-Valentin de Worms"
+        id="Zona Valentine Worms"
+        ja="ワームバレンタインゾーン"
+        ko="웜스 발렌타인 존"
+        pt="Zona Worms de São Valentim"
+        ru="Червячная Зона Валентинок"
+        th="Zone ของ Worms วาเลนไทน์"
+        vi="Vùng Valentine Sâu"
+        zh-hans="蠕虫情人节专区"
+        zh-hant="蠕蟲情人節專區" />
+
+    <wardrobe_popup_btn_use
+        en="Use"
+        de="Verwenden"
+        es="Usar"
+        fr="Utiliser"
+        id="Gunakan"
+        ja="使う"
+        ko="사용"
+        pt="Usar"
+        ru="Взять"
+        th="การใช้งาน"
+        vi="Sử dụng"
+        zh-hans="使用"
+        zh-hant="使用" />
+
+    <wardrobe_popup_perk_hint_magnet
+        en="Magnet. Attracts all the nearest food on your way."
+        de="Magnet. Zieht das Essen in deiner Nähe an."
+        es="Imán. Atrae toda la comida que encuentres por el camino."
+        fr="Aimant. Attire la nourriture la plus proche sur votre chemin."
+        id="Magnet. Menarik semua makanan terdekat di jalanmu."
+        ja="マグネット - 付近の食料をこちらに引き寄せる。"
+        ko="자석. 주변에 있는 모든 음식을 끌어당깁니다."
+        pt="Íman: atrai a comida mais próxima na tua direção."
+        ru="Магнит - притягивает всю ближайшую еду на твоём пути."
+        th="แม่เหล็ก ดึงดูดอาหารทั้งหมดที่อยู่ใกล้เคียงในระหว่างทาง"
+        vi="Nam Châm. Hút tất cả các thức ăn gần nhất trên đường đi của bạn."
+        zh-hans="磁铁。将附近所有食物吸引到你身边。"
+        zh-hant="磁鐵。將附近所有食物吸引到你身邊。" />
+
+    <wardrobe_popup_perk_hint_multiply
+        en="Multiplier. Increases all your points by 5 times."
+        de="Multiplikator. Erhöht deine Punkte um das 5-fache."
+        es="Multiplicador. Aumenta por 5 tus puntos."
+        fr="Multiplicateur. Multiplie tous vos points par 5."
+        id="Penambah. Meningkatkan semua poinmu sebanyak 5 kali lipat."
+        ja="マルチプレイヤー - すべての獲得ポイントを5倍にする。"
+        ko="멀티플라이어. 획득하는 포인트가 5배로 증가합니다."
+        pt="Multiplicador: multiplica todos os teus pontos por 5."
+        ru="Умножитель - увеличивает все твои очки в 5 раз."
+        th="ตัวคูณ เพิ่มคะแนนทั้งหมดของคุณ 5 เท่า"
+        vi="Hệ Số. Tăng tất cả điểm của bạn lên 5 lần."
+        zh-hans="乘法器。提升你的所有得分5次"
+        zh-hant="乘法器。提升你的所有得分 5 次。" />
+
+    <wardrobe_popup_perk_hint_radar
+        en="Radar. Place of enemy's death, there's a lot of food."
+        de="Radar. Zeigt an, wo der Gegner gestorben ist. Dort wird es viel zu essen geben."
+        es="Radar. Lugar de la baja enemiga, hay un montón de comida."
+        fr="Radar. Beaucoup de nourriture là où un ennemi est mort."
+        id="Radar. Tempat kematian musuh, ada banyak makanan."
+        ja="レーダー - 敵が死んだ位置を表示する。食料が大量に見つかる。"
+        ko="레이더. 적의 사망 위치를 추적합니다. 사망 위치엔 음식이 많죠."
+        pt="Radar: local onde o inimigo morreu. Tem lá muita comida."
+        ru="Радар - место гибели противника, там много еды."
+        th="เรดาร์ ตำแหน่งที่ศัตรูตาย มีอาหารมากมาย"
+        vi="Radar. Nơi chết của kẻ thù, có rất nhiều thức ăn."
+        zh-hans="雷达。敌人死去的地点，那里有很多食物。"
+        zh-hant="雷達。敵人死去的地點，那裡有很多食物。" />
+
+    <wardrobe_popup_perk_hint_speedup
+        en="Speed. Increases movement rate of your worm."
+        de="Speed. Erhöht die Bewegungsrate deines Wurms."
+        es="Velocidad. Aumenta la velocidad de movimiento de tu gusano."
+        fr="Vitesse. Accélère les déplacements de votre ver."
+        id="Kecepatan. Meningkatkan kecepatan gerak cacingmu."
+        ja="スピード - ワームの移動速度を増加させる。"
+        ko="스피드. 웜의 이동 속도가 증가합니다."
+        pt="Velocidade: aumenta a velocidade de movimento da tua minhoca."
+        ru="Скорость - увеличивает скорость перемещения твоего червяка."
+        th="ความเร็ว เพิ่มความเร็วการเคลื่อนที่ของหนอน"
+        vi="Tốc Độ. Tăng tốc độ di chuyển cho sâu của bạn."
+        zh-hans="加速。增加你的虫子的移动速度。"
+        zh-hant="加速。增加你的蟲子的移動速度。" />
+
+    <wardrobe_popup_perk_hint_turn
+        en="Maneuverability. Allows dodging your enemy."
+        de="Beweglichkeit. Weiche deinem Gegner aus."
+        es="Maniobrabilidad. Te permite esquivar al enemigo."
+        fr="Maniabilité. Permet d'esquiver votre ennemi."
+        id="Kemampuan manuver. Memungkinkan menghindari musuhmu."
+        ja="操縦性 - 敵を回避できるようになる。"
+        ko="기동성. 적을 회피할 수 있습니다."
+        pt="Agilidade: permite-te esquivar do inimigo."
+        ru="Маневренность - позволяет уворачиваться от противника."
+        th="ความสามารถในการควบคุม ทำให้หลบศัตรูได้คล่องขึ้น"
+        vi="Khả Năng Cơ Động. Cho phép né tránh kẻ thù."
+        zh-hans="机动性。让你可以躲过敌人。"
+        zh-hant="機動性。讓你可以躲過敵人。" />
+
+    <wardrobe_popup_perk_hint_zoom
+        en="View. Increases the arena's field of view and the amount of yummies on it."
+        de="Sicht. Erhöht das Sichtfeld der Arena und die angezeigte Menge an Leckerlis."
+        es="Visión. Aumenta la vista de la arena y el número de delicias."
+        fr="Champ de vision étendu. Augmente le champ de vision de l'arène et le nombre de yummies qui s'y trouvent."
+        id="Pemandangan. Meningkatkan bidang pandang arena dan jumlah makanan lezat di atasnya."
+        ja="ビュー - アリーナでの視界を広げ食料を多く発見できる。"
+        ko="뷰. 경기장의 시야와 맛의 양이 증가합니다."
+        pt="Visão: aumenta o campo de visão da arena, bem como a quantidade de gulodices."
+        ru="Обзор - увеличивает обзор арены и вкусняшек на ней."
+        th="มุมมอง ทำให้มองเห็นสนามต่อสู้ได้กว้างขึ้น จึงเห็นของอร่อยได้มากขึ้น"
+        vi="Tầm Nhìn. Tăng trường nhìn của đấu trường và số lượng đồ ăn trên đó."
+        zh-hans="视图。增加竞技场的地面视图和上面的好东西。"
+        zh-hant="視圖。增加競技場的地面視圖和上面的好東西。" />
+
+    <wardrobe_popup_tab_builder
+        en="Customize"
+        de="Einstellungen"
+        es="Personalizar"
+        fr="Personaliser"
+        id="Pengaturan"
+        ja="設定"
+        ko="설정"
+        pt="Configurações"
+        ru="Настройка"
+        th="การตั้งค่า"
+        vi="Thiết Lập"
+        zh-hans="设置"
+        zh-hant="設定" />
+
+    <wardrobe_popup_tab_faces
+        en="Faces"
+        de="Gesichter"
+        es="Rostros"
+        fr="Visages"
+        id="Wajah"
+        ja="顔"
+        ko="얼굴"
+        pt="Rostos"
+        ru="Мордочки"
+        th="หน้า"
+        vi="Mặt"
+        zh-hans="脸"
+        zh-hant="臉龐" />
+
+    <wardrobe_popup_tab_selector
+        en="Skins"
+        de="Skins"
+        es="Skins"
+        fr="Habillage"
+        id="Tema"
+        ja="スキン"
+        ko="스킨"
+        pt="Peles"
+        ru="Наряды"
+        th="ผิว"
+        vi="Ngoại Trang"
+        zh-hans="皮肤"
+        zh-hant="造型" />
+
+    <wardrobe_popup_title
+        en="Wardrobe"
+        de="Garderobe"
+        es="Vestidor"
+        fr="Cabine d'essayage"
+        id="Lemari"
+        ja="ワードローブ"
+        ko="의상"
+        pt="Guarda-roupa"
+        ru="Гардероб"
+        th="ตู้เสื้อผ้า"
+        vi="Tủ Đồ"
+        zh-hans="衣橱"
+        zh-hant="衣櫥" />
+
+    <wardrobe_popup_txt_builder
+        en="Choose your worm's color from the palette above. You can use any number of colors at the same time."
+        de="Wähle oben in der Palette die Wurmfarbe aus. Du kannst so viele Farben auswählen, wie du möchtest."
+        es="Elije el color deseado para tu gusano en la paleta de arriba. Puede usar cualquier cantidad de colores al mismo tiempo."
+        fr="Choisir la couleur du ver à l'aide de la palette ci-dessus. Vous pouvez choisir plusieurs couleurs simultanément."
+        id="Pilih warna cacingmu dari palet di atas. Kamu bisa menggunakan beberapa warna bersamaan."
+        ja="上のパレットからワームの色を選びます。一度に何色でも使用できます。"
+        ko="위의 팔레트에서 여러분 웜의 색상을 선택하세요. 어떤 색상이라도 동시에 사용할 수 있습니다."
+        pt="Escolha a cor da minhoca da paleta acima. Você pode usar quantas cores quiser ao mesmo tempo."
+        ru="Выберите желаемый цвет вашего червя из палитры сверху. Можно выбрать любое количество цветов одновременно."
+        th="เลือกสีตัวหนอนของคุณจากจานสีด้านบน คุณสามารถใช้สีจำนวนเท่าใดก็ได้ในเวลาเดียวกัน"
+        vi="Chọn màu cho chú sâu của bạn từ bảng màu bên trên. Bạn có thể sử dụng cùng lúc số lượng màu bất kỳ."
+        zh-hans="从上面的调色板中选择虫子的颜色。你可以同时使用任何数量的颜色。"
+        zh-hant="從上方調色盤中選擇你的蟲蟲的顏色，你可以同時使用無限種顏色。" />
+
+    <wardrobe_popup_txt_faces
+        en="Choose your worm's face."
+        de="Wähle dein Wurmgesicht."
+        es="Elije el rostro de gusano deseado."
+        fr="Choisir la tête du ver."
+        id="Pilih wajah cacingmu."
+        ja="ワームの顔を選択します。"
+        ko="여러분 웜의 얼굴을 선택하세요."
+        pt="Escolha o rosto da sua minhoca."
+        ru="Выберите желаемую мордочку для вашего червячка."
+        th="เลือกหน้าของตัวหนอนคุณ"
+        vi="Chọn gương mặt cho chú sâu của bạn."
+        zh-hans="选择虫子的脸。"
+        zh-hant="選擇蟲蟲的臉龐。" />
+
+    <wardrobe_popup_txt_level
+        en="Required level: {}"
+        de="Erforderliches Level: {}"
+        es="Nivel requerido es {}"
+        fr="Nécessite le niveau {}"
+        id="Level yang diperlukan: {}"
+        ja="必要なレベル: {}"
+        ko="필요 레벨: {}"
+        pt="Nível exigido: {}"
+        ru="Требуется уровень {}"
+        th="ระดับที่ต้องการ: {}"
+        vi="Cấp yêu cầu: {}"
+        zh-hans="所需级别: {}"
+        zh-hant="等級需求：{}" />
+
+    <wardrobe_popup_txt_selector
+        en="This is where you can choose an outfit for your worm. Use the buttons to the left and right of the worm to change its outfit. Confirm your choice with the button below."
+        de="Hier kannst du ein Outfit für deinen Wurm auswählen. Ändere mit den Schaltflächen links und rechts vom Wurm das Outfit. Bestätige die Auswahl mit der Schaltfläche unten."
+        es="Aquí puedes elegir un atuendo apropiado para tu gusano. Usa los botones a la izquierda y a la derecha del gusano para cambiar el conjunto. Confirma tu elección con el botón de abajo."
+        fr="Choisissez l'habillage de votre ver. Utilisez les bouttons à la droite et gauche du ver. Confirmer avec le bouton Utiliser."
+        id="Di sini kamu dapat memilih pakaian cacingmu. Gunakan tombol di sebelah kiri dan kanan cacing untuk mengganti pakaiannya. Konfirmasi pilihan dengan tombol di bawah."
+        ja="ここでは、自分のワームの洋服を選べる。左右ボタンを使って洋服を変えます。下のボタンで選んだアイテムを確認します。"
+        ko="웜을 위한 의상을 선택할 수 있습니다. 의상을 바꾸려면 웜 좌우의 버튼을 사용하세요. 아래 버튼으로 선택 사항을 확인하세요."
+        pt="Este é o lugar onde você pode escolher uma roupa para a sua minhoca. Use os botões à esquerda e à direita da minhoca para mudar sua roupa. Confirme sua escolha com o botão abaixo."
+        ru="Тут вы можете подобрать подходящий для вашего червя наряд. Используйте кнопки слева и справа от червя, что бы сменить наряд. Подтвердите выбор кнопкой внизу."
+        th="ที่นี่คุณสามารถเลือกชุดสำหรับตัวหนอนของคุณได้ ใช้ปุ่มทางด้านซ้ายและขวาของตัวหนอนเพื่อเปลี่ยนชุด ยืนยันการเลือกของคุณด้วยปุ่มด้านล่าง"
+        vi="Đây là nơi bạn chọn trang phục cho chú sâu của mình. Sử dụng các nút bên trái và bên phải chú sâu để thay đổi trang phục. Xác nhận lựa chọn bằng nút bên dưới."
+        zh-hans="你可以在这里为虫子选择装束。用虫子旁边的左右按钮改变装束。用下面的按钮确认选择。"
+        zh-hant="你可以在這裡為你的蟲蟲挑選服裝。使用蟲蟲身旁的左右按鈕來更換服裝。使用下方案扭來確認你的選項。" />
+
+    <wrongorientation_popup_message
+        en="Wrong screen orientation. Rotate device to Landscape mode for the best experience."
+        de="Falsche Bildschirmausrichtung. Verwende deine Gerät im Querformat für das beste Spielerlebnis."
+        es="Orientación incorrecta de la pantalla. Gira el dispositivo de forma horizontal para una mejor experiencia."
+        fr="Mauvaise orientation de l'écran. Pivoter votre appareil en mode paysage pour une meilleure expérience."
+        id="Orientasi layar salah. Ubah perangkatmu ke mode lanskap untuk mendapatkan pengalaman terbaik."
+        ja="画面の向きが正しくありません。デバイスを水平モードにして最適の体験をお楽しみください。"
+        ko="잘못된 화면 방향. 최상의 경험을 위해서는 장치를 가로 모드로 변경하세요."
+        pt="Orientação incorreta da tela. Mude o dispositivo para o modo paisagem para obter a melhor experiência."
+        ru="Неправильная ориентация экрана. Поверните устройство в ландшафтный режим."
+        th="การวางแนวหน้าจอไม่ถูกต้อง เปลี่ยนอุปกรณ์ของคุณให้เป็นโหมดแนวนอนเพื่อประสบการณ์การใช้งานที่ดีที่สุด"
+        vi="Định hướng màn hình không đúng. Thay đổi thiết bị của bạn qua chế độ toàn cảnh để có trải nghiệp tốt nhất."
+        zh-hans="屏幕方向不正确。请将设备改为横向模式以获得最佳体验。"
+        zh-hant="螢幕格式錯誤。請將裝置改為垂直模式來獲得最佳體驗。" />
+
+    <wrongorientation_popup_title
+        en="Warning"
+        de="Achtung"
+        es="Advertencia"
+        fr="Attention"
+        id="Peringatan"
+        ja="警告"
+        ko="주의"
+        pt="Aviso"
+        ru="Внимание"
+        th="คำเตือน"
+        vi="Cảnh báo"
+        zh-hans="警告"
+        zh-hant="警告" />
+
+    <yandex_btn_login_title
+        en="Continue with Yandex"
+        de="Weiter mit Yandex"
+        es="Continua con Yandex"
+        fr="Continuer avec Yandex"
+        id="Lanjutkan menggunakan Yandex"
+        ja="Yandexアカウントで続ける"
+        ko="Yandex로 계속하기"
+        pt="Continue com Yandex"
+        ru="Войти в Yandex"
+        th="ดำเนินการต่อด้วย Yandex"
+        vi="Tiếp tục với Yandex"
+        zh-hans="继续使用 Yandex"
+        zh-hant="使用 Yandex 繼續" />
+
+    <yandex_popup_message
+        en="Get in Top-3 and win Yandex.Station Mini!"
+        de="Get in Top-3 and win Yandex.Station Mini!"
+        es="Get in Top-3 and win Yandex.Station Mini!"
+        fr="Get in Top-3 and win Yandex.Station Mini!"
+        id="Get in Top-3 and win Yandex.Station Mini!"
+        ja="Get in Top-3 and win Yandex.Station Mini!"
+        ko="Get in Top-3 and win Yandex.Station Mini!"
+        pt="Get in Top-3 and win Yandex.Station Mini!"
+        ru="Попади в Топ-3 и получи Яндекс.Станцию мини!"
+        th="Get in Top-3 and win Yandex.Station Mini!"
+        vi="Get in Top-3 and win Yandex.Station Mini!"
+        zh-hans="Get in Top-3 and win Yandex.Station Mini!"
+        zh-hant="Get in Top-3 and win Yandex.Station Mini!" />
+
+    <yandex_popup_rules
+        en="Points are summed up during the entire period of the competition"
+        de="Points are summed up during the entire period of the competition"
+        es="Points are summed up during the entire period of the competition"
+        fr="Points are summed up during the entire period of the competition"
+        id="Points are summed up during the entire period of the competition"
+        ja="Points are summed up during the entire period of the competition"
+        ko="Points are summed up during the entire period of the competition"
+        pt="Points are summed up during the entire period of the competition"
+        ru="Очки считаются суммарно за весь период проведения конкурса"
+        th="Points are summed up during the entire period of the competition"
+        vi="Points are summed up during the entire period of the competition"
+        zh-hans="Points are summed up during the entire period of the competition"
+        zh-hant="Points are summed up during the entire period of the competition" />
+
+    <yandex_popup_title
+        en="Yandex.Event"
+        de="Yandex.Event"
+        es="Yandex.Event"
+        fr="Yandex.Event"
+        id="Yandex.Event"
+        ja="Yandex.Event"
+        ko="Yandex.Event"
+        pt="Yandex.Event"
+        ru="Яндекс.Событие"
+        th="Yandex.Event"
+        vi="Yandex.Event"
+        zh-hans="Yandex.Event"
+        zh-hant="Yandex.Event" />
+
+    <yandex_terms
+        en="Terms of competition:"
+        de="Terms of competition:"
+        es="Terms of competition:"
+        fr="Terms of competition:"
+        id="Terms of competition:"
+        ja="Terms of competition:"
+        ko="Terms of competition:"
+        pt="Terms of competition:"
+        ru="Условия проведения конкурса:"
+        th="Terms of competition:"
+        vi="Terms of competition:"
+        zh-hans="Terms of competition:"
+        zh-hant="Terms of competition:" />
+
+    <happy_patricks_day
+        en="Happy St.Patrick's Day"
+        de="Fröhlichen St.Patrick's Day"
+        es="Feliz dia de San Patricio"
+        fr="Joyeuse Saint Patrick"
+        id="Selamat Hari St. Patrick"
+        ja="ハッピーセント・パトリックス・デー"
+        ko="해피 세인트 패트릭 데이"
+        pt="Feliz Dia de St. Patrick"
+        ru="С Днем святого Патрика!"
+        th="สุขสันต์วันเซนต์แพทริก"
+        vi="Mừng ngày Thánh Patrick"
+        zh-hans="圣帕特里克节快乐"
+        zh-hant="聖派翠克節快樂" />
+
+    <control_mode_changed_popup_message
+        en="We have changed the controls. Please select suitable controls for yourself in the settings."
+        de="Wir haben die Steuerung geändert, bitte wähle die passende Steuerung für dich in den Einstellungen aus."
+        es="Hemos cambiado el control, selecciona el control adecuado para ti en los ajustes."
+        fr="Nous avons changé les commandes ; veuillez sélectionner dans les paramètres le système de contrôle qui vous convient."
+        id="Kami telah mengganti kontrol standar, silakan pilih sendiri kontrol yang cocok untuk Anda di pengaturan."
+        ja="コントロールを変更しましたので、設定でご自分に合ったコントロールを選択してください。"
+        ko="컨트롤을 변경했습니다. 설정에서 본인에게 적합한 컨트롤을 선택하세요."
+        pt="Alterámos o controlo; selecione o controlo mais adequado à sua situação nas definições."
+        ru="Мы изменили управление, выберите подходящий для себя вариант в настройках."
+        th="เราได้เปลี่ยนการควบคุมแล้ว กรุณาเลือกการควบคุมที่เหมาะสมสำหรับตัวคุณเอง ในการตั้งค่า"
+        vi="Chúng tôi đã thay đổi chế độ điều khiển, hãy chọn chế độ phù hợp cho bạn trong phần cài đặt."
+        zh-hans="我们已经更改了操控，请在设置中选择适合你的操控。"
+        zh-hant="我們已更改了控制項，請在設定中為自己選擇合適的控制項。" />
+
+    <local_notification_message_open_piggybank
+        en="Please come back! The piggy bank will disappear soon!"
+        de="Komm zurück! Das Sparschwein verschwindet bald!"
+        es="¡Vuelve! ¡La hucha desaparecerá pronto!"
+        fr="Revenez ! La tirelire va bientôt disparaître!"
+        id="Kembalilah! Celengan akan segera menghilang!"
+        ja="戻って来てください！貯金箱はもうすぐ消えてしまいます！"
+        ko="돌아오세요! 저금통이 곧 사라집니다!"
+        pt="Volte! O mealheiro vai desaparecer em breve!"
+        ru="Возвращайтесь! Копилка скоро изчезнет!"
+        th="กลับมาเถอะ! กระปุกออมสินจะหายไปเร็ว ๆ นี้แล้วนะ!"
+        vi="Trở lại đi! Heo đất sẽ sớm biến mất đó!"
+        zh-hans="快回来！存钱罐就要消失了！"
+        zh-hant="快回來！ 存錢罐即將消失！" />
+
+    <piggybank_popup_title
+        en="Piggy Bank"
+        de="Sparschwein"
+        es="Hucha"
+        fr="Tirelire"
+        id="Celengan"
+        ja="貯金箱"
+        ko="돼지 저금통"
+        pt="Piggy Bank"
+        ru="КОПИЛКА"
+        th="กระปุกหมูออมสิน"
+        vi="Heo đất"
+        zh-hans="存钱罐"
+        zh-hant="儲錢罐" />
+
+    <piggybank_popup_description
+        en="Fight battles and save your bonus coins in the Piggy Bank!"
+        de="Führe Kämpfe und sammle deine Bonusmünzen im Sparschwein!"
+        es="¡Lucha en batallas y guarda tus monedas de bonificación en la hucha!"
+        fr="Combattez et enregistrez vos pièces bonus dans la tirelire !"
+        id="Bertarunglah dan simpan koin bonus Anda di dalam Celengan!"
+        ja="バトルを戦って、貯金箱にボーナスコインを保存してください！"
+        ko="전투에서 싸우고 돼지 저금통에 보너스 코인을 저장하세요!"
+        pt="Trave batalhas e guarde as suas moedas de bónus no Piggy Bank!"
+        ru="Сражайся в боях и откладывай бонусные монеты в копилку!"
+        th="ต่อสู้และเก็บเหรียญโบนัสของคุณไว้ในกระปุกหมูออมสิน!"
+        vi="Đánh trận và tiết kiệm xu thưởng cho Heo đất!"
+        zh-hans="进行战斗并把你的奖励金币存入存钱罐！"
+        zh-hant="進行戰鬥並在小豬銀行中儲蓄您的獎勵金幣！" />
+
+    <piggybank_popup_open_for
+        en="Open for"
+        de="Öffnen für"
+        es="Abrir por"
+        fr="Ouvrir pour"
+        id="Buka dengan"
+        ja="次のために開く："
+        ko="열기:"
+        pt="Abrir para"
+        ru="Открыть за"
+        th="เปิดสำหรับ"
+        vi="Mở cho"
+        zh-hans="打开"
+        zh-hant="公開" />
+
+    <piggybank_info_popup_select_game_mode
+        en="Select the game mode"
+        de="Wähle den Spielmodus aus"
+        es="Selecciona el modo de juego"
+        fr="Sélectionnez le mode de jeu"
+        id="Pilih mode game"
+        ja="ゲームモードを選択します"
+        ko="게임 모드 선택"
+        pt="Selecione o modo de jogo"
+        ru="Выберите режим игры"
+        th="เลือกโหมดเกม"
+        vi="Chọn chế độ game"
+        zh-hans="选择游戏模式"
+        zh-hant="選擇遊戲模式" />
+
+    <piggybank_info_popup_save_coins
+        en="Save your bonus coins"
+        de="Spare deine Bonusmünzen auf"
+        es="Guarda tus monedas de bonificación"
+        fr="Économiser vos pièces bonus"
+        id="Simpan koin bonus Anda"
+        ja="ボーナスコインを貯める"
+        ko="보너스 코인 모으기"
+        pt="Poupe as suas moedas de bónus"
+        ru="Копите бонусные монеты"
+        th="ประหยัดเหรียญโบนัสของคุณ"
+        vi="Lưu xu thưởng của bạn"
+        zh-hans="储存你的奖金硬币"
+        zh-hant="保存您的獎勵金幣" />
+
+    <piggybank_info_popup_open
+        en="Open the Piggy Bank"
+        de="Öffne das Sparschwein"
+        es="Abre la hucha"
+        fr="Ouvrez la tirelire"
+        id="Buka Celengan"
+        ja="貯金箱を開ける"
+        ko="돼지 저금통 열기"
+        pt="Abrir o Piggy Bank"
+        ru="Откройте копилку"
+        th="เปิดกระปุกหมูออมสิน"
+        vi="Mở Heo đất"
+        zh-hans="打开存钱罐"
+        zh-hant="打開儲錢罐" />
+
+    <piggybank_info_popup_collect_coins
+        en="Collect at least {:n} coins to open the Piggy Bank!"
+        de="Sammle mindestens {:n} Münzen um das Sparschwein zu öffnen!"
+        es="¡Recoge al menos {:n} monedas para abrir la hucha!"
+        fr="Collectez au moins {:n} pièces pour ouvrir la tirelire !"
+        id="Kumpulkan minimal {:n} koin untuk membuka Celengan!"
+        ja="貯金箱を開けるには、少なくとも {:n} 枚のコインを集めてください。"
+        ko="최소 {:n}개 코인을 모아서 돼지 저금통을 여세요!"
+        pt="Recolha pelo menos {:n} moedas para abrir o Piggy Bank!"
+        ru="Соберите минимум {:n} монет чтобы открыть копилку!"
+        th="รวบรวมเหรียญอย่างน้อย {:n} เหรียญเพื่อเปิดกระปุกหมูออมสิน!"
+        vi="Thu thập ít nhất {:n} xu để mở Heo đất!"
+        zh-hans="收集至少 {:n} 个金币以打开存钱罐！"
+        zh-hant="收集至少 {:n} 枚硬幣才能打開儲錢罐！" />
+
+    <gourmand_popup_title
+        en="GOURMET"
+        de="GOURMET"
+        es="GOURMET"
+        fr="GOURMET"
+        id="GOURMET"
+        ja="グルメ"
+        ko="고메"
+        pt="GOURMET"
+        ru="ГУРМАН"
+        th="GOURMET"
+        vi="ĐẶC BIỆT"
+        zh-hans="美食家"
+        zh-hant="美食家" />
+
+    <gourmand_popup_time_remaining
+        en="Until the end of the event:"
+        de="Bis zum Ende des Events:"
+        es="Hasta el final del evento:"
+        fr="Fin de l'événement dans :"
+        id="Hingga event selesai:"
+        ja="イベント終了まで:"
+        ko="이벤트 종료까지:"
+        pt="Resta até o final do evento:"
+        ru="До окончания события:"
+        th="เวลาที่เหลือจนกว่าจะสิ้นสุดอีเวนต์:"
+        vi="Cho đến cuối sự kiện:"
+        zh-hans="距离活动结束还有:"
+        zh-hant="直至活動結束:" />
+
+    <gourmand_popup_description
+        en="Activate the bonus to increase the points you receive for the collected food!"
+        de="Aktiviere den Bonus um die Punkte für das gesammelte Essen zu erhöhen!"
+        es="¡Activa el bono para aumentar los puntos que recibes por la comida recolectada!"
+        fr="Activez le bonus pour augmenter les points que vous recevez pour la nourriture collectée !"
+        id="Aktifkan bonus untuk meningkatkan poin yang diterima untuk makanan yang terkumpul!"
+        ja="ボーナスを有効にすると、集めた食べ物のポイントが増えます! "
+        ko="보너스를 활성화하여 수집한 음식에 대해 받은 포인트를 늘리세요!"
+        pt="Ative o bônus para aumentar os pontos recebidos ao recolher comida!"
+        ru="Активируй бонус чтобы увеличить получаемые очки за собранную еду!"
+        th="เปิดใช้งานโบนัส เพื่อเพิ่มคะแนนที่คุณได้รับ จากอาหารที่เก็บรวบรวมมาได้!"
+        vi="Kích hoạt tiền thưởng để tăng số điểm bạn nhận được cho thực phẩm thu thập được!"
+        zh-hans="激活奖励以增加收集食物所获得的积分!"
+        zh-hant="啟用此獎勵，讓您收集食物能得到更多積分!" />
+
+    <local_notification_message_gourmand_bonus_30_minutes_left
+        en="30 minutes left. Hurry up to set a record with the Gourmet bonus!"
+        de="Noch 30 Minuten. Beeil dich, um mit dem Gourmet-Bonus einen Rekord aufzustellen!"
+        es="Quedan 30 minutos. ¡Date prisa para establecer un récord con el bono Gourmet!"
+        fr="Il reste 30 minutes. Dépêchez-vous d'établir un record avec le bonus Gourmet !"
+        id="Tinggal 30 menit. Cepat buat rekor dengan bonus Gourmet!"
+        ja="残り30分. グルメボーナスで新記録を出すために急いでください!"
+        ko="30분 남았습니다. 어서 고메 보너스로 기록을 세우세요!"
+        pt="30 minutos restantes. Venha logo, marque um recorde com o bônus Gourmet!"
+        ru="Осталось 30 мин. Успей установить рекорд с бонусом Гурман!"
+        th="เหลือเวลา 30 นาที รีบทำสถิติกับโบนัส Gourmet เร็วเข้า!"
+        vi="Còn lại 30 phút. Hãy nhanh chóng lập kỉ lập với phần thưởng Người sành ăn!"
+        zh-hans="还剩 30 分钟. 快用美食家奖励创造纪录吧!"
+        zh-hant="還剩 30 分鐘. 趕快利用美食家獎勵來打破紀錄!" />
+
+    <local_notification_message_gourmand_event_1_hour_left
+        en="Gourmet event will end soon! Hurry up to set a record!"
+        de="Das Gourmet-Event endet bald! Beeil dich, einen Rekord aufstellen!"
+        es="¡El evento Gourmet finalizará pronto! ¡Date prisa para establecer un récord!"
+        fr="L'événement Gourmet se terminera bientôt ! Dépêchez-vous d'établir un record !"
+        id="Ajang Gourmet akan segera berakhir! Cepat buat rekor!"
+        ja="グルメイベントはもうすぐ終わります! 急いで記録を樹立しよう!"
+        ko="고메 이벤트가 곧 끝납니다! 서둘러 기록을 세우십시오!"
+        pt="O evento Gourmet acaba em breve! Venha logo, marque um recorde!"
+        ru="Событие гурман скоро закончится! Успей установить рекорд!"
+        th="อีเวนต์ Gourmet จะสิ้นสุดลงในไม่ช้า! รีบมาสร้างสถิติ!"
+        vi="Sự kiện Người sành ăn sẽ sớm kết thúc! Hãy nhanh chân để lập kỷ lục!"
+        zh-hans="美食家活动即将结束! 赶快创下纪录"
+        zh-hant="美食家活動即將結束! 趕快創造一個記錄!" />
+
+    <!-- =================================== -->
+
+    <!--
+
+    <game_powerup_got_Coin
+        en="You got one more Coin"
+        de="Du hast noch eine Münze erhalten"
+        es="Has comido Moneda"
+        fr="Des sous, des sous, des sous"
+        id="Kamu mendapatkan Koin lagi"
+        ja="君はあと1個のコインをゲットした"
+        ko="동전을 하나 더 얻었습니다"
+        pt="Você ganhou mais uma moeda."
+        ru="У вас на одну Монету стало больше"
+        th="คุณมีอีกหนึ่งเหรียญ"
+        vi="Bạn có thêm một Xu"
+        zh-hans="你又得到一个金币"
+        zh-hant="你獲得了一枚硬幣" />
+
+    <completed_popup_got_chest
+        en="You got a chest!"
+        de="Du hast eine Truhe erhalten!"
+        es="¡Obtienes el cofre!"
+        fr="Vous obtenez le coffre !"
+        id="Kamu mendapatkan peti!"
+        ja="チェストをゲットしました！"
+        ko="상자를 받았습니다!"
+        pt="Você ganhou um baú!"
+        ru="Вы получили сундук!"
+        th="คุณได้รับหีบสมบัติ"
+        vi="Bạn nhận được một chiếc rương!"
+        zh-hans="你有个宝箱！"
+        zh-hant="你獲得了寶箱！" />
+
+    <completed_popup_newround
+        en="New Task"
+        de="Neue Aufgabe"
+        es="Nueva Tarea"
+        fr="Nouvel objectif"
+        id="Tugas Baru"
+        ja="新しいタスク"
+        ko="새 임무"
+        pt="Nova tarefa"
+        ru="Новое задание"
+        th="ภารกิจใหม่"
+        vi="Nhiệm vụ mới"
+        zh-hans="新建任务"
+        zh-hant="新任務" />
+
+    <completed_popup_no_chest
+        en="Be in the top five and earn treasure!"
+        de="Steige in die Top 5 auf und erhalte eine Schatztruhe!"
+        es="¡Sé uno de los cinco mejores y consigue un tesoro!"
+        fr="Soyez dans le top 5 et gagnez un trésor !"
+        id="Masuk ke 5 besar dan dapatkan harta karun!"
+        ja="トップ5にランクインして宝物を獲得しよう！"
+        ko="5등 안에 들어서 보물을 획득하세요!"
+        pt="Fique entre os top 5 e ganhar tesouro!"
+        ru="Попадите в пятерку лидеров и получите сокровище!"
+        th="อยู่ใน 5 อันดับแรกและรับสมบัติ!"
+        vi="Hãy lột vào top 5 để nhận kho báu!"
+        zh-hans="进入前5名赢宝贝！"
+        zh-hant="成為前五名來獲得寶藏！" />
+
+    <completed_popup_title
+        en="Task completed!"
+        de="Aufgabe abgeschlossen!"
+        es="¡La tarea fue completada!"
+        fr="Objectif accompli !"
+        id="Tugas selesai!"
+        ja="タスクをコンプリートしました！"
+        ko="임무 완료!"
+        pt="Tarefa concluída!"
+        ru="Задание выполнено!"
+        th="ภารกิจเสร็จสิ้นแล้ว!"
+        vi="Nhiệm vụ hoàn thành!"
+        zh-hans="任务完成！"
+        zh-hant="任務已完成！" />
+
+    <game_powerup_got_Food
+        en="You ate a Yummy"
+        de="Du hast eine Leckerei gefressen"
+        es="Has comido Sabroso"
+        fr="Miam, miam..."
+        id="Kamu makan Makanan Lezat  "
+        ja="君はごちそうを食べた  "
+        ko="여미를 먹었습니다 "
+        pt="Você comeu uma Guloseima  "
+        ru="Вы съели Вкусняшку"
+        th="คุณกินของอร่อยเข้าไป  "
+        vi="Bạn đã ăn một món đồ ăn   "
+        zh-hans="你吃了个好东西   "
+        zh-hant="你吃了一個食物" />
+
+    <game_powerup_got_Magnet
+        en="The Magnet Power-Up is yours"
+        de="Das Magnet-Power-up ist deins"
+        es="El potenciador Imán es tuyo"
+        fr="Je me sens tellement attratif !"
+        id="Kamu mendapatkan Power-Up Magnet    "
+        ja="マグネットパワーアップは君のものだ  "
+        ko="자석 파워업은 귀하의 것입니다   "
+        pt="O Impulsionador Magnético é seu "
+        ru="Усилитель Магнит ваш"
+        th="แม่เหล็กเพิ่มพลังเป็นของคุณแล้ว "
+        vi="Cường Hóa Nam Châm là của bạn   "
+        zh-hans="“磁力上升”是你的了 "
+        zh-hant="磁鐵強化是你的了" />
+
+    <game_powerup_got_Multiply
+        en="Now you have a Multiplier"
+        de="Jetzt hast du einen Multiplikator"
+        es="Has obtenido Multiplicador"
+        fr="Cela vaut vraiment le coup !"
+        id="Sekarang kamu punya Pengganda "
+        ja="マルチプライヤーは君のものだ  "
+        ko="이제 멀티플라이어가 있습니다  "
+        pt="Agora você tem um Multiplicador   "
+        ru="Теперь у вас есть Множитель"
+        th="ตอนนี้คุณมีตัวคูณแล้ว    "
+        vi="Giờ bạn đã có Hệ Số   "
+        zh-hans="现在你有了“乘法器”   "
+        zh-hant="你現在有了加成器" />
+
+    <game_powerup_got_Radar
+        en="You ate the Radar"
+        de="Du hast das Radar gefressen"
+        es="Has obtenido Radar"
+        fr="Je les vois tous, TOUS !"
+        id="Kamu memakan Radar   "
+        ja="君はレーダーを食べた "
+        ko="레이더를 먹었습니다  "
+        pt="Você comeu o Radar   "
+        ru="Вы съели Радар"
+        th="คุณกินเรดาร์เข้าไป   "
+        vi="Bạn đã ăn Radar  "
+        zh-hans="你吃掉了雷达    "
+        zh-hant="你吃下了雷達" />
+
+    <game_powerup_got_SpeedUp
+        en="You swallowed the Speed Up"
+        de="Du hast den Speed-up geschluckt"
+        es="Acelerador fue tragado"
+        fr="La vitesse, quelle ivresse !"
+        id="Kamu menelan Speed Up"
+        ja="君はスピードアップを飲み込んだ"
+        ko="스피드업을 먹었습니다"
+        pt="Você engoliu o Acelerador"
+        ru="Вы проглотили Ускоритель"
+        th="คุณได้กลืนการเพิ่มความเร็ว"
+        vi="Bạn đã nuốt Tăng Tốc"
+        zh-hans="你吞掉了“加速”"
+        zh-hant="你吞下了加速道具" />
+
+    <game_powerup_got_Stretch
+        en="Stretcher activated"
+        de="Trage aktiviert"
+        es="Tramo fue tragado"
+        fr="et bien si, la taille ca compte."
+        id="Stretcher diaktifkan"
+        ja="ストレッチャーが有効になりました"
+        ko="스트레처 활성화됨"
+        pt="Maca ativada"
+        ru="Растяжитель начал действовать"
+        th="เปลถูกเปิดใช้งาน"
+        vi="Được kích hoạt Bộ Giãn"
+        zh-hans="拉伸器被激活"
+        zh-hant="啟動擔架" />
+
+    <game_powerup_got_Turn
+        en="You swallowed the Turn Power-Up"
+        de="Du hast das Wende-Power-up geschluckt."
+        es="Has comido Giro"
+        fr="Attention, virage serré."
+        id="Kamu menelan Turn Power-Up"
+        ja="ターンパワーアップを飲み込んだ"
+        ko="턴 파워업을 먹었습니다"
+        pt="Você engoliu o Impulsionador de Curva"
+        ru="Вы проглотили Поворот"
+        th="คุณกลืนการเพิ่มพลังเข้าไป"
+        vi="Bạn đã nuốt Cường Hóa Rẽ"
+        zh-hans="你吞掉了“动力向上”"
+        zh-hant="你吞下了回合強化" />
+
+    <game_powerup_got_Weight
+        en="You ate the Weight Power-Up"
+        de="Du hast das Gewichts-Power-up gefressen."
+        es="El potenciador Peso es tuyo"
+        fr="Je me sens tout flagada..."
+        id="Kamu memakan Weight Power-Up"
+        ja="重さパワーアップを食べた"
+        ko="무게 파워업을 먹었습니다"
+        pt="Você comeu o Impulsionador de Peso"
+        ru="Усилитель Вес съеден"
+        th="คุณกินการเพิ่มน้ำหนังเข้าไป"
+        vi="Bạn đã nuốt Cường Hóa Trọng Lượng"
+        zh-hans="你吃掉了“重量动力向上”"
+        zh-hant="你吞下了重量強化" />
+
+    <game_powerup_got_Zoom
+        en="Now you have View"
+        de="Jetzt hast du Sicht"
+        es="El potenciador Enfocar es tuyo"
+        fr="Superbe vue !"
+        id="Sekarang kamu punya Tampilan"
+        ja="ビューが手に入りました"
+        ko="이제 뷰를 가지고 있습니다"
+        pt="Agora você tem Visualização"
+        ru="Теперь у вас есть Обзор"
+        th="ตอนนี้คุณมี 'มุมมอง'"
+        vi="Hiện bạn đã có Tầm Nhìn"
+        zh-hans="现在你有“视图”   "
+        zh-hant="你取得了視線" />
+
+    <game_worm_crashed
+        en="'{}' crashed into a wall"
+        de="{}' ist mit der Wand kollidiert"
+        es="'{}' se ha estrellado contra la pared"
+        fr="'{}' s'est écrasé contre un mur"
+        id="{}' membentur dinding "
+        ja="{}' は壁に激突しました"
+        ko="{}' 벽과 충돌함"
+        pt="{}' foi esmagado na parede"
+        ru="'{}' разбился о стену"
+        th="{}' ชนเข้ากับกำแพง"
+        vi="{}' đã đâm vào tường"
+        zh-hans="{}' 撞入墙里 "
+        zh-hant="{}'撞牆了" />
+
+    <game_worm_joined
+        en="'{}' joined"
+        de="{}' angeschlossen"
+        es="'{}' se ha unido"
+        fr="'{}' est connecté"
+        id="{}' bergabung"
+        ja="{}' が参加しました"
+        ko="{}' 결합됨"
+        pt="{}' entrou"
+        ru="'{}' вошел в игру"
+        th="{}' เข้าร่วม"
+        vi="{}' đã gia nhập"
+        zh-hans="{}' 已加入"
+        zh-hant="{}'已加入" />
+
+    <game_worm_killed
+        en="'{}' killed by '{}'"
+        de="{}' getötet von '{}'"
+        es="'{}' ha sido asesinado por '{}'"
+        fr="'{}' a été tué par '{}'"
+        id="{}' dibunuh oleh '{}'"
+        ja="{}' は '{}'にキルされました"
+        ko="{}'에 의해 {}' 킬됨"
+        pt="{}' foi morto por '{}'"
+        ru="'{}' был убит червем '{}'"
+        th="{}' ถูกฆ่าโดย '{}'"
+        vi="{}' đã bị '{}’ tiêu diệt"
+        zh-hans="{}' 被 '{}' 干掉"
+        zh-hant="{}'擊殺了'{}'" />
+
+    <game_worm_respawned
+        en="'{}' respawned"
+        de="{}' wiederbelebt"
+        es="'{}' ha vuelto a aparecer"
+        fr="'{}' est regénéré"
+        id="{}' respawn"
+        ja="{}' リスポーンしました"
+        ko="{}' 부활함"
+        pt="{}' ressuscitou"
+        ru="'{}' возродился"
+        th="{}' วางไข่ใหม่"
+        vi="{}' đã xuất hiện"
+        zh-hans="{}' 已重生"
+        zh-hant="{}'已重生" />
+
+    <gameover_popup_tryHint
+        en="Ready to start new round?"
+        de="Neue Runde starten?"
+        es="¿Listo para comenzar una nueva ronda?"
+        fr="Une nouvelle partie ?"
+        id="Siap memulai putaran baru?"
+        ja="新しいラウンドを開始する準備はいいですか？"
+        ko="새 라운드를 시작할 준비가 되셨습니까?"
+        pt="Pronto para começar a nova rodada?"
+        ru="Готовы начать новый раунд?"
+        th="พร้อมที่จะเริ่มรอบใหม่หรือยัง?"
+        vi="Bạn đã sẵn sàng bắt đầu ván mới chưa?"
+        zh-hans="准备开始新一轮吗？"
+        zh-hant="準備好開始新回合了嗎？" />
+
+    <inapp_popup_extra
+        en="Any purchase removes ads!"
+        de="Jeder Einkauf entfernt Werbung!"
+        es="¡Cualquier compra elimina los anuncios!"
+        fr="Tous les achats suppriment les publicités !"
+        id="Setiap pembelian akan menghilangkan iklan!"
+        ja="何を買った場合でも広告がなくなります！"
+        ko="구매만 하면 광고가 제거됩니다!"
+        pt="Qualquer compra remove os anúncios!"
+        ru="Любая покупка отключает рекламу!"
+        th="การซื้อใด ๆ ก็ตามจะลบโฆษณาออก!"
+        vi="Giao dịch mua bất kỳ sẽ loại bỏ quảng cáo!"
+        zh-hans="进行任何购买将去除广告！"
+        zh-hant="任何消費將移除廣告！" />
+
+    <lastchance_popup_hint
+        en="Do you want to continue with worm weight {:n}m?"
+        de="Weiter mit Wurmgewicht {:n}m?"
+        es="¿Quieres continuar el juego con el peso del gusano {:n}m?"
+        fr="Voulez-vous continuer le jeu avec le poids du ver {:n}m?"
+        id="Ingin melanjutkan dengan bobot cacing {:n}m?"
+        ja="ワームの重さ{:n}mで続けますか？"
+        ko="웜 무게 {:n}m으로 계속 진행하시겠습니까?"
+        pt="Deseja continuar com o peso da minhoca {:n}m?"
+        ru="Хочешь продолжить игру с весом червячка {:n}m?"
+        th="คุณต้องการดำเนินการต่อด้วยน้ำหนักตัวหนอน {:n} m หรือไม่?"
+        vi="Bạn có muốn tiếp tục từ chiều cao sâu {:n}m không?"
+        zh-hans="想要继续虫子重量 {:n}m 吗？"
+        zh-hant="你確定要在蟲蟲重量 {:n} 中繼續？" />
+
+    <levelup_popup_title
+        en="NEW LEVEL!"
+        de="Neues Level!"
+        es="¡Nuevo nivel!"
+        fr="Nouveau Niveau !"
+        id="Level baru!"
+        ja="新しいレベル！"
+        ko="새 레벨!"
+        pt="Novo nível!"
+        ru="Новый уровень!"
+        th="ระดับใหม่!"
+        vi="Cấp mới!"
+        zh-hans="新级别！"
+        zh-hant="新等級！" />
+
+    <menu_btn_login_title
+        en="Login"
+        de="Starten"
+        es="Iniciar sesión"
+        fr="S'identifier"
+        id="Masuk"
+        ja="入る"
+        ko="입력"
+        pt="Entrar"
+        ru="Войти"
+        th="เข้า"
+        vi="Vào"
+        zh-hans="进入"
+        zh-hant="進入" />
+
+    <menu_treasure_tip
+        en="You got a chest!"
+        de="Du hast eine Truhe erhalten!"
+        es="¡Tienes un cofre!"
+        fr="Vous avez un coffre !"
+        id="Kamu mendapatkan peti!"
+        ja="チェストをゲットしました！"
+        ko="상자를 받았습니다!"
+        pt="Você ganhou um baú!"
+        ru="У вас есть сундук!"
+        th="คุณได้รับหีบสมบัติ"
+        vi="Bạn nhận được một chiếc rương!"
+        zh-hans="你有个宝箱！"
+        zh-hant="你的寶箱！" />
+
+    <options_halloween_btn
+        en="Trick or Treat?"
+        de="Süsses oder Saures?"
+        es="¿Truco o trato?"
+        fr="Des bonbons, ou un sort!"
+        id="Berikan camilan atau dijahili?"
+        ja="トリックオアトリート"
+        ko="트릭 오어 트릿?"
+        pt="Travessuras ou gostosuras?"
+        ru="Кошелёк или жизнь?"
+        th="ทริกออร์ทรีต?"
+        vi="Cho kẹo hay bị ghẹo?"
+        zh-hans="不给糖就捣蛋"
+        zh-hant="給糖或搗蛋" />
+
+    <options_halloween_message
+        en="Slide to the underground world and pick all the spooky treats you can!"
+        de="Wechsle in die dunkle Zone und schnapp dir alle gruseligen Boni die du kriegen kannst!"
+        es="¡Deslízate a la zona oscura y recoge todas las golosinas espeluznantes que puedas!"
+        fr="Passez dans le côté obscure et récoltez toutes les friandises que vous pouvez!"
+        id="Meluncurlah ke zona gelap dan pungut semua camilan menyeramkan yang bisa kamu ambil!"
+        ja="ダークゾーンにトリップしてスプーキーなお菓子を出来るだけ多く集めよう"
+        ko="다크 존으로 밀어 모든 으스스한 사탕을 최대한 집어 들어보세요!"
+        pt="Deslize para a zona escura e pegue todas as guloseimas assustadoras que puder!"
+        ru="Погрузись в сумеречную зону и собери все праздничные угощения, какие сможешь!"
+        th="เลื่อนไปยังด้านมืด แล้วเก็บขนมสยองขวัญทุกอย่างที่คุณจะเอาไปได้!"
+        vi="Trượt đến vùng tối và chọn tất cả những trò ma quái nhất có thể!"
+        zh-hans="钻入黑暗地带，努力吞食各种古怪糖果"
+        zh-hant="滑動至黑暗區域，盡量拿起所有恐怖糖果" />
+
+    <options_halloween_message_two
+        en="But if you want to stay in the light, you can always change it here:"
+        de="Wenn du aber im Licht bleiben willst, kannst du stets hier klicken:"
+        es="Pero si quieres quedarte en la luz, siempre puedes hacer clic aquí:"
+        fr="Mais si vous voulez rester dans la lumière, revenez ici:"
+        id="Tapi jika kamu ingin tetap di tempat terang, klik saja di sini:"
+        ja="明るい所に戻るならここをクリックしてね。:"
+        ko="하지만 빛 속에 머물고 싶다면 언제든지 여기를 클릭하세요:"
+        pt="Mas se quiser permanecer na luz, você sempre pode clicar aqui:"
+        ru="А если захочешь вернуться обратно на светлую сторону, просто кликни здесь:"
+        th="แต่ถ้าคุณอยากอยู่ด้านสว่าง ก็คลิกที่นี่ได้เสมอ:"
+        vi="Nhưng nếu bạn muốn ở trong ánh sáng, bạn luôn có thể nhấp vào đây:"
+        zh-hans="但如果你留恋光明，可随时点击这里"
+        zh-hant="但如果您想待在亮處，可以隨時點擊此處" />
+
+    <options_halloween_title
+        en="JOIN THE HAPPY WORMOWEEN!"
+        de="JOIN THE HAPPY WORMOWEEN!"
+        es="JOIN THE HAPPY WORMOWEEN!"
+        fr="JOIN THE HAPPY WORMOWEEN!"
+        id="JOIN THE HAPPY WORMOWEEN!"
+        ja="JOIN THE HAPPY WORMOWEEN!"
+        ko="JOIN THE HAPPY WORMOWEEN!"
+        pt="JOIN THE HAPPY WORMOWEEN!"
+        ru="JOIN THE HAPPY WORMOWEEN!"
+        th="JOIN THE HAPPY WORMOWEEN!"
+        vi="JOIN THE HAPPY WORMOWEEN!"
+        zh-hans="JOIN THE HAPPY WORMOWEEN!"
+        zh-hant="JOIN THE HAPPY WORMOWEEN!" />
+
+    <options_popup_lockjoystick
+        en="Lock Joystick"
+        de="Joystick sperren"
+        es="Bloquear joystick"
+        fr="Verrouiller le joystick"
+        id="Kunci Joystick"
+        ja="ジョイスティックをロックする"
+        ko="조이스틱 잠금"
+        pt="Bloquear joystick"
+        ru="Зафиксировать джойстик"
+        th="ล็อกจอยสติ๊ก"
+        vi="Khóa Cần Điều Khiển"
+        zh-hans="锁定操纵杆"
+        zh-hant="鎖定搖桿" />
+
+    <wardrobe_popup_btn_buy
+        en="Buy for {:n}"
+        de="Kaufen für {:n}"
+        es="Comprar por {:n}"
+        fr="Acheter pour {:n}"
+        id="Beli senilai {:n}"
+        ja="{:n}で買う"
+        ko="{:n} 구매"
+        pt="Comprar para {:n}"
+        ru="Купить за {:n}"
+        th="ซื้อด้วย {:n}"
+        vi="Mua với giá {:n}"
+        zh-hans="购买花 {:n}"
+        zh-hant="使用 {:n}購買" />
+    -->
+</root>

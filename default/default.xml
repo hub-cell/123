@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <atlases_list>
+        <default path="default/atlas_default.xml" />
+        <backgrounds path="common/backgrounds/atlas_backgrounds.xml" />
+        <common path="common/atlas_common.xml" />
+    </atlases_list>
+
+    <font_aliases>
+        <alias locale="th" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansThai-CondensedMedium.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+    </font_aliases>
+
+    <lobby>
+        <title id="logo" sprite_id="logo:default" amplitude="10" />
+
+        <decoration_front>
+            <snow snowflakes_list="snowflake_0 snowflake_1 snowflake_2 snowflake_3 snowflake_4 snowflake_5" />
+        </decoration_front>
+    </lobby>
+
+    <wardrobe>
+        <decoration_front>
+            <snow snowflakes_list="snowflake_0 snowflake_1 snowflake_2 snowflake_3 snowflake_4 snowflake_5" />
+        </decoration_front>
+    </wardrobe>
+
+    <game>
+    </game>
+
+    <backgrounds>
+        <background sprite_id="dark_grey:backgrounds" scale="2.0" hotspot="0" />
+        <background sprite_id="concrete:backgrounds" scale="1.0" hotspot="0" />
+        <background sprite_id="perforated:backgrounds" scale="0.5" hotspot="0" />
+        <background sprite_id="connect:backgrounds" scale="2.0" hotspot="0" />
+        <background sprite_id="bright_squares:backgrounds" scale="2.0" hotspot="0" />
+        <background sprite_id="light_checkered:backgrounds" scale="2.0" hotspot="0" />
+        <background sprite_id="spiration_light:backgrounds" scale="2.0" hotspot="0" />
+    </backgrounds>
+
+    <food_resources>
+        <shine sprite_id="shine:default" />
+
+        <powerups>
+            <coin sprite_id="powerups_coin:default" value="1" scale="0.75" />
+            <magnet sprite_id="powerups_magnet:default" value="250" scale="0.75" />
+            <multiply sprite_id="powerups_multiply:default" value="500" scale="0.75" />
+            <radar sprite_id="powerups_radar:default" value="250" scale="0.75" />
+            <speedup sprite_id="powerups_speedup:default" value="250" scale="0.75" />
+            <turn sprite_id="powerups_turn:default" value="250" scale="0.75" />
+            <zoom sprite_id="powerups_zoom:default" value="250" scale="0.75" />
+        </powerups>
+
+        <jelly>
+            <jelly_00 sprite_id="jelly_00:default" value="5" scale="0.5" />
+            <jelly_01 sprite_id="jelly_01:default" value="5" scale="0.5" />
+            <jelly_02 sprite_id="jelly_02:default" value="5" scale="0.5" />
+            <jelly_03 sprite_id="jelly_03:default" value="5" scale="0.5" />
+            <jelly_04 sprite_id="jelly_04:default" value="5" scale="0.5" />
+            <jelly_05 sprite_id="jelly_05:default" value="5" scale="0.5" />
+            <jelly_06 sprite_id="jelly_06:default" value="6" scale="0.55" />
+            <jelly_07 sprite_id="jelly_07:default" value="6" scale="0.55" />
+            <jelly_08 sprite_id="jelly_08:default" value="6" scale="0.55" />
+            <jelly_09 sprite_id="jelly_09:default" value="6" scale="0.55" />
+            <jelly_10 sprite_id="jelly_10:default" value="6" scale="0.55" />
+            <jelly_11 sprite_id="jelly_11:default" value="6" scale="0.55" />
+            <jelly_12 sprite_id="jelly_12:default" value="6" scale="0.55" />
+            <jelly_13 sprite_id="jelly_13:default" value="9" scale="0.6" />
+            <jelly_14 sprite_id="jelly_14:default" value="9" scale="0.6" />
+            <jelly_15 sprite_id="jelly_15:default" value="9" scale="0.6" />
+            <jelly_16 sprite_id="jelly_16:default" value="9" scale="0.6" />
+            <jelly_17 sprite_id="jelly_17:default" value="9" scale="0.6" />
+        </jelly>
+
+        <foods>
+            <food_00 sprite_id="foods_apple:default" value="5" scale="0.5" />
+            <food_01 sprite_id="foods_bacon:default" value="5" scale="0.5" />
+            <food_02 sprite_id="foods_bakery_f_07:default" value="5" scale="0.5" />
+            <food_03 sprite_id="foods_cabbage_02:default" value="5" scale="0.5" />
+            <food_04 sprite_id="foods_cake:default" value="5" scale="0.5" />
+            <food_05 sprite_id="foods_cheese_02:default" value="5" scale="0.5" />
+            <food_06 sprite_id="foods_cheese_03:default" value="5" scale="0.5" />
+            <food_07 sprite_id="foods_cherries:default" value="5" scale="0.5" />
+            <food_08 sprite_id="foods_corn_01:default" value="6" scale="0.55" />
+            <food_09 sprite_id="foods_food_03_t:default" value="6" scale="0.55" />
+            <food_10 sprite_id="foods_food_17_t:default" value="6" scale="0.55" />
+            <food_11 sprite_id="foods_food_43_t:default" value="6" scale="0.55" />
+            <food_12 sprite_id="foods_kiwi:default" value="6" scale="0.55" />
+            <food_13 sprite_id="foods_mushroom_04:default" value="9" scale="0.6" />
+            <food_14 sprite_id="foods_pumpkin_02:default" value="9" scale="0.6" />
+            <food_15 sprite_id="foods_pumpkinf_03:default" value="9" scale="0.6" />
+            <food_16 sprite_id="foods_sandwich:default" value="9" scale="0.6" />
+            <food_17 sprite_id="foods_tomato:default" value="9" scale="0.6" />
+        </foods>
+
+        <flat>
+            <flat_00 sprite_id="flat_00:default" value="5" scale="0.5" />
+            <flat_01 sprite_id="flat_01:default" value="5" scale="0.5" />
+            <flat_02 sprite_id="flat_02:default" value="5" scale="0.5" />
+            <flat_03 sprite_id="flat_03:default" value="5" scale="0.5" />
+            <flat_04 sprite_id="flat_04:default" value="6" scale="0.6" />
+            <flat_05 sprite_id="flat_05:default" value="6" scale="0.6" />
+            <flat_06 sprite_id="flat_06:default" value="6" scale="0.6" />
+            <flat_07 sprite_id="flat_07:default" value="6" scale="0.6" />
+            <flat_08 sprite_id="flat_08:default" value="9" scale="0.7" />
+            <flat_09 sprite_id="flat_09:default" value="9" scale="0.7" />
+        </flat>
+        
+        <triggers>
+            <piggy sprite_id="triggers_piggybank:default" value="250" />
+        </triggers>
+    </food_resources>
+
+    <lastchance_popup>
+        <autoload size="522 550" shade="1" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0" patch="28 28 28 28" size="580 470" scale="0.9">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="570 67" position="4 6" hotspot="0 0">
+                    <text id="lastchance_popup_title" position="65 2" size="450 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                </nine_patch>
+
+                <image sprite_id="shine:common" position="290 200">
+                    <image sprite_id="icon_worm_with_stars:common" position="118 118" />
+                </image>
+
+                <image sprite_id="clock_progress:common" position="290 395" color="ff102b5c">
+                    <text id="txtTimeout" size="70 50" position="15 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                    <clock id="clockTimer" sprite_id="clock_progress:common" position="50 50" color="ffffde00" />
+                </image>
+
+                <text id="sessiontimeout_popup_tip" position="140 303" size="300 25" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ff15aadc" stretchmode="2" />
+
+                <alignment v_align="2" h_align="1">
+                    <button id="btnClose" visible="0" rect="0 0 300 50" hotspot="150 0" position="0 -50" pressed_scale="0.97" color="0">
+                        <text id="lastchance_popup_no_thanks" position="20 0" size="260 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" h_align="1" v_align="1" stretchmode="2" color="ff15aadc" />
+                    </button>
+                </alignment>
+
+                <layout size="580 100" item_size="290 105" position="0 505">
+                    <button id="btnRespawnCoins" sprite_id="btn_blue:common" pressed_scale="0.97">
+                        <image id="imgShare" sprite_id="icon_coin:common" position="60 52" />
+                        <text id="txtPrice" position="100 15" size="130 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" />
+                    </button>
+
+                    <button id="btnRespawnVideo" visible="0" sprite_id="btn_common_green:common" pressed_scale="0.97">
+                        <image id="imgVideo" sprite_id="icon_video:common" position="128 50" />
+                    </button>
+                </layout>
+            </nine_patch>
+        </autoload>
+    </lastchance_popup>
+
+    <gameover_popup>
+        <autoload size="580 550" shade="1" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0 0" patch="28 28 28 28" size="580 470" scale="0.9">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="570 67" position="4 6" hotspot="0 0">
+                    <text id="gameover_popup_title" position="65 2" size="450 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                </nine_patch>
+
+                <image sprite_id="shine:common" position="145 190">
+                    <image sprite_id="icon_rank:common" position="116 116" />
+                </image>
+
+                <image sprite_id="shine:common" position="425 190">
+                    <image sprite_id="icon_worm:common" position="116 116"/>
+                </image>
+
+                <image sprite_id="result_place_back:common" position="145 382">
+                    <text id="gameover_popup_rank" position="-15 -60" size="230 38" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffc0c0c0" stretchmode="2" />
+                    <text id="txtRank" text="--" position="7 -4" size="190 50" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="45" color="fffeda0a" stretchmode="2" />
+                </image>
+
+                <image sprite_id="result_place_back:common" position="431 382">
+                    <text id="gameover_popup_score" position="-25 -60" size="250 38" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffc0c0c0" stretchmode="2" />
+                    <text id="txtScore" text="--" position="7 -4" size="190 50" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="45" color="fffeda0a" stretchmode="2" />
+                </image>
+
+                <layout size="580 100" item_size="290 105" position="0 505">
+                    <button id="btnShare" visible="0" sprite_id="btn_blue:common" pressed_scale="0.97">
+                        <image sprite_id="icon_share:common" h_align="1" v_align="1" position="128 53" />
+                    </button>
+
+                    <button id="btnRestart" sprite_id="btn_common_green:common" pressed_scale="0.97">
+                        <image sprite_id="icon_restart:common" h_align="1" v_align="1" position="128 53"/>
+                    </button>
+                </layout>
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-54 56" />
+                </alignment>
+            </nine_patch>
+        </autoload>
+    </gameover_popup>
+</root>

@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <atlases_list>
+        <skins path="common/atlas_skins.xml" />
+    </atlases_list>
+
+    <worms>
+        <shield sprite_id="shield" hotspot="180 73" />
+
+        <mouths default_id="mouth_2">
+            <mouth_0 sprite_id="mouths_0" hotspot="-2 24" />
+            <mouth_1 sprite_id="mouths_1" hotspot="-12 23" />
+            <mouth_2 sprite_id="mouths_2" hotspot="-12 15" />
+            <mouth_3 sprite_id="mouths_3" hotspot="-8 27" />
+            <mouth_4 sprite_id="mouths_4" hotspot="-16 6" />
+            <mouth_5 sprite_id="mouths_5" hotspot="-12 14" />
+            <mouth_6 sprite_id="mouths_6" hotspot="-10 28" />
+            <mouth_7 sprite_id="mouths_7" hotspot="-10 28" />
+            <mouth_8 sprite_id="mouths_8" hotspot="-8 30" />
+        </mouths>
+
+        <eyes default_id="eyes_02">
+            <eyes_00 sprite_id="eyes_00" hotspot="25 25" />
+            <eyes_01 sprite_id="eyes_01" hotspot="25 26" />
+            <eyes_02 sprite_id="eyes_02" hotspot="25 26" />
+            <eyes_03 sprite_id="eyes_03" hotspot="19 25" />
+            <eyes_04 sprite_id="eyes_04" hotspot="19 25" />
+            <eyes_05 sprite_id="eyes_05" hotspot="16 19" />
+            <eyes_06 sprite_id="eyes_06" hotspot="19 22" />
+            <eyes_07 sprite_id="eyes_07" hotspot="28 28" is_full="1" />
+            <eyes_08 sprite_id="eyes_08" hotspot="22 19" />
+            <eyes_09 sprite_id="eyes_09" hotspot="22 19" />
+            <eyes_10 sprite_id="eyes_10" hotspot="27 28" />
+            <eyes_11 sprite_id="eyes_11" hotspot="25 28" />
+            <eyes_12 sprite_id="eyes_12" hotspot="25 28" />
+            <eyes_13 sprite_id="eyes_13" hotspot="23 25" />
+            <eyes_14 sprite_id="eyes_14" hotspot="20 27" />
+            <eyes_15 sprite_id="eyes_15" hotspot="20 29" />
+            <eyes_16 sprite_id="eyes_16" hotspot="17 30" />
+            <eyes_17 sprite_id="eyes_17" hotspot="17 31" />
+            <eyes_18 sprite_id="eyes_18" hotspot="27 28" is_full="1" />
+            <eyes_19 sprite_id="eyes_alien" hotspot="6 27" is_full="1" />
+        </eyes>
+
+        <sprites center_offset="-5 0">
+            <sprite id="head_yellow" sprite_id="heads_yellow" hotspot="38 58" />
+            <sprite id="head_arrow" sprite_id="heads_arrow" hotspot="38 58" />
+            <sprite id="head_pumpkin" sprite_id="heads_pumpkin" hotspot="38 58" />
+            <sprite id="head_battery" sprite_id="heads_battery" hotspot="37 45" />
+            <sprite id="head_alien" sprite_id="heads_alien" hotspot="38 40" />
+            <sprite id="head_circle_star" sprite_id="heads_circle_star" hotspot="36 58" />
+            <sprite id="head_cyrex" sprite_id="heads_cyrex" hotspot="48 48" />
+            <sprite id="head_ice" sprite_id="heads_ice" />
+            <sprite id="tail_ice" sprite_id="tails_ice" />
+            <sprite id="head_patrick" sprite_id="heads_patrick" hotspot="55 46"/>
+            <!-- <sprite id="head_snake_0" sprite_id="heads_snake_0" hotspot="33 35" /> -->
+
+            <!-- Halloween -->
+            <sprite id="head_bat" sprite_id="heads_halloween_bat" />
+            <sprite id="head_ghost" sprite_id="heads_halloween_ghost" />
+            <sprite id="head_mummy" sprite_id="heads_halloween_mummy" hotspot="48 43" />
+            <sprite id="head_pumpkin_2" sprite_id="heads_halloween_pumpkin" hotspot="38 36" />
+            <sprite id="head_scarecrow" sprite_id="heads_halloween_scarecrow" />
+            <sprite id="head_skull" sprite_id="heads_halloween_skull" />
+            <sprite id="head_vampire" sprite_id="heads_halloween_vampire" />
+            <sprite id="head_zombie" sprite_id="heads_halloween_zombie" />
+
+            <sprite id="bat" sprite_id="skins_halloween_bat" />
+            <sprite id="ghost" sprite_id="skins_halloween_ghost" />
+            <sprite id="mummy" sprite_id="skins_halloween_mummy" />
+            <sprite id="pumpkin" sprite_id="skins_halloween_pumpkin" />
+            <sprite id="scarecrow" sprite_id="skins_halloween_scarecrow" />
+            <sprite id="skull" sprite_id="skins_halloween_skull" />
+            <sprite id="vampire" sprite_id="skins_halloween_vampire" />
+            <sprite id="zombie" sprite_id="skins_halloween_zombie" />
+            
+            <!-- Christmas -->
+            <sprite id="head_deer" sprite_id="heads_christmas_deer" />
+            <sprite id="head_elf" sprite_id="heads_christmas_elf" />
+            <sprite id="head_omela" sprite_id="heads_christmas_omela" />
+            <sprite id="head_pungvin" sprite_id="heads_christmas_pungvin" />
+            <sprite id="head_santa" sprite_id="heads_christmas_santa" />
+            <sprite id="head_snowflake" sprite_id="heads_christmas_snowflake" />
+            <sprite id="head_snowman" sprite_id="heads_christmas_snowman" />
+            <sprite id="head_train" sprite_id="heads_christmas_train" />
+            
+            <sprite id="deer" sprite_id="skins_christmas_deer" />
+            <sprite id="elf" sprite_id="skins_christmas_elf" />
+            <sprite id="omela" sprite_id="skins_christmas_omela" />
+            <sprite id="pungvin" sprite_id="skins_christmas_pungvin" />
+            <sprite id="santa" sprite_id="skins_christmas_santa" />
+            <sprite id="snowflake" sprite_id="skins_christmas_snowflake" />
+            <sprite id="snowman" sprite_id="skins_christmas_snowman" />
+            <sprite id="train" sprite_id="skins_christmas_train" />
+            
+            <sprite id="link_train" sprite_id="skins_christmas_trainLink" />
+            
+            <sprite id="tail_deer" sprite_id="tails_christmas_deer" />
+            <sprite id="tail_elf" sprite_id="tails_christmas_elf" />
+            <sprite id="tail_omela" sprite_id="tails_christmas_omela" />
+            <sprite id="tail_pungvin" sprite_id="tails_christmas_pungvin" />
+            <sprite id="tail_santa" sprite_id="stails_christmas_santa" />
+            <sprite id="tail_snowflake" sprite_id="tails_christmas_snowflake" />
+            <sprite id="tail_train" sprite_id="skins_christmas_train" />
+            <!-- Christmas -->
+            
+            <!-- Valentine -->
+            <sprite id="head_angel" sprite_id="heads_valentine_angel" />
+            <sprite id="head_avocado" sprite_id="heads_valentine_avocado" />
+            <sprite id="head_bear" sprite_id="heads_valentine_bear" />
+            <sprite id="head_cat" sprite_id="heads_valentine_cat" />
+            <sprite id="head_dog" sprite_id="heads_valentine_dog" />
+            <sprite id="head_glasses" sprite_id="heads_valentine_glasses" />
+            <sprite id="head_ladybug" sprite_id="heads_valentine_ladybug" />
+            <sprite id="head_sheep" sprite_id="heads_valentine_sheep" />
+            
+            <sprite id="angel_1" sprite_id="skins_valentine_angel_1" />
+            <sprite id="angel_2" sprite_id="skins_valentine_angel_2" />
+            <sprite id="avocado" sprite_id="skins_valentine_avocado" />
+            <sprite id="bear" sprite_id="skins_valentine_bear" />
+            <sprite id="cat_1" sprite_id="skins_valentine_cat_1" />
+            <sprite id="cat_2" sprite_id="skins_valentine_cat_2" />
+            <sprite id="dog" sprite_id="skins_valentine_dog" />
+            <sprite id="glasses_1" sprite_id="skins_valentine_glasses_1" />
+            <sprite id="glasses_2" sprite_id="skins_valentine_glasses_2" />
+            <sprite id="glasses_3" sprite_id="skins_valentine_glasses_3" />
+            <sprite id="glasses_4" sprite_id="skins_valentine_glasses_4" />
+            <sprite id="ladybug_1" sprite_id="skins_valentine_ladybug_1" />
+            <sprite id="ladybug_2" sprite_id="skins_valentine_ladybug_2" />
+            <sprite id="ladybug_3" sprite_id="skins_valentine_ladybug_3" />
+            <sprite id="sheep_1" sprite_id="skins_valentine_sheep_1" />
+            <sprite id="sheep_2" sprite_id="skins_valentine_sheep_2" />
+            <sprite id="sheep_3" sprite_id="skins_valentine_sheep_3" />
+                        
+            <sprite id="tail_bear" sprite_id="tails_valentine_bear" />
+            <sprite id="tail_cat" sprite_id="tails_valentine_cat" />
+            <sprite id="tail_dog" sprite_id="tails_valentine_dog" />
+            <sprite id="tail_sheep" sprite_id="tails_valentine_sheep" />
+            <!-- Valentine -->
+
+            <!-- debug only -->
+            <sprite id="head_homer_0" sprite_id="heads_ext_homer_0" />
+            <sprite id="head_homer_1" sprite_id="heads_ext_homer_1" />
+            <sprite id="head_homer_2" sprite_id="heads_ext_homer_2" />
+            <sprite id="head_pickle_rick_0" sprite_id="heads_ext_pickle_rick_0" />
+            <sprite id="head_pickle_rick_1" sprite_id="heads_ext_pickle_rick_1" />
+            <sprite id="head_pickle_rick_2" sprite_id="heads_ext_pickle_rick_2" />
+            <sprite id="head_pickle_rick_3" sprite_id="heads_ext_pickle_rick_3" />
+            <sprite id="head_sponge_0" sprite_id="heads_ext_sponge_0" />
+            <!-- debug only -->
+
+            <sprite id="ice" sprite_id="skins_ice" />
+            <sprite id="alien" sprite_id="skins_alien" />
+            <sprite id="rect_line" sprite_id="skins_rect_line" />
+            <sprite id="arrow_dot_0" sprite_id="skins_arrow_dot_0" />
+            <sprite id="arrow_dot_1" sprite_id="skins_arrow_dot_1" />
+            <sprite id="arrow_dot_2" sprite_id="skins_arrow_dot_2" />
+            <sprite id="arrow_dot_3" sprite_id="skins_arrow_dot_3" />
+            <sprite id="arrow_dot_4" sprite_id="skins_arrow_dot_4" />
+            <sprite id="arrow_dot_5" sprite_id="skins_arrow_dot_5" />
+            <sprite id="arrow_dot_6" sprite_id="skins_arrow_dot_6" />
+            <sprite id="arrow_dot_7" sprite_id="skins_arrow_dot_7" />
+            <sprite id="batman_black_0" sprite_id="skins_batman_black_0" />
+            <sprite id="batman_black_1" sprite_id="skins_batman_black_1" />
+            <sprite id="batman_black_2" sprite_id="skins_batman_black_2" />
+            <sprite id="batman_black_3" sprite_id="skins_batman_black_3" />
+            <sprite id="batman_black_4" sprite_id="skins_batman_black_4" />
+            <sprite id="batman_yellow_0" sprite_id="skins_batman_yellow_0" />
+            <sprite id="batman_yellow_1" sprite_id="skins_batman_yellow_1" />
+            <sprite id="batman_yellow_2" sprite_id="skins_batman_yellow_2" />
+            <sprite id="batman_yellow_3" sprite_id="skins_batman_yellow_3" />
+            <sprite id="batman_yellow_4" sprite_id="skins_batman_yellow_4" />
+            <sprite id="battery_0" sprite_id="skins_battery_0" />
+            <sprite id="battery_1" sprite_id="skins_battery_1" />
+            <sprite id="battery_2" sprite_id="skins_battery_2" />
+            <sprite id="battery_3" sprite_id="skins_battery_3" />
+            <sprite id="battery_4" sprite_id="skins_battery_4" />
+            <sprite id="battery_5" sprite_id="skins_battery_5" />
+            <sprite id="battery_6" sprite_id="skins_battery_6" />
+            <sprite id="bricks_blue_0" sprite_id="skins_bricks_blue_0" />
+            <sprite id="bricks_blue_1" sprite_id="skins_bricks_blue_1" />
+            <sprite id="bricks_blue_2" sprite_id="skins_bricks_blue_2" />
+            <sprite id="bricks_blue_3" sprite_id="skins_bricks_blue_3" />
+            <sprite id="bricks_blue_4" sprite_id="skins_bricks_blue_4" />
+            <sprite id="bricks_blue_5" sprite_id="skins_bricks_blue_5" />
+            <sprite id="bricks_blue_6" sprite_id="skins_bricks_blue_6" />
+            <sprite id="bricks_blue_7" sprite_id="skins_bricks_blue_7" />
+            <sprite id="dot_star_0" sprite_id="skins_dot_star_0" />
+            <sprite id="dot_star_1" sprite_id="skins_dot_star_1" />
+            <sprite id="dot_star_2" sprite_id="skins_dot_star_2" />
+            <sprite id="dot_star_3" sprite_id="skins_dot_star_3" />
+            <sprite id="dot_star_4" sprite_id="skins_dot_star_4" />
+            <sprite id="dot_star_5" sprite_id="skins_dot_star_5" />
+            <sprite id="dot_star_6" sprite_id="skins_dot_star_6" />
+            <sprite id="four_dots_0" sprite_id="skins_four_dots_0" />
+            <sprite id="four_dots_1" sprite_id="skins_four_dots_1" />
+            <sprite id="four_dots_2" sprite_id="skins_four_dots_2" />
+            <sprite id="four_dots_3" sprite_id="skins_four_dots_3" />
+            <sprite id="four_dots_4" sprite_id="skins_four_dots_4" />
+            <sprite id="four_dots_5" sprite_id="skins_four_dots_5" />
+            <sprite id="four_dots_6" sprite_id="skins_four_dots_6" />
+            <sprite id="four_dots_7" sprite_id="skins_four_dots_7" />
+            <sprite id="gears_yellow_0" sprite_id="skins_gears_yellow_0" />
+            <sprite id="gears_yellow_1" sprite_id="skins_gears_yellow_1" />
+            <sprite id="gears_yellow_2" sprite_id="skins_gears_yellow_2" />
+            <sprite id="gears_yellow_3" sprite_id="skins_gears_yellow_3" />
+            <sprite id="gears_yellow_4" sprite_id="skins_gears_yellow_4" />
+            <sprite id="gears_yellow_5" sprite_id="skins_gears_yellow_5" />
+            <sprite id="gears_yellow_6" sprite_id="skins_gears_yellow_6" />
+            <sprite id="gears_yellow_7" sprite_id="skins_gears_yellow_7" />
+            <sprite id="germany_flag" sprite_id="skins_germany_flag" />
+            <sprite id="large_arrow_0" sprite_id="skins_large_arrow_0" />
+            <sprite id="large_arrow_1" sprite_id="skins_large_arrow_1" />
+            <sprite id="large_arrow_2" sprite_id="skins_large_arrow_2" />
+            <sprite id="large_arrow_3" sprite_id="skins_large_arrow_3" />
+            <sprite id="large_arrow_4" sprite_id="skins_large_arrow_4" />
+            <sprite id="large_arrow_5" sprite_id="skins_large_arrow_5" />
+            <sprite id="large_arrow_6" sprite_id="skins_large_arrow_6" />
+            <sprite id="large_arrow_7" sprite_id="skins_large_arrow_7" />
+            <sprite id="line" sprite_id="skins_line" />
+            <sprite id="flat_dots_blue" sprite_id="skins_flat_dots_blue" />
+            <sprite id="flat_dots_green" sprite_id="skins_flat_dots_green" />
+            <sprite id="flat_dots_red" sprite_id="skins_flat_dots_red" />
+            <sprite id="flat_dots_white" sprite_id="skins_flat_dots_white" />
+            <sprite id="flat_dots_yellow" sprite_id="skins_flat_dots_yellow" />
+            <sprite id="flat_black" sprite_id="skins_flat_black" />
+            <sprite id="flat_white" sprite_id="skins_flat_white" />
+            <sprite id="flat_yellow" sprite_id="skins_flat_yellow" />
+            <sprite id="flat_green" sprite_id="skins_flat_green" />
+            <sprite id="flat_red" sprite_id="skins_flat_red" />
+            <sprite id="flat_black_line" sprite_id="skins_flat_black_line" />
+            <sprite id="flat_diamond_cyan" sprite_id="skins_flat_diamond_cyan" />
+            <sprite id="flat_diamond_green" sprite_id="skins_flat_diamond_green" />
+            <sprite id="flat_diamond_red" sprite_id="skins_flat_diamond_red" />
+            <sprite id="flat_diamond_yellow" sprite_id="skins_flat_diamond_yellow" />
+            <sprite id="mono_00" simple="1" sprite_id="skins_mono_00" />
+            <sprite id="mono_01" simple="1" sprite_id="skins_mono_01" />
+            <sprite id="mono_02" simple="1" sprite_id="skins_mono_02" />
+            <sprite id="mono_03" simple="1" sprite_id="skins_mono_03" />
+            <sprite id="mono_04" simple="1" sprite_id="skins_mono_04" />
+            <sprite id="mono_05" simple="1" sprite_id="skins_mono_05" />
+            <sprite id="mono_06" simple="1" sprite_id="skins_mono_06" />
+            <sprite id="mono_07" simple="1" sprite_id="skins_mono_07" />
+            <sprite id="mono_08" simple="1" sprite_id="skins_mono_08" />
+            <sprite id="mono_09" simple="1" sprite_id="skins_mono_09" />
+            <sprite id="mono_10" simple="1" sprite_id="skins_mono_10" />
+            <sprite id="mono_11" simple="1" sprite_id="skins_mono_11" />
+            <sprite id="mono_12" simple="1" sprite_id="skins_mono_12" />
+            <sprite id="mono_13" simple="1" sprite_id="skins_mono_13" />
+            <sprite id="mono_14" simple="1" sprite_id="skins_mono_14" />
+            <sprite id="mono_15" simple="1" sprite_id="skins_mono_15" />
+            <sprite id="mono_16" simple="1" sprite_id="skins_mono_16" />
+            <sprite id="mono_17" simple="1" sprite_id="skins_mono_17" />
+            <sprite id="mono_18" simple="1" sprite_id="skins_mono_18" />
+            <sprite id="mono_19" simple="1" sprite_id="skins_mono_19" />
+            <sprite id="tentacle" sprite_id="skins_tentacle" hotspot="53 57" />
+            <sprite id="tentacle_red" sprite_id="skins_tentacle_red" hotspot="52 50" />
+            <sprite id="tentacle_white" sprite_id="skins_tentacle_white" hotspot="51 41" />
+            <sprite id="number_one_0" sprite_id="skins_number_one_0" />
+            <sprite id="number_one_1" sprite_id="skins_number_one_1" />
+            <sprite id="number_one_2" sprite_id="skins_number_one_2" />
+            <sprite id="number_one_3" sprite_id="skins_number_one_3" />
+            <sprite id="number_one_4" sprite_id="skins_number_one_4" />
+            <sprite id="usa_flag_0" sprite_id="skins_usa_flag_0" />
+            <sprite id="usa_flag_1" sprite_id="skins_usa_flag_1" />
+            <sprite id="usa_flag_2" sprite_id="skins_usa_flag_2" />
+            <sprite id="usa_flag_3" sprite_id="skins_usa_flag_3" />
+            <sprite id="usa_flag_4" sprite_id="skins_usa_flag_4" />
+            <sprite id="usa_flag_5" sprite_id="skins_usa_flag_5" />
+            <sprite id="canada_flag_0" sprite_id="skins_canada_flag_0" />
+            <sprite id="canada_flag_1" sprite_id="skins_canada_flag_1" />
+            <sprite id="canada_flag_2" sprite_id="skins_canada_flag_2" />
+            <sprite id="clower_0" sprite_id="skins_clower_0" />
+            <sprite id="clower_1" sprite_id="skins_clower_1" />
+            <sprite id="clower_2" sprite_id="skins_clower_2" />
+            <sprite id="clower_3" sprite_id="skins_clower_3" />
+            <sprite id="yin_yang_0" sprite_id="skins_yin_yang_0" />
+            <sprite id="yin_yang_1" sprite_id="skins_yin_yang_1" />
+            <sprite id="yin_yang_2" sprite_id="skins_yin_yang_2" />
+            <sprite id="yin_yang_3" sprite_id="skins_yin_yang_3" />
+            <sprite id="yin_yang_4" sprite_id="skins_yin_yang_4" />
+            <sprite id="circle_star_0" sprite_id="skins_circle_star_0" />
+            <sprite id="circle_star_1" sprite_id="skins_circle_star_1" />
+            <sprite id="circle_star_2" sprite_id="skins_circle_star_2" />
+            <sprite id="circle_star_3" sprite_id="skins_circle_star_3" />
+            <sprite id="circle_star_4" sprite_id="skins_circle_star_4" />
+            <sprite id="snowflake_blue_0" sprite_id="skins_snowflake_blue_0" />
+            <sprite id="snowflake_blue_1" sprite_id="skins_snowflake_blue_1" />
+            <sprite id="snowflake_blue_2" sprite_id="skins_snowflake_blue_2" />
+            <sprite id="snowflake_blue_3" sprite_id="skins_snowflake_blue_3" />
+            <sprite id="snowflake_blue_4" sprite_id="skins_snowflake_blue_4" />
+            <sprite id="snowflake_blue_5" sprite_id="skins_snowflake_blue_5" />
+            <sprite id="cyrex_0" sprite_id="skins_cyrex_0" />
+            <sprite id="cyrex_1" sprite_id="skins_cyrex_1" />
+            <sprite id="cyrex_2" sprite_id="skins_cyrex_2" />
+            <sprite id="cyrex_3" sprite_id="skins_cyrex_3" />
+            <sprite id="cyrex_4" sprite_id="skins_cyrex_4" />
+            <sprite id="cyrex_5" sprite_id="skins_cyrex_5" />
+            <sprite id="cyrex_6" sprite_id="skins_cyrex_6" />
+            <sprite id="cyrex_7" sprite_id="skins_cyrex_7" />
+            <sprite id="cyrex_8" sprite_id="skins_cyrex_8" />
+            <sprite id="cyrex_9" sprite_id="skins_cyrex_9" />
+            <sprite id="snake_0_0" sprite_id="skins_snake_0_0" />
+            <sprite id="snake_0_1" sprite_id="skins_snake_0_1" />
+            <sprite id="snake_0_2" sprite_id="skins_snake_0_2" />
+            <sprite id="snake_0_3" sprite_id="skins_snake_0_3" />
+            <sprite id="catsteps_0" sprite_id="skins_catsteps_0" />
+            <sprite id="catsteps_1" sprite_id="skins_catsteps_1" />
+            <sprite id="catsteps_2" sprite_id="skins_catsteps_2" />
+            <sprite id="catsteps_3" sprite_id="skins_catsteps_3" />
+            <sprite id="catsteps_4" sprite_id="skins_catsteps_4" />
+            <sprite id="catsteps_5" sprite_id="skins_catsteps_5" />
+            <sprite id="catsteps_6" sprite_id="skins_catsteps_6" />
+            <sprite id="catsteps_7" sprite_id="skins_catsteps_7" />
+            <sprite id="catsteps_8" sprite_id="skins_catsteps_8" />
+            <sprite id="pumpkin_0" sprite_id="skins_pumpkin_0" />
+            <sprite id="pumpkin_1" sprite_id="skins_pumpkin_1" />
+            <sprite id="pumpkin_2" sprite_id="skins_pumpkin_2" />
+            <sprite id="pumpkin_3" sprite_id="skins_pumpkin_3" />
+            <sprite id="pumpkin_4" sprite_id="skins_pumpkin_4" />
+            <sprite id="smile_blue_0" sprite_id="skins_smile_blue_0" />
+            <sprite id="smile_blue_1" sprite_id="skins_smile_blue_1" />
+            <sprite id="smile_blue_2" sprite_id="skins_smile_blue_2" />
+            <sprite id="smile_blue_3" sprite_id="skins_smile_blue_3" />
+            <sprite id="smile_blue_4" sprite_id="skins_smile_blue_4" />
+            <sprite id="smile_yellow_0" sprite_id="skins_smile_yellow_0" />
+            <sprite id="smile_yellow_1" sprite_id="skins_smile_yellow_1" />
+            <sprite id="smile_yellow_2" sprite_id="skins_smile_yellow_2" />
+            <sprite id="smile_yellow_3" sprite_id="skins_smile_yellow_3" />
+            <sprite id="smile_yellow_4" sprite_id="skins_smile_yellow_4" />
+            <sprite id="triangle_rects_0" sprite_id="skins_triangle_rects_0" />
+            <sprite id="triangle_rects_1" sprite_id="skins_triangle_rects_1" />
+            <sprite id="triangle_rects_2" sprite_id="skins_triangle_rects_2" />
+            <sprite id="triangle_rects_3" sprite_id="skins_triangle_rects_3" />
+            <sprite id="triangle_rects_4" sprite_id="skins_triangle_rects_4" />
+            <sprite id="triangle_rects_5" sprite_id="skins_triangle_rects_5" />
+            <sprite id="alien_gw_0" sprite_id="skins_alien_gw_0" />
+            <sprite id="alien_gw_1" sprite_id="skins_alien_gw_1" />
+            <sprite id="alien_gw_2" sprite_id="skins_alien_gw_2" />
+            <sprite id="alien_gw_3" sprite_id="skins_alien_gw_3" />
+            <sprite id="alien_gw_4" sprite_id="skins_alien_gw_4" />
+            <sprite id="alien_gw_2_0" sprite_id="skins_alien_gw_2_0" />
+            <sprite id="alien_gw_2_1" sprite_id="skins_alien_gw_2_1" />
+            <sprite id="alien_gw_2_2" sprite_id="skins_alien_gw_2_2" />
+            <sprite id="alien_gw_2_3" sprite_id="skins_alien_gw_2_3" />
+            <sprite id="alien_gw_2_4" sprite_id="skins_alien_gw_2_4" />
+            <sprite id="alien_gw_2_5" sprite_id="skins_alien_gw_2_5" />
+            <sprite id="two_dots_0" sprite_id="skins_two_dots_0" />
+            <sprite id="two_dots_1" sprite_id="skins_two_dots_1" />
+            <sprite id="two_dots_2" sprite_id="skins_two_dots_2" />
+            <sprite id="two_dots_3" sprite_id="skins_two_dots_3" />
+            <sprite id="two_dots_4" sprite_id="skins_two_dots_4" />
+            <sprite id="two_dots_5" sprite_id="skins_two_dots_5" />
+            <sprite id="two_dots_6" sprite_id="skins_two_dots_6" />
+            <sprite id="two_dots_7" sprite_id="skins_two_dots_7" />
+            <sprite id="two_lines" sprite_id="skins_two_lines" />
+            <sprite id="patrick_0" sprite_id="skins_patrick_0" />
+            <sprite id="patrick_1" sprite_id="skins_patrick_1" />
+            <sprite id="patrick_belt" sprite_id="skins_patrick_2" />
+        </sprites>
+
+        <skins>
+            <!-- one color -->
+            <skin id="14" segmentLength="15" collisionRadius="30">
+                <s id="mono_00" />
+            </skin>
+            <skin id="15" segmentLength="15" collisionRadius="30">
+                <s id="mono_01" />
+            </skin>
+            <skin id="16" segmentLength="15" collisionRadius="30">
+                <s id="mono_02" />
+            </skin>
+            <skin id="17" segmentLength="15" collisionRadius="30">
+                <s id="mono_03" />
+            </skin>
+            <skin id="18" segmentLength="15" collisionRadius="30">
+                <s id="mono_04" />
+            </skin>
+            <skin id="19" segmentLength="15" collisionRadius="30">
+                <s id="mono_05" />
+            </skin>
+            <skin id="20" segmentLength="15" collisionRadius="30">
+                <s id="mono_06" />
+            </skin>
+            <skin id="21" segmentLength="15" collisionRadius="30">
+                <s id="mono_07" />
+            </skin>
+            <skin id="22" segmentLength="15" collisionRadius="30">
+                <s id="mono_08" />
+            </skin>
+            <skin id="23" segmentLength="15" collisionRadius="30">
+                <s id="mono_09" />
+            </skin>
+            <skin id="24" segmentLength="15" collisionRadius="30">
+                <s id="mono_10" />
+            </skin>
+            <skin id="25" segmentLength="15" collisionRadius="30">
+                <s id="mono_11" />
+            </skin>
+            <skin id="26" segmentLength="15" collisionRadius="30">
+                <s id="mono_12" />
+            </skin>
+            <skin id="27" segmentLength="15" collisionRadius="30">
+                <s id="mono_13" />
+            </skin>
+            <skin id="28" segmentLength="15" collisionRadius="30">
+                <s id="mono_14" />
+            </skin>
+            <skin id="29" segmentLength="15" collisionRadius="30">
+                <s id="mono_15" />
+            </skin>
+            <skin id="30" segmentLength="15" collisionRadius="30">
+                <s id="mono_16" />
+            </skin>
+            <skin id="31" segmentLength="15" collisionRadius="30">
+                <s id="mono_17" />
+            </skin>
+            <skin id="32" segmentLength="15" collisionRadius="30">
+                <s id="mono_18" />
+            </skin>
+            <skin id="33" segmentLength="15" collisionRadius="30">
+                <s id="mono_19" />
+            </skin>
+
+            <skin id="mono_black" segmentLength="15" collisionRadius="30" required_level="20">
+                <s id="flat_black" />
+            </skin>
+            <skin id="flat_black_line" headId="flat_black" segmentLength="15" collisionRadius="30" required_level="10">
+                <s id="flat_black_line" />
+            </skin>
+            <skin id="flat_white" segmentLength="15" collisionRadius="30" required_level="10">
+                <s id="flat_white" />
+            </skin>
+            <skin id="flat_yellow" segmentLength="15" collisionRadius="30" required_level="10">
+                <s id="flat_yellow" />
+            </skin>
+            <skin id="flat_red" segmentLength="15" collisionRadius="30" required_level="10">
+                <s id="flat_red" />
+            </skin>
+            <skin id="flat_green" segmentLength="15" collisionRadius="30" required_level="10">
+                <s id="flat_green" />
+            </skin>
+            <skin id="flat_diamond_cyan" segmentLength="15" collisionRadius="30" price="3000" required_level="10">
+                <s id="flat_diamond_cyan" />
+            </skin>
+            <skin id="flat_diamond_green" segmentLength="15" collisionRadius="30" price="3000" required_level="10">
+                <s id="flat_diamond_green" />
+            </skin>
+            <skin id="flat_diamond_red" segmentLength="15" collisionRadius="30" price="3000" required_level="10">
+                <s id="flat_diamond_red" />
+            </skin>
+            <skin id="flat_diamond_yellow" segmentLength="15" collisionRadius="30" price="3000" required_level="10">
+                <s id="flat_diamond_yellow" />
+            </skin>
+
+            <!-- striped -->
+            <skin id="flat_star_white" segmentLength="15" collisionRadius="30" price="10000" required_level="64">
+                <s id="flat_white" />
+                <s id="flat_white" />
+                <s id="flat_dots_red" />
+                <s id="flat_dots_red" />
+                <s id="flat_dots_red" />
+                <s id="flat_dots_red" />
+                <s id="flat_dots_red" />
+                <s id="flat_white" />
+                <s id="flat_white" />
+                <s id="flat_dots_blue" />
+                <s id="flat_dots_blue" />
+                <s id="flat_dots_blue" />
+                <s id="flat_dots_blue" />
+                <s id="flat_dots_blue" />
+            </skin>
+            <skin id="flat_star_red" segmentLength="15" collisionRadius="30" price="10000" required_level="64">
+                <s id="flat_red" />
+                <s id="flat_red" />
+                <s id="flat_red" />
+                <s id="flat_red" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+            </skin>
+            <skin id="flat_star_black" headId="flat_black" segmentLength="15" collisionRadius="30" price="10000" required_level="64">
+                <s id="flat_black_line" />
+                <s id="flat_black_line" />
+                <s id="flat_black_line" />
+                <s id="flat_black_line" />
+                <s id="flat_black_line" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+            </skin>
+            <skin id="flat_star_green" segmentLength="15" collisionRadius="30" price="10000" required_level="64">
+                <s id="flat_green" />
+                <s id="flat_green" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+                <s id="flat_dots_white" />
+            </skin>
+            <skin id="flat_star_yellow" segmentLength="15" collisionRadius="30" price="10000" required_level="64">
+                <s id="flat_yellow" />
+                <s id="flat_yellow" />
+                <s id="flat_dots_yellow" />
+                <s id="flat_dots_yellow" />
+                <s id="flat_dots_yellow" />
+                <s id="flat_dots_yellow" />
+                <s id="flat_dots_yellow" />
+            </skin>
+            <skin id="34" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+            </skin>
+            <skin id="35" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+            </skin>
+            <skin id="36" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+            </skin>
+            <skin id="37" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_10" />
+                <s id="mono_10" />
+                <s id="mono_10" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+            </skin>
+            <skin id="38" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+            </skin>
+            <skin id="39" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_04" />
+                <s id="mono_04" />
+                <s id="mono_04" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+            </skin>
+            <skin id="44" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+            </skin>
+            <skin id="45" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_15" />
+                <s id="mono_15" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+            </skin>
+            <skin id="56" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_12" />
+                <s id="mono_06" />
+            </skin>
+            <skin id="56_1" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_12" />
+                <s id="mono_06" />
+            </skin>
+            <skin id="57" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_14" />
+                <s id="mono_15" />
+            </skin>
+            <skin id="58" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_14" />
+                <s id="mono_17" />
+            </skin>
+            <skin id="59" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_11" />
+                <s id="mono_06" />
+            </skin>
+            <skin id="61" segmentLength="15" collisionRadius="30" price="3000" required_level="15">
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+            </skin>
+            <skin id="62" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_15" />
+                <s id="mono_15" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+            </skin>
+            <skin id="64" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+            </skin>
+            <skin id="67" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_10" />
+                <s id="mono_10" />
+                <s id="mono_10" />
+                <s id="mono_10" />
+                <s id="mono_10" />
+                <s id="mono_18" />
+                <s id="mono_18" />
+                <s id="mono_18" />
+                <s id="mono_18" />
+                <s id="mono_18" />
+            </skin>
+            <skin id="68" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+            </skin>
+            <skin id="69" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+            </skin>
+            <skin id="40" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_05" />
+                <s id="mono_05" />
+                <s id="mono_05" />
+            </skin>
+            <skin id="41" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+            </skin>
+            <skin id="42" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_01" />
+            </skin>
+            <skin id="43" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_01" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_07" />
+            </skin>
+            <skin id="71" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+            </skin>
+            <skin id="60" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_02" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_02" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_02" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_02" />
+            </skin>
+            <skin id="63" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_16" />
+                <s id="mono_09" />
+                <s id="mono_05" />
+                <s id="mono_11" />
+                <s id="mono_15" />
+                <s id="mono_14" />
+                <s id="mono_07" />
+                <s id="mono_17" />
+                <s id="mono_07" />
+                <s id="mono_14" />
+                <s id="mono_15" />
+                <s id="mono_11" />
+                <s id="mono_05" />
+                <s id="mono_09" />
+            </skin>
+            <skin id="65" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+            </skin>
+            <skin id="66" segmentLength="15" collisionRadius="30" price="4500" required_level="20">
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_05" />
+                <s id="mono_05" />
+                <s id="mono_05" />
+                <s id="mono_05" />
+            </skin>
+            <skin id="tentacle" segmentLength="15" collisionRadius="30" price="9000" required_level="19">
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="tentacle" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="tentacle" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="tentacle" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+            </skin>
+            <skin id="tentacle_red" segmentLength="15" collisionRadius="30" price="9000" required_level="19">
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="tentacle_red" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="tentacle_red" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="tentacle_red" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+            </skin>
+            <skin id="tentacle_white" segmentLength="15" collisionRadius="30" price="9000" required_level="19">
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="tentacle_white" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="tentacle_white" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="tentacle_white" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+            </skin>
+
+            <!-- patterns -->
+            <!-- <skin id="snake_0" headId="head_snake_0" segmentLength="15" collisionRadius="30" price="9000" required_level="9"> -->
+                <!-- <s id="snake_0_0" /> -->
+                <!-- <s id="snake_0_1" /> -->
+                <!-- <s id="snake_0_2" /> -->
+                <!-- <s id="snake_0_3" /> -->
+            <!-- </skin> -->
+            <skin id="cyrex_head" headId="head_cyrex" segmentLength="15" collisionRadius="30" price="6000" required_level="9">
+                <s id="cyrex_0" />
+                <s id="cyrex_1" />
+                <s id="cyrex_2" />
+                <s id="cyrex_3" />
+                <s id="cyrex_4" />
+                <s id="cyrex_5" />
+            </skin>
+            <skin id="cyrex" segmentLength="15" collisionRadius="30" price="5000" required_level="4">
+                <s id="cyrex_0" />
+                <s id="cyrex_1" />
+                <s id="cyrex_2" />
+                <s id="cyrex_3" />
+                <s id="cyrex_4" />
+                <s id="cyrex_5" />
+            </skin>
+            <skin id="circle_star" headId="head_circle_star" segmentLength="15" collisionRadius="30" price="4500" required_level="30">
+                <s id="circle_star_0" />
+                <s id="circle_star_1" />
+                <s id="circle_star_2" />
+                <s id="circle_star_3" />
+                <s id="circle_star_4" />
+            </skin>
+            <skin id="snowflake_blue" headId="head_circle_star" segmentLength="15" collisionRadius="30" price="4500" required_level="4">
+                <s id="snowflake_blue_0" />
+                <s id="snowflake_blue_1" />
+                <s id="snowflake_blue_2" />
+                <s id="snowflake_blue_3" />
+                <s id="snowflake_blue_4" />
+                <s id="snowflake_blue_5" />
+            </skin>
+            <skin id="catsteps" headId="mono_00" segmentLength="15" collisionRadius="30" price="4500" required_level="30">
+                <s id="catsteps_0" />
+                <s id="catsteps_1" />
+                <s id="catsteps_2" />
+                <s id="catsteps_3" />
+                <s id="catsteps_4" />
+                <s id="catsteps_5" />
+                <s id="catsteps_6" />
+                <s id="catsteps_7" />
+                <s id="catsteps_8" />
+            </skin>
+            <skin id="clower" headId="mono_03" segmentLength="15" collisionRadius="30" price="4500" required_level="32">
+                <s id="clower_0" />
+                <s id="clower_1" />
+                <s id="clower_2" />
+                <s id="clower_3" />
+            </skin>
+            <skin id="yin_yang" headId="mono_00" segmentLength="15" collisionRadius="30" price="4500" required_level="34">
+                <s id="yin_yang_0" />
+                <s id="yin_yang_1" />
+                <s id="yin_yang_2" />
+                <s id="yin_yang_3" />
+                <s id="yin_yang_4" />
+            </skin>
+            <skin id="5" headId="mono_11" segmentLength="15" collisionRadius="30" price="4500" required_level="36">
+                <s id="number_one_0" />
+                <s id="number_one_1" />
+                <s id="number_one_2" />
+                <s id="number_one_3" />
+                <s id="number_one_4" />
+                <s id="number_one_0" />
+                <s id="number_one_0" />
+                <s id="number_one_0" />
+                <s id="number_one_0" />
+                <s id="number_one_0" />
+            </skin>
+            <skin id="8" headId="mono_11" segmentLength="15" collisionRadius="30" price="4500" required_level="38">
+                <s id="line" />
+            </skin>
+            <skin id="9" headId="mono_05" segmentLength="15" collisionRadius="30" price="4500" required_level="40">
+                <s id="two_lines" />
+            </skin>
+            <skin id="0" headId="mono_00" segmentLength="15" collisionRadius="30" price="4500" required_level="42">
+                <s id="four_dots_0" />
+                <s id="four_dots_1" />
+                <s id="four_dots_2" />
+                <s id="four_dots_3" />
+                <s id="four_dots_4" />
+                <s id="four_dots_5" />
+                <s id="four_dots_6" />
+                <s id="four_dots_7" />
+            </skin>
+            <skin id="1" headId="mono_06" segmentLength="15" collisionRadius="30" price="4500" required_level="44">
+                <s id="batman_black_0" />
+                <s id="batman_black_1" />
+                <s id="batman_black_2" />
+                <s id="batman_black_3" />
+                <s id="batman_black_4" />
+                <s id="batman_black_0" />
+                <s id="batman_black_0" />
+                <s id="batman_black_0" />
+            </skin>
+            <skin id="2" headId="mono_11" segmentLength="15" collisionRadius="30" price="4500" required_level="46">
+                <s id="batman_yellow_0" />
+                <s id="batman_yellow_1" />
+                <s id="batman_yellow_2" />
+                <s id="batman_yellow_3" />
+                <s id="batman_yellow_4" />
+                <s id="batman_yellow_0" />
+                <s id="batman_yellow_0" />
+                <s id="batman_yellow_0" />
+            </skin>
+            <skin id="3" headId="mono_00" segmentLength="15" collisionRadius="30" price="4500" required_level="48">
+                <s id="arrow_dot_0" />
+                <s id="arrow_dot_1" />
+                <s id="arrow_dot_2" />
+                <s id="arrow_dot_3" />
+                <s id="arrow_dot_4" />
+                <s id="arrow_dot_5" />
+                <s id="arrow_dot_6" />
+                <s id="arrow_dot_7" />
+            </skin>
+            <skin id="7" headId="mono_17" segmentLength="15" collisionRadius="30" price="4500" required_level="50">
+                <s id="smile_blue_0" />
+                <s id="smile_blue_1" />
+                <s id="smile_blue_2" />
+                <s id="smile_blue_3" />
+                <s id="smile_blue_4" />
+                <s id="smile_blue_0" />
+                <s id="smile_blue_0" />
+                <s id="smile_blue_0" />
+                <s id="smile_blue_0" />
+                <s id="smile_blue_0" />
+            </skin>
+            <skin id="6" headId="mono_12" segmentLength="15" collisionRadius="30" price="4500" required_level="52">
+                <s id="smile_yellow_0" />
+                <s id="smile_yellow_1" />
+                <s id="smile_yellow_2" />
+                <s id="smile_yellow_3" />
+                <s id="smile_yellow_4" />
+                <s id="smile_yellow_0" />
+                <s id="smile_yellow_0" />
+                <s id="smile_yellow_0" />
+                <s id="smile_yellow_0" />
+                <s id="smile_yellow_0" />
+            </skin>
+            <skin id="dot_star" headId="mono_09" segmentLength="15" collisionRadius="30" price="4500" required_level="54">
+                <s id="dot_star_0" />
+                <s id="dot_star_1" />
+                <s id="dot_star_2" />
+                <s id="dot_star_3" />
+                <s id="dot_star_4" />
+                <s id="dot_star_5" />
+                <s id="dot_star_6" />
+            </skin>
+            <skin id="large_arrow" headId="head_arrow" segmentLength="15" collisionRadius="30" price="4500" required_level="56">
+                <s id="large_arrow_0" />
+                <s id="large_arrow_1" />
+                <s id="large_arrow_2" />
+                <s id="large_arrow_3" />
+                <s id="large_arrow_4" />
+                <s id="large_arrow_5" />
+                <s id="large_arrow_6" />
+                <s id="large_arrow_7" />
+            </skin>
+            <skin id="pumpkin" headId="head_pumpkin" segmentLength="15" collisionRadius="30" price="4500" required_level="58">
+                <s id="pumpkin_0" />
+                <s id="pumpkin_1" />
+                <s id="pumpkin_2" />
+                <s id="pumpkin_3" />
+                <s id="pumpkin_4" />
+            </skin>
+            <skin id="rect_line" headId="rect_line" segmentLength="15" collisionRadius="30" price="4500" required_level="10">
+                <s id="rect_line" />
+            </skin>
+            <skin id="alien" headId="head_alien" segmentLength="15" collisionRadius="30" price="11500" required_level="34">
+                <s id="alien" />
+            </skin>
+            <skin id="alien_gw" headId="mono_00" segmentLength="15" collisionRadius="30" price="11500" required_level="34">
+                <s id="alien_gw_0" />
+                <s id="alien_gw_1" />
+                <s id="alien_gw_2" />
+                <s id="alien_gw_3" />
+                <s id="alien_gw_4" />
+            </skin>
+            <skin id="alien_gw_2" headId="mono_00" segmentLength="15" collisionRadius="30" price="11500" required_level="34">
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="alien_gw_2_0" />
+                <s id="alien_gw_2_1" />
+                <s id="alien_gw_2_2" />
+                <s id="alien_gw_2_3" />
+                <s id="alien_gw_2_4" />
+                <s id="alien_gw_2_5" />
+            </skin>
+            <skin id="triangle_rects" headId="mono_00" segmentLength="15" collisionRadius="30" price="4500" required_level="60">
+                <s id="triangle_rects_0" />
+                <s id="triangle_rects_1" />
+                <s id="triangle_rects_2" />
+                <s id="triangle_rects_3" />
+                <s id="triangle_rects_4" />
+                <s id="triangle_rects_5" />
+            </skin>
+            <skin id="4" headId="mono_00" segmentLength="15" collisionRadius="30" price="6000" required_level="62">
+                <s id="two_dots_0" />
+                <s id="two_dots_1" />
+                <s id="two_dots_2" />
+                <s id="two_dots_3" />
+                <s id="two_dots_4" />
+                <s id="two_dots_5" />
+                <s id="two_dots_6" />
+                <s id="two_dots_7" />
+            </skin>
+            <skin id="11" headId="mono_14" segmentLength="15" collisionRadius="30" price="7500" required_level="64">
+                <s id="bricks_blue_0" />
+                <s id="bricks_blue_1" />
+                <s id="bricks_blue_2" />
+                <s id="bricks_blue_3" />
+                <s id="bricks_blue_4" />
+                <s id="bricks_blue_5" />
+                <s id="bricks_blue_6" />
+                <s id="bricks_blue_7" />
+            </skin>
+            <skin id="12" headId="head_yellow" segmentLength="15" collisionRadius="30" price="7500" required_level="66">
+                <s id="gears_yellow_0" />
+                <s id="gears_yellow_1" />
+                <s id="gears_yellow_2" />
+                <s id="gears_yellow_3" />
+                <s id="gears_yellow_4" />
+                <s id="gears_yellow_5" />
+                <s id="gears_yellow_6" />
+                <s id="gears_yellow_7" />
+            </skin>
+            <skin id="13" headId="head_battery" segmentLength="15" collisionRadius="30" price="9000" required_level="68">
+                <s id="battery_0" />
+                <s id="battery_1" />
+                <s id="battery_2" />
+                <s id="battery_3" />
+                <s id="battery_4" />
+                <s id="battery_5" />
+                <s id="battery_6" />
+            </skin>
+
+            <!-- flags -->
+            <skin id="70" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+            </skin>
+            <skin id="46" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+            </skin>
+            <skin id="47" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+            </skin>
+            <skin id="48" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+                <s id="mono_17" />
+            </skin>
+            <skin id="49" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+                <s id="mono_06" />
+            </skin>
+            <skin id="50" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+                <s id="mono_03" />
+            </skin>
+            <skin id="51" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+            </skin>
+            <skin id="52" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_14" />
+                <s id="mono_14" />
+                <s id="mono_14" />
+                <s id="mono_14" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+                <s id="mono_12" />
+            </skin>
+            <skin id="53" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+            </skin>
+            <skin id="54" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_14" />
+                <s id="mono_14" />
+                <s id="mono_14" />
+                <s id="mono_14" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+                <s id="mono_11" />
+            </skin>
+            <skin id="55" segmentLength="15" collisionRadius="30" price="7500" required_level="10">
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_00" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+                <s id="mono_09" />
+            </skin>
+
+            <skin id="usa_flag" segmentLength="15" collisionRadius="30" price="9000" required_level="10">
+                <s id="mono_00" />
+                <s id="mono_19" />
+                <s id="mono_00" />
+                <s id="mono_19" />
+                <s id="mono_00" />
+                <s id="mono_19" />
+                <s id="usa_flag_0" />
+                <s id="usa_flag_1" />
+                <s id="usa_flag_2" />
+                <s id="usa_flag_3" />
+                <s id="usa_flag_4" />
+                <s id="usa_flag_5" />
+            </skin>
+            <skin id="canada_flag" segmentLength="15" collisionRadius="30" price="9000" required_level="10">
+                <s id="canada_flag_0" />
+                <s id="canada_flag_1" />
+                <s id="canada_flag_2" />
+            </skin>
+            <skin id="10" segmentLength="15" collisionRadius="30" price="9000" required_level="10">
+                <s id="germany_flag" />
+            </skin>
+
+            <skin id="premium_worm" segmentLength="15" collisionRadius="30" sku="premium_worm" required_level="4">
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_16" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_02" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_01" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_08" />
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_07" />
+                <s id="mono_04" />
+                <s id="mono_04" />
+                <s id="mono_04" />
+                <s id="mono_04" />
+            </skin>
+
+            <skin id="premium_worm_ice" headId="head_ice" tailId="tail_ice" segmentLength="15" collisionRadius="30" hasFace="1" sku="premium_worm_ice">
+                <s id="ice" />
+            </skin>
+
+            <skin id="bat_head" headId="head_bat" hasFace="1" segmentLength="15" collisionRadius="30" price="1" exclusive="1" event="halloween">
+                <s id="bat" />
+            </skin>
+            <skin id="zombie_head" headId="head_zombie" hasFace="1" segmentLength="15" collisionRadius="30" price="1" event="halloween">
+                <s id="zombie" />
+            </skin>
+            <skin id="ghost_head" headId="head_ghost" hasFace="1" segmentLength="15" collisionRadius="30" price="1" event="halloween">
+                <s id="ghost" />
+            </skin>
+            <skin id="mummy_head" headId="head_mummy" hasFace="1" segmentLength="15" collisionRadius="30" price="1" event="halloween">
+                <s id="mummy" />
+            </skin>
+            <skin id="pumpkin_helloween_head" headId="head_pumpkin_2" hasFace="1" segmentLength="15" collisionRadius="30" price="1" event="halloween">
+                <s id="pumpkin" />
+            </skin>
+            <skin id="scarecrow_head" headId="head_scarecrow" hasFace="1" segmentLength="15" collisionRadius="30" price="1"  exclusive="1" event="halloween">
+                <s id="scarecrow" />
+            </skin>
+            <skin id="skull_head" headId="head_skull" hasFace="1" segmentLength="15" collisionRadius="30" price="1" event="halloween">
+                <s id="skull" />
+            </skin>
+            <skin id="vampire_head" headId="head_vampire" hasFace="1" segmentLength="15" collisionRadius="30" price="1" event="halloween">
+                <s id="vampire" />
+            </skin>
+            
+            <!--Christmas-->
+            <skin id="deer_head" headId="head_deer" tailId="tail_deer" hasFace="1" segmentLength="15" collisionRadius="30" price="20000" event="christmas">
+                <s id="deer" />
+            </skin>
+            <skin id="elf_head" headId="head_elf" tailId="tail_elf" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="christmas">
+                <s id="elf" />
+            </skin>
+            <skin id="omela_head" headId="head_omela" tailId="tail_omela" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="christmas">
+                <s id="omela" />
+            </skin>
+            <skin id="pungvin_head" headId="head_pungvin" tailId="tail_pungvin" hasFace="1" segmentLength="15" collisionRadius="30" price="15000" event="christmas">
+                <s id="pungvin" />
+            </skin>
+            <skin id="santa_head" headId="head_santa" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="christmas">
+                <s id="santa" />
+            </skin>
+            <skin id="snowflake_head" headId="head_snowflake" tailId="tail_snowflake" hasFace="1" segmentLength="15" collisionRadius="30" price="7500" event="christmas">
+                <s id="snowflake" />
+                <s id="tail_snowflake" />
+            </skin>
+            <skin id="snowhuman_head" headId="head_snowman" hasFace="1" segmentLength="15" collisionRadius="30" price="17000" event="christmas">
+                <s id="snowman" />
+            </skin>
+            <skin id="trainworm_head" headId="head_train" tailId="tail_train" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="christmas">
+                <s id="train" />
+                <s id="link_train" />
+                <s id="link_train" />
+            </skin>
+
+            <skin id="omela_combo" headId="head_omela" tailId="tail_omela" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="christmas">
+                <s id="omela" />
+                <s id="omela" />
+                <s id="tail_omela" />
+            </skin>
+            
+            <skin id="omela_green" headId="head_omela" tailId="tail_omela" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="christmas">
+                <s id="tail_omela" />
+            </skin>
+
+            <skin id="snowflake_simple" headId="head_snowflake" tailId="tail_snowflake" hasFace="1" segmentLength="15" collisionRadius="30" price="7500" event="christmas">
+                <s id="snowflake" />
+            </skin>
+
+            <skin id="snowflake_fat" headId="head_snowflake" tailId="tail_snowflake" hasFace="1" segmentLength="15" collisionRadius="30" price="7500" event="christmas">
+                <s id="tail_snowflake" />
+            </skin>
+            <!--Christmas-->
+            
+            <!--Valentine-->
+            <skin id="angel_head" headId="head_angel" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="valentine">
+                <s id="angel_1" />
+                <s id="angel_2" />
+            </skin>
+            <skin id="avocado_head" headId="head_avocado" hasFace="1" segmentLength="15" collisionRadius="30" price="9000" event="valentine">
+                <s id="avocado" />
+            </skin>
+            <skin id="bear_head" headId="head_bear" tailId="tail_bear" hasFace="1" segmentLength="15" collisionRadius="30" price="6000" event="valentine">
+                <s id="bear" />
+            </skin>
+            <skin id="cat_head" headId="head_cat" tailId="tail_cat" hasFace="1" segmentLength="15" collisionRadius="30" price="8000" event="valentine">
+                <s id="cat_1" />
+                <s id="cat_1" />
+                <s id="cat_2" />
+                <s id="cat_2" />
+            </skin>
+            <skin id="dog_head" headId="head_dog" tailId="tail_dog" hasFace="1" segmentLength="15" collisionRadius="30" price="7000" event="valentine">
+                <s id="dog" />
+            </skin>
+            <skin id="glasses_head" headId="head_glasses" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="valentine">
+                <s id="glasses_1" />
+                <s id="glasses_2" />
+                <s id="glasses_3" />
+                <s id="glasses_4" />
+                <s id="glasses_3" />
+                <s id="glasses_2" />
+            </skin>
+            <skin id="ladybug_head" headId="head_ladybug" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="valentine">
+                <s id="ladybug_3" />
+                <s id="ladybug_1" />
+                <s id="ladybug_2" />
+            </skin>
+            <skin id="sheep_head" headId="head_sheep" tailId="tail_sheep" hasFace="1" segmentLength="15" collisionRadius="30" exclusive="1" event="valentine">
+                <s id="sheep_1" />
+                <s id="sheep_2" />
+                <s id="sheep_3" />
+            </skin>
+            <!--Valentine-->
+
+            <!-- debug only -->
+            <skin id="ext_head_0" headId="head_homer_0" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_12" />
+            </skin>
+            <skin id="ext_head_1" headId="head_homer_1" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_12" />
+            </skin>
+            <skin id="ext_head_2" headId="head_homer_2" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_12" />
+            </skin>
+            <skin id="ext_head_3" headId="head_pickle_rick_0" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_04" />
+            </skin>
+            <skin id="ext_head_4" headId="head_pickle_rick_1" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_04" />
+            </skin>
+            <skin id="ext_head_5" headId="head_pickle_rick_2" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_04" />
+            </skin>
+            <skin id="ext_head_6" headId="head_pickle_rick_3" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_04" />
+            </skin>
+            <skin id="ext_head_7" headId="head_sponge_0" segmentLength="15" collisionRadius="30" hasFace="1" extendedOnly="1">
+                <s id="mono_12" />
+            </skin>
+            <!-- debug only -->
+            
+            <skin id="premium_worm_patrick" headId="head_patrick" segmentLength="15" collisionRadius="30" hasFace="1" sku="premium_worm_patrick">
+                <s id="patrick_1" />
+                <s id="patrick_0" />
+                <s id="patrick_1" />
+                <s id="patrick_0" />
+                <s id="patrick_belt" />
+            </skin>
+        </skins>
+    </worms>
+
+    <all_skins_popup>
+        <autoload size="1280 768" shade_color="de000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <listbox id="list" position="0 0" size="1280 768" orientation="vertical" />
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-55 56" />
+                </alignment>
+            </node>
+        </autoload>
+
+        <entry item_size="1280 120">
+            <image id="separator" position="5 0" rect="0 0 1270 120" color="ff000030" />
+            <node id="left">
+                <preview_skin id="preview_skin" worm_segments="30" worm_scale="0.8" worm_speed="200.0" worm_amplitude="5" position="320 70" />
+                <text id="skin_name" position="10 0" size="600 20" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" h_align="0" stretchmode="2" />
+            </node>
+            <node id="right" position="640 0">
+                <preview_skin id="preview_skin" worm_segments="30" worm_scale="0.8" worm_speed="200.0" worm_amplitude="5" position="320 70" />
+                <text id="skin_name" position="10 0" size="600 20" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="50" color="ffffffff" h_align="0" stretchmode="2" />
+            </node>
+        </entry>
+    </all_skins_popup>
+</root>

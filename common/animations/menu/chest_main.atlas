@@ -1,0 +1,90 @@
+
+chest_main.png
+size: 896,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Chest_002
+  rotate: true
+  xy: 1, 1
+  size: 260, 259
+  orig: 288, 287
+  offset: 14, 14
+  index: -1
+Chest_003
+  rotate: true
+  xy: 261, 35
+  size: 226, 198
+  orig: 256, 225
+  offset: 12, 12
+  index: -1
+Chest_005
+  rotate: true
+  xy: 791, 90
+  size: 171, 103
+  orig: 183, 109
+  offset: 6, 3
+  index: -1
+Chest_005_shine
+  rotate: true
+  xy: 554, 81
+  size: 180, 113
+  orig: 180, 113
+  offset: 0, 0
+  index: -1
+Chest_006
+  rotate: false
+  xy: 261, 1
+  size: 167, 33
+  orig: 173, 39
+  offset: 3, 3
+  index: -1
+Chest_006_shine
+  rotate: false
+  xy: 460, 30
+  size: 182, 44
+  orig: 182, 44
+  offset: 0, 0
+  index: -1
+Chest_007
+  rotate: false
+  xy: 643, 21
+  size: 147, 59
+  orig: 147, 59
+  offset: 0, 0
+  index: -1
+Chest_008
+  rotate: true
+  xy: 668, 82
+  size: 179, 122
+  orig: 185, 127
+  offset: 3, 2
+  index: -1
+Chest_008_shine
+  rotate: true
+  xy: 460, 75
+  size: 186, 93
+  orig: 189, 99
+  offset: 1, 4
+  index: -1
+Chest_009
+  rotate: true
+  xy: 429, 1
+  size: 33, 22
+  orig: 42, 30
+  offset: 5, 4
+  index: -1
+Chest_010
+  rotate: true
+  xy: 791, 47
+  size: 42, 37
+  orig: 50, 45
+  offset: 4, 4
+  index: -1
+Chest_011
+  rotate: true
+  xy: 452, 1
+  size: 19, 32
+  orig: 19, 32
+  offset: 0, 0
+  index: -1

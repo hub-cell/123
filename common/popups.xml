@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <atlases_list>
+        <common path="common/atlas_common.xml" />
+    </atlases_list>
+
+    <font_aliases>
+        <alias locale="th" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansThai-CondensedMedium.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+    </font_aliases>
+
+    <common_popup>
+        <autoload size="580 504" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <node>
+                <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0 0" patch="28 28 28 28" size="580 380">
+                    <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="570 67" position="4 6" hotspot="0 0">
+                        <text id="txtTitle" position="30 2" size="520 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                    </nine_patch>
+
+                    <text_multiline id="txtMessage" position="30 100" size="520 210" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="40" color="ffcccccc" stretchmode="2" h_align="1" v_align="1" />
+                </nine_patch>
+
+                <layout id="btnLayout" size="580 106" item_size="256 106" position="0 397">
+                    <button id="btnCancel" visible="0" sprite_id="btn_red" pressed_scale="0.97">
+                        <image sprite_id="icon_no:common" position="128 52" />
+                    </button>
+                    <button id="btnOK" visible="0" sprite_id="btn_common_green" pressed_scale="0.97">
+                        <image sprite_id="icon_ok:common" position="128 52" />
+                    </button>
+                </layout>
+
+                <alignment v_align="0" h_align="2">
+                    <button id="btnClose" sprite_id="btn_close:common" touch_area="-30 -30 80 79" pressed_scale="0.97" position="-50 54" />
+                </alignment>
+            </node>
+        </autoload>
+    </common_popup>
+
+    <spinner_popup>
+        <autoload size="400 100" shade_color="ae000000" overscale="1.1" speed="20" direction="0 0">
+            <node>
+                <spinner position="210 30">
+                    <text id="game_spinner_title" position="-200 30" size="400 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ff909090" stretchmode="2" />
+                </spinner>
+            </node>
+        </autoload>
+    </spinner_popup>
+</root>

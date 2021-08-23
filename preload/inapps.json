@@ -1,0 +1,312 @@
+{
+    "coins_pack_0": {
+        "sku": "com.wildspike.wormszone.coins_pack_0",
+        "type": "consumable",
+        "group": "gold",
+        "price": "$1.99",
+        "priceMicros": 1990000,
+        "priceCurrencyCode": "USD",
+        "title": "Medium Heap",
+        "description": "",
+        "iconName": "icon_heap_medium",
+        "coinsCount": 1250,
+        "coinsCountOld": 1000,
+        "okig": {
+            "title": "Средняя кучка",
+            "description": "Вы получите 1,000 + 25% = 1,250 монет",
+            "price": 40,
+            "priceMicros": 40000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Средняя кучка",
+            "description": "Вы получите 1,000 + 25% = 1,250 монет",
+            "price": "7 голосов",
+            "priceMicros": 7000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "coins_pack_1": {
+        "sku": "com.wildspike.wormszone.coins_pack_1",
+        "type": "consumable",
+        "group": "gold",
+        "price": "$4.99",
+        "priceMicros": 4990000,
+        "priceCurrencyCode": "USD",
+        "title": "Big Heap",
+        "description": "",
+        "iconName": "icon_heap_big",
+        "coinsCount": 3250,
+        "coinsCountOld": 2500,
+        "okig": {
+            "title": "Большая кучка",
+            "description": "Вы получите 2,500 + 30% = 3,250 монет",
+            "price": 100,
+            "priceMicros": 100000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Большая кучка",
+            "description": "Вы получите 2,500 + 30% = 3,250 монет",
+            "price": "15 голосов",
+            "priceMicros": 15000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "coins_pack_2": {
+        "sku": "com.wildspike.wormszone.coins_pack_2",
+        "type": "consumable",
+        "group": "gold",
+        "price": "$9.99",
+        "priceMicros": 9990000,
+        "priceCurrencyCode": "USD",
+        "title": "Wallet of Coins",
+        "description": "",
+        "iconName": "icon_wallet",
+        "coinsCount": 7000,
+        "coinsCountOld": 5000,
+        "okig": {
+            "title": "Кошелек монет",
+            "description": "Вы получите 5,000 + 40% = 7,000 монет",
+            "price": 200,
+            "priceMicros": 200000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Кошелек монет",
+            "description": "Вы получите 5,000 + 40% = 7,000 монет",
+            "price": "30 голосов",
+            "priceMicros": 30000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "coins_pack_3": {
+        "sku": "com.wildspike.wormszone.coins_pack_3",
+        "type": "consumable",
+        "group": "gold",
+        "price": "$19.99",
+        "priceMicros": 19990000,
+        "priceCurrencyCode": "USD",
+        "title": "Bag of Coins",
+        "description": "",
+        "iconName": "icon_bag",
+        "coinsCount": 16000,
+        "coinsCountOld": 10000,
+        "okig": {
+            "title": "Мешок монет",
+            "description": "Вы получите 10,000 + 60% = 16,000 монет",
+            "price": 400,
+            "priceMicros": 400000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Мешок монет",
+            "description": "Вы получите 10,000 + 60% = 16,000 монет",
+            "price": "60 голосов",
+            "priceMicros": 60000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "coins_pack_4": {
+        "sku": "com.wildspike.wormszone.coins_pack_4",
+        "type": "consumable",
+        "group": "gold",
+        "price": "$49.99",
+        "priceMicros": 49990000,
+        "priceCurrencyCode": "USD",
+        "title": "Chest of Coins",
+        "description": "",
+        "iconName": "icon_chest",
+        "coinsCount": 50000,
+        "coinsCountOld": 30000,
+        "okig": {
+            "title": "Сундук монет",
+            "description": "Вы получите 30,000 + 65% = 50,000 монет",
+            "price": 1000,
+            "priceMicros": 1000000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Сундук монет",
+            "description": "Вы получите 30,000 + 65% = 50,000 монет",
+            "price": "150 голосов",
+            "priceMicros": 150000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "coins_pack_5": {
+        "sku": "com.wildspike.wormszone.coins_pack_5",
+        "type": "consumable",
+        "group": "gold",
+        "price": "$99.99",
+        "priceMicros": 99990000,
+        "priceCurrencyCode": "USD",
+        "title": "Cart of Coins",
+        "description": "",
+        "iconName": "icon_cart",
+        "coinsCount": 125000,
+        "coinsCountOld": 70000,
+        "okig": {
+            "title": "Полная телега",
+            "description": "Вы получите 70,000 + 80% = 125,000 монет",
+            "price": 2000,
+            "priceMicros": 2000000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Полная телега",
+            "description": "Вы получите 70,000 + 80% = 125,000 монет",
+            "price": "300 голосов",
+            "priceMicros": 300000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "bundle_powerups": {
+        "sku": "com.wildspike.wormszone.bundle_powerups",
+        "type": "consumable",
+        "group": "bonuses",
+        "price": "$4.99",
+        "priceMicros": 4990000,
+        "priceCurrencyCode": "USD",
+        "title": "PowerUps",
+        "description": "",
+        "iconName": "icon_bundle",
+        "coinsCount": 2500,
+        "okig": {
+            "title": "Поверапы",
+            "description": "Вы получите поверапы и 2,500 монет",
+            "price": 100,
+            "priceMicros": 100000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Поверапы",
+            "description": "Вы получите поверапы и 2,500 монет",
+            "price": "15 голосов",
+            "priceMicros": 15000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "no_ads": {
+        "sku": "com.wildspike.wormszone.no_ads",
+        "type": "non_consumable",
+        "group": "no_ads",
+        "price": "$2.99",
+        "priceMicros": 2990000,
+        "priceCurrencyCode": "USD",
+        "title": "No Ads",
+        "description": "Disable interstitial ads",
+        "iconName": "icon_no_ads",
+        "okig": {
+            "title": "Без рекламы",
+            "description": "Реклама будет отключена",
+            "price": 100,
+            "priceMicros": 100000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Без рекламы",
+            "description": "Реклама будет отключена",
+            "price": "15 голосов",
+            "priceMicros": 15000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "premium_worm": {
+        "sku": "com.wildspike.wormszone.premium_worm",
+        "type": "non_consumable",
+        "group": "premium_worm",
+        "price": "$4.99",
+        "priceMicros": 4990000,
+        "priceCurrencyCode": "USD",
+        "title": "Premium Worm",
+        "description": "Start with power-ups",
+        "iconName": "icon_premium_worm",
+        "okig": {
+            "title": "Премиальный червь",
+            "description": "Поверапы на старте",
+            "price": 200,
+            "priceMicros": 200000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Премиальный червь",
+            "description": "Поверапы на старте",
+            "price": "30 голосов",
+            "priceMicros": 30000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "premium_worm_ice": {
+        "sku": "com.wildspike.wormszone.premium_worm_ice",
+        "type": "non_consumable",
+        "price": "$4.99",
+        "priceMicros": 4990000,
+        "priceCurrencyCode": "USD",
+        "title": "Premium Ice Worm",
+        "description": "Start with power-ups",
+        "iconName": "icon_premium_worm_ice",
+        "okig": {
+            "title": "Премиальный ледяной червь",
+            "description": "Поверапы на старте",
+            "price": 200,
+            "priceMicros": 200000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Премиальный ледяной червь",
+            "description": "Поверапы на старте",
+            "price": "30 голосов",
+            "priceMicros": 30000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "premium_worm_patrick": {
+        "sku": "com.wildspike.wormszone.premium_worm_patrick",
+        "type": "non_consumable",
+        "price": "$4.99",
+        "priceMicros": 4990000,
+        "priceCurrencyCode": "USD",
+        "title": "Premium Patrick Worm",
+        "description": "Start with power-ups",
+        "iconName": "icon_premium_worm_patrick",
+        "okig": {
+            "title": "Премиальный червь Патрик",
+            "description": "Поверапы на старте",
+            "price": 200,
+            "priceMicros": 200000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Премиальный червь Патрик",
+            "description": "Поверапы на старте",
+            "price": "30 голосов",
+            "priceMicros": 30000000,
+            "priceCurrencyCode": "VK"
+        }
+    },
+    "piggy_bank": {
+        "sku": "com.wildspike.wormszone.piggy_bank",
+        "type": "consumable",
+        "price": "$0.99",
+        "priceMicros": 990000,
+        "priceCurrencyCode": "USD",
+        "title": "Piggy Bank",
+        "description": "Open Piggy Bank and get your coins",
+        "iconName": "icon_piggy_bank",
+        "okig": {
+            "title": "Открытие копилки",
+            "description": "Открой копилку и забери свои монеты",
+            "price": 20,
+            "priceMicros": 200000000,
+            "priceCurrencyCode": "OK"
+        },
+        "vkig": {
+            "title": "Открытие копилки",
+            "description": "Открой копилку и забери свои монеты",
+            "price": "6 голосов",
+            "priceMicros": 60000000,
+            "priceCurrencyCode": "VK"
+        }
+    }
+}

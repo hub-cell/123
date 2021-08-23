@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <atlases_list>
+        <game path="common/atlas_game.xml" />
+        <masks path="common/masks/atlas_masks.xml" />
+        <common path="common/atlas_common.xml" />
+        <menu path="common/atlas_menu.xml" />
+        <default path="default/atlas_default.xml" />
+    </atlases_list>
+
+    <font_aliases>
+        <alias locale="th" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansThai-CondensedMedium.ttf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hant" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="zh-hans" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ja" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+        <alias locale="ko" path="common/fonts/NotoSans-CondensedMedium.ttf" replace="common/fonts/NotoSansCJKsc-Medium.otf">
+            <fallback path="common/fonts/NotoSans-CondensedMedium.ttf" />
+        </alias>
+    </font_aliases>
+
+    <background>
+        <borders>
+            <corner_lt   sprite_id="borders_corner_lt:game" hotspot="64 64" />
+            <corner_lb   sprite_id="borders_corner_lb:game" hotspot="64 0" />
+            <corner_rt   sprite_id="borders_corner_rt:game" hotspot="0 64" />
+            <corner_rb   sprite_id="borders_corner_rb:game" hotspot="0 0" />
+            <wall_left   sprite_id="borders_wall_left:game" hotspot="64 0" />
+            <wall_right  sprite_id="borders_wall_right:game" hotspot="0 0" />
+            <wall_top    sprite_id="borders_wall_top:game" hotspot="0 64" />
+            <wall_bottom sprite_id="borders_wall_bottom:game" hotspot="0 0" />
+        </borders>
+    </background>
+
+    <effects>
+        <coin_arrived filename="common/particles/coins_holder_particle.psi">
+            <sprite sprite_id="particle:game" />
+        </coin_arrived>
+    </effects>
+
+    <map_stack_items>
+        <stack id="currencyStack" layout="horizontal">
+            <nine_patch sprite_id="ui_ninepatch_currency_bar:game" patch="6 6 8 8" size="150 40">
+                <image id="coinsHolder" sprite_id="icon_coin:common" scale="0.7" position="20 23" />
+                <text id="txtCoins" position="47 2" size="90 30" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="30" color="ffffffff" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" h_align="1" v_align="1" />
+            </nine_patch>
+        </stack>
+        <stack id="mapStack" layout="vertical">
+            <nine_patch id="mapPatch" sprite_id="ui_ninepatch_map:game" patch="3 3 0 0">
+                <map id="map" position="4 4" />
+            </nine_patch>
+            <nine_patch id="nodeTimer" visible="0" position="-5 5" sprite_id="ui_x2_bg:game" hotspot="119 0" patch="6 6 4 4" size="119 40">
+                <image id="imgX2" sprite_id="ui_x2:game" position="10 22" hotspot="26 20"/>
+                <text id="txtTimer" position="40 3" size="70 25" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="20" color="fffdda37" stretchmode="2" h_align="center" />
+            </nine_patch>
+        </stack>
+    </map_stack_items>
+
+    <scores_stack_items>
+        <node id="scores" size="266 0">
+            <text id="txtOnline" size="290 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="0" />
+
+            <mask sprite_id="mask_map:masks" mask_size="190 236" mask_position="-10 -10" position="10 30">
+                <layout size="500 180" item_size="500 18">
+                    <text id="txtName_0" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_1" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_2" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_3" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_4" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_5" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_6" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_7" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_8" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text id="txtName_9" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                </layout>
+            </mask>
+
+            <mask sprite_id="mask_map:masks" mask_size="100 236" mask_position="-10 -10" position="180 30">
+                <layout size="150 180" item_size="150 18" position="-70 0">
+                    <text id="txtScore_0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_1" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_2" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_3" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_4" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_5" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_6" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_7" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_8" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="txtScore_9" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                </layout>
+            </mask>
+        </node>
+
+        <node id="analytics" size="300 0" visible="0">
+            <mask sprite_id="mask_map:masks" mask_size="190 330" mask_position="-10 -10" position="10 230">
+                <layout size="500 300" item_size="500 18">
+                    <text text="GAME TIME:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="food:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="distance:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="boosters:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="coins:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="kills:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="weight:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="rank:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+
+                    <text text="magnet:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="multiply:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="speedUp:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="zoom:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="radar:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                    <text text="turn:" size="500 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="0" v_align="1" />
+                </layout>
+            </mask>
+
+            <mask sprite_id="mask_map:masks" mask_size="100 330" mask_position="-10 -10" position="190 230">
+                <layout size="150 300" item_size="150 18" position="-70 0">
+                    <text id="gameTimeValue" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenFoods" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="crawlDistance" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenBoosters" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenCoins" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="killsCount" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="playerWeight" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="playerRank" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+
+                    <text id="eatenMagnet" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenMultiply" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenSpeedUp" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenZoom" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenRadar" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenTurn" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                </layout>
+            </mask>
+
+            <mask sprite_id="mask_map:masks" mask_size="100 330" mask_position="-10 -10" position="280 230">
+                <layout size="150 300" item_size="150 18" position="-70 0">
+                    <text id="gameTimeValue_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenFoods_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="crawlDistance_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenBoosters_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenCoins_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="killsCount_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="playerWeight_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="playerRank_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+
+                    <text id="eatenMagnet_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenMultiply_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenSpeedUp_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenZoom_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenRadar_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                    <text id="eatenTurn_60" text="0" size="150 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="30" stretchmode="2" h_align="2" v_align="1" />
+                </layout>
+            </mask>
+
+            <alignment h_align="2">
+                <button id="analytics_pause" rect="0 0 120 120" position="-5 5" color="0" pressed_scale="0.97" hotspot="119 0" />
+            </alignment>
+        </node>
+    </scores_stack_items>
+
+    <gui>
+        <alignment id="hud" v_align="0" h_align="0">
+            <alignment h_align="right">
+                <stack id="rightStack" alignment="right" layout="vertical" padding="10" anchor="1 0" position="-10 10" />
+            </alignment>
+            <alignment h_align="left">
+                <stack id="leftStack" alignment="left" layout="vertical" padding="10" anchor="0 0" position="10 10" />
+            </alignment>
+            <alignment h_align="1">
+                <stack id="stack" layout="vertical" position="0 5" padding="5">
+                    <nine_patch id="task" sprite_id="ui_ninepatch_frame:game" patch="6 6 8 8" anchor="0.5" autosize="true" padding="20 10">
+                        <stack id="grpTask" visible="0" layout="horizontal" padding="5">
+                            <image id="icon_chest" sprite_id="ui_tasks_icon_chest:game" />
+
+                            <stack layout="vertical" padding="5">
+                                <text_multiline id="txtMessage" size="200 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="18" stretchmode="2" />
+                                <progress id="progress" position="100 50" sprite_id="ui_tasks_progress_back:game" sprite_id_filler="ui_tasks_progress:game" offset="1 1" />
+                            </stack>
+
+                            <image id="timer" sprite_id="ui_tasks_timer_back:game">
+                                <text id="txtTimer" position="8 14" size="34 16" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+                                <clock id="clockTimer" sprite_id="ui_powerups_progress:game" position="24 24" />
+                            </image>
+                        </stack>
+
+                        <stack id="grpResult" visible="0" layout="horizontal">
+                            <text id="task_no_room" size="290 25" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" trim_container="true">
+                                <image rect="0 0 1 50" hotspot="0 25" position="0 17" color="0" />
+                            </text>
+
+                            <image id="separator" rect="0 0 60 60" color="0" />
+
+                            <text id="task_done" size="235 25" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" color="ff10ff10" trim_container="true">
+                                <image sprite_id="ui_tasks_icon_done:game" position="-30 14" />
+                            </text>
+
+                            <text id="task_failed" size="235 25" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" color="ffff1010" trim_container="true">
+                                <image sprite_id="ui_tasks_icon_failed:game" position="-30 14" />
+                            </text>
+                        </stack>
+                    </nine_patch>
+
+                    <stack_item size="0 55">
+                        <powerups id="powerups" position="0 25" />
+                    </stack_item>
+                </stack>
+            </alignment>
+
+            <alignment v_align="2" h_align="1">
+                <game_logs id="game_logs" visible="0" position="0 -140">
+                    <nine_patch sprite_id="ui_ninepatch_frame:game" patch="6 6 8 8" anchor="0.5" autosize="true" padding="20 10">
+                        <bounds>
+                            <image rect="0 0 40 50" color="0">
+                                <image id="iconCoin" sprite_id="icon_coin:common" position="-36 27" scale="0.62" />
+                                <image id="iconFace" sprite_id="ui_icon_ghost:game" position="-36 25" scale="0.78" />
+                                <image id="iconExcl" sprite_id="ui_icon_excl:game" position="-36 25" />
+                                <image id="iconPig" sprite_id="piggybank_pig:menu" position="-36 25" scale="0.7" />
+                            </image>
+                            <text id="txtMessage" position="0 3" size="400 32" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" trim_container="true" />
+                        </bounds>
+                    </nine_patch>
+                </game_logs>
+
+                <layout id="bonuses" layout="horizontal" size="300 100" item_size="90 90" position="-150 -100">
+                    <button id="magnet" rect="0 0 88 88" color="0" pressed_scale="0.97" hotspot="44 44" visible="0">
+                        <colorcorrection id="color">
+                            <image sprite_id="ui_boosters_place:game" position="44 44" />
+                            <image sprite_id="ui_boosters_magnet:game" position="44 44" />
+                            <text id="txtCount" size="12 25" position="67 56" font_size="24" font="common/fonts/NotoSans-CondensedBlack.ttf" color="ff001d67" />
+                        </colorcorrection>
+                    </button>
+                    <button id="speedup" rect="0 0 88 88" color="0" pressed_scale="0.97" hotspot="44 44" visible="0">
+                        <colorcorrection id="color">
+                            <image sprite_id="ui_boosters_place:game" position="44 44" />
+                            <image sprite_id="ui_boosters_speedup:game" position="44 44" />
+                            <text id="txtCount" size="12 25" position="67 56" font_size="24" font="common/fonts/NotoSans-CondensedBlack.ttf" color="ff001d67" />
+                        </colorcorrection>
+                    </button>
+                    <button id="zoom" rect="0 0 88 88" color="0" pressed_scale="0.97" hotspot="44 44" visible="0">
+                        <colorcorrection id="color">
+                            <image sprite_id="ui_boosters_place:game" position="44 44" />
+                            <image sprite_id="ui_boosters_zoom:game" position="44 44" />
+                            <text id="txtCount" size="12 25" position="67 56" font_size="24" font="common/fonts/NotoSans-CondensedBlack.ttf" color="ff001d67" />
+                        </colorcorrection>
+                    </button>
+                </layout>
+            </alignment>
+
+            <alignment h_align="1" v_align="2">
+                <alignment id="control_left" h_align="0" position="150 -150" />
+                <alignment id="control_right" h_align="2" position="150 -150" />
+            </alignment>
+
+            <node id="decoration_front" visible="0" />
+        </alignment>
+
+        <alignment id="spinner" v_align="1" h_align="1">
+            <spinner position="10 0">
+                <text id="game_spinner_title" position="-200 30" size="400 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ff909090" stretchmode="2" />
+            </spinner>
+        </alignment>
+
+        <overlay id="overlay" visible="0" sprite_id="overlay:common" />
+    </gui>
+
+    <floating_score time="2.0" scale="0.75" kerning="-3">
+        <plus sprite_id="score_plus:game" hotspot="0" />
+        <minus sprite_id="score_minus:game" hotspot="0" />
+
+        <digits>
+            <digit_0 sprite_id="score_0:game" hotspot="0" />
+            <digit_1 sprite_id="score_1:game" hotspot="0" />
+            <digit_2 sprite_id="score_2:game" hotspot="0" />
+            <digit_3 sprite_id="score_3:game" hotspot="0" />
+            <digit_4 sprite_id="score_4:game" hotspot="0" />
+            <digit_5 sprite_id="score_5:game" hotspot="0" />
+            <digit_6 sprite_id="score_6:game" hotspot="0" />
+            <digit_7 sprite_id="score_7:game" hotspot="0" />
+            <digit_8 sprite_id="score_8:game" hotspot="0" />
+            <digit_9 sprite_id="score_9:game" hotspot="0" />
+        </digits>
+    </floating_score>
+
+    <flying_objects>
+        <coin sprite_id="powerups_coin:default" scale="0.75" />
+        <pig sprite_id="triggers_piggybank:default" />
+    </flying_objects>
+
+    <player>
+        <arrow sprite_id="ui_arrow:game" hotspot="-40 22" />
+
+        <booster sprite_id="ui_booster:game" scale="1.5" />
+
+        <joystick sprite_id="ui_joystick_circle:game" scale="1.5">
+            <dot sprite_id="ui_joystick_dot:game"/>
+        </joystick>
+    </player>
+
+    <map_data>
+        <dot_main sprite_id="ui_map_dot_main:game" scale="0.75" />
+        <dot_white sprite_id="ui_map_dot_white:game" scale="0.5" color="d0ffffff" />
+        <death_mark sprite_id="ui_map_death_mark:game" scale="0.5" />
+    </map_data>
+
+    <powerups delta="52">
+        <progress sprite_id="ui_powerups_progress:game" />
+
+        <magnet sprite_id="ui_powerups_magnet:game" duration="24" />
+        <multiply sprite_id="ui_powerups_multiply:game" duration="24" />
+        <radar sprite_id="ui_powerups_radar:game" duration="20" />
+        <speedup sprite_id="ui_powerups_speedup:game" duration="20" />
+        <turn sprite_id="ui_powerups_turn:game" duration="24" />
+        <zoom sprite_id="ui_powerups_zoom:game" duration="20" />
+        <!-- <stretch sprite_id="ui_powerups_stretch:game" duration="20" /> -->
+        <!-- <weight sprite_id="ui_powerups_weight:game" duration="10" /> -->
+        <gourmand sprite_id="ui_powerups_gourmand:game" />
+        <piggybank sprite_id="ui_powerups_piggybank:game" />
+    </powerups>
+
+    <sessiontimeout_popup>
+        <autoload size="522 550" shade="1" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0 0" patch="28 28 28 28" size="580 470" scale="0.9">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="570 67" position="4 6" hotspot="0 0">
+                    <text id="sessiontimeout_popup_title" position="65 2" size="450 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                </nine_patch>
+
+                <image sprite_id="shine:common" position="162 132" scale="0.8">
+                    <image sprite_id="icon_rank:common" position="116 116" />
+                </image>
+
+                <image sprite_id="shine:common" position="430 124" scale="0.8">
+                    <image sprite_id="icon_worm:common" position="116 116"/>
+                </image>
+
+                <image sprite_id="result_place_back:common" position="160 254">
+                    <text id="sessiontimeout_popup_rank" position="-15 -50" size="230 38" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffc0c0c0" stretchmode="2" />
+                    <text id="txtRank" position="7 -4" size="190 50" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="45" color="fffeda0a" stretchmode="2" />
+                </image>
+
+                <image sprite_id="result_place_back:common" position="430 254">
+                    <text id="sessiontimeout_popup_weight" position="-15 -50" size="230 38" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffc0c0c0" stretchmode="2" />
+                    <text id="txtWeight" position="7 -4" size="190 50" font="common/fonts/NotoSans-CondensedBlack.ttf" font_size="45" color="fffeda0a" stretchmode="2" />
+                </image>
+
+                <image sprite_id="clock_progress:common" position="290 395" color="ff102b5c">
+                    <text id="txtTimeout" size="70 50" position="15 18" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                    <clock id="clockTimer" sprite_id="clock_progress:common" position="50 50" color="ffffde00" />
+                </image>
+
+                <text id="sessiontimeout_popup_tip" position="140 303" size="300 25" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ff15aadc" stretchmode="2" />
+
+                <alignment v_align="2" h_align="1">
+                    <button id="btnClose" visible="0" rect="0 0 300 50" hotspot="150 0" position="0 -41" pressed_scale="0.97" color="0">
+                        <text id="sessiontimeout_popup_no_thanks" position="20 0" size="260 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" h_align="1" v_align="1" stretchmode="2" color="ff15aadc" />
+                    </button>
+                </alignment>
+
+                <layout size="580 100" item_size="290 105" position="0 505">
+                    <button id="btnContinueCoins" visible="0" sprite_id="btn_common_green:common" pressed_scale="0.97">
+                        <image sprite_id="icon_coin:common" position="60 52" />
+                        <text id="txtPrice" position="100 15" size="130 50" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" />
+                    </button>
+
+                    <button id="btnContinueVideo" visible="0" sprite_id="btn_common_green:common" pressed_scale="0.97">
+                        <image sprite_id="icon_video:common" position="128 50" />
+                    </button>
+                </layout>
+            </nine_patch>
+        </autoload>
+    </sessiontimeout_popup>
+
+    <!--completed_popup>
+        <autoload size="700 505" shade="1" shade_color="8e000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_header:common" hotspot="0" patch="278 100 45 54" size="700 505">
+                <text id="completed_popup_title" position="50 -3" size="600 45" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" stretchmode="2" />
+
+                <text id="popup_your_weight" position="20 100" size="660 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="1" />
+                <text id="txtScore" position="20 133" size="660 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffff00" stretchmode="2" h_align="1" shadow_offset="0 2" shadow_color="90000000" />
+
+                <text id="popup_placeInBoard" position="20 195" size="660 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffcccccc" stretchmode="2" h_align="1" />
+                <text id="txtRank" position="20 228" size="660 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffff00" stretchmode="2" h_align="1" shadow_offset="0 2" shadow_color="90000000" />
+
+                <text id="txtChest" position="20 290" size="660 30" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="fffba537" stretchmode="2" h_align="1">
+                    <image id="chest_gray" sprite_id="chest_gray:common" visible="0" position="330 75" scale="0.6 0.6" />
+                    <image id="chest_pink" sprite_id="chest_pink:common" visible="0" position="330 75" scale="0.6 0.6" />
+                    <image id="chest_red" sprite_id="chest_red:common" visible="0" position="330 75" scale="0.6 0.6" />
+                    <image id="chest_yellow" sprite_id="chest_yellow:common" visible="0" position="330 75" scale="0.6 0.6" />
+                </text>
+
+                <button id="btnMenu" sprite_id="btn_empty:common" pressed_scale="0.97" position="120 458">
+                    <text id="button_menu_txt" position="17 5" size="160 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000"  />
+                </button>
+
+                <button id="btnNewRound" sprite_id="btn_empty:common" pressed_scale="0.97" position="350 458">
+                    <text id="completed_popup_newround" position="17 5" size="160 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" />
+                </button>
+
+                <button id="btnShare" sprite_id="btn_empty:common" pressed_scale="0.97" position="580 458">
+                    <text id="button_share_txt" position="17 5" size="160 40" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" h_align="1" v_align="1" stretchmode="2" shadow_offset="1 1" shadow_color="90000000" />
+                </button>
+
+                <button id="btnClose" sprite_id="btn_close:common" pressed_scale="0.97" position="689 60" scale="0.85" />
+            </nine_patch>
+        </autoload>
+    </completed_popup-->
+
+    <exit_popup>
+        <autoload size="580 550" shade="1" shade_color="ca000000" overscale="1.1" speed="10" direction="0 0">
+            <nine_patch sprite_id="nine_patch_result_back:common" hotspot="0 0" patch="28 28 28 28" size="580 470" scale="0.9">
+                <nine_patch sprite_id="nine_patch_back_top:common" patch="20 0 20 0" size="570 67" position="4 6" hotspot="0 0">
+                    <text id="exit_popup_title" position="65 2" size="450 46" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="100" color="ffffffff" stretchmode="2" />
+                </nine_patch>
+
+                <image sprite_id="icon_exit:game" position="290 200" />
+
+                <text_multiline id="common_popup_leave_message" position="45 315" size="500 75" font="common/fonts/NotoSans-CondensedMedium.ttf" font_size="50" color="ffffffff" stretchmode="2" />
+
+                <layout size="580 100" item_size="290 105" position="0 505">
+                    <button id="btnCancel" sprite_id="btn_red:common" pressed_scale="0.97">
+                        <image sprite_id="icon_no:common" position="128 52" />
+                    </button>
+
+                    <button id="btnOk" sprite_id="btn_common_green:common" pressed_scale="0.97">
+                        <image sprite_id="icon_ok:common" position="128 53" />
+                    </button>
+                </layout>
+            </nine_patch>
+        </autoload>
+    </exit_popup>
+</root>

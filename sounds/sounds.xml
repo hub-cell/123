@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <streams>
+        <music_0 path="sounds/theme3.mp3" loop="1" volume="0.3" />
+    </streams>
+
+    <effects>
+        <btn_click path="sounds/metalClick.mp3" />
+        <show_popup path="sounds/bookOpen.mp3" />
+        <hide_popup path="sounds/bookClose.mp3" />
+
+        <yummyup path="sounds/yummyup.mp3" />
+        <coinup path="sounds/coinup.mp3" />
+        <powerup path="sounds/powerup.mp3" />
+        <results path="sounds/results.mp3" />
+
+        <buy_success path="sounds/buySuccess.mp3" />
+        <buy_fail path="sounds/buyFail.mp3" />
+
+        <task path="sounds/task.mp3" />
+        <task_done path="sounds/taskDone.mp3" />
+        <task_failed path="sounds/taskFailed.mp3" />
+    </effects>
+</root>

@@ -1,0 +1,111 @@
+
+Leprecaun.png
+size: 540,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 394, 35
+  size: 129, 94
+  orig: 135, 100
+  offset: 3, 3
+  index: -1
+brows
+  rotate: true
+  xy: 524, 57
+  size: 72, 15
+  orig: 80, 25
+  offset: 3, 3
+  index: -1
+btn
+  rotate: false
+  xy: 228, 162
+  size: 208, 121
+  orig: 216, 130
+  offset: 4, 4
+  index: -1
+clover_1
+  rotate: false
+  xy: 124, 3
+  size: 56, 55
+  orig: 65, 63
+  offset: 4, 4
+  index: -1
+clover_2
+  rotate: true
+  xy: 328, 3
+  size: 43, 44
+  orig: 51, 52
+  offset: 4, 4
+  index: -1
+clover_3
+  rotate: true
+  xy: 231, 1
+  size: 45, 48
+  orig: 54, 56
+  offset: 4, 4
+  index: -1
+clover_heat
+  rotate: false
+  xy: 280, 4
+  size: 47, 42
+  orig: 56, 50
+  offset: 4, 4
+  index: -1
+eyes
+  rotate: false
+  xy: 1, 1
+  size: 65, 57
+  orig: 72, 62
+  offset: 4, 2
+  index: -1
+face
+  rotate: false
+  xy: 228, 47
+  size: 165, 114
+  orig: 168, 131
+  offset: 2, 3
+  index: -1
+hat
+  rotate: true
+  xy: 437, 130
+  size: 153, 97
+  orig: 158, 102
+  offset: 2, 3
+  index: -1
+mouth
+  rotate: false
+  xy: 394, 145
+  size: 40, 16
+  orig: 46, 21
+  offset: 3, 2
+  index: -1
+offer_015
+  rotate: false
+  xy: 67, 12
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: -1
+pupils
+  rotate: false
+  xy: 181, 23
+  size: 49, 23
+  orig: 55, 28
+  offset: 3, 2
+  index: -1
+tale
+  rotate: true
+  xy: 373, 3
+  size: 31, 37
+  orig: 39, 45
+  offset: 4, 4
+  index: -1
+worm_icon_back
+  rotate: false
+  xy: 1, 59
+  size: 226, 224
+  orig: 240, 239
+  offset: 7, 8
+  index: -1
